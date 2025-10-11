@@ -12,19 +12,21 @@ This is a list of all the computer-control programs. To run these programs, you 
 
 - Controllers marked as "Degraded" mean that the program will run, but performance and reliability may be severely degraded.
 
-**Jump To:**
+**Jump To Program Section:**
 
-- [Nintendo Switch](#nintendo-switch)
+- [General Nintendo Switch Programs](#general-nintendo-switch-programs)
 
-- [Pokémon Let's Go Pikachu/Eevee](#pokémon-lets-go-pikachueevee-lgpe)
+- [Pokémon Home](#pokemon-home)
 
-- [Pokémon Sword/Shield](#pokémon-swordshield)
+- [Pokémon Let's Go Pikachu/Eevee](#pokemon-lets-go-pikachueevee-lgpe)
 
-- [Pokémon Brilliant Diamond/Shining Pearl](#pokémon-brilliant-diamondshining-pearl)
+- [Pokémon Sword/Shield](#pokemon-swordshield)
 
-- [Pokémon Legends Arceus](#pokémon-legends-arceus)
+- [Pokémon Brilliant Diamond/Shining Pearl](#pokemon-brilliant-diamondshining-pearl)
 
-- [Pokémon Scarlet/Violet](#pokémon-scarlet-and-violet)
+- [Pokémon Legends Arceus](#pokemon-legends-arceus)
+
+- [Pokémon Scarlet/Violet](#pokemon-scarlet-and-violet)
 
 - [Zelda: Tears of the Kingdom](#zelda-tears-of-the-kingdom)
 
@@ -35,7 +37,7 @@ This is a list of all the computer-control programs. To run these programs, you 
 | - ESP32-S3<br>- Arduino Uno R3<br>- Arduino Leonardo<br>- Teensy 2.0<br>- Teensy++ 2.0<br>- Pro Micro<br>- sys-botbase 3 (sbb3) | - ESP32-WROOM | - sys-botbase 2.4 (sbb2) |
 
 
-## Nintendo Switch
+## General Nintendo Switch Programs
 
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
