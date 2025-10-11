@@ -4,6 +4,8 @@ repo_url: https://github.com/PokemonAutomation/About
 repo_name: PokemonAutomation/About
 
 theme:
+  logo: assets/icon.ico
+  favicon: assets/icon.ico
   name: material
   features:
     - navigation.tabs
