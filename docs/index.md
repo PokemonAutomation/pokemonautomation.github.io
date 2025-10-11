@@ -49,24 +49,35 @@ Shiny detection in Pokémon Legends Arceus using audio recognition.
 See our [full program list](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md)!
 
 We currently have automation for the following games/platforms:
-  - [Nintendo Switch](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#nintendo-switch)
-  - [Pokémon Home](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-home)
-  - [Pokémon Let's Go Pikachu/Eevee](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-lets-go-pikachueevee-lgpe)
-  - [Pokémon Sword/Shield](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-swordshield)
-  - [Pokémon Brilliant Diamond/Shining Pearl](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-brilliant-diamondshining-pearl)
-  - [Pokémon Legends Arceus](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-legends-arceus)
-  - [Pokémon Scarlet/Violet](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-scarlet-and-violet)
-  - [Zelda: Tears of the Kingdom](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#zelda-tears-of-the-kingdom)
+
+- [Nintendo Switch](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#nintendo-switch)
+
+- [Pokémon Home](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-home)
+
+- [Pokémon Let's Go Pikachu/Eevee](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-lets-go-pikachueevee-lgpe)
+
+- [Pokémon Sword/Shield](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-swordshield)
+
+- [Pokémon Brilliant Diamond/Shining Pearl](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-brilliant-diamondshining-pearl)
+
+- [Pokémon Legends Arceus](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-legends-arceus)
+
+- [Pokémon Scarlet/Violet](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-scarlet-and-violet)
+
+- [Zelda: Tears of the Kingdom](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#zelda-tears-of-the-kingdom)
 
 
 ## Get Me Started!
 
-- [Computer Control Setup Gude](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/SetupGuide/README.md)
+- [Computer Control Setup Gude](SetupGuide/index.md)
 
 **Video Tutorials:**
-- **Wired (ESP32-S3):** https://youtu.be/ezBuwk48z8w (recommended for newcomers)
-- **Wireless (ESP32):** https://youtu.be/YzGyQQOGjl8
-- **Legacy Wired (Arduino):** https://youtu.be/DFXZzWkOEMs (deprecated, difficult to setup)
+
+- [**Wired (ESP32-S3) Tutorial**](https://youtu.be/ezBuwk48z8w) (recommended for newcomers)
+
+- [**Wireless (ESP32) Tutorial**](https://youtu.be/YzGyQQOGjl8)
+
+- [**Legacy Wired (Arduino)**](https://youtu.be/DFXZzWkOEMs) (deprecated, difficult to setup)
 
 
 
@@ -78,7 +89,9 @@ If you are asking about our Microcontroller (MC) automation. It has officially b
 MC automation has neither been developed nor maintained in years. So it's time to close to the door on it.
 
 Nevertheless, the Microcontroller wiki can be found here:
+
 - [Microcontroller Repo](https://github.com/PokemonAutomation/Microcontroller)
+
 - [Microcontroller Setup Gude](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/SetupGuide/README.md)
 
 

@@ -29,6 +29,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - User Guide: user-guide.md
-  - FAQ: faq.md
+  - Getting Started: SetupGuide/index.md
+  - Programs: Programs/index.md
+  # - FAQ: faq.md
