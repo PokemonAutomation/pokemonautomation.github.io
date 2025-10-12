@@ -1,6 +1,4 @@
-# Controller Setup: ESP32-WROOM (MacOS)
-
-### ***Note: This setup is currently does not work on the Switch 2. We hope to fix this in the future.***
+# Espressif ESP32-WROOM (MacOS)
 
 This setup uses an ESP32 microcontroller to emulate a wireless controller. It can emulate both left and right joycons as well as the wireless pro controller. Since this covers all the controller types, an ESP32 will be able to run nearly our entire repertoire of programs for the Nintendo Switch.
 
@@ -12,18 +10,24 @@ The USB port plugs into the computer which is how the program will control it. A
 
 **Required Hardware (Full List):**
 
-1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running MacOS
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 4. An ESP32-WROOM-32 microcontroller.
 5. A micro-USB or USB-C to USB-A cable or dongle. Needs to connect your ESP32 to your computer. ESP32 can have either micro-USB or USB-C, so find out what you have before buying the cable for it.
 
-#1-3 are part of the initial setup so you should have all of these already.
+\#1-3 are part of the initial setup so you should have all of these already.
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
 
-- **Single Setup:** $25 - $35
-- **Bulk Purchase:** ~$17 per setup
+- **Single Setup:** $20 - $30
+    - Capture Card: $10 - $20
+    - ESP32: $8
+    - USB Cable/Adapter: $2
+- **Bulk Purchase:** ~$14 per setup
+    - Capture Card: $10
+    - ESP32: $3 each from AliExpress
+    - USB Cable/Adapter: < $1 each from AliExpress
 
 <img src="../../Images/Mac/esp32-setup.jpg" width="800">
 
@@ -61,7 +65,7 @@ We recommend getting ones without pins since you don't need them (though they ar
 
 Most likely you will end up buying a pack of at least 2 or 3 since they don't get any cheaper in single quantity. This is great if you want to automate multiple Switches.
 
-<img src="../../Images/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
+<img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
 
 **A micro-USB or USB-C to USB-A cable:**
 
@@ -174,7 +178,7 @@ If you see neither, then see [troubleshooting](#troubleshooting).
 
 In the 3rd dropdown, choose "Switch: Wireless Pro Controller".
 
-After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, and wait another 5 seconds. Alternatively, unplug/replug the ESP32.
+After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32.
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
 
@@ -184,6 +188,8 @@ The controller colors are randomized and should match the color icons in the sta
 ### Step 6: Test the connection
 
 You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -> controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.
+
+The default keyboard layout is the English QWERTY layout. If you have a different layout, you can change the mappings in `Nintendo Switch -> Framework Settings` and scroll down to the controller mapping tables.
 
 We recommend familiarizing yourself with the keyboard controls as this is the preferred way to control your Switch while setting up to run a program. Each controller type has a different keyboard mapping. By default, the joystick (left joystick for Pro Controller) is mapped to the usual WASD setup that's used in FPS games. For joycons, there are two sets of mappings (using different keys) that will serve both vertical and sideways orientations.
 
@@ -200,15 +206,15 @@ You will notice that there are 4 controller options:
 - Left Joycon
 - Right Joycon
 
-"None" simply idles the ESP32 so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. So you will need to be in the Grip menu or it will stay disconnected. (important if you are accessing remotely!)
+"None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. So you will need to be in the Grip menu or it will stay disconnected. (important if you are accessing remotely!)
 
 Changing programs (or even closing the application entirely) will not disconnect the ESP32 from the Switch. When you load a program and connect to the ESP32, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.
 
 If you intend to do a lot of remote access, we recommend that you use a wired setup as a wired controller can connect to the Switch from anywhere and take control.
 
-**Connecting as Joycon:**
+**Connecting as a Joycon:**
 
-When you connect as a joycon, it will behave like a normal joycon. It doesn't immediately connect and wants you to either pair with a 2nd joycon or press SL+SR to put it into horizontal mode
+When you connect as a joycon, it will behave like a normal joycon. It doesn't immediately connect and wants you to either pair with a 2nd joycon or press SL+SR to put it into horizontal mode.
 
 For the right joycon, you can press the Home button to immediately leave the grip menu. This will let you easily start LGPE programs which use the right joycon. The left joycon doesn't have this option and will require you to either pair with a right joycon or to enter horizontal mode. There are currently no programs that use the left joycon.
 
@@ -282,7 +288,7 @@ If you have multiple ESP32s, spread them out to reduce wireless interference.
 
 As tempting as it may be, do not do this:
 
-<img src="../../Images/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../../Images/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
+<img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
 
 It is as cute as it is stupid, and it will give you problems. We tried it so you don't have to!
 
@@ -299,6 +305,10 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
+
+
+
 
 
 

@@ -61,6 +61,7 @@ If you would like to use computer-controlled programs, make sure you meet all of
 2. You have a regular Switch (not a Switch Lite) if you want to use most of the computer-controlled programs (i.e. programs requiring video/audio feedback).
 3. Be willing to spend an additional $20 - $50 USD for the new hardware.
 4. Your computer must be sufficiently powerful:
+
 - If you intend to control **1** Switch: A dual-core processor @ 3 GHz no older than 2015 should be sufficient.
 - If you intend to control **2** Switches: A quad-core processor @ 3 GHz no older than 2015 should be sufficient.
 - If you intend to control **4** Switches: 6-8 cores minimum.

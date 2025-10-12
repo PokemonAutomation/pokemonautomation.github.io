@@ -24,7 +24,7 @@ This version of the wired controller setup uses the Arduino Leonardo. It is the 
 6. USB to Serial TTL (UART)
 7. Male-Male Jumper Wires
 
-#1-3 are part of the initial setup so you should have all of these already. #4-7 are specific to this controller setup.
+\#1-3 are part of the initial setup so you should have all of these already. \#4-7 are specific to this controller setup.
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
 
@@ -37,17 +37,17 @@ This version of the wired controller setup uses the Arduino Leonardo. It is the 
 
 **Arduino Leonardo:**
 
-- [https://www.digikey.com/en/products/detail/arduino/A000057/3476353](https://www.digikey.com/en/products/detail/arduino/A000057/3476353)
-- [https://www.amazon.com/dp/B008A36R2Y](https://www.amazon.com/dp/B008A36R2Y)
-- [https://www.amazon.com/dp/B0786LJQ8K](https://www.amazon.com/dp/B0786LJQ8K)
+  - [https://www.digikey.com/en/products/detail/arduino/A000057/3476353](https://www.digikey.com/en/products/detail/arduino/A000057/3476353)
+  - [https://www.amazon.com/dp/B008A36R2Y](https://www.amazon.com/dp/B008A36R2Y)
+  - [https://www.amazon.com/dp/B0786LJQ8K](https://www.amazon.com/dp/B0786LJQ8K)
 
 Ensure the Arduino Leonardo comes with headers (the black squares sticking out at the top and bottom of the board, with a holes in them, as seen in the image above).
 You can get either the official Arduino Leonardo, or unofficial Leonardo clones. e.g. KEYESTUDIO
 
 **USB A to micro USB cable:**
 
-- [https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50057/13177527](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50057/13177527)
-- [https://www.amazon.com/dp/B07CZHV9VF/](https://www.amazon.com/dp/B07CZHV9VF/)
+  - [https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50057/13177527](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50057/13177527)
+  - [https://www.amazon.com/dp/B07CZHV9VF/](https://www.amazon.com/dp/B07CZHV9VF/)
 
 It may already come with your Arduino.
 You need a Micro-USB male to USB-A cable and it must support data-transfer (not just power delivery).
@@ -56,9 +56,9 @@ You need a Micro-USB male to USB-A cable and it must support data-transfer (not 
 
 There are many options here. The one we recommend (for ease of use) is the Adafruit model:
 
-- [https://www.adafruit.com/product/954](https://www.adafruit.com/product/954)
-- [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
-- [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
+  - [https://www.adafruit.com/product/954](https://www.adafruit.com/product/954)
+  - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
+  - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
 <img src="../../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
 

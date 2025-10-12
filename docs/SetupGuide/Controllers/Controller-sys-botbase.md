@@ -1,4 +1,4 @@
-# Controller Setup: sys-botbase
+# sys-botbase
 
 ***Update August 9, 2025: This guide has been updated for sys-botbase 3 (sbb3).***
 
@@ -14,7 +14,7 @@ Our current sys-botbase support only covers the wired pro controller. So it will
 
 **Required Hardware (Full List):**
 
-1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 
@@ -69,7 +69,7 @@ Places where the Switch will accept a new controller:
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/ControllerSetup-sbb-Connected-Labled.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-Connected-Labled.png">
 
 If not, see [troubleshooting](#troubleshooting).
 
@@ -77,11 +77,13 @@ If not, see [troubleshooting](#troubleshooting).
 
 You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -> controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.
 
+The default keyboard layout is the English QWERTY layout. If you have a different layout, you can change the mappings in `Nintendo Switch -> Framework Settings` and scroll down to the controller mapping tables.
+
 We recommend familiarizing yourself with the keyboard controls as this is the preferred way to control your Switch while setting up to run a program. In effect you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
 The default layout is the standard WASD setup for FPS games on the most common QWERTY keyboard layout. If you don't like it or you have a different keyboard layout, you can change the key mappings in the "Framework Settings" panel at the top of the program list to the left.
 
-<img src="../../Images/ControllerSetup-sbb-Controls.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-Controls.png">
 
 ### Step 6: You are done!
 
@@ -96,13 +98,13 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 ### Stuck on "Not Connected"
 
-<img src="../../Images/ControllerSetup-sbb-NotConnected.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-NotConnected.png">
 
 This usually means the IP address is wrong.
 
 ### Stuck on "Connecting" or "Timed Out"
 
-<img src="../../Images/ControllerSetup-sbb-Connecting.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-Connecting.png">
 
 Try clicking "Reset Ctrl". This can sometimes fix intermittent issues.
 
@@ -126,7 +128,7 @@ Most programs will block keyboard inputs if the program is running. So if you ha
 
 ### Response time is very high
 
-<img src="../../Images/ControllerSetup-sbb-HighLatency.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-HighLatency.png">
 
 The response time is how long it takes to round-trip from your computer to sys-botbase and back. It will always be longer than a ping due to overhead within sys-botbase and/or Atmosphere.
 
@@ -134,14 +136,14 @@ High reponse time used to be a huge problem with sys-botbase 2.4. But starting f
 
 ### "Last Ack: xxx seconds ago"
 
-<img src="../../Images/ControllerSetup-sbb-LastAck.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-LastAck.png">
 
 This means the Switch has stopped responding to the computer's commands. The most common (unobvious) cause of this is that the Switch entered local connection mode because you didn't have ldn-mitm enabled. Because sys-botbase relies on the network connection to communicate with the Switch, going into local connection mode will kill this connection. So while sys-botbase is still running on the Switch, no commands are getting through.
 
 
 ### "Cannot start program. The controller is missing the feature: TickPrecise"
 
-<img src="../../Images/ControllerSetup-sbb-TickPrecise.png">
+<img src="../../Images/sys-botbase/ControllerSetup-sbb-TickPrecise.png">
 
 If you are seeing this message, it means you are running sys-botbase 2.x. This version of sys-botbase lacks the timing precision needed to run many of our programs.
 

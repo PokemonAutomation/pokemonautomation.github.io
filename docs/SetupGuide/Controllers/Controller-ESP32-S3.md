@@ -1,14 +1,14 @@
-# Controller Setup: ESP32-S3
+# Espressif ESP32-S3
 
 **Video tutorial:** Pokemon Automation Wired setup with ESP32-S3: [https://youtu.be/ezBuwk48z8w](https://youtu.be/ezBuwk48z8w)
 
 <hr>
 
-This is the brand new wired controller setup that is much easier to do than the old AVR8 ones using Arduino or Teensy. This is the recommended controller for new and existing users alike as it is the only easy-to-setup controller that works on the Switch 2.
+The ESP32-S3 is by far the easiest wired controller setup for the simple reason that it has 2 USB ports. Since wired controllers are the most reliable setups, the ESP32-S3 has become the go-to controller for automation.
 
 If you are setting up a wired controller setup for the first time, we recommend this option.
 
-<img src="../../Images/ControllerSetup-ESP32-S3.jpg" height="350"> <img src="../../Images/ControllerSetup-ESP32-S3-Setup.jpg" height="350">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" height="350"> <img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Setup.jpg" height="350">
 
 
 Note that ESP32 and ESP32-S3 are different controllers made by the same company (Espressif).
@@ -16,26 +16,32 @@ Note that ESP32 and ESP32-S3 are different controllers made by the same company 
  - ESP32 (aka ESP32-WROOM) is used for the wireless controller setup.
  - ESP32-S3 is used for this wired setup.
 
-While the ESP32-S3 supports Bluetooth, it only supports Bluetooth LE. It does not support Bluetooth Classic as required by the Nintendo Switch. Therefore, it cannot be used for a wireless setup the same way the ESP32 can. However, the ESP32-S3 has 2 USB ports. Thus it can connect to both the computer and the Switch for a new setup that eliminates the need to manually wire up a UART as was required by the Arduino/Teensy setups.
+While the ESP32-S3 supports Bluetooth, it only supports Bluetooth LE. The Nintendo Switch's wireless controllers use Bluetooth Classic. Therefore, the ESP32-S3 cannot be used for a wireless setup the same way the ESP32 can. However, the ESP32-S3 has 2 USB ports. Thus it can connect to both the computer and the Switch for very easy wired controller setup that eliminates the headache of the external UART from the old Arduino/Teensy setups.
 
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
 
-1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 4. An ESP32-S3 microcontroller.
 5. Two USB-C cables. One connects the ESP32-S3 to the computer while the other connects it to the Switch.
 
-#1-3 are part of the initial setup so you should have all of these already.#
+\#1-3 are part of the initial setup so you should have all of these already.
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
 
 - **Single Setup:** $25 - $35
+    - Capture Card: $10 - $20
+    - ESP32-S3: $10
+    - 2 x USB Cables: $5
 - **Bulk Purchase:** ~$18 per setup
+    - Capture Card: $10
+    - ESP32-S3: $6
+    - 2 x USB Cables: < $2
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Setup-Annotated.jpg" width="800">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Setup-Annotated.jpg" width="800">
 
 **Important:** There are many variants of the ESP32 microcontroller. Only the ESP32-S3 will work. So you must get that specific model. (e.g. Don't get the ESP32-WROOM, or ESP32-S2-WROOM, or ESP32-C2, etc.)
 
@@ -48,7 +54,7 @@ While the ESP32-S3 supports Bluetooth, it only supports Bluetooth LE. It does no
 
 | **Quantity** | **Price / Unit** | **Shopping Link** |
 | --- | --- | --- |
-| 1 (no pins) | $9 / unit | [https://www.amazon.com/gp/product/B0BVVGNBB3/](https://www.amazon.com/gp/product/B0BVVGNBB3/) |
+| 1 (no pins) | $10 / unit | [https://www.amazon.com/gp/product/B0BVVGNBB3/](https://www.amazon.com/gp/product/B0BVVGNBB3/) |
 | 3 (no pins) | $6 / unit | [https://www.amazon.com/gp/product/B0C9H7Y66W/](https://www.amazon.com/gp/product/B0C9H7Y66W/) |
 
 Even though these are all made in China, AliExpress isn't much cheaper. (~$6/unit in bulk)
@@ -59,7 +65,7 @@ The ESP32-S3 exists in two variants: 1 USB or 2 USBs. You must get a model that 
 
 We recommend getting ones without pins since you don't need them. Having the pins is a liability for accidentally shorting out and damaging the board.
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Board.jpg" height="300">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Board.jpg" height="300">
 
 **USB Cables:**
 
@@ -76,7 +82,7 @@ Unlike the ESP32 wireless setup, there are two USB ports. They are not interchan
 2. Connect the "USB"/"OTG" side to your Nintendo Switch.
 3. Connect the "COM"/"UART" side to your computer.
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Backside.jpg" height="600"><img src="../../Images/ControllerSetup-ESP32-S3-Backside-2.jpg" height="600">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Backside.jpg" height="600"><img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Backside-2.jpg" height="600">
 
 And that's it! One extra cable compared to the ESP32 wireless setup, but still much simpler than the Arduino/Teensy setups. The "COM" port is the built-in UART that eliminates the need to manually wire up an external UART.
 
@@ -115,7 +121,7 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
 3. When you see the following menu, select "ESP32-S3", "Develop", and "UART". Then hit OK.
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Flash-0.png">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-0.png">
 
 4. You will then be prompted with this complicated window. Fill everything as follows:
 
@@ -126,13 +132,13 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
    - At the bottom right corner, select the COM port of your ESP32-S3.
    - Change "BAUD" to 460800.
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Flash-1.png">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-1.png">
 
 5. Click Start and it should flash the PABotBase firmware to your ESP32-S3.
 
 If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-s3-stuck-on-).
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Flash-2.png">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-2.png">
 
 6. Reboot your ESP32-S3. You can do this either by:
 
@@ -148,7 +154,7 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Connected-Cropped.png">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Connected-Cropped.png">
 
 ### Step 4: Navigate your Switch to where it will accept a new controller.
 
@@ -166,11 +172,13 @@ Places where the Switch will accept a new controller:
 
 You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -> controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.
 
+The default keyboard layout is the English QWERTY layout. If you have a different layout, you can change the mappings in `Nintendo Switch -> Framework Settings` and scroll down to the controller mapping tables.
+
 We recommend familiarizing yourself with the keyboard controls as this is the preferred way to control your Switch while setting up to run a program. In effect you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
 The default layout is the standard WASD setup for FPS games on the most common QWERTY keyboard layout. If you don't like it or you have a different keyboard layout, you can change the key mappings in the "Framework Settings" panel at the top of the program list to the left.
 
-<img src="../../Images/ControllerSetup-ESP32-S3-Controls.png">
+<img src="../../Images/ESP32-S3/ControllerSetup-ESP32-S3-Controls.png">
 
 ### Step 6: You are done!
 
@@ -229,10 +237,10 @@ If you are unable to connect to the ESP32 in step 2 it means the ESP32-S3 either
 
 Try the following:
 
-- Ensure you have reset the device. Try disconnecting all cables to the ESP32-S3 device, then reconnect them.
-- Ensure the USB cables are connected to the correct ports on the ESP32-S3. The two ports are NOT interchangeable. See [Hardware Assembly](#hardware-assembly) above.
-- Try different USB cables and different USB ports. Sometimes it will not flash properly over certain USB ports.
-- If this still fails, review [step 1](#step-1-flash-the-firmware-to-the-esp32) above (Flash the firmware to the ESP32) and ensure that you flashed the firmware properly onto the device.
+ - Ensure you have reset the device. Try disconnecting all cables to the ESP32-S3 device, then reconnect them.
+ - Ensure the USB cables are connected to the correct ports on the ESP32-S3. The two ports are NOT interchangeable. See [Hardware Assembly](#hardware-assembly) above.
+ - Try different USB cables and different USB ports. Sometimes it will not flash properly over certain USB ports.
+ - If this still fails, review [step 2](#step-2-flash-the-firmware-to-the-esp32) above (Flash the firmware to the ESP32) and ensure that you flashed the firmware properly onto the device.
     - When flashing, ensure that the top left checkbox is checked. The top row should be green.
     - Make sure the correct USB port on the ESP32-S3 is connected to the computer. Connect the "COM"/"UART" side to your computer. The ports may be labeled on the board's underside. The port labeled as "OTG" should not be connected to your computer.
   
@@ -262,6 +270,12 @@ There can be many causes of this:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
+
+
+
+
+
 
 
 

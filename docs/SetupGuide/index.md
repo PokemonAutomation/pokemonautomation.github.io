@@ -55,6 +55,7 @@ Due to lack of developer support, our support of Linux is limited. While you can
 If you are not willing to do that or you have no idea what this means, then stop. Unfortunately, you will not be able to run these programs unless you can go to Windows.
 
 If you are willing and able to go down this rabbit hole:
+
 - Linux builds have broken video and are thus not usable. We would love some help here!
 
 
@@ -80,6 +81,7 @@ A video capture card will allow a computer to capture the HDMI video output from
 <img src="Images/GeneralSetup-CaptureCard.jpg" width="400" height="400">
 
 Example Shopping Links:
+
 - [https://www.amazon.com/dp/B088HBRM7T](https://www.amazon.com/dp/B088HBRM7T)
 - [https://www.amazon.com/dp/B09FLN63B3](https://www.amazon.com/dp/B09FLN63B3)
 

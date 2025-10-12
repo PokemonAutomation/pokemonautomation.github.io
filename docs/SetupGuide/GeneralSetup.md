@@ -31,8 +31,9 @@ If you want to tinker with this anyway, see: [How to Build (Qt 6.8.2) - Ubuntu 2
 At this point you will see a black bar and a white screen. That's because we haven't setup video or audio yet!
 
 If you get errors about missing files like `MSVCP140.dll` or `VCRUNTIME140.dll`, you need to install the Microsoft Redistributable:
-- https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-- Direct Download: https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+- [https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Direct Download: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ## Step 3: Setup video.
 
@@ -50,6 +51,7 @@ Depending on your capture card, it may look different from this:
 ## Step 4: Setup sound.
 
 The sound options are below the Camera options. Most of these options are self-explanatory.
+
 1. Select the Audio Input that comes from your capture card. If you don't know which one it is, try all of them.
 2. Select the Audio Output for your speakers. This will play back what your audio input is.
 3. The slider is for playback volume.
@@ -87,6 +89,7 @@ Back to the [Setup Guide](index.md#step-3-controller-setup) for the next control
 ## Troubleshooting:
 
 ### Common video capture errors:
+
 - The capture card is in use by another program. Close OBS or any other program potentially using the card.
 - The capture card is not receiving enough power over the USB connection.
 - There are multiple capture cards connected to the same physical USB port on the computer (by means of a hub). (see [multiple capture cards](#multiple-switch-considerations))

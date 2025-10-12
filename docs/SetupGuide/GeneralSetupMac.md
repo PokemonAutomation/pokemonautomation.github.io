@@ -54,6 +54,7 @@ Depending on your capture card, it may look different from this:
 ## Step 4: Setup sound.
 
 The sound options are below the Camera options. Most of these options are self-explanatory.
+
 1. Select the Audio Input that comes from your capture card. If you don't know which one it is, try all of them.
 2. Select the Audio Output for your speakers. This will play back what your audio input is.
 3. The slider is for playback volume.
@@ -92,6 +93,7 @@ Back to the [Setup Guide](README.md#step-3-controller-setup).
 ## Troubleshooting:
 
 ### Common video capture errors:
+
 - The capture card is in use by another program. Close OBS or any other program potentially using the card.
 - The capture card is not receiving enough power over the USB connection.
 - There are multiple capture cards connected to the same physical USB port on the computer (by means of a hub). (see [multiple capture cards](#multiple-switch-considerations))

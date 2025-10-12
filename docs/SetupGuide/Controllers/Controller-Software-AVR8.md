@@ -25,11 +25,11 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/ControllerSetup-AVR8-Connected-Labeled.png">
+<img src="../../Images/AVR8/ControllerSetup-AVR8-Connected-Labeled.png">
 
 If you see the following instead, then you actually connected to our wireless controller setup instead (ESP32-WROOM). (We love your enthusiasm for having both setups!)
 
-<img src="../../Images/ControllerSetup-AVR8-ESP32.png">
+<img src="../../Images/AVR8/ControllerSetup-AVR8-ESP32.png">
 
 Both the wired and wireless setups use serial ports. The program can distinguish them when it connects to it.
 
@@ -51,11 +51,13 @@ Places where the Switch will accept a new controller:
 
 You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -> controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.
 
+The default keyboard layout is the English QWERTY layout. If you have a different layout, you can change the mappings in `Nintendo Switch -> Framework Settings` and scroll down to the controller mapping tables.
+
 We recommend familiarizing yourself with the keyboard controls as this is the preferred way to control your Switch while setting up to run a program. In effect you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
 The default layout is the standard WASD setup for FPS games on the most common QWERTY keyboard layout. If you don't like it or you have a different keyboard layout, you can change the key mappings in the "Framework Settings" panel at the top of the program list to the left.
 
-<img src="../../Images/ControllerSetup-AVR8-Controls.png">
+<img src="../../Images/AVR8/ControllerSetup-AVR8-Controls.png">
 
 ### Step 5: You are done!
 
@@ -105,11 +107,11 @@ Step 2: Plug the UART side into the computer and select it in the dropdown.
 
 **Correct output window:** 
 
-<img src="../../Images/ControllerSetup-AVR8-OutputWindow-Corrrect.png">
+<img src="../../Images/AVR8/ControllerSetup-AVR8-OutputWindow-Corrrect.png">
 
 **Incorrect output window:** 
 
-<img src="../../Images/ControllerSetup-AVR8-OutputWindow-Incorrrect.png">
+<img src="../../Images/AVR8/ControllerSetup-AVR8-OutputWindow-Incorrrect.png">
 
 
 <hr>

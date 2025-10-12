@@ -3,6 +3,7 @@
 This page is provided as a courteous and may not cover all the questions you have about hosting. We suggest spending some time looking up videos on YouTube if you need a visual explanation in addition to this.
 
 **Related Programs:**
+
 - **DaySkippers:**
    - [DaySkipperUS](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperUS.md)
    - [DaySkipperEU](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperEU.md)
@@ -45,6 +46,7 @@ Re-Rolling: Manipulating the frame to change what Pokémon you can raid from the
    * Go to System
    * Then Date and Time
    * Turn off “Sync time via internet”
+
 3. Open the game, turn auto-save off in the setting menu. 
 4. Find a den that has a Pokémon you want.
 
@@ -68,6 +70,7 @@ To start off, we will work through obtaining the correct beam you want and findi
    > EX: Next star shiny frame is 1257 frames away.
    > 
    > 1257 - 3 = 1254 (target number)
+
    1. You **can** subtract more if you want more room. Adjust your target number as you see fit.
    2. Saving three frames in front of your shiny frame will allow you to re-roll your den. This will be discussed at length later.
 10. WITHOUT SAVING: close your game to re-obtain your beam that you had just defeated. 
@@ -95,6 +98,7 @@ Now you have an idea of how far away your shiny frame is and it is time to day s
       4. [DaySkipperJPN-7.8k](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperJPN-7.8k.md)
       > You can change your Switch settings to be in Japanese to utilize the JPN Day Skipper.
       > Follow the instructions on those pages for correct setup and use.
+
 12. Wait for the DaySkipper to finish.
 13. Return to the game and **save**.
 
@@ -148,6 +152,7 @@ This method is if you only want to host _one_ of the Pokémon in the den (ex: G-
 1. Open your game and collect watts from the den (if not collected already).
 2. Use [Den Roller](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DenRoller.md) to roll to your shiny frame.
    > Watch the program so you can stop it when it finds the Pokémon you want!
+
 3. Once you have rolled to the shiny frame _and_ found the Pokémon you want: **SAVE**
 4. Use [AutoHost Rolling](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/AutoHost-Rolling.md) to host!
    > Follow the instruction on the page for correct setup and use.
