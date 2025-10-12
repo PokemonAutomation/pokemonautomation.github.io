@@ -16,7 +16,7 @@ This tutorial will use mini-grabber cables to connect the UART to the Pro Micro.
 
 **Required Hardware (Full List):**
 
-1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 4. A Pro Micro microcontroller.

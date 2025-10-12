@@ -17,15 +17,15 @@ In UART mode, the line of communication between the Pico W and the computer is m
 
 This is the most versatile setup as it supports every single controller in this project - both wired and wireless. 
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" height="350"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" height="350">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART.jpg" height="350"> <img src="../../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" height="350">
 
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
 
-1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
-3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
+1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 4. A Raspberry Pi Pico W, Pico WH, Pico 2 W, or Pico 2 WH microcontroller.
 5. A micro-USB to USB-A cable or adapter.
 6. USB to Serial TTL (UART)
@@ -45,12 +45,12 @@ This is the most versatile setup as it supports every single controller in this 
     - USB Cable/Adapter: < $1 each from AliExpress
     - UART: $2 each from Amazon
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated-Small.jpg" height="600">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated-Small.jpg" height="600">
 
 
 ### Recommended Purchase Links:
 
-**Capture Card:** [See previous section.](../README.md#video-capture-card-the-computers-eyes)
+**Capture Card:** [See previous section.](../index.md#video-capture-card-the-computers-eyes)
 
 **Pico W Microcontroller:**
 
@@ -89,17 +89,17 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
 
 **Important:**
 
 **DO NOT get cables with the Prolific controllers. e.g. PL2303 or any other model number.** They are cheap, do not work, and they are explicitly blocked in the program. **They often look deceptively similar to the Adafruit UART, but they are not the same.** If you buy outside of this link, verify it does not use PL controllers. If you buy it anyway, you will be wasting your time and money. **YOU HAVE BEEN WARNED!**
 
-<img src="../Images/UART/ControllerSetup-UART-NoProlific.png" height="500">
+<img src="../../Images/UART/ControllerSetup-UART-NoProlific.png" height="500">
 
 ### Hardware Assembly:
 
@@ -114,7 +114,7 @@ Make the following connections:
 
 > **If you did **not** buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wiring-0.jpg">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART-Wiring-0.jpg">
 
 
 ## Software Setup
@@ -123,9 +123,9 @@ Make the following connections:
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../Images/GeneralSetup-CC.png">
+<img src="../../Images/GeneralSetup-CC.png">
 
-If not, you should go back to the [general setup guide](../README.md) and start over.
+If not, you should go back to the [general setup guide](../index.md) and start over.
 
 ### Step 1: Flash the firmware to the Pico W.
 
@@ -142,7 +142,7 @@ If not, you should go back to the [general setup guide](../README.md) and start 
      - Pico W(H): `PABotBase-Pico1W-2025092300.uf2` (version number may vary)
      - Pico 2 W(H): `PABotBase-Pico2W-2025092300.uf2` (version number may vary)
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.png">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-Flash1.png">
 
 6. Unplug the Pico W's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.
@@ -161,7 +161,7 @@ The grip menu is the only place where a wireless controller can connect to the S
 
 To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
 
-<img src="../Images/GripMenu3.png">
+<img src="../../Images/GripMenu3.png">
 
 ### Step 4: Connect the Pico W to the Computer Control program
 
@@ -172,7 +172,7 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Connected-Cropped.png">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART-Connected-Cropped.png">
 
 If you see it stuck on `Connecting...`, try swapping the TX and RX lines between the Pico W and the UART. These are very commonly wrong!
 
@@ -184,7 +184,7 @@ After a few seconds, you should see a controller pop-up in the Grip menu on the 
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wireless-Ready-Annotated.png">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART-Wireless-Ready-Annotated.png">
 
 ### Step 6: Connect the Pico W to the Switch as a Wired Controller
 
@@ -195,7 +195,7 @@ Now lets try a wired connection:
 
 You should now see a black controller show up.
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wired-Ready.png">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART-Wired-Ready.png">
 
 Even though we used the grip menu here, wired controllers will connect from almost anywhere.
 
@@ -210,7 +210,7 @@ We recommend familiarizing yourself with the keyboard controls as this is the pr
 
 Overall, the idea here is that you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Controls.png">
+<img src="../../Images/PicoW/ControllerSetup-PicoW-UART-Controls.png">
 
 **Controller Types:**
 
@@ -245,7 +245,7 @@ If keyboard commands are working (along with video and audio), you are done!
 
 Try clicking on other programs on the sidebar. You will find that all of them are "virtual consoles" that will accept keyboard commands. At the top of every program is a link to the wiki that explains how to setup and use that program.
 
-Continue on to [Finishing Up](../README.md#step-4-finishing-up)!
+Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 
 
