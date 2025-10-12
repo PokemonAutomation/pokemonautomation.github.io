@@ -6,7 +6,7 @@ This section will walk you through setting up everything leading up the the cont
 
 ### Stop and Check:
 
-If your MacOS version is Monterrey (12) or lower, you will need to compile SerialPrograms from source code. Instructions to do so can be found [here](CompilingForMac.md). Follow the tutorial to build SerialProgram and return back here to setup video/audio.
+If your MacOS version is Monterrey (12) or lower, you will need to compile SerialPrograms from source code. Instructions to do so can be found [here](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md). Follow the tutorial to build SerialProgram and return back here to setup video/audio.
 
 > To check your OS version, click the Apple logo at the top left in the Toolbar and select **About This Mac**.
 

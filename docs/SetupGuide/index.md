@@ -135,22 +135,21 @@ When you are done, you should have the CC window running and looking like this:
 Here the guide will diverge depending on which controller type you have chosen. Pick the one you chose earlier.
 
 **Wireless Controller:**
- - [ESP32-WROOM](Controllers/Controller-ESP32-WROOM.md)
-   - Video tutorial: https://youtu.be/YzGyQQOGjl8
- - [ESP32-WROOM for MacOS](Controllers/Controller-ESP32-WROOM-MacOS.md)
+
+- [ESP32-WROOM Guide for Windows](Controllers/Controller-ESP32-WROOM.md) ([Video tutorial](https://youtu.be/YzGyQQOGjl8))
+- [ESP32-WROOM Guide for MacOS](Controllers/Controller-ESP32-WROOM-MacOS.md)
 
 **Wired Controller:**
- - [ESP32-S3](Controllers/Controller-ESP32-S3.md)
-   - Video tutorial: https://youtu.be/ezBuwk48z8w (recommended for new-comers)
- - [Arduino Leonardo](Controllers/Controller-ArduinoLeonardo.md)
-   - Video tutorial: https://youtu.be/DFXZzWkOEMs
- - [Arduino Uno R3](Controllers/Controller-ArduinoUnoR3.md)
- - Teensy(++) 2.0
-   - [UART + Mini Grabbers](Controllers/Controller-Teensy2-MiniGrabbers.md)
-   - [UART + Solderless Hammer Headers](Controllers/Controller-Teensy2-HammerHeaders.md)
- - Pro Micro
-   - [UART + Mini Grabbers](Controllers/Controller-ProMicro-MiniGrabber.md)
-   - [UART + Solderless Hammer Headers](Controllers/Controller-ProMicro-HammerHeaders.md)
+
+- [ESP32-S3 Guide](Controllers/Controller-ESP32-S3.md) ([Video tutorial](https://youtu.be/ezBuwk48z8w)) recommended for new-comers
+- [Arduino Leonardo Guide](Controllers/Controller-ArduinoLeonardo.md) ([Video tutorial](https://youtu.be/DFXZzWkOEMs))
+- [Arduino Uno R3 Guide](Controllers/Controller-ArduinoUnoR3.md)
+- Teensy(++) 2.0
+    - [UART + Mini Grabbers Guide](Controllers/Controller-Teensy2-MiniGrabbers.md)
+    - [UART + Solderless Hammer Headers Guide](Controllers/Controller-Teensy2-HammerHeaders.md)
+- Pro Micro
+     - [UART + Mini Grabbers Guide](Controllers/Controller-ProMicro-MiniGrabber.md)
+     - [UART + Solderless Hammer Headers Guide](Controllers/Controller-ProMicro-HammerHeaders.md)
 
 For wired controllers, the ESP32-S3 is the way to go as it is by far the easiest to setup. The other setups are older setups that are much more difficult to do and require manual wiring.
 
@@ -163,7 +162,7 @@ Note that usb-botbase is not supported because it clashes with the capture card 
 
 Now that you are done with your setup, go run some programs!
 
-[Computer Control Program List](/Wiki/Programs/README.md)
+[Computer Control Program List](../Programs/index.md)
 
 Here are some misc. tips/tricks, and other hidden features of the CC programs!
 
