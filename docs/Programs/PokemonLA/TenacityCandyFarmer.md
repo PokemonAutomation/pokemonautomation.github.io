@@ -10,7 +10,7 @@ This program only works on game version 1.1 and later, after Path of Tenacity is
 
 Compared with [Nugget Farmer (Highlands)](NuggetFarmerHighlands.md), this program earns money slightly faster (by selling the Exp Candy XL and evolution items) and earns exp (gained both from battles and Exp Candies) much faster.
 
-<img src="../images/TenacityCandyFarmer-0.jpg">
+<img src="images/TenacityCandyFarmer-0.jpg">
 
 
 ### Settings
@@ -40,9 +40,9 @@ Compared with [Nugget Farmer (Highlands)](NuggetFarmerHighlands.md), this progra
 8. Stand in front of Ingo.
 9. Start the program in the game.
 
-<img src="../images/TenacityCandyFarmer-1.jpg">
+<img src="images/TenacityCandyFarmer-1.jpg">
 
-<img src="../images/TenacityCandyFarmer-2.jpg">
+<img src="images/TenacityCandyFarmer-2.jpg">
 
 The program will repeatedly talk to Ingo. It will choose Pearl Clan as the opponent in Path of Tenacity. The program will defeat opponents using the first three moves in a determined order. Each Path of Tenacity win gives you some experience to your party, 3 Exp Candy XL, and a random evolution item. Each battle takes about four minutes.
 
@@ -50,7 +50,7 @@ Evolution items from the battles include Leaf Stones, Fire Stones, Ice Stones, D
 
 The program will keep battling if Arceus runs out of PP on one move or faints in battle. After Arceus faints, it has the same default AI behavior as in the program [Ingo Battle Grinder](IngoBattleGrinder.md).
 
-<img src="../images/TenacityCandyFarmer-3.jpg">
+<img src="images/TenacityCandyFarmer-3.jpg">
 
 **Warning:**
 

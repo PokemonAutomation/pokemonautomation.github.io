@@ -9,7 +9,7 @@
 This program goes through each Pokémon summary page in HOME. It will check for the National Dex number to sort Pokémon starting at the current box and ending after a set number of boxes chosen by the user.
 It will skip empty slots and empty boxes. Please note that the program may sometimes incorrectly read the National Dex number. In such cases, the user will need to sort incorrectly placed Pokémon manually.
 
-<img src="../images/BoxSorter.png">
+<img src="images/BoxSorter.png">
 
 ## Stats
 

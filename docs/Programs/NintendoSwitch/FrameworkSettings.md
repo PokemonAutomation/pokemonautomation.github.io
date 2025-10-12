@@ -2,7 +2,7 @@
 
 This is a list of global settings for the Nintendo Switch.
 
-<img src="../images/FrameworkSettings-0.png">
+<img src="images/FrameworkSettings-0.png">
 
 ### Connection Controller Delay
 

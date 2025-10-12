@@ -11,7 +11,7 @@ This program does not use bike boosts, but is nevertheless roughly the same spee
 > 
 > This program is no longer optimized since you should be using the aforementioned combined egg hatchers for speed.
 
-<img src="../images/EggHatcher-0.png">
+<img src="images/EggHatcher-0.png">
 
 ### Setup of Settings
 

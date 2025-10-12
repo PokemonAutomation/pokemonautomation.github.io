@@ -16,7 +16,7 @@ AmitySquarePickUpFarmer is used to farm items (rare berries and stickers) your w
 2. Stand in the location shown below.
 3. Start the program in game.
 
-<img src="../images/AmitySquarePickUpFarmer-0.png">
+<img src="images/AmitySquarePickUpFarmer-0.png">
 
 Once started, this program will repeatedly move right and left across the park then talk to the walking Pokémon to try getting an item.
 

@@ -26,7 +26,7 @@ When correctly utilized, this program will stop on a shiny thus allowing you to 
 
 To read more about this method, search online for "Strong Spawn Shiny Hunting Method". We won't bother reiterating the mechanics of the method here.
 
-<img src="../images/ShinyHuntUnattended-StrongSpawn-0.png">
+<img src="images/ShinyHuntUnattended-StrongSpawn-0.png">
 
 ## Calibration
 
@@ -93,7 +93,7 @@ When correctly calibrated:
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntUnattended-StrongSpawn-Settings.png">
+<img src="images/ShinyHuntUnattended-StrongSpawn-Settings.png">
 
 ### Enter Game to Run Delay:
 

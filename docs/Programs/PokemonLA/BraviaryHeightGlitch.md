@@ -6,7 +6,7 @@ This program gains height while flying on Braviary.
 
 The method is described here: [https://youtu.be/tz0b62pkKTk?t=587](https://youtu.be/tz0b62pkKTk?t=587)
 
-<img src="../images/BraviaryHeightGlitch-0.png">
+<img src="images/BraviaryHeightGlitch-0.png">
 
 ### Settings
 

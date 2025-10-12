@@ -18,7 +18,7 @@ This program will automatically hunt for a shiny Sword of Justice and automatica
 
 [Demo Video.mp4](https://cdn.discordapp.com/attachments/755635697737531544/822268782910636062/2021-03-18_19-38-31.mp4)
 
-<img src="../images/ShinyHuntAutonomous-SwordsOfJustice-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-SwordsOfJustice-0.jpg" width="800">
 
 ### Setup of Settings
 
@@ -69,7 +69,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 There is no option to search only for a square shiny. Nearly all shinies are square and only 15/65536 are star. Therefore it is infeasible to hunt for star shiny.
 
-<img src="../images/ShinyHuntAutonomous-SwordsOfJustice-Settings.png">
+<img src="images/ShinyHuntAutonomous-SwordsOfJustice-Settings.png">
 
 ### Go Home when Done:
 

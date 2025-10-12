@@ -19,7 +19,7 @@ This is the original "7k Skipper".
 - Switch 1 (wireless): **< 7619 skip/hour** (not recommended)
 - Switch 2 (wireless): **not supported yet**
 
-<img src="../images/DaySkipperJPN-0.png">
+<img src="images/DaySkipperJPN-0.png">
 
 ### Setup of Settings
 

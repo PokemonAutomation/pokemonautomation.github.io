@@ -1,6 +1,6 @@
 # Discord Webhook Notifications:
 
-**Back To:** [Discord Integration](../)
+**Back To:** [Discord Integration](index.md)
 
 
 This section covers how to setup and customize notifications using Discord webhooks.
@@ -10,7 +10,7 @@ Notifications can be useful for various things. For example:
 2. Get notified when a long-running program is finished or otherwise needs your attention.
 3. Send notifications for live (real-time) hosting.
 
-<img src="../images/discord-notifications-0.png" height="600">
+<img src="images/discord-notifications-0.png" height="600">
 
 
 
@@ -18,7 +18,7 @@ Notifications can be useful for various things. For example:
 
 Open up the serial programs and click on the Settings button in the bottom-left section. This opens up the settings panel. Scroll down to the Discord settings.
 
-<img src="../images/discord-notifications-program-settings.png">
+<img src="images/discord-notifications-program-settings.png">
 
 ## Step 2: Get your Discord user ID.
 
@@ -26,7 +26,7 @@ Your Discord ID is not "Username#1234". It's actually just a number. To get your
 
 Paste your ID into the "Discord User ID box."
 
-<img src="../images/discord-notifications-program-settings-userid.png">
+<img src="images/discord-notifications-program-settings-userid.png">
 
 
 ## Step 3: Create a webhook.
@@ -37,7 +37,7 @@ Note that you will need webhook permissions for the channel you wish to use. If 
 
 Once you have your webhook URL, check the box for "Discord Webhook Settings" to enable it, then click "Add Row".
 
-<img src="../images/discord-notifications-program-settings-webhooks-0.png">
+<img src="images/discord-notifications-program-settings-webhooks-0.png">
 
 Paste the webhook URL into respective box. It will be blanked out just like a password.
 
@@ -49,11 +49,11 @@ At this point, the webhook should be working and programs that send notification
 
 Navigate to any program that sends notifications. All programs that send notifications will have the following section near the bottom of the settings.
 
-<img src="../images/discord-notifications-event-settings-1.png">
+<img src="images/discord-notifications-event-settings-1.png">
 
 Click on any of the "Send Test Message" buttons. If everything worked properly, this will send a message to your channel with the webhook.
 
-<img src="../images/discord-notifications-webhooks-0.png">
+<img src="images/discord-notifications-webhooks-0.png">
 
 If it doesn't, there can literally be a million things wrong. A good place to start is to open up the Output Window and look for any errors.
 

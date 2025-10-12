@@ -17,7 +17,7 @@ Starting from program version 0.42, the average times to find the following stat
 
 These are calculated assuming 3 minutes per reset which is achievable if you can consistently OHKO without terastallizing.
 
-<img src="../images/StatsResetBloodmoon-2.png">
+<img src="images/StatsResetBloodmoon-2.png">
 
 ## Settings
 
@@ -101,7 +101,7 @@ So if you are searching for perfect 0atk+0spd using an IV filter of `xx/0-0/xx/x
 
 If you are just searching for VGC 00 (0-1 attack and 0-1 speed), setting a filter of `xx/0-1/xx/xx/xx/0-1` will stop only on VGC 00 with no false positive.
 
-<img src="../images/StatsResetBloodmoon-1.png">
+<img src="images/StatsResetBloodmoon-1.png">
 
 ## Options
 

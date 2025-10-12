@@ -10,7 +10,7 @@ This is currently confirmed to work for:
 - Best Friends Ribbon from Friendship Checker in Cascarrafa
 - Effort Ribbon from Effort Value Checker in Levincia
 
-<img src="../images/SizeCheckerJumbo.png">
+<img src="images/SizeCheckerJumbo.png">
 
 ## Settings
 

@@ -8,7 +8,7 @@ This program is a variation of [Tera Self Farmer](TeraSelfFarmer.md), but tailor
 
 Note: This program can work on Pokémon not yet registered in the Pokédex. **It will not work on Pokémon that does not have a Pokédex page (e.g. Mewtwo).**
 
-<img src="../images/TeraRoller-RecentlyBattled.png">
+<img src="images/TeraRoller-RecentlyBattled.png">
 
 ### How This Works: Post-Encounter Dex Refresh
 

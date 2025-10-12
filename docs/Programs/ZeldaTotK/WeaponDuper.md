@@ -8,8 +8,8 @@ This program is for The Legend of Zelda: Tears of the Kingdom. The program is st
 
 Duplicate weapons (Bows, Shields, Swords) via a glitch as seen in this [video](https://youtu.be/im64NgGSQd4).
 
-<img src="../images/totk-weapondupe-menu-position.png">
-<img src="../images/totk-weapondupe-starting-position.png">
+<img src="images/totk-weapondupe-menu-position.png">
+<img src="images/totk-weapondupe-starting-position.png">
 
 ## Instructions
 

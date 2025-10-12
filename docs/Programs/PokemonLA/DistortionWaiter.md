@@ -6,7 +6,7 @@ This program waits for a space-time distortion to occur, then notifies the user.
 
 Once they are unlocked, distortions take at most 40 minutes to appear even if you are doing nothing.
 
-<img src="../images/DistortionWaiter-0.jpg">
+<img src="images/DistortionWaiter-0.jpg">
 
 ### Settings
 

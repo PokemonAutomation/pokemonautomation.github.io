@@ -20,7 +20,7 @@ This is the tl;dr if you just want to know what settings to use for Switch 2.
 - For programs that reset the game, you must move the user profile to the 1st one (left-most slot).
 - Some programs require specifying the Switch type. (Switch 1, Switch 2 international, Switch 2 Japan-locked)
 
-<img src="../images/ConsoleTypeSelection.png">
+<img src="images/ConsoleTypeSelection.png">
 
 ## Switch 1 -> Switch 2 Differences
 
@@ -40,7 +40,7 @@ We are currently exploring ways to detect the running profile and automatically 
 
 ### Japan region-locked Switches have different settings.
 
-<img src="../images/Switch2Menu-International.png" width="400"> <img src="../images/Switch2Menu-JapanLocked.png" width="400">
+<img src="images/Switch2Menu-International.png" width="400"> <img src="images/Switch2Menu-JapanLocked.png" width="400">
 
 In the regular (international) Switch 2, there are options to set the Switch language and region.
 However, these settings are missing in the Japan region-locked Switch 2s.
@@ -85,7 +85,7 @@ If using an HDR-capable card, we recommend turning it off in System Settings -> 
 
 |HDR Off|HDR On|
 |---|---|
-|<img src="../images/Switch2-HDR-Off.png" width="400">|<img src="../images/Switch2-HDR-On.png" width="400">|
+|<img src="images/Switch2-HDR-Off.png" width="400">|<img src="images/Switch2-HDR-On.png" width="400">|
 
 
 ## For Developers

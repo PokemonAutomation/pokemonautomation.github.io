@@ -23,7 +23,7 @@ Soft-reset for shiny Regigigas.
 
 This program uses a 1 HP lead that is able to OHKO the Regigigas using the move Reversal. Then it retries until it runs out of PP where it will do a soft-reset to restore the PP and continue.
 
-<img src="../images/ShinyHuntUnattended-Regigigas2-0.png">
+<img src="images/ShinyHuntUnattended-Regigigas2-0.png">
 
 ## Calibration:
 
@@ -65,8 +65,8 @@ Make only small changes at a time, no more than +/- 50 ticks at a time. Most Swi
 
 Here is an example of a lead Pokémon that is properly setup to guarantee a OHKO on Regigigas.
 
-<img src="../images/ShinyHuntUnattended-Regigigas2-1.png" width="400"> <img src="../images/ShinyHuntUnattended-Regigigas2-2.png" width="400">
-<img src="../images/ShinyHuntUnattended-Regigigas2-3.png" width="400">
+<img src="images/ShinyHuntUnattended-Regigigas2-1.png" width="400"> <img src="images/ShinyHuntUnattended-Regigigas2-2.png" width="400">
+<img src="images/ShinyHuntUnattended-Regigigas2-3.png" width="400">
 
 ### Instructions
 
@@ -88,7 +88,7 @@ When correctly calibrated:
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntUnattended-Regigigas2-Settings.png">
+<img src="images/ShinyHuntUnattended-Regigigas2-Settings.png">
 
 ### Reversal PP:
 

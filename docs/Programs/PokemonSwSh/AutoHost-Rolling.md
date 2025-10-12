@@ -27,7 +27,7 @@ If video feedback is disabled, this program behaves identically to the [microcon
 
 If video feedback is enabled, it will keep track of stats and will run faster since it can see the screen and waste less time waiting.
 
-<img src="../images/AutoHost-Rolling-0.png">
+<img src="images/AutoHost-Rolling-0.png">
 
 ---
 
@@ -91,7 +91,7 @@ This program uses [**Tolerate System Update Menu (slow)**](/Wiki/Programs/Ninten
 
 In addition to the main options below, there are more [global options](PokemonSettings.md) that can be configured if you encounter problems.
 
-<img src="../images/AutoHost-Rolling-Settings.png">
+<img src="images/AutoHost-Rolling-Settings.png">
 
 ### Raid Code:
 

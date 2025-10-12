@@ -9,7 +9,7 @@ If video feedback is disabled, this program behaves identically to the [microcon
 If video feedback is enabled, it will keep track of stats, automatically stop on the Pokémon of your choice, and notify you. Thus this program can be used to find extremely rare rolls such as Milotic.
 
 
-<img src="../images/DenRoller-0.png">
+<img src="images/DenRoller-0.png">
 
 
 ### Setup of Settings
@@ -45,7 +45,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 
 This program uses [**Tolerate System Update Menu (slow)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-slow) to bypass the system update window.
 
-<img src="../images/DenRoller-Settings.png">
+<img src="images/DenRoller-Settings.png">
 
 ### Frame Skips:
 

@@ -4,7 +4,7 @@
 
 Drop wishing pieces between two dens until you find an event den.
 
-<img src="../images/EventBeamFinder-0.png">
+<img src="images/EventBeamFinder-0.png">
 
 ### Setup of Settings
 

@@ -10,7 +10,7 @@
 
 Keep throwing ball until you catch the Pokémon you're fighting. In case of failure to catch the Pokémon (in case your Pokémon or the opposing Pokémon faint, you run out of balls, etc) it will reset the game and wait until a pokémon attacks you.
 
-<img src="../images/AutonomousBallThrower-0.png">
+<img src="images/AutonomousBallThrower-0.png">
 
 ## Preparation Instructions
 

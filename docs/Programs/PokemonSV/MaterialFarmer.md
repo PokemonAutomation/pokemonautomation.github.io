@@ -1,6 +1,6 @@
 # Material Farmer
 
-<img src="../images/MaterialFarmer-0.png">
+<img src="images/MaterialFarmer-0.png">
 
 
 ## Program Description

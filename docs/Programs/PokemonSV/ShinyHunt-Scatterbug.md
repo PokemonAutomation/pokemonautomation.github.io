@@ -1,6 +1,6 @@
 # Shiny Hunt - Scatterbug
 
-<img src="../images/ShinyHunt-Scatterbug-0.jpg">
+<img src="images/ShinyHunt-Scatterbug-0.jpg">
 
 
 ## Program Description
@@ -18,7 +18,7 @@ In particular, this program can be used to shiny hunt following Pokémon:
 
 And probably more.
 
-<img src="../images/ShinyHunt-Scatterbug-1.jpg">
+<img src="images/ShinyHunt-Scatterbug-1.jpg">
 
 This program works by making a sandwich to boost spawns and shiny rate, then repeatedly sending out your lead for Let's Go to kill everything in sight. It will reset the game if the sandwich expires with no desired Pokémon found. Because Let's Go auto-battle does not attack shinies, shinies will remain and (with fairly high probability) will wander close enough to your character to trigger an encounter. While the program cannot detect shinies in the overworld, it can hear them during an encounter.
 
@@ -81,7 +81,7 @@ In sandwich mode, the Sparkling/Title/Encounter preset recipes have a built-in m
 
 ## Options
 
-<!-- <img src="../images/ShinyHunt-AreaZeroPlatform-3.png"> -->
+<!-- <img src="images/ShinyHunt-AreaZeroPlatform-3.png"> -->
 
 ### Save Game at Program Start:
 

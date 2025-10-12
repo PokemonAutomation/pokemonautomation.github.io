@@ -8,7 +8,7 @@ This program is for The Legend of Zelda: Tears of the Kingdom. The program is st
 
 Farm items by duplicating them in Tears of the Kingdom. This works by holding items and pressing sort + back at the same time while paragliding. Based on this [video](https://youtu.be/t9bl4_UbxNk).
 
-<img src="../images/totk-paraglide-warp-setup.png">
+<img src="images/totk-paraglide-warp-setup.png">
 
 ## Settings
 
@@ -30,7 +30,7 @@ Farm items by duplicating them in Tears of the Kingdom. This works by holding it
 2. Open the menu and navigate to the materials tab. Select the item that you want to duplicate. Close the menu.
 3. Start the program in-game.
 
-<img src="../images/totk-paraglide-run.gif">
+<img src="images/totk-paraglide-run.gif">
 
 ## Notes
 

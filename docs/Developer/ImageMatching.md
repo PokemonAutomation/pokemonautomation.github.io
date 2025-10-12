@@ -20,21 +20,21 @@ There are several detector/image matchers that you can look at for examples, suc
 
 Suppose we have the following image and we want to detect the Pokecenter. 
 
-<img src="../images//image-to-detect.png">
+<img src="images//image-to-detect.png">
 
 Next, we use Waterfill to get the red portions of the image. The Waterfill algorithm first applies the red color filter, and you're left with something like the following binary image.
 
-<img src="../images//binary-image.png">
+<img src="images//binary-image.png">
 
 Waterfill then extracts all connected red portions (that are above a certain area threshold). Note that the red arc and dot inside the icon aren't connected to the rest of the icon, so these won't be a part of the Waterfill object.
 
-<img src="../images//waterfill-obj1.png">
-<img src="../images//waterfill-obj2.png">
-<img src="../images//waterfill-obj3.png">
+<img src="images//waterfill-obj1.png">
+<img src="images//waterfill-obj2.png">
+<img src="images//waterfill-obj3.png">
 
 These Waterfill objects are then compared with the waterfilled template. 
 
-<img src="../images//template-image-waterfill.png">
+<img src="images//template-image-waterfill.png">
 
 In particular, their area ratio and aspect ratio are compared with the template. Area ratio and aspect ratio are discussed later.
 
@@ -42,13 +42,13 @@ In particular, their area ratio and aspect ratio are compared with the template.
 
 If the Waterfill object meets the area ratio and aspect ratio requirements, each Waterfill object will produce a cropped image, where the original image will be cropped according to the bounding box of the Waterfill object. 
 
-<img src="../images//waterfill-subimage1.png">
-<img src="../images//waterfill-subimage2.png">
-<img src="../images//waterfill-subimage3.png">
+<img src="images//waterfill-subimage1.png">
+<img src="images//waterfill-subimage2.png">
+<img src="images//waterfill-subimage3.png">
 
 Each cropped image will then be compared against the cropped template image.
 
-<img src="../images//template-image.png">
+<img src="images//template-image.png">
 
 In particular, RMSD will be computed for each cropped image. Any object that meets the RMSD threshold will be considered a match. 
 
@@ -105,7 +105,7 @@ MapPokeCenterIconMatcher() : WaterfillTemplateMatcher(
 
 PokeCenterIcon-Template.png is the template image. It’s located in the Resources folder. 
 
-<img src="../images//template-image-original.png">
+<img src="images//template-image-original.png">
 
 Still looking within the WaterfillTemplateMatcher constructor, the next two color parameters are for applying color filters for Waterfilling the template. In other words, the template is not being used as is, but rather is a Waterfill object. In this case, the color filter keeps all pixels with Red: 150-255, Green: 0-100, Blue: 0-100. i.e. the filter keeps all the red portions of the Pokecenter icon. The largest group of connected red pixels is the Waterfill object that is selected. This resulting Waterfill object is the template that we will use for comparing against objects on the screen. Note, another reminder that the red arc and dot inside the icon aren't connected to the rest of the icon, so these won't be a part of the Waterfill template object. In other words, the red arc and dot aren't relevant for meeting the aspect ratio and area ratio requirements. However, they are relevant for meeting the RMSD threshold, which doesn't use Waterfill objects, but rather cropped images.
 

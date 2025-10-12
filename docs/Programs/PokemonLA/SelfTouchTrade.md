@@ -21,7 +21,7 @@ While touch-trading will not let you *complete* your dex for the purpose of gett
 
 It takes roughly 3148 trades and 43 hours to touch-trade a complete Hisui living dex the number of times needed to max out the "Number caught" research for everything.
 
-<img src="../images/SelfTouchTrade-0.png">
+<img src="images/SelfTouchTrade-0.png">
 
 
 ### Settings

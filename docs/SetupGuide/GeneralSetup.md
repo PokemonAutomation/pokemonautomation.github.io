@@ -12,7 +12,7 @@ Download the latest version of our programs from [here](https://github.com/Pokem
 
 Once you have downloaded the package, unzip to somewhere you can access later. **Do not put it on Microsoft OneDrive.**
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="Images/GeneralSetup-CCFolder.png" height="400">
 
 
 ### If you are on x64 Linux:
@@ -26,7 +26,7 @@ If you want to tinker with this anyway, see: [How to Build (Qt 6.8.2) - Ubuntu 2
 1. Run the `SerialPrograms-Windows.cmd` script.
 2. On left side is a list of programs. Click on "Virtual Console".
 
-<img src="../Images/GeneralSetup-CCOpened.png" width="400"> <img src="../Images/GeneralSetup-CCVirtualConsole.png" width="400">
+<img src="Images/GeneralSetup-CCOpened.png" width="400"> <img src="Images/GeneralSetup-CCVirtualConsole.png" width="400">
 
 At this point you will see a black bar and a white screen. That's because we haven't setup video or audio yet!
 
@@ -42,11 +42,11 @@ If you get errors about missing files like `MSVCP140.dll` or `VCRUNTIME140.dll`,
 
 Depending on your capture card, it may look different from this:
 
-<img src="../Images/GeneralSetup-ConnectedCaptureCard.jpg" width="400"> <img src="../Images/GeneralSetup-FullSystem.jpg" width="400">
+<img src="Images/GeneralSetup-ConnectedCaptureCard.jpg" width="400"> <img src="Images/GeneralSetup-FullSystem.jpg" width="400">
 
 3. Select your capture card in the "Camera" dropdown. If you don't see it there, click "Reset Camera" to refresh the list.
 
-<img src="../Images/GeneralSetup-CameraSelect.png" width="400"> <img src="../Images/GeneralSetup-CameraSelected.png" width="400">
+<img src="Images/GeneralSetup-CameraSelect.png" width="400"> <img src="Images/GeneralSetup-CameraSelected.png" width="400">
 
 ## Step 4: Setup sound.
 
@@ -58,7 +58,7 @@ The sound options are below the Camera options. Most of these options are self-e
 
 If you did everything right until now, the black bar will light up with the audio spectrum and you will hear the sound from your Switch.
 
-<img src="../Images/GeneralSetup-AudioSelect.png" width="400"> <img src="../Images/GeneralSetup-AudioSelected.png" width="400">
+<img src="Images/GeneralSetup-AudioSelect.png" width="400"> <img src="Images/GeneralSetup-AudioSelected.png" width="400">
 
 The Audio Input is the important one since programs that listen to audio will be using that.
 The Audio Output and playback are only for user consumption. You can mute the program by changing the Audio Output to (none) or moving the slider all the way to the left.

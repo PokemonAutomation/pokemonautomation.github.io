@@ -1,6 +1,6 @@
 # Label Images (Dev-Mode Program)
 
-<img src="../images/LabelImages.jpg">
+<img src="images/LabelImages.jpg">
 
 
 ## Program Description

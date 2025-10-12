@@ -10,7 +10,7 @@ It can also search for MMO Pokémon with star symbols which are guaranteed to ha
 
 Note: MMO related functionalities are only present in upcoming Program v0.16.
 
-<img src="../images/OutbreakFinder-0.jpg">
+<img src="images/OutbreakFinder-0.jpg">
 
 ### Settings
 
@@ -57,7 +57,7 @@ on a map.
 
 6. Start the program in the game.
 
-<img src="../images/OutbreakFinder-1.png">
+<img src="images/OutbreakFinder-1.png">
 
 ## Options
 

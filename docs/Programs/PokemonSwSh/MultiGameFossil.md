@@ -6,7 +6,7 @@ MultiGameFossil is a more advanced fossil reviving program that can revive fossi
 
 > See end of page for motivation behind this program.
 
-<img src="../images/MultiGameFossil-0.png">
+<img src="images/MultiGameFossil-0.png">
 
 ### Setup of Settings
 
@@ -69,7 +69,7 @@ Once you have revived a ton of fossils, you need to check if there are any shini
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/MultiGameFossil-Settings.png">
+<img src="images/MultiGameFossil-Settings.png">
 
 
 

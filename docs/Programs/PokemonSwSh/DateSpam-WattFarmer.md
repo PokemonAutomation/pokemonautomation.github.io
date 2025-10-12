@@ -15,7 +15,7 @@ WattFarmer will farm watts from a wishing piece beam. It requires activating the
 
 - **Wired Controller:** 9.6 seconds/fetch (~750k watts per hour at 2000/fetch)
 
-<img src="../images/DateSpam-WattFarmer-0.png">
+<img src="images/DateSpam-WattFarmer-0.png">
 
 ### Setup of Settings
 
@@ -65,7 +65,7 @@ This program does not have the ability to avoid the system update window. Should
 
 Most of the options here are self-explanatory.
 
-<img src="../images/DateSpam-WattFarmer-Settings.png">
+<img src="images/DateSpam-WattFarmer-Settings.png">
 
 
 ## Credits

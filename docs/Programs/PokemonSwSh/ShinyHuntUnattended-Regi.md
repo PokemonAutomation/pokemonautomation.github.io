@@ -26,7 +26,7 @@ When correctly utilized, this program will stop on a shiny thus allowing you to 
 
 This Regi program involves the (error prone) process of solving the light puzzle. To counter these errors, the program will periodically leave and reenter the building to reset the lights.
 
-<img src="../images/ShinyHuntUnattended-Regi-0.png">
+<img src="images/ShinyHuntUnattended-Regi-0.png">
 
 ## Calibration:
 
@@ -81,7 +81,7 @@ When correctly calibrated:
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntUnattended-Regi-Settings.png">
+<img src="images/ShinyHuntUnattended-Regi-Settings.png">
 
 ### Start to Run Delay:
 

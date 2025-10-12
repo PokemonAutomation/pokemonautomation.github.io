@@ -10,7 +10,7 @@
 
 Hatch boxes of Pokémon.
 
-<img src="../images/EggHatcher-0.png">
+<img src="images/EggHatcher-0.png">
 
 ### Setup of Settings
 
@@ -40,7 +40,7 @@ Hatch boxes of Pokémon.
 3. You are on foot. (not on your ride)
 4. Start the program in game.
 
-<img src="../images/ZeroGate.png">
+<img src="images/ZeroGate.png">
 
 
 ## Options

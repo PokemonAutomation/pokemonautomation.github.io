@@ -15,7 +15,7 @@ Farm the Stow-on-Side bargains dealer. It requires activating the Y-Comm glitch.
 
 - **Wired Controller:** 16.7 seconds/fetch
 
-<img src="../images/DateSpam-StowOnSideFarmer-0.png">
+<img src="images/DateSpam-StowOnSideFarmer-0.png">
 
 ### Setup of Settings
 
@@ -48,7 +48,7 @@ This program does not have the ability to avoid the system update window. Should
 
 Most of the options here are self-explanatory.
 
-<img src="../images/DateSpam-StowOnSideFarmer-Settings.png">
+<img src="images/DateSpam-StowOnSideFarmer-Settings.png">
 
 
 ## Credits

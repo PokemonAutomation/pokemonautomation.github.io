@@ -12,7 +12,7 @@ A smart version of [Beam Reset](BeamReset.md) that automatically stops on a purp
 
 > **This program requires video feedback!**
 
-<img src="../images/PurpleBeamFinder-0.png">
+<img src="images/PurpleBeamFinder-0.png">
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/817957563287076864/PurpleBeamFinder.mp4)
 
@@ -52,7 +52,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 Most of the options here are self-explanatory.
 
-<img src="../images/PurpleBeamFinder-Settings.png">
+<img src="images/PurpleBeamFinder-Settings.png">
 
 ### Extra Line:
 

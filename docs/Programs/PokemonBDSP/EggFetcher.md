@@ -30,7 +30,7 @@ This program is used with [EggHatcher](EggHatcher.md) to fetch and hatch eggs. T
 5. Stand in the following location.
 6. Start the program.
 
-<img src="../images/EggFetcher-0.png">
+<img src="images/EggFetcher-0.png">
 
 
 ## Options

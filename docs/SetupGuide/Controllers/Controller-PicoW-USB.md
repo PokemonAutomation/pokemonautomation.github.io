@@ -11,7 +11,7 @@ There are two operating modes of the Pico W family:
 | **USB Mode (this guide)** | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | Very Easy |
 | [UART Mode](Controller-PicoW-UART.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wireless and wired:<br>- HID: Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | More Difficult |
 
-<img src="../../Images/PicoW/ControllerSetup-PicoW-USB.jpg" height="350"> <img src="../../Images/PicoW/ControllerSetup-PicoW-USB-Setup-Small.jpg" height="350">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB.jpg" height="350"> <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Setup-Small.jpg" height="350">
 
 ## Hardware Setup:
 
@@ -36,7 +36,7 @@ There are two operating modes of the Pico W family:
     - Pico W: $6 each from Micro Center
     - USB Cable/Adapter: < $1 each from AliExpress
 
-<img src="../../Images/PicoW/ControllerSetup-PicoW-USB-SetupCloseup-Annotated-Small.jpg" width="800">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB-SetupCloseup-Annotated-Small.jpg" width="800">
 
 
 ### Recommended Purchase Links:
@@ -88,7 +88,7 @@ And that's it!
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../../Images/GeneralSetup-CC.png">
+<img src="../Images/GeneralSetup-CC.png">
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
@@ -107,7 +107,7 @@ If not, you should go back to the [general setup guide](../index.md) and start o
      - Pico W(H): `PABotBase-Pico1W-2025092300.uf2` (version number may vary)
      - Pico 2 W(H): `PABotBase-Pico2W-2025092300.uf2` (version number may vary)
 
-<img src="../../Images/PicoW/ControllerSetup-PicoW-Flash1.png">
+<img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.png">
 
 ### Step 2: Navigate to the Grip Menu
 
@@ -115,7 +115,7 @@ The Grip menu is the only place where the Pico W can wirelessly connect to the S
 
 To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
 
-<img src="../../Images/GripMenu3.png">
+<img src="../Images/GripMenu3.png">
 
 ### Step 3: Connect the Pico W to the Computer Control program
 
@@ -126,7 +126,7 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/PicoW/ControllerSetup-PicoW-USB-Connected-Cropped.png">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB-Connected-Cropped.png">
 
 ### Step 4: Connect the Pico W to the Switch
 
@@ -136,7 +136,7 @@ After a few seconds, you should see a controller pop-up in the Grip menu on the 
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
 
-<img src="../../Images/PicoW/ControllerSetup-PicoW-USB-Ready-Annotated.png">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB-Ready-Annotated.png">
 
 
 ### Step 5: Test the connection
@@ -149,7 +149,7 @@ We recommend familiarizing yourself with the keyboard controls as this is the pr
 
 Overall, the idea here is that you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
-<img src="../../Images/PicoW/ControllerSetup-PicoW-USB-Controls.png">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB-Controls.png">
 
 **Controller Types:**
 
@@ -194,7 +194,7 @@ If you have multiple of them, spread them out to reduce wireless interference.
 
 As tempting as it may be, do not do this:
 
-<img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
+<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
 
 It is as cute as it is stupid, and it will give you problems. We tried it so you don't have to!
 

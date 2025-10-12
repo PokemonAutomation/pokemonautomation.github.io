@@ -20,7 +20,7 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/823274129292525638/2021-03-21_14-14-40.mp4)
 
-<img src="../images/ShinyHuntAutonomous-IoATrade-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-IoATrade-0.jpg" width="800">
 
 ### Setup of Settings
 
@@ -66,7 +66,7 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntAutonomous-IoATrade-Settings.png">
+<img src="images/ShinyHuntAutonomous-IoATrade-Settings.png">
 
 ### Go Home when Done:
 

@@ -18,7 +18,7 @@ This program will automatically hunt for a shiny strong spawn and automatically 
 
 [Demo Video.mp4](https://cdn.discordapp.com/attachments/755635697737531544/822487995407532032/StrongSpawn.mp4)
 
-<img src="../images/ShinyHuntAutonomous-StrongSpawn-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-StrongSpawn-0.jpg" width="800">
 
 ### Setup of Settings
 
@@ -66,7 +66,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 There is no option to search only for a square shiny. Nearly all shinies are square and only 15/65536 are star. Therefore it is infeasible to hunt for star shiny.
 
-<img src="../images/ShinyHuntAutonomous-StrongSpawn-Settings.png">
+<img src="images/ShinyHuntAutonomous-StrongSpawn-Settings.png">
 
 ### Go Home when Done:
 

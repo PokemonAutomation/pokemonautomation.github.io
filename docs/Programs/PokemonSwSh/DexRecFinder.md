@@ -4,7 +4,7 @@
 
 Find a specific Pokédex Recommendation (Dex Rec). The purpose of dex recs is to increase the encounter odds of a particular Pokémon that you are trying to hunt. This program is typically used in combination with the [fishing](ShinyHuntAutonomous-Fishing.md) and [overworld](ShinyHuntAutonomous-Overworld.md) encounter bots.
 
-<img src="../images/DexRecFinder-0.png">
+<img src="images/DexRecFinder-0.png">
 
 **Note:**
 
@@ -65,7 +65,7 @@ Once you have found what you want, save the game and disable the Y-COMM glitch t
 
 This program does not have the ability to avoid the system update window.
 
-<img src="../images/DexRecFinder-Settings.png">
+<img src="images/DexRecFinder-Settings.png">
 
 ### Game Language
 

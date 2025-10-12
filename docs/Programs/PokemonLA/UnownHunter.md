@@ -25,7 +25,7 @@ These are the Pokémon this program can shiny hunt:
 - Bronzor (MMO on Solaceon Ruins)
 - Bronzong (MMO on Solaceon Ruins)
 
-<img src="../images/UnownHunter-0.png">
+<img src="images/UnownHunter-0.png">
 
 Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/954529043775119401/20220318_234451.mp4
 
@@ -55,7 +55,7 @@ Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/9545290437
 3. You are in Jubilife city standing in the position pictured below.
 4. Start the program in the game.
 
-<img src="../images/UnownHunter-1.png">
+<img src="images/UnownHunter-1.png">
 
 The program will loop through going from the village to Solaceon Ruins until a shiny is found. There is a chance of a Bronzor/Brozong MMO in the ruins rather than Unowns, the program will keep running regardless. Also, to avoid getting into a battle with Bronzong, the program retuns to the tunnel so it can fly back to the camp.
 

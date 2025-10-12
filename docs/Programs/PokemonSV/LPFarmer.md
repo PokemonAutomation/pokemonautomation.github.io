@@ -9,7 +9,7 @@ This program will date-spam in front of a Tera crystal and grab the LP from it w
 For versions prior to v0.29, LP Farming used to be part of the Tera Self Farmer. Starting from v0.29, it has been split out into a separate program.
 
 
-<img src="../images/LPFarmer-0.png">
+<img src="images/LPFarmer-0.png">
 
 ### Setup of Settings
 

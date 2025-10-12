@@ -4,7 +4,7 @@
 
 Keep throwing ball until you catch the Pokémon you're fighting. In case of failure to catch the Pokémon (in case your Pokémon or the opposing Pokémon faint, you run out of balls, etc) it will reset the game and try again. Note that before the fight starts, the program will press alternatively "a" and "dpad up" in order to allow you to save and start the program in front of the ramanas park altars.
 
-<img src="../images/AutonomousBallThrower-0.png">
+<img src="images/AutonomousBallThrower-0.png">
 
 ## Preparation Instructions
 

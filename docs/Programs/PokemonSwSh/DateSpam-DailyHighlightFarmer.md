@@ -15,7 +15,7 @@ Farm the daily highlight watt trader in Crown Tundra. It requires activating the
 
 - **Wired Controller:** 18.1 seconds/fetch
 
-<img src="../images/DateSpam-DailyHighlightFarmer-0.png">
+<img src="images/DateSpam-DailyHighlightFarmer-0.png">
 
 ### Setup of Settings
 
@@ -48,7 +48,7 @@ This program does not have the ability to avoid the system update window. Should
 
 Most of the options here are self-explanatory.
 
-<img src="../images/DateSpam-DailyHighlightFarmer-Settings.png">
+<img src="images/DateSpam-DailyHighlightFarmer-Settings.png">
 
 
 ## Credits

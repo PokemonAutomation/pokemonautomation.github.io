@@ -4,7 +4,7 @@
 
 Farm daily item respawns (ex. fossils) by date-skipping.
 
-<img src="../images/DailyItemFarmer-0.png">
+<img src="images/DailyItemFarmer-0.png">
 
 ## Settings
 

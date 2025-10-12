@@ -14,7 +14,7 @@ This program will repeatedly attend Ingo's regular battles, send Pokémon to bat
 
 This program works on game version 1.0 and later.
 
-<img src="../images/IngoMoveGrinder-0.png">
+<img src="images/IngoMoveGrinder-0.png">
 
 
 ### Settings

@@ -8,7 +8,7 @@ Unlike [Egg Fetcher](EggFetcher.md) and [Egg Hatcher](EggHatcher.md), this progr
 
 Furthermore, this program doesn't care about step counts, egg-warming, or early hatching eggs. Visual feedback allows it to adapt to all of these variables as well game crashes and misc. program errors.
 
-<img src="../images/EggAutonomous-0.png">
+<img src="images/EggAutonomous-0.png">
 
 ### Setup of Settings
 
@@ -48,7 +48,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
 3. You are on Box 1.
 4. The right panel is set to the IV Judge Panel. (You can also set it to the stats panel if you are not doing IV filtering.)
 
-<img src="../images/EggAutonomous-1.png">
+<img src="images/EggAutonomous-1.png">
 
 ### Required Parameters:
 
@@ -62,7 +62,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
 4. Stand in the following location.
 5. Start the program.
 
-<img src="../images/EggAutonomous-2.png">
+<img src="images/EggAutonomous-2.png">
 
 Once the program starts, it will immediately save the game (if [Auto-Saving](#auto-saving) is enabled) and start spinning. It will periodically fetch eggs and hatch your entire party.
 
@@ -115,7 +115,7 @@ But you can add more actions to keep babies of certain gender and IV spreads. Th
 
 ***If you are using any IV filters, the right panel in the box system must be set to the IV Judge. Similar if you are using any gender filter.***
 
-<img src="../images/EggAutonomous-3.png">
+<img src="images/EggAutonomous-3.png">
 
 
 ## Credits

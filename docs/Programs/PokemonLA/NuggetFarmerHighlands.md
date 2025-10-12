@@ -23,7 +23,7 @@ There may be other spawns not on this list that the program may (but rarely) com
 
 Note: we have now a more efficient program to earn money and exp: [Tenacity Candy Farmer](TenacityCandyFarmer.md).
 
-<img src="../images/NuggetFarmerHighlands-0.png">
+<img src="images/NuggetFarmerHighlands-0.png">
 
 
 ### Settings
@@ -56,7 +56,7 @@ Note: we have now a more efficient program to earn money and exp: [Tenacity Cand
 5. Save the game in this location and position.
 6. Start the program in the game.
 
-<img src="../images/NuggetFarmerHighlands-1.png">
+<img src="images/NuggetFarmerHighlands-1.png">
 
 The program will repeatedly warp to Coronet Highlands and try to find and battle Charm. It will also pick up an Iron Chunk that lies along the path. The chance of finding Charm on each trip is 1-in-5. In the post game, defeating her will reward you with 4 or 5 nuggets.
 

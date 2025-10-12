@@ -4,7 +4,7 @@
 
 Repeatedly catch static encounters until you get the stats you want.
 
-<img src="../images/StatsReset.png">
+<img src="images/StatsReset.png">
 
 ## Settings
 

@@ -4,7 +4,7 @@
 
 Shiny hunt fossil Pokemon by reviving and resetting.
 
-<img src="../images/FossilRevival-0.png">
+<img src="images/FossilRevival-0.png">
 
 ## Setup
 

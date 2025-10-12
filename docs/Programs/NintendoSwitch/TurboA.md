@@ -13,7 +13,7 @@ This program is deprecated for computer-control. Use [Turbo Button](/Wiki/Progra
 
 TurboA does exactly what its name implies - it endlessly presses A. The purpose of this program is to grind the Digging Duo and Cram-o-matic.
 
-<img src="../images/TurboA-0.png">
+<img src="images/TurboA-0.png">
 
 ### Setup of Settings
 

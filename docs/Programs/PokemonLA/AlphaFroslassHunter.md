@@ -28,7 +28,7 @@ These are the Pokémon this program can shiny hunt:
 - Dusclops (Night spawn)
 - Glalie (outside, right on top of the cave you are)
 
-<img src="../images/FroslassHunter-0.png">
+<img src="images/FroslassHunter-0.png">
 
 Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/959021096810737684/FroslassHunter.mp4
 
@@ -58,7 +58,7 @@ Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/9590210968
 3. You are in Jubilife city standing in the position pictured below.
 4. Start the program in the game.
 
-<img src="../images/FroslassHunter-1.png">
+<img src="images/FroslassHunter-1.png">
 
 The program will loop through going from the village to Froslass's cave until a shiny is found, in case no shiny found it resets the game. 
 

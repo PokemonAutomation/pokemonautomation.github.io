@@ -17,7 +17,7 @@ PoffinCooker is used to cook poffins with your Pokémon in Amity Square.
 3. Gather your 6 Pokémon and stand in the location shown below.
 4. Start the program in game.
 
-<img src="../images/PoffinCooker-0.png">
+<img src="images/PoffinCooker-0.png">
 
 Once started, this program will repeatedly cook poffins with the first four berries of your inventory.
 

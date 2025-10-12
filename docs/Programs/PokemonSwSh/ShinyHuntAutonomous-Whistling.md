@@ -13,7 +13,7 @@ For regular overworld Pokémon, use the [overworld bot](ShinyHuntAutonomous-Over
 
 [Demo Video.mp4](https://cdn.discordapp.com/attachments/780505858613837835/825027189992718426/2021-03-26_10-14-13.mp4)
 
-<img src="../images/ShinyHuntAutonomous-Whistling-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-Whistling-0.jpg" width="800">
 
 
 ### Setup of Settings
@@ -66,7 +66,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 There is no option to search only for a square shiny. Nearly all shinies are square and only 15/65536 are star. Therefore it is infeasible to hunt for star shiny.
 
-<img src="../images/ShinyHuntAutonomous-Whistling-Settings.png">
+<img src="images/ShinyHuntAutonomous-Whistling-Settings.png">
 
 ### Go Home when Done:
 

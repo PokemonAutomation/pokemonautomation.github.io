@@ -11,7 +11,7 @@ This program is useful for activating the Y-COMM glitch while playing on the com
 
 Therefore, friend-search is the only remaining option.
 
-<img src="../images/FriendSearchDisconnect-0.png">
+<img src="images/FriendSearchDisconnect-0.png">
 
 ### Instructions
 

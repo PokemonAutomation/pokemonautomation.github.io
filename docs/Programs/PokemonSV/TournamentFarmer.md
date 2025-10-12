@@ -11,7 +11,7 @@ Farm the Academy Ace Tournament for money and prizes.
 
 **Indigo Disk DLC Update:** Because of the increased difficulty of the tournament after completing DLC2, the methods described here are no longer reliable. Use [Tournament Farmer 2](TournamentFarmer2.md) instead.
 
-<img src="../images/TournamentFarmer.png">
+<img src="images/TournamentFarmer.png">
 
 ## Setup
 
@@ -77,7 +77,7 @@ Note that this sacrifices the Amulet Coin for Choice Specs as this is needed to 
 
 ## Happy Hour H-Zoroark (or Smeargle) Setup + Instructions
 
-<img src="../images/TournamentFarmerZoroark.png">
+<img src="images/TournamentFarmerZoroark.png">
 
 If you have a Hisuian Zoroark from the Scarlet/Violet DLC preorder, you can use the event-exclusive move Happy Hour (which stacks with Amulet Coin) to double your winnings. However, Happy Hour is not a damaging move, so it will not work with the program normally, and requires a slightly different setup as follows:
 

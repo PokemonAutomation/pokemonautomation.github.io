@@ -14,7 +14,7 @@ Starting from version 0.30.x, you can auto-host the remaining raid slots online 
 
 
 
-<img src="../images/TeraMultiFarmer-0.png">
+<img src="images/TeraMultiFarmer-0.png">
 
 ### Setup of Settings
 

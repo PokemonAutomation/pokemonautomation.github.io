@@ -4,7 +4,7 @@
 
 Purchase clothing from shops.
 
-<img src="../images/ClothingBuyer.png">
+<img src="images/ClothingBuyer.png">
 
 ## Settings
 

@@ -25,7 +25,7 @@ The program may use at most 108 Grit Dust, 108 Grit Gravel, 108 Grit Pebble and 
 4. Stay in the item menu. Move the cursor onto Grit Dust as shown in the picture.
 5. Start the program in the game.
 
-<img src="../images/ApplyGrits-0.jpg">
+<img src="images/ApplyGrits-0.jpg">
 
 The program will apply each Grit item onto the party Pokémon in the party order.
 The number of Pokémon is controlled by the option **Num Pokémon to Apply Grits**.

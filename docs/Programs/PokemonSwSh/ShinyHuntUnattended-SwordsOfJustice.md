@@ -22,7 +22,7 @@ Hunt for shiny Swords of Justice and Spiritomb.
 > 
 > Be aware that even when correctly calibrated, this program is not 100% reliable. It may trap on a non-shiny (false positive) and it may run from a shiny (false negative).
 
-<img src="../images/ShinyHuntUnattended-SwordsOfJustice-0.png">
+<img src="images/ShinyHuntUnattended-SwordsOfJustice-0.png">
 
 ## Calibration
 
@@ -107,7 +107,7 @@ By default, you cannot use multiple Switches to run this program simultaneously 
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntUnattended-SwordsOfJustice-Settings.png">
+<img src="images/ShinyHuntUnattended-SwordsOfJustice-Settings.png">
 
 ### Exit Camp to Run Delay:
 

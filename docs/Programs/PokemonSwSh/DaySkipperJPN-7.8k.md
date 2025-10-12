@@ -22,7 +22,7 @@ However, this slight increase in efficiency comes at a cost. The 7.8k skipper is
 
 While the 7.8k skipper can recover from minor errors, major errors will cause it to lose track of the date and thus run at a degraded speed of about 7570 skips/hour – which is slightly worse than the regular JPN date skipper. Likewise, once the program enters this "off-track" state, about 3.3% of the skips will be dropped which will cause the program fall significantly short of the target number of skips.
 
-<img src="../images/DaySkipperJPN-7.8k-0.png">
+<img src="images/DaySkipperJPN-7.8k-0.png">
 
 ### Setup of Settings
 

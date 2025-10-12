@@ -22,8 +22,8 @@ This program will automatically hunt for Regigigas and automatically stop on a s
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/822702343606632458/2021-03-20_00-22-46.mp4)
 
-<img src="../images/ShinyHuntAutonomous-Regigigas2-0.jpg" width="800">
-<img src="../images/ShinyHuntAutonomous-Regigigas2-1.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-Regigigas2-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-Regigigas2-1.jpg" width="800">
 
 ### Setup of Settings
 
@@ -55,8 +55,8 @@ This program will automatically hunt for Regigigas and automatically stop on a s
 
 Here is an example of a lead Pokémon that is properly setup to guarantee a OHKO on Regigigas.
 
-<img src="../images/ShinyHuntUnattended-Regigigas2-1.png" width="400"> <img src="../images/ShinyHuntUnattended-Regigigas2-2.png" width="400">
-<img src="../images/ShinyHuntUnattended-Regigigas2-3.png" width="400">
+<img src="images/ShinyHuntUnattended-Regigigas2-1.png" width="400"> <img src="images/ShinyHuntUnattended-Regigigas2-2.png" width="400">
+<img src="images/ShinyHuntUnattended-Regigigas2-3.png" width="400">
 
 (The position of the move "Reversal" should be in the 1st slot instead of the 2nd as shown in these pictures.)
 
@@ -87,7 +87,7 @@ Here is an example of a lead Pokémon that is properly setup to guarantee a OHKO
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntAutonomous-Regigigas2-Settings.png">
+<img src="images/ShinyHuntAutonomous-Regigigas2-Settings.png">
 
 ### Go Home when Done:
 

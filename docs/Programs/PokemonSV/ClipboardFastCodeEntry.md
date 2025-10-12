@@ -6,7 +6,7 @@
 - [Clipboard Fast Code Entry (C-FCE)](ClipboardFastCodeEntry.md) (this program)
 - [Video Fast Code Entry (V-FCE)](VideoFastCodeEntry.md)
 
-<img src="../images/ClipboardFastCodeEntry-0.png">
+<img src="images/ClipboardFastCodeEntry-0.png">
 
 ## Program Description
 

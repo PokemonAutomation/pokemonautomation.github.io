@@ -6,7 +6,7 @@ This program will date-spam for tera raids and battle them. This program is usef
 
 This program can also be used to hunt for shiny raids or raids with high item rewards for the purpose of re-hosting them.
 
-<img src="../images/TeraSelfFarmer-0.png">
+<img src="images/TeraSelfFarmer-0.png">
 
 ### Setup of Settings
 

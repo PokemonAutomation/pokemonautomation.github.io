@@ -15,7 +15,7 @@ Automatically reset a den beam. The purpose is for finding purple beams.
 
 Drop a wishing piece in, check if it's red or purple. Pause for you to check, then reset.
 
-<img src="../images/BeamReset-0.png">
+<img src="images/BeamReset-0.png">
 
 ### Setup of Settings
 

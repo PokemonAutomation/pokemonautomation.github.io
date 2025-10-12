@@ -4,7 +4,7 @@
 
 Shiny hunt Shaymin using the runaway method. This program is faster than [Legendary Reset](LegendaryReset.md).
 
-<img src="../images/ShinyHunt-Shaymin-0.png">
+<img src="images/ShinyHunt-Shaymin-0.png">
 
 ### Setup of Settings
 
@@ -33,7 +33,7 @@ Shiny hunt Shaymin using the runaway method. This program is faster than [Legend
 1. Stand in front of Shaymin on tile shown in example image below.
 2. Start the program in game. Make sure the device is the connected controller.
 
-<img src="../images/ShinyHunt-Shaymin-1.png">
+<img src="images/ShinyHunt-Shaymin-1.png">
 
 ## Options
 

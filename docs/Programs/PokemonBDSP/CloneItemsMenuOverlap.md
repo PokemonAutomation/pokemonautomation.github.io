@@ -18,7 +18,7 @@ See: [Version Preservation](VersionPreservation.md)
 
 Clone 5 items at a time using the menu overlap menu method described here: [https://www.youtube.com/watch?v=IBDYRePk2qQ](https://www.youtube.com/watch?v=IBDYRePk2qQ)
 
-<img src="../images/CloneItemsMenuOverlap-0.png">
+<img src="images/CloneItemsMenuOverlap-0.png">
 
 ### Settings
 
@@ -45,7 +45,7 @@ Clone 5 items at a time using the menu overlap menu method described here: [http
 4. The first column in the current box is empty.
 5. The second column in the current box is filled with throwaway Pokémon that will be destroyed/overwritten.
 
-<img src="../images/CloneItemsMenuOverlap-2.png">
+<img src="images/CloneItemsMenuOverlap-2.png">
 
 ### Instructions
 
@@ -60,7 +60,7 @@ Clone 5 items at a time using the menu overlap menu method described here: [http
 4. Save the game.
 5. Start the program in the overworld as pictured in the image.
 
-<img src="../images/CloneItemsMenuOverlap-1.png">
+<img src="images/CloneItemsMenuOverlap-1.png">
 
 The program will trigger the overlap glitch, then clone the 5 Pokémon in your party, detach their items, and continue.
 

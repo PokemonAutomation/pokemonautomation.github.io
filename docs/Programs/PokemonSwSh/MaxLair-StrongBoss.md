@@ -45,7 +45,7 @@ This must be done on all participating Switches.
 
 The program will talk to the professor and start the adventure. It will automatically detect the boss from the silhouette (if available).
 
-<img src="../images/MaxLairStrongBoss-Settings.png">
+<img src="images/MaxLairStrongBoss-Settings.png">
 
 ## General Options
 

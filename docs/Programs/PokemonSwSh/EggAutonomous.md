@@ -8,7 +8,7 @@ Unlike [Egg Combined 2](EggCombined2.md) and other Sword/Shield egg programs, th
 
 Furthermore, this program doesn't care about step counts, egg-warming, or early hatching eggs. Visual feedback allows it to adapt to all of these variables as well game crashes and misc. program errors.
 
-<img src="../images/EggAutonomous-0.png">
+<img src="images/EggAutonomous-0.png">
 
 ### Setup of Settings
 
@@ -52,7 +52,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
 2. The box on the left of the current box has plenty of free spaces. This is where the kept babies will be deposited.
 3. The right panel is set to the IV Judge Panel. (You can also set it to the stats panel if you are not doing IV filtering.)
 
-<img src="../images/EggAutonomous-1.png">
+<img src="images/EggAutonomous-1.png">
 
 ### Required Parameters:
 
@@ -66,7 +66,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
 4. You do not have any active Repels.
 5. Start the program.
 
-<img src="../images/EggAutonomous-2.png">
+<img src="images/EggAutonomous-2.png">
 
 Once the program starts, it will immediately save the game (if [Auto-Saving](#auto-saving) is enabled) and start doing bike loops. It will periodically fetch eggs and hatch your entire party.
 
@@ -123,7 +123,7 @@ But you can add more actions to keep babies of certain gender and IV spreads. Th
 
 ***If you are using any IV filters, the right panel in the box system must be set to the IV Judge. Similar if you are using any gender filter.***
 
-<img src="../images/EggAutonomous-3.png">
+<img src="images/EggAutonomous-3.png">
 
 
 ## Credits

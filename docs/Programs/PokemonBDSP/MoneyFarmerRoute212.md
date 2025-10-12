@@ -13,7 +13,7 @@ This is essentially an automated version of: [https://www.youtube.com/watch?v=9q
 
 With the Amulet Coin, this program can max out your money at 999,999 in a couple hours.
 
-<img src="../images/MoneyFarmerRoute212-2.png">
+<img src="images/MoneyFarmerRoute212-2.png">
 
 ### Setup of Settings
 
@@ -44,11 +44,11 @@ With the Amulet Coin, this program can max out your money at 999,999 in a couple
 
 **Recommended:** Have the Amulet Coin on your leading Pokémon for double the pay out.
 
-<img src="../images/MoneyFarmerRoute212-0.png">
+<img src="images/MoneyFarmerRoute212-0.png">
 
 Once started, the program will walk down to the following location in Route 212 if starting at the Pokémon Center and repeatedly battle the old couple.
 
-<img src="../images/MoneyFarmerRoute212-1.png">
+<img src="images/MoneyFarmerRoute212-1.png">
 
 
 ## Options

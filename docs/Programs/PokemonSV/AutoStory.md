@@ -34,7 +34,7 @@ Essentially, we catch the Ralts in the Autostory save file, move it to your main
 
 -	In the autostory save file: Go to Los Platos. Catch the Ralts near the cliff (at the red pokeball in the map below). The gender of the Ralts doesn't matter.
 
-<img src="../images/AutostoryRalts.png">
+<img src="images/AutostoryRalts.png">
 
 -	Move Ralts to the box
 -	Save and close the game

@@ -8,7 +8,7 @@ This program is used with [EggHatcher](EggHatcher.md) to fetch and hatch eggs. T
 
 This program is also used to build a reservoir of eggs for running the faster [EggCombined2](EggCombined2.md) and [EggSuperCombined2](EggSuperCombined2.md) programs.
 
-<img src="../images/EggFetcher2-0.png">
+<img src="images/EggFetcher2-0.png">
 
 ### Setup of Settings
 

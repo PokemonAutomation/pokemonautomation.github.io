@@ -6,7 +6,7 @@ Grind those Pokédex research tasks about status moves and move styles by battli
 
 This program will use moves from your Pokémon repeatedly when battling a Magikarp. It will switch to next Pokémon when the current move has no PP left.
 
-<!-- <img src="../images/IngoBattleGrinder-0.png"> -->
+<!-- <img src="images/IngoBattleGrinder-0.png"> -->
 
 
 ### Settings
@@ -31,7 +31,7 @@ This program will use moves from your Pokémon repeatedly when battling a Magika
 3. Send out your party lead to start a battle with a Magikarp.
 4. Start the program in the game.
 
-<!-- <img src="../images/IngoBattleGrinder-1.png"> -->
+<!-- <img src="images/IngoBattleGrinder-1.png"> -->
 
 Wild Magikarp only knows Splash with 40 PP. Splash does no damage. So it is safe to grind status moves by battling wild Magikarp.
 You need to specify how many Pokémon you would like to grind with by adding that many rows in Pokémon Action Table option. The program will grind the first move of each Pokémon attended. You can choose which style to use on each move to grind style usages. When one move has no PP, the program will switch to the next Pokémon in the party list after it finds the move selection menu is not closed in time. The program can also detect when you Pokémon faints and send the next Pokémon out to battle.

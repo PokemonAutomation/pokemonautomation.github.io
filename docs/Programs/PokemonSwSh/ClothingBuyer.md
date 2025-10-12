@@ -4,7 +4,7 @@
 
 As its name implies, this program will automatically buy clothing.
 
-<img src="../images/ClothingBuyer-0.png">
+<img src="images/ClothingBuyer-0.png">
 
 ### Setup of Settings
 

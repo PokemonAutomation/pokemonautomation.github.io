@@ -18,7 +18,7 @@ The method is described here: [https://www.youtube.com/watch?v=bFKOP4hw3ls](http
 
 This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.md).
 
-<img src="../images/ActivateMenuGlitch-113-1.png">
+<img src="images/ActivateMenuGlitch-113-1.png">
 
 ### Settings
 

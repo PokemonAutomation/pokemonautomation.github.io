@@ -31,9 +31,9 @@ This is useful for evolving Ursaring and finishing The Clefairy's Moonlit Dance 
 4. Close your item menu, stand just in front of the tent in any camp.
 5. Start the program in the game.
 
-<img src="../images/SkipToFullMoon-0.jpg">
+<img src="images/SkipToFullMoon-0.jpg">
 
-<img src="../images/SkipToFullMoon-1.jpg">
+<img src="images/SkipToFullMoon-1.jpg">
 
 The program will open the menu, check if there is the red "Incompatible" on the lead Pokémon. If there is, go back and rest in the tent until night fall. Repeat.
 

@@ -24,7 +24,7 @@ This program cannot shiny hunt:
 3. Outbreak exclusives. Outbreak seeds are persistent across resets.
 
 
-<img src="../images/ShinyHunt-FlagPin-0.png">
+<img src="images/ShinyHunt-FlagPin-0.png">
 
 Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/952330044246749224/2022-03-12_16-14-49.mp4
 
@@ -59,7 +59,7 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9523300442
 6. Return to Jubilife Village and save the game in the below position.
 7. Start the program in the game.
 
-<img src="../images/ShinyHunt-FlagPin-1.png">
+<img src="images/ShinyHunt-FlagPin-1.png">
 
 When you start the program, it will first travel to the desired start location. Then it will hop on Braviary, look for the flag, and travel to it in a straight line.
 
@@ -89,7 +89,7 @@ For example, to hunt the alpha Gardevoir, the fastest route is from the Ice Peak
 
 Instead, you can take the route from the Pearl Settlement. It is slower because it needs to climb the mountain, but it passes by far fewer spawns. So it has a much higher chance of stopping on a shiny Gardevoir.
 
-<img src="../images/ShinyHunt-FlagPin-2.jpg">
+<img src="images/ShinyHunt-FlagPin-2.jpg">
 
 
 

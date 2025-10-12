@@ -6,7 +6,7 @@ This is the software setup guide for all the AVR8-based wired controller setups.
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../../Images/GeneralSetup-CC.png">
+<img src="../Images/GeneralSetup-CC.png">
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
@@ -25,11 +25,11 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/AVR8/ControllerSetup-AVR8-Connected-Labeled.png">
+<img src="../Images/AVR8/ControllerSetup-AVR8-Connected-Labeled.png">
 
 If you see the following instead, then you actually connected to our wireless controller setup instead (ESP32-WROOM). (We love your enthusiasm for having both setups!)
 
-<img src="../../Images/AVR8/ControllerSetup-AVR8-ESP32.png">
+<img src="../Images/AVR8/ControllerSetup-AVR8-ESP32.png">
 
 Both the wired and wireless setups use serial ports. The program can distinguish them when it connects to it.
 
@@ -45,7 +45,7 @@ Places where the Switch will accept a new controller:
 2. The Switch home or settings.
 3. In a game when no other controllers are connected.
 
-<img src="../../Images/GripMenu.png">
+<img src="../Images/GripMenu.png">
 
 ### Step 4: Test the connection
 
@@ -57,7 +57,7 @@ We recommend familiarizing yourself with the keyboard controls as this is the pr
 
 The default layout is the standard WASD setup for FPS games on the most common QWERTY keyboard layout. If you don't like it or you have a different keyboard layout, you can change the key mappings in the "Framework Settings" panel at the top of the program list to the left.
 
-<img src="../../Images/AVR8/ControllerSetup-AVR8-Controls.png">
+<img src="../Images/AVR8/ControllerSetup-AVR8-Controls.png">
 
 ### Step 5: You are done!
 
@@ -107,11 +107,11 @@ Step 2: Plug the UART side into the computer and select it in the dropdown.
 
 **Correct output window:** 
 
-<img src="../../Images/AVR8/ControllerSetup-AVR8-OutputWindow-Corrrect.png">
+<img src="../Images/AVR8/ControllerSetup-AVR8-OutputWindow-Corrrect.png">
 
 **Incorrect output window:** 
 
-<img src="../../Images/AVR8/ControllerSetup-AVR8-OutputWindow-Incorrrect.png">
+<img src="../Images/AVR8/ControllerSetup-AVR8-OutputWindow-Incorrrect.png">
 
 
 <hr>

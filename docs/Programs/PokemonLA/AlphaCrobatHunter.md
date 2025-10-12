@@ -21,7 +21,7 @@ This program uses audio recognition to detect shinies. And as such, it will also
 
 It is not yet known if the path taken brings it close enough to Barboach or Whiscash.
 
-<img src="../images/AlphaCrobatHunter-0.jpg">
+<img src="images/AlphaCrobatHunter-0.jpg">
 
 Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/949882362257375292/2022-03-05_22-10-08.mp4
 
@@ -56,7 +56,7 @@ The stats for everything in the cave are generated upon first entry to the cave.
 
 If you run this program after having already entered the cave during this visit to the region, everything in the cave will be identical on each reset!
 
-<img src="../images/AlphaCrobatHunter-1.png" width="500"> <img src="../images/AlphaCrobatHunter-2.png" width="500">
+<img src="images/AlphaCrobatHunter-1.png" width="500"> <img src="images/AlphaCrobatHunter-2.png" width="500">
 
 The program will repeatedly enter the cave, navigate to the alpha Crobat, and reset.
 If the program finds a shiny, it still stop and go to the Switch home to freeze the game.

@@ -6,7 +6,7 @@ This program resets the game in front of an auction NPC and bids on any wanted i
 
 The program saves the game after each auction and will continue to bid on items even if you do not have enough money to buy them.
 
-<img src="../images/AuctionFarmer-0.png">
+<img src="images/AuctionFarmer-0.png">
 
 
 ### Setup of Settings
@@ -34,7 +34,7 @@ Stand in front of and face an auctioneer who offers items you specified in [Item
 Some items are offered by multiple NPCs, e.g. Apricorn Balls, while other items are only offered by a single NPC, e.g. EV Berries.
 After resetting the game only one yellow speech bubble should be visible. You can check this by pressing the L button while the camera is zoomed in.
 
-<img src="../images/AuctionFarmer-1.png">
+<img src="images/AuctionFarmer-1.png">
 
 
 

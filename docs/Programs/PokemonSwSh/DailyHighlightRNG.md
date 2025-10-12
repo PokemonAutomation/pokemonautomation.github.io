@@ -1,6 +1,6 @@
 # Daily Highlight RNG
 
-<img src="../images/DailyHighlightRNG-0.png">
+<img src="images/DailyHighlightRNG-0.png">
 
 ## Program Description
 

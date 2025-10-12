@@ -34,7 +34,7 @@ Trade boxes of Pokémon between two Switches locally.
 3. The cursor on both Switches is on the top-left Pokémon in the box.
 4. Start the program in the game.
 
-<img src="../images/SelfBoxTrade-0.png">
+<img src="images/SelfBoxTrade-0.png">
 
 Once started, the program will swap all the Pokémon in the N boxes on the two Switches.
 

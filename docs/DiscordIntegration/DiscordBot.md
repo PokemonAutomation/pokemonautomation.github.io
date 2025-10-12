@@ -1,6 +1,6 @@
 # Discord Bot Integration:
 
-**Back To:** [Discord Integration](../)
+**Back To:** [Discord Integration](index.md)
 
 
 This section covers how to set up and configure a Discord bot.
@@ -11,7 +11,7 @@ Discord bot integration can be useful for various things. For example:
 3. Send notifications for live (real-time) hosting.
 4. Use remote control commands to start or stop a program, send controller inputs, take screenshots, etc.
 
-<img src="../images/discord-notifications-0.png">
+<img src="images/discord-notifications-0.png">
 
 
 
@@ -25,21 +25,21 @@ Discord bot integration can be useful for various things. For example:
 
 3. Navigate to the `Installation` tab on the left sidebar. Under `Installation Contexts`, ensure `Guild Install` is checked, and `User Install` is unchecked. Under `Install Link`, set the dropdown to `None`.
 
-<img src="../images/discord-bot-installation.png">
+<img src="images/discord-bot-installation.png">
 
 4. Make sure your bot is set to private, otherwise anyone will be able to invite it to their servers.
 
-<img src="../images/discord-bot-private.png">
+<img src="images/discord-bot-private.png">
 
 5. Under Privileged Gateway Intents enable `Presence Intent`, `Server Members Intent`, and `Message Content Intent`. Save your changes.
 
-<img src="../images/discord-bot-intents-0.png">
+<img src="images/discord-bot-intents-0.png">
 
 6. Go to the OAuth2 tab in the left sidebar. We will now generate an invite URL with the correct permissions. 
 
 Under SCOPES, select `bot`.
 
-<img src="../images/discord-bot-scopes.png">
+<img src="images/discord-bot-scopes.png">
 
 **You now have two options:**
 
@@ -47,11 +47,11 @@ Under SCOPES, select `bot`.
 
   **b.** Grant `Send Messages`, `Embed Links`, `Attach Files`, `Read Message History` permissions. This will allow you to invite the bot to a server you have Manage Server permissions in, and your bot will have a pre-configured role.
 
-<img src="../images/discord-bot-permissions-0.png">
+<img src="images/discord-bot-permissions-0.png">
 
 Copy the generated URL shown above and paste it into your browser of choice. Click `Continue`.
 
-<img src="../images/discord-bot-paste-url-in-browser.png">
+<img src="images/discord-bot-paste-url-in-browser.png">
 
 **NOTE:** If you don't already have a server that you have Manage Server permissions in, one way is to create your own server. 
 - On the Discord left sidebar, scroll to the bottom of the list of servers that you're in.
@@ -64,17 +64,17 @@ Copy the generated URL shown above and paste it into your browser of choice. Cli
 Open up the Pokemon Automation Computer control program and click on the Settings button in the bottom-left section. This opens up the settings panel. Scroll down to the Discord settings. Enable `Discord Integration Settings`.
 
 
-<img src="../images/discord-bot-program-settings-0.png">
+<img src="images/discord-bot-program-settings-0.png">
 
 
 ## Step 3: Get your Discord bot's token and your user ID.
 
 1. Paste the Discord Bot token into the `Discord Token` box. If you haven't already copied the token, head back to the Bot tab in Discord's Developer Portal, reveal and copy your bot's token. 
-<img src="../images/discord-bot-token.png">
+<img src="images/discord-bot-token.png">
 
 2. Your Discord ID is not "Username#1234". It's actually just a number. To get your Discord User ID, [follow this guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). You will first need to enable Developer mode on your account. Paste your User ID into the `Discord User ID` box.
 
- <img src="../images/discord-bot-userid.png">
+ <img src="images/discord-bot-userid.png">
 
 
 ## Step 4: Set up your channels and notifications.
@@ -85,14 +85,14 @@ Open up the Pokemon Automation Computer control program and click on the Setting
 
 3. If you want your bot to respond to commands in that channel, check `Allow Commands`.
 
-<img src="../images/discord-notifications-program-settings-bots-1.png">
+<img src="images/discord-notifications-program-settings-bots-1.png">
 
 
 ## Step 5: Send a test message and try out commands.
 
 Click `Start Bot`. 
 
-<img src="../images/discord-bot-start.png">
+<img src="images/discord-bot-start.png">
 
 If channel permissions are configured properly, the bot should appear online after a few moments. If it doesn't, check the channel and role permissions.
 
@@ -101,11 +101,11 @@ If the bot is online, good job! Now let's test notifications and commands!
 
 Navigate to any program that sends notifications. All programs that send notifications will have the following section near the bottom of the settings.
 
-<img src="../images/discord-notifications-event-settings-1.png">
+<img src="images/discord-notifications-event-settings-1.png">
 
 Click on any of the "Send Test Message" buttons. If everything worked properly, this will send a message to the configured channel(s).
 
-<img src="../images/discord-notifications-bot-0.png">
+<img src="images/discord-notifications-bot-0.png">
 
 ***When using slash commands for the very first time you will have to register them. To do this, type `_cmd register` in a Discord channel you have commands enabled in.
 You can also use this command to re-register commands if new ones are added in the future.***
@@ -236,7 +236,7 @@ Add a delay for sending messages. If you're sending messages to tons of channels
 * **My bot's slash commands are showing up in every channel!**
 
 Restrict slash commands in your server settings.
-<img src="../images/discord-slash-restriction.png">
+<img src="images/discord-slash-restriction.png">
 
 * **I've registered slash commands but I don't see them!**
 

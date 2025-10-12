@@ -4,7 +4,7 @@ This setup uses an ESP32 microcontroller to emulate a wireless controller. It ca
 
 The USB port plugs into the computer which is how the program will control it. At the other end is an antenna that supports Bluetooth which is how it will fake itself as a joycon or a wireless pro controller to the Switch.
 
-<img src="../../Images/Mac/esp32.jpg" height="350"> <img src="../../Images/Mac/esp32-full-setup.jpg" height="350">
+<img src="../Images/Mac/esp32.jpg" height="350"> <img src="../Images/Mac/esp32-full-setup.jpg" height="350">
 
 ## Hardware Setup:
 
@@ -29,7 +29,7 @@ The USB port plugs into the computer which is how the program will control it. A
     - ESP32: $3 each from AliExpress
     - USB Cable/Adapter: < $1 each from AliExpress
 
-<img src="../../Images/Mac/esp32-setup.jpg" width="800">
+<img src="../Images/Mac/esp32-setup.jpg" width="800">
 
 **Important:** There are many variants of the ESP32 microcontroller. The ESP32-WROOM is the only one that works here. So you must get that specific model. (e.g. Don't get the ESP32-S3-WROOM, or ESP32-S2-WROOM, or ESP32-C2, etc.)
 
@@ -65,7 +65,7 @@ We recommend getting ones without pins since you don't need them (though they ar
 
 Most likely you will end up buying a pack of at least 2 or 3 since they don't get any cheaper in single quantity. This is great if you want to automate multiple Switches.
 
-<img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
+<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
 
 **A micro-USB or USB-C to USB-A cable:**
 
@@ -91,7 +91,7 @@ And that's it!
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../../Images/Mac/select-capture-device-2.png">
+<img src="../Images/Mac/select-capture-device-2.png">
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
@@ -113,7 +113,7 @@ brew install --cask silicon-labs-vcp-driver
 
 Open up System Information and look for it under USB → USB Device Tree. If you don't see it, then maybe these above drivers are not correct. Or try a different USB port.
 
-<img src="../../Images/Mac/usb-device-tree.png" width=400>
+<img src="../Images/Mac/usb-device-tree.png" width=400>
 
 ### Step 2: Get ESP-32 PABotBase Firmware.
 Download the latest version of PABotBase-ESP32 from [here](https://github.com/PokemonAutomation/AutoBuildRelease/releases). If you have the ESP32-S3 variant, download the corresponding ESP32-S3 binary.
@@ -129,17 +129,17 @@ Download the latest version of PABotBase-ESP32 from [here](https://github.com/Po
 3. Click `Connect`.
 4. Select your ESP32 device in the pop-up. Click `Connect`.
    
-<img src="../../Images/Mac/esp32-flash-select.png" width=400 style="display: block; margin: 10px 40px">
+<img src="../Images/Mac/esp32-flash-select.png" width=400 style="display: block; margin: 10px 40px">
 
 5. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
 6. Click `Choose File`: Select the firmware file (`PABotBase-ESP32-<version>.bin`), then click `Open` to choose the file.
 7. Click `Program`.
 
-<img src="../../Images/Mac/esp32-flash-load.png" width="600" style="display: block; margin: 10px 40px">
+<img src="../Images/Mac/esp32-flash-load.png" width="600" style="display: block; margin: 10px 40px">
 
 8. Click `Program`.
 
-<img src="../../Images/Mac/esp32-flash-program.png" width="600" style="display: block; margin: 10px 40px">
+<img src="../Images/Mac/esp32-flash-program.png" width="600" style="display: block; margin: 10px 40px">
 
 9. Wait for the program to flash. If successful, you should see the following in the console:
 ```
@@ -157,7 +157,7 @@ The Grip menu is the only place where the ESP32 can connect to the Switch.
 
 To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
 
-<img src="../../Images/GripMenu3.png">
+<img src="../Images/GripMenu3.png">
 
 ### Step 5: Connect the ESP32 to the Computer Control program
 
@@ -168,7 +168,7 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/Mac/esp32-controller-discovered.png">
+<img src="../Images/Mac/esp32-controller-discovered.png">
 
 Both the wired and wireless setups use serial ports. The program can distinguish them when it connects to it.
 
@@ -182,7 +182,7 @@ After 5 seconds, you should see a controller pop-up in the Grip menu on the Swit
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
 
-<img src="../../Images/Mac/esp32-controller-connected.png">
+<img src="../Images/Mac/esp32-controller-connected.png">
 
 
 ### Step 6: Test the connection
@@ -195,7 +195,7 @@ We recommend familiarizing yourself with the keyboard controls as this is the pr
 
 Overall, the idea here is that you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
-<img src="../../Images/Mac/button-map.png" width=400>
+<img src="../Images/Mac/button-map.png" width=400>
 
 **Controller Types:**
 
@@ -288,7 +288,7 @@ If you have multiple ESP32s, spread them out to reduce wireless interference.
 
 As tempting as it may be, do not do this:
 
-<img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
+<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
 
 It is as cute as it is stupid, and it will give you problems. We tried it so you don't have to!
 

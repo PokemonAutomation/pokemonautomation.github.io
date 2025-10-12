@@ -17,7 +17,7 @@ EggSuperCombined2 is the most optimized of the egg programs in this package. Whe
    * So you hatch eggs overnight. When you wake up in the morning, spend only a few minutes to remove shinies and fix boxes. Then start EggSuperCombined before heading to work. This allows you to hatch eggs 24/7 while touching the Switch only 2 or 3 times a day.
    * Experienced users will be able to sustain 24/7 hatching using only this program. The size of the egg reservoir can be kept in check by modifying the **"Fetches per Batch"** parameter.
 
-<img src="../images/EggCombined2-0.png">
+<img src="images/EggCombined2-0.png">
 
 ### Setup of Settings
 
@@ -117,7 +117,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 In addition to the main options below, there are more [global options](PokemonSettings.md) that can be configured if you encounter problems.
 
-<img src="../images/EggSuperCombined2-Settings.png">
+<img src="images/EggSuperCombined2-Settings.png">
 
 ### # of Boxes to Release:
 

@@ -2,7 +2,7 @@
 
 This is a list of global settings for Pokémon Sword/Shield.
 
-<img src="../images/PokemonSettings-0.png">
+<img src="images/PokemonSettings-0.png">
 
 
 ## Egg Options

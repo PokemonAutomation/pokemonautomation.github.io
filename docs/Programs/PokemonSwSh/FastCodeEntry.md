@@ -1,6 +1,6 @@
 # Fast Code Entry
 
-<img src="../images/FastCodeEntry-0.png">
+<img src="images/FastCodeEntry-0.png">
 
 
 ## Program Description

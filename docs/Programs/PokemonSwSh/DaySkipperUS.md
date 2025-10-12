@@ -23,7 +23,7 @@ On the Switch 1, the exact speed will depend on the real life year. For the year
 
 > Note that this skipper is slower than the [Japanese date skipper](DaySkipperJPN.md). If you are doing large skips, it is recommended to change the Switch language to Japanese and use the Japanese skipper.*
 
-<img src="../images/DaySkipperUS-0.png">
+<img src="images/DaySkipperUS-0.png">
 
 ### Setup of Settings
 

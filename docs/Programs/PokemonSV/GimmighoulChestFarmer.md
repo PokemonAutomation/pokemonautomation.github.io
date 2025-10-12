@@ -6,7 +6,7 @@ Farm Gimmighoul chests by advancing the in-game day with date skipping.
 
 **Note: [Gimmighoul Roaming Farmer](GimmighoulRoamingFarmer.md) is more effective.**
 
-<img src="../images/ChestGimmiFarm.png">
+<img src="images/ChestGimmiFarm.png">
 
 ## Settings
 

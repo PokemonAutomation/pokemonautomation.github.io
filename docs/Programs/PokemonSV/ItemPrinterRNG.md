@@ -13,7 +13,7 @@ Before you proceed, make sure you understand the mechanics of this exploit and h
 
 The default settings for this program will produce 10 rare balls using only a single seed. (using a seed found by Anubis) If you want other seeds for other items, please look them up online. Here is a list of useful seeds from Anubis: [https://gist.github.com/Lusamine/112d4230919fadd254f0e6dfca850471](https://gist.github.com/Lusamine/112d4230919fadd254f0e6dfca850471)
 
-<img src="../images/ItemPrinterRNG-0.png">
+<img src="images/ItemPrinterRNG-0.png">
 
 
 # Caution
@@ -53,7 +53,7 @@ Once it is fully calibrated, the accuracy is typically around 70%.
 
 # Options
 
-<img src="../images/ItemPrinterRNG-1.png">
+<img src="images/ItemPrinterRNG-1.png">
 
 ## Game Language
 

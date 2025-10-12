@@ -4,7 +4,7 @@
 
 TurboA does exactly what its name implies - it endlessly presses the button you've selected.
 
-<img src="../images/TurboButton-0.png">
+<img src="images/TurboButton-0.png">
 
 ### Instructions
 

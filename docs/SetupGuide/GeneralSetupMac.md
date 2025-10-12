@@ -10,7 +10,7 @@ If your MacOS version is Monterrey (12) or lower, you will need to compile Seria
 
 > To check your OS version, click the Apple logo at the top left in the Toolbar and select **About This Mac**.
 
-<img src="../Images/Mac/about-this-mac.png" alt="A photo of the About This Mac window" width=400>
+<img src="Images/Mac/about-this-mac.png" alt="A photo of the About This Mac window" width=400>
 
 ### Download SerialPrograms-Installer.dmg
 
@@ -22,21 +22,21 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 1. Open `SerialPrograms-Installer.dmg`
 2. Drag `SerialPrograms` into the `Applications` folder
    
-<img src="../Images/Mac/dmg-installer.png" width=600 style="display: block; margin: 10px 40px">
+<img src="Images/Mac/dmg-installer.png" width=600 style="display: block; margin: 10px 40px">
 
 3. Go to your `Applications` folder and open `SerialPrograms` 
 4. You will be greeted with the following warning, click **Done**. This warning is given on any program downloaded on the internet that does not have Apple's official (paid) notarization. This project is unmonitized and the entirety of the MacOS installation is open sourced if you wish to vet the program yourself.
 
-<img src="../Images/Mac/open-warning.png" width=400 style="display: block; margin: 10px 40px">
+<img src="Images/Mac/open-warning.png" width=400 style="display: block; margin: 10px 40px">
 
 5. Open **System Settings** and navigate to the **Privacy & Security** section. Scroll down until you see the SerialPrograms warning. Click **Open Anyway**.
 
-<img src="../Images/Mac/security-settings.png" height=800 style="display: block; margin: 10px 40px">
+<img src="Images/Mac/security-settings.png" height=800 style="display: block; margin: 10px 40px">
 
 6. Follow the prompts to open the app. You may need to click **Open Anyways** multiple times and you may need to input your password. Note that this is only needed the first time you open the app. For the first time, the app may take some time to open.
 7. The app may ask you to install Rosetta and/or give the app permissions to files/camera/microphone. These are required in order to write program settings to file and read video and audio from your capture card.
 
-<img src="../Images/Mac/app-interface.png" height=800 style="display: block; margin: 10px 40px"> 
+<img src="Images/Mac/app-interface.png" height=800 style="display: block; margin: 10px 40px"> 
 
 ## Step 3: Setup video.
 
@@ -45,11 +45,11 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 
 Depending on your capture card, it may look different from this:
 
-<img src="../Images/Mac/capture-card.png" height=800>
+<img src="Images/Mac/capture-card.png" height=800>
 
 1. Select your capture card in the "Camera" dropdown. If you don't see it there, click "Reset Camera" to refresh the list.
 
-<img src="../Images/Mac/select-capture-device.png" height=800> <img src="../Images/Mac/select-capture-device-2.png" height=800>
+<img src="Images/Mac/select-capture-device.png" height=800> <img src="Images/Mac/select-capture-device-2.png" height=800>
 
 ## Step 4: Setup sound.
 
@@ -62,7 +62,7 @@ The sound options are below the Camera options. Most of these options are self-e
 If you did everything right until now, the black bar will light up with the audio spectrum and you will hear the sound from your Switch.
 
 
-<img src="../Images/Mac/select-audio-device.png" height=800> <img src="../Images/Mac/select-audio-device-2.png" height=800>
+<img src="Images/Mac/select-audio-device.png" height=800> <img src="Images/Mac/select-audio-device-2.png" height=800>
 
 The Audio Input is the important one since programs that listen to audio will be using that.
 The Audio Output and playback are only for user consumption. You can mute the program by changing the Audio Output to (none) or moving the slider all the way to the left.
@@ -87,7 +87,7 @@ Feel free to adjust the visual settings:
 
 Of course there are many other programs that can also play video and audio from your Switch through a capture card. But in the next step, we will be connecting a controller to it to allow the program to play (and automate) your Switch!
 
-Back to the [Setup Guide](../index.md#step-3-controller-setup).
+Back to the [Setup Guide](index.md#step-3-controller-setup).
 
 
 ## Troubleshooting:

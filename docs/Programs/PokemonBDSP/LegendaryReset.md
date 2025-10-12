@@ -31,7 +31,7 @@ It is not known if this program works on:
 - Rotom
 
 
-<img src="../images/LegendaryReset-0.jpg">
+<img src="images/LegendaryReset-0.jpg">
 
 ### Setup of Settings
 

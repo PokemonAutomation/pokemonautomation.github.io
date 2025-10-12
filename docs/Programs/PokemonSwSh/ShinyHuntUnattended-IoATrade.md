@@ -27,7 +27,7 @@ This program does one encounter every ~2 minutes. This leads to 5.5 day odds for
 
 This program works by performing a trade and then forcing an encounter with the Beartic on Route 10.
 
-<img src="../images/ShinyHuntUnattended-IoATrade-0.png">
+<img src="images/ShinyHuntUnattended-IoATrade-0.png">
 
 ## Calibration
 
@@ -106,14 +106,14 @@ Once started, the program will do the following:
 
 On a shiny trade, it will appear shiny in the trade itself.
 
-<img src="../images/ShinyHuntUnattended-IoATrade-1.png" width="400">
+<img src="images/ShinyHuntUnattended-IoATrade-1.png" width="400">
 
 
 ## Options
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/ShinyHuntUnattended-IoATrade-Settings.png">
+<img src="images/ShinyHuntUnattended-IoATrade-Settings.png">
 
 ### Start to Run Delay:
 

@@ -10,7 +10,7 @@ Farm duplicating items in Tears of the Kingdom through the "equip to bow, drop b
 
 This program will perform the button presses for the glitch very quickly and repeat it for a specified number of attempts.
 
-<img src="../images/totk-bowdupe-standing-position.png">
+<img src="images/totk-bowdupe-standing-position.png">
 
 **Warning**: There is some instability with this program. Even when properly calibrated, duplications are not guaranteed (and calibration can change even between items that will be duped). More research is going into best locations and bows, but users have found consistent results outside shrines with two identical bows.
 
@@ -38,7 +38,7 @@ Note, you can only hold 999 of any given item. Additionally, your duplication wi
 
 Here is what your menu should look like before starting the glitch:
 
-<img src="../images/totk-bowdupe-menu.png">
+<img src="images/totk-bowdupe-menu.png">
 
 ## Troubleshooting
 

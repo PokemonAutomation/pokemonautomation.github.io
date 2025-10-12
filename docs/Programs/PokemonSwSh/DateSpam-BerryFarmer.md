@@ -20,7 +20,7 @@ BerryFarmer will farm berries from a tree. It requires activating the Y-Comm gli
 
 - **Wired Controller:** 15.9 seconds/fetch
 
-<img src="../images/DateSpam-BerryFarmer-0.png">
+<img src="images/DateSpam-BerryFarmer-0.png">
 
 ### Setup of Settings
 
@@ -56,7 +56,7 @@ This program does not have the ability to avoid the system update window. Should
 
 Most of the options here are self-explanatory.
 
-<img src="../images/DateSpam-BerryFarmer-Settings.png">
+<img src="images/DateSpam-BerryFarmer-Settings.png">
 
 
 ## Credits

@@ -8,7 +8,7 @@ This program is for The Legend of Zelda: Tears of the Kingdom. The program is st
 
 Farm items by duplicating them in Tears of the Kingdom. This works by holding items and pressing sort + back at the same time while technically airborne within Mineru.
 
-<img src="../images/totk-mineru-dupe.png">
+<img src="images/totk-mineru-dupe.png">
 
 ## Settings
 

@@ -49,7 +49,7 @@ The program will hatch eggs in batches of 5 (one column at a time). Once a box i
 2. Stand in the following location.
 3. Start the program.
 
-<img src="../images/EggHatcher-0.png">
+<img src="images/EggHatcher-0.png">
 
 
 ## Options

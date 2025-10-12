@@ -1,6 +1,6 @@
 # Shiny Hunt - Area Zero Platform
 
-<img src="../images/ShinyHunt-AreaZeroPlatform-0.png">
+<img src="images/ShinyHunt-AreaZeroPlatform-0.png">
 
 <sup>(Image shamelessly stolen from Scotteh's run of the program.)</sup>
 
@@ -32,7 +32,7 @@ Running on sandwich mode will drastically increase shiny and/or mark rates and b
 
 Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports auto-catching by blindly throwing balls. But due to the low catch rates of paradox Pokémon, you will need a very tanky lead and a lot of balls.
 
-<img src="../images/ShinyHunt-AreaZeroPlatform-2.png">
+<img src="images/ShinyHunt-AreaZeroPlatform-2.png">
 
 ### Setup of Settings
 
@@ -93,7 +93,7 @@ In sandwich mode, the Sparkling/Title/Encounter preset recipes have a built-in m
 
 ## Options
 
-<img src="../images/ShinyHunt-AreaZeroPlatform-3.png">
+<img src="images/ShinyHunt-AreaZeroPlatform-3.png">
 
 ### Game Language:
 

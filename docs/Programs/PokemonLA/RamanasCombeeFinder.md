@@ -39,7 +39,7 @@ Alternatively, the program also can stop if a shiny is heard during the route to
 4. **You have Pokémon selected and NOT items on the right bottom side**
 5. Start the program in the game.
 
-<img src="../images/BurmyHunter-1.png">
+<img src="images/BurmyHunter-1.png">
 
 
 ## Options

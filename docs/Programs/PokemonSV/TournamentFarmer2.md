@@ -11,7 +11,7 @@ Farm the Academy Ace Tournament for money and prizes. (updated version for Indig
 
 Because of the increased difficulty of the tournament after completing DLC2, this version of the tournament farmer is better as it allows better customization move selection. However, as of this writing, it cannot track money or item rewards.
 
-<img src="../images/TournamentFarmer2.png">
+<img src="images/TournamentFarmer2.png">
 
 ## Setup
 
@@ -26,9 +26,9 @@ All Pokémon should be level 100 with 31 IVs (or hypertrained) in the relevant s
 | **1st Pokémon** | **2nd Pokémon** |
 | --- | --- |
 | **Smeargle:**<br>Ability: Own Tempo<br>Spread: Timid - 252 defense, 252 speed<br>Item: Amulet Coin<br>Moves:<br> - Taunt<br> - Happy Hour<br> - Memento<br><br>-- or --<br><br>**Zoroark (Hisuian):**<br>Spread: Timid - 252 defense, 252 speed<br>Item: Amulet Coin<br>Moves:<br> - Taunt<br> - Happy Hour<br> - Memento | **Kyurem (White):**<br>Spread: Modest - 252 spatk, 252 speed<br>Tera: Ice<br>Item: Choice Specs<br>Moves:<br> - Freeze Dry <br><br>(Freeze Dry is weaker than Ice Beam, but will kill all the bulky water types.)<br><br>-- or --<br><br>**Calyrex (Ice):**<br>Spread: Adamant - 252 atk, 252 speed<br>Tera: Ice<br>Item: Choice Band<br>Moves:<br> - Glacial Lance |
-| <img src="../images/TournamentFarmer2-Smeargle.png"> | <img src="../images/TournamentFarmer2-Kyurem.png"> |
+| <img src="images/TournamentFarmer2-Smeargle.png"> | <img src="images/TournamentFarmer2-Kyurem.png"> |
 
-<img src="../images/TournamentFarmer2-MoveTable.png">
+<img src="images/TournamentFarmer2-MoveTable.png">
 
 The strategy behind this setup is as follows:
 

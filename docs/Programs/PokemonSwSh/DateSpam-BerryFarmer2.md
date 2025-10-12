@@ -18,7 +18,7 @@ Under optimal conditions, this program runs at an average of around 9 seconds pe
 In rare cases, a battle starts and the opposing Pokémon gets defeated. If you do not want a Pokémon to accidentally gain experience or EV points remove it from your party.
 This program will detect shiny Pokémon, however, a better alternative for this specific use is [Shiny Hunt (Autonomous) - Berry Tree](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-BerryTree.md).
 
-<img src="../images/DateSpam-BerryFarmer2-0.png">
+<img src="images/DateSpam-BerryFarmer2-0.png">
 
 
 ### Setup of Settings

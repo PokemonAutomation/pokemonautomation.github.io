@@ -23,7 +23,7 @@ As with the previous version of this program, hatch and fetch rates will rarely 
 
 Be aware that the complexity of this program makes it inherently less reliable than the regular EggHatcher. Unlike EggHatcher, it does not tolerate early hatching eggs and requires all eggs to hatch at the same time at the specified step count. If you need to clean up a bunch of eggs of unknown remaining step count, use EggHatcher.
 
-<img src="../images/EggCombined2-0.png">
+<img src="images/EggCombined2-0.png">
 
 ### Setup of Settings
 
@@ -101,7 +101,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 In addition to the main options below, there are more [global options](PokemonSettings.md) that can be configured if you encounter problems.
 
-<img src="../images/EggCombined2-Settings.png">
+<img src="images/EggCombined2-Settings.png">
 
 ### Boxes of Eggs to Hatch:
 

@@ -18,7 +18,7 @@ The method is described here: [https://www.youtube.com/watch?v=OGBPgeSsf-E](http
 
 This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.md).
 
-<img src="../images/ActivateMenuGlitch-Poketch-0.png">
+<img src="images/ActivateMenuGlitch-Poketch-0.png">
 
 ### Settings
 
@@ -37,7 +37,7 @@ This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.
 
 The program will attempt to enable the menu glitch. Then it will enter the Pokémon center and park in the ideal spot to run the cloning programs.
 
-<img src="../images/ActivateMenuGlitch-Poketch-1.png" width="400"> <img src="../images/ActivateMenuGlitch-Poketch-2.png" width="400">
+<img src="images/ActivateMenuGlitch-Poketch-1.png" width="400"> <img src="images/ActivateMenuGlitch-Poketch-2.png" width="400">
 
 ## Options
 

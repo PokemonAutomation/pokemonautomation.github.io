@@ -64,7 +64,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 Most of the options here are self-explanatory.
 
-<img src="../images/SurpriseTrade-Settings.png">
+<img src="images/SurpriseTrade-Settings.png">
 
 
 ## Credits

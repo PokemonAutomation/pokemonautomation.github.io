@@ -4,7 +4,7 @@
 
 Shiny hunt Alolan forms by trading in-game.
 
-<img src="../images/AlolanTrade-0.png">
+<img src="images/AlolanTrade-0.png">
 
 ## Setup
 

@@ -11,7 +11,7 @@ The microcontroller and computer-control versions of this program are functional
 
 **This program requires a setup that can only be performed on version 1.0.1 and earlier. But it will work on version 1.1.0 if setup prior to upgrading.**
 
-<img src="../images/CloneItems-0.png">
+<img src="images/CloneItems-0.png">
 
 ## Program Description
 
@@ -70,7 +70,7 @@ Most people can keep their ride legendary in their party all the time since it's
 
 | **Version 0.21.8**<br>(6th slot in your party) | **Version 0.21.9 and later**<br>(2nd slot in your party) |
 | --- | --- |
-| <img src="../images/CloneItems-0.png"> | <img src="../images/CloneItems-1.png"> |
+| <img src="images/CloneItems-0.png"> | <img src="images/CloneItems-1.png"> |
 
 
 ### Recommendations

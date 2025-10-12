@@ -23,7 +23,7 @@ This program is meant to support manual rng manipulation.
 2. Open the party menu and move to Orbeetle.
 3. Start the program in-game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
 
-<img src="../images/Seedfinder-0.png">
+<img src="images/Seedfinder-0.png">
 
 ## Options
 

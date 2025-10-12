@@ -25,7 +25,7 @@ It also supports the following enhancements:
 
 The online and auto-hosting functionality makes it possible for multiple people to run the same program in lock-step and automatically join/help each other.
 
-<img src="../images/MaxLair-0.png">
+<img src="images/MaxLair-0.png">
 
 ## Differences from AutoMaxLair
 
@@ -43,7 +43,7 @@ Serial AutoDA is a rewrite/port of AutoMaxLair, but it's not an complete replace
 - Stat and IV hunting.
 - Hunting for specific non-boss Pokémon.
 
-<img src="../images/MaxLair-1.png">
+<img src="images/MaxLair-1.png">
 
 
 <hr>

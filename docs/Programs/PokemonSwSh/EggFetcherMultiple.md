@@ -8,7 +8,7 @@ This program is used with [EggHatcher](EggHatcher.md) to fetch and hatch eggs. T
 
 Unlike the other egg fetcher, it will fetch a chosen number of eggs before switching one parent and trying again.
 
-<img src="../images/EggFetcher2-0.png">
+<img src="images/EggFetcher2-0.png">
 
 ### Setup of Settings
 

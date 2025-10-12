@@ -2,6 +2,7 @@ site_name: Pokémon Automation
 site_url: https://pokemonautomation.github.io
 repo_url: https://github.com/PokemonAutomation/About
 repo_name: PokemonAutomation/About
+use_directory_urls: false
 
 theme:
   logo: assets/original_logo_no_background.png

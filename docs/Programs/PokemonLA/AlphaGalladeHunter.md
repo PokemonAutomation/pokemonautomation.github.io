@@ -23,7 +23,7 @@ This list of Pokémon this program can shiny hunt are:
 - Golbat
 - Bronzong
 
-<img src="../images/AlphaGalladeHunter-0.jpg">
+<img src="images/AlphaGalladeHunter-0.jpg">
 
 Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/950125812273782844/2022-03-06_06-42-37.mp4
 
@@ -59,7 +59,7 @@ The stats for everything in the cave are generated upon first entry to the cave.
 
 If you run this program after having already entered the cave during this visit to the region, everything in the cave will be identical on each reset! Therefore you are ***required*** to use the Braviary height program to reach the roof entrance without going through the temple!
 
-<img src="../images/AlphaGalladeHunter-1.png" width="500"> <img src="../images/AlphaGalladeHunter-2.png" width="500">
+<img src="images/AlphaGalladeHunter-1.png" width="500"> <img src="images/AlphaGalladeHunter-2.png" width="500">
 
 The program will repeatedly enter the temple, navigate to the alpha Gallade, and reset.
 If the program finds a shiny, it will stop and go to the Switch home to freeze the game.

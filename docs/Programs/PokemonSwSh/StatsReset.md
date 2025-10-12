@@ -6,7 +6,7 @@ Reset gift Pokémon for desired stats.
 
 You can't shiny-hunt these, so you might as well go for stats...
 
-<img src="../images/StatsReset-0.png">
+<img src="images/StatsReset-0.png">
 
 ### Setup of Settings
 
@@ -49,7 +49,7 @@ This program requires you to input what stat range you want to search for.
 
 This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
-<img src="../images/StatsReset-Settings.png">
+<img src="images/StatsReset-Settings.png">
 
 ### Go Home when Done:
 

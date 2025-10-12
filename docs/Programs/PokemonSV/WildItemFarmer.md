@@ -24,7 +24,7 @@ The program does not automate the part that clones a Pokémon into the wild. Ins
 
 **(Do not catch the clone if it is a fused Pokémon! A cloned fused Pokémon cannot be properly unfused or removed from the game.)**
 
-<img src="../images/WildItemFarmer-Trick.png">
+<img src="images/WildItemFarmer-Trick.png">
 
 
 ### How This Program Works:
@@ -73,7 +73,7 @@ In either case, the program will detect this error condition and stop. There is 
 - If your Pokémon has Trick in the 2nd-4th slots, have it learn all the moves above it. That will move Trick into the first slot.
 - If your Pokémon can only learn Trick as a TM, it will have it in a relearn slot only if it was TM'ed the move in Scarlet/Violet. If it was transferred in from a different game already knowing Trick, you will first need to forget Trick and relearn it through a TM.
 
-<img src="../images/WildItemFarmer-TrickUser.png" width="500"> <img src="../images/WildItemFarmer-TrickRelearn.png" width="500">
+<img src="images/WildItemFarmer-TrickUser.png" width="500"> <img src="images/WildItemFarmer-TrickRelearn.png" width="500">
 
 
 ## Suggested Start Locations
@@ -88,7 +88,7 @@ Walk around your clone until the green question mark appears (usually showing up
 
 The location around the tree that spawns your clone is not a great location as it will wander around and there are lots of wild Pokémon to attack you. Unless you get lucky, running the program here will rarely last more than 20-30 items cloned before the clone wanders off or you get attacked by something else.
 
-<img src="../images/WildItemFarmer-UnderTree.png">
+<img src="images/WildItemFarmer-UnderTree.png">
 
 
 ### The Pride Rock: (average clones to failure: 50-70)
@@ -104,9 +104,9 @@ Failure cases are:
 1. Eventually getting attacked from behind. (usually a Deerling)
 2. The encounter cycle rotates out of place and the clone wanders away from in front of you.
 
-<img src="../images/WildItemFarmer-PrideRockTip.png">
+<img src="images/WildItemFarmer-PrideRockTip.png">
 
-<img src="../images/WildItemFarmer-PrideRock-Map.png" width="500"> <img src="../images/WildItemFarmer-PrideRock-Outside.png" width="500">
+<img src="images/WildItemFarmer-PrideRock-Map.png" width="500"> <img src="images/WildItemFarmer-PrideRock-Outside.png" width="500">
 
 
 ### Ice/Canyon Boundary Platform: (average clones to failure: ∞)
@@ -117,7 +117,7 @@ Once you land on this platform, place the clone on the edge with the cliff behin
 
 Do not face the other direction as the battle may push the clone into the wall at which it is lost. Do not turn on the "Forward Run" option as it eventually causes either you and/or the clone to fall off.
 
-<img src="../images/WildItemFarmer-IceCanyonPlatform-Map.png" width="500"> <img src="../images/WildItemFarmer-IceCanyonPlatform.png" width="500">
+<img src="images/WildItemFarmer-IceCanyonPlatform-Map.png" width="500"> <img src="images/WildItemFarmer-IceCanyonPlatform.png" width="500">
 
 Here is a sample video demonstrating how the clone can be lured to this location: https://cdn.discordapp.com/attachments/711649658220314635/1196998059427647578/CloneGlitch-KyuremToPlatform.mp4
 
@@ -129,14 +129,14 @@ Here is a sample video demonstrating how the clone can be lured to this location
 
 Next to the ramp at the entrance of the Terarium. While it looks isolated, it has been tested to be bad. You get attacked from behind by lots of things.
 
-<img src="../images/WildItemFarmer-TerariumEntrance.png" width="600">
+<img src="images/WildItemFarmer-TerariumEntrance.png" width="600">
 
 
 ### Various Caves: (average clones to failure: 20-30)
 
 Large clones cannot be led into the cave. It's unknown if smaller ones can. Outside you get attacked.
 
-<img src="../images/WildItemFarmer-Caves.png" width="600">
+<img src="images/WildItemFarmer-Caves.png" width="600">
 
 
 ## Credits

@@ -8,7 +8,7 @@ This program is for The Legend of Zelda: Tears of the Kingdom. The program is st
 
 Farm items by duplicating them in Tears of the Kingdom. This works by holding items and pressing sort + back at the same time while shield surfing. Based on this [video](https://youtu.be/t9bl4_UbxNk).
 
-<img src="../images/totk-shield-surf-dupe.png">
+<img src="images/totk-shield-surf-dupe.png">
 
 ## Settings
 

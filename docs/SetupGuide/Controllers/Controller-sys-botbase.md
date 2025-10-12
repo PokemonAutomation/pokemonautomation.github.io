@@ -33,7 +33,7 @@ Since there is no additional hardware, there are no additional hardware setup in
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../../Images/GeneralSetup-CC.png">
+<img src="../Images/GeneralSetup-CC.png">
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
@@ -60,7 +60,7 @@ Places where the Switch will accept a new controller:
 2. The Switch home or settings.
 3. In a game when no other controllers are connected.
 
-<img src="../../Images/GripMenu.png">
+<img src="../Images/GripMenu.png">
 
 ### Step 4: Connect to the Switch
 
@@ -69,7 +69,7 @@ Places where the Switch will accept a new controller:
 
 If everything worked correctly, it will look like this:
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-Connected-Labled.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-Connected-Labled.png">
 
 If not, see [troubleshooting](#troubleshooting).
 
@@ -83,7 +83,7 @@ We recommend familiarizing yourself with the keyboard controls as this is the pr
 
 The default layout is the standard WASD setup for FPS games on the most common QWERTY keyboard layout. If you don't like it or you have a different keyboard layout, you can change the key mappings in the "Framework Settings" panel at the top of the program list to the left.
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-Controls.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-Controls.png">
 
 ### Step 6: You are done!
 
@@ -98,13 +98,13 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 ### Stuck on "Not Connected"
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-NotConnected.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-NotConnected.png">
 
 This usually means the IP address is wrong.
 
 ### Stuck on "Connecting" or "Timed Out"
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-Connecting.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-Connecting.png">
 
 Try clicking "Reset Ctrl". This can sometimes fix intermittent issues.
 
@@ -128,7 +128,7 @@ Most programs will block keyboard inputs if the program is running. So if you ha
 
 ### Response time is very high
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-HighLatency.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-HighLatency.png">
 
 The response time is how long it takes to round-trip from your computer to sys-botbase and back. It will always be longer than a ping due to overhead within sys-botbase and/or Atmosphere.
 
@@ -136,14 +136,14 @@ High reponse time used to be a huge problem with sys-botbase 2.4. But starting f
 
 ### "Last Ack: xxx seconds ago"
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-LastAck.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-LastAck.png">
 
 This means the Switch has stopped responding to the computer's commands. The most common (unobvious) cause of this is that the Switch entered local connection mode because you didn't have ldn-mitm enabled. Because sys-botbase relies on the network connection to communicate with the Switch, going into local connection mode will kill this connection. So while sys-botbase is still running on the Switch, no commands are getting through.
 
 
 ### "Cannot start program. The controller is missing the feature: TickPrecise"
 
-<img src="../../Images/sys-botbase/ControllerSetup-sbb-TickPrecise.png">
+<img src="../Images/sys-botbase/ControllerSetup-sbb-TickPrecise.png">
 
 If you are seeing this message, it means you are running sys-botbase 2.x. This version of sys-botbase lacks the timing precision needed to run many of our programs.
 

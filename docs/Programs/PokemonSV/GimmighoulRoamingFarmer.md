@@ -11,7 +11,7 @@ The microcontroller and computer-control versions of this program are functional
 
 Farm roaming Gimmighoul for coins by date skipping.
 
-<img src="../images/RoamingGimmighoulFarm-0.png">
+<img src="images/RoamingGimmighoulFarm-0.png">
 
 ## Settings
 

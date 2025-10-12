@@ -2,7 +2,7 @@
 
 ***This program relies on a glitch that was patched out in 1.1.0. It can only be used on versions 1.0.0 and 1.0.1.***
 
-<img src="../images/RideCloner-0.png">
+<img src="images/RideCloner-0.png">
 
 ## Program Description
 

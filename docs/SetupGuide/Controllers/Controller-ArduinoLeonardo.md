@@ -10,7 +10,7 @@ The wired controller setup is the most difficult of the setups. Most of you who 
 
 This version of the wired controller setup uses the Arduino Leonardo. It is the easiest of the wired controllers to setup.
 
-<img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" height="350"> <img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Setup.jpg" height="350">
+<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" height="350"> <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Setup.jpg" height="350">
 
 ## Hardware Setup:
 
@@ -60,17 +60,17 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
 
 **Important:**
 
 **DO NOT get cables with the Prolific controllers. e.g. PL2303 or any other model number.** They are cheap, do not work, and they are explicitly blocked in the program. **They often look deceptively similar to the Adafruit UART, but they are not the same.** If you buy outside of this link, verify it does not use PL controllers. If you buy it anyway, you will be wasting your time and money. **YOU HAVE BEEN WARNED!**
 
-<img src="../../Images/UART/ControllerSetup-UART-NoProlific.png" height="500">
+<img src="../Images/UART/ControllerSetup-UART-NoProlific.png" height="500">
 
 
 **Male-Male Jumper Wires:**
@@ -81,7 +81,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 If purchasing the items from this list, you will need Male to Male Jumper wires.
 **WARNING:** If you do ***not*** buy Hardware from this list, you will need to evaluate what you purchased for the correct type of Jumper Wire. e.g. Female-Male jumper wires may be needed instead.
 
-<img src="../../Images/UART/ControllerSetup-UART-JumperCables.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-JumperCables.jpg" height="200">
 
 
 ### Hardware Assembly:
@@ -101,7 +101,7 @@ Make the following connections:
 
 > **If you did **not** buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
 
-<img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Wiring.jpg" height="600">
+<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Wiring.jpg" height="600">
 
 **Step 2: Download QMK Toolbox**
 
@@ -115,24 +115,24 @@ You want the file `qmk_toolbox.exe`. You'll find it under `Assets`, under the ve
 
 The root folder of the SerialPrograms package should have a set of .hex files for each of the different devices.
 
-<img src="../../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" height="400">
 
 1. Run the QMK Toolbox program that you downloaded in PART 2.
 2. Open the .hex named `NintendoSwitch-PABotBase-xxxxxxxxx-ArduinoLeonardo.hex`.
 3. Change the MCU to `atmega32u4`.
 4. Check the "Auto-Flash" box.
 
-<img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK.png" height="600">
+<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK.png" height="600">
 
 5. Plug the Leonardo into your computer.
 6. Press the reset button.
 
-<img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-ResetButton.jpg" height="400">
+<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-ResetButton.jpg" height="400">
 
 The QMK program will now flash the program to the Leonardo and show a bunch of logging.
 Afterwards, the 3 LEDs on the Leonardo should flash in unison for 5 seconds before turning off.
 
-<img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK-Flashed.png" height="600">
+<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK-Flashed.png" height="600">
 
 7. Unplug the Leonardo from your computer.
 
@@ -144,7 +144,7 @@ Afterwards, the 3 LEDs on the Leonardo should flash in unison for 5 seconds befo
 
 At this point, your final setup should look like this:
 
-<img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Setup.jpg">
+<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Setup.jpg">
 
 ## Software Setup:
 
@@ -194,7 +194,7 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
 
    - To confirm that this was done properly, type `avrdude` into the console. You should see the avrdude version number, as well as a list of options available.
 
-   <img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-cd-to-avrdude.png" height="500">
+   <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-cd-to-avrdude.png" height="500">
 
 3. Confirm your microcontroller's COM port.
 
@@ -203,13 +203,13 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
     - Ensure the Leonardo is plugged into your computer and click the Leonardo's reset button. It should then show up in the Device Manager under `Ports (COM & LPT)`, as `USB Serial Device (COM#)`. Often, the Leonardo will then disconnect itself after a few seconds, and it will be greyed out in the list. However, if "Show hidden devices" is enabled, you should still be able to see the device and its COM port number.
     - In this example, the COM port for my Leonardo is COM3.
 
-    <img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port.png" height="150">
+    <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port.png" height="150">
 
 4. Flash the hex file with avrdude
 
    - Ensure the Leonardo is plugged into your computer and click the Leonardo's reset button. For a few seconds, it will no longer be greyed out in the Device manager. This means it's connected to your computer.
 
-    <img src="../../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port-2.png" height="150">
+    <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port-2.png" height="150">
 
    - While the Leonardo is connected for those few seconds, type/paste the following command into the console:
 

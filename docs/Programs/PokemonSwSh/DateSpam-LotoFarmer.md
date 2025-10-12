@@ -15,7 +15,7 @@ LotoFarmer will farm the loto. It requires activating the Y-Comm glitch.
 
 - **Wired Controller:** 22.3 seconds/attempt
 
-<img src="../images/DateSpam-LotoFarmer-0.png">
+<img src="images/DateSpam-LotoFarmer-0.png">
 
 ### Setup of Settings
 
@@ -48,7 +48,7 @@ This program does not have the ability to avoid the system update window. Should
 
 Most of the options here are self-explanatory.
 
-<img src="../images/DateSpam-LotoFarmer-Settings.png">
+<img src="images/DateSpam-LotoFarmer-Settings.png">
 
 
 ## Credits

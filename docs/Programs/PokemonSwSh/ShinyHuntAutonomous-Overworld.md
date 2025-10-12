@@ -10,8 +10,8 @@ This program will randomly seek out and encounter overworld Pokémon until it fi
 
 [Demo Video.mov (Authentic Sinistea)](https://cdn.discordapp.com/attachments/780505858613837835/842199538440732672/Shiny_Authentic_Sinistea.mp4)
 
-<img src="../images/ShinyHuntAutonomous-Overworld-0.jpg" width="800">
-<img src="../images/ShinyHuntAutonomous-Overworld-1.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-Overworld-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-Overworld-1.jpg" width="800">
 
 ### Setup of Settings
 
@@ -73,7 +73,7 @@ By default, the program is configured to randomly target everything. Here are so
 | "Fan Favorite"" | Sinistea (Glimwood*) | `No Preference` | `Horizontal Line Only`, `Max Target Alpha = 0` |
 
 *Needs to be in this specific location:<br>
-<img src="../images/ShinyHuntAutonomous-Overworld-Glimwood.png" width="800">
+<img src="images/ShinyHuntAutonomous-Overworld-Glimwood.png" width="800">
 
 > **Notes:**
 > Trigger Methods `Whistle Only` and `Circle Only` are generally not recommended. Though the options are there if you want to experiment.
@@ -88,7 +88,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 There is no option to search only for a square shiny. Nearly all shinies are square and only 15/65536 are star. Therefore it is infeasible to hunt for star shiny.
 
-<img src="../images/ShinyHuntAutonomous-Overworld-Settings.png">
+<img src="images/ShinyHuntAutonomous-Overworld-Settings.png">
 
 
 ### Go Home when Done:

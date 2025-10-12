@@ -6,7 +6,7 @@ Shiny hunt gift Pokemon by resetting the game.
 
 For fossils, use [Fossil Revival](FossilRevival.md) instead.
 
-<img src="../images/GiftReset-0.png">
+<img src="images/GiftReset-0.png">
 
 ## Setup
 

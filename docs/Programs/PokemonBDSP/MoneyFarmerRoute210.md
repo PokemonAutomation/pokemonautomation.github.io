@@ -11,7 +11,7 @@ Farm money by using the VS seeker to repeatedly battle trainer with high payout.
 
 This version of the Money Farmer uses a higher paying trainer (double) battle on Route 210. But it is more complicated to set up.
 
-<img src="../images/MoneyFarmerRoute210-3.png">
+<img src="images/MoneyFarmerRoute210-3.png">
 
 ### Setup of Settings
 
@@ -44,11 +44,11 @@ This version of the Money Farmer uses a higher paying trainer (double) battle on
 *This implies that your faster Pokémon must be able to OHKO the Gyarados and your slower one will OHKO the Raichu. (be aware of Raichu's Static ability)
 Alternatively you can use a spread move that wipes out both as long as it doesn't hurt your other Pokémon.
 
-<img src="../images/MoneyFarmerRoute210-0.png" width="400">
+<img src="images/MoneyFarmerRoute210-0.png" width="400">
 
 Once started, the program will walk to the following locations on Route 210 and repeatedly battle the Ace Trainer pair.
 
-<img src="../images/MoneyFarmerRoute210-1.png" width="400"> <img src="../images/MoneyFarmerRoute210-2.png" width="400">
+<img src="images/MoneyFarmerRoute210-1.png" width="400"> <img src="images/MoneyFarmerRoute210-2.png" width="400">
 
 
 ## Options

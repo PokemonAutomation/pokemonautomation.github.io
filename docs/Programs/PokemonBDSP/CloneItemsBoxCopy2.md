@@ -28,7 +28,7 @@ Relevant Videos:
 (Note there is a slightly [faster method](https://www.youtube.com/watch?v=ZbNYA9PzCAw) to clone items.
 However, this approach is harder to automate because the sequence breaks when your bag is full.)
 
-<img src="../images/CloneItemsBoxCopy2-0.png">
+<img src="images/CloneItemsBoxCopy2-0.png">
 
 ### Settings
 
@@ -50,7 +50,7 @@ However, this approach is harder to automate because the sequence breaks when yo
 2. All 30 Pokémon in the current box must be releasable.
 3. The next box (to the right) is empty.
 
-<img src="../images/CloneItemsBoxCopy-1.png">
+<img src="images/CloneItemsBoxCopy-1.png">
 
 ### Instructions
 
@@ -60,7 +60,7 @@ However, this approach is harder to automate because the sequence breaks when yo
 4. The menu glitch is active with the menu open. (see below picture for the starting position)
 5. Start the program in the game.
 
-<img src="../images/CloneItemsBoxCopy2-1.png">
+<img src="images/CloneItemsBoxCopy2-1.png">
 
 The program will enter the box system, clone the current box, release the clones (which detaches items to your inventory), and repeat.
 Unlike the previous version of this program, it will not back out into the overworld and reactive the glitch.

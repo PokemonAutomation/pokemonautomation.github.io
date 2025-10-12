@@ -1,6 +1,6 @@
 # Tera Auto-Host
 
-<img src="../images/AutoHost-0.png">
+<img src="images/AutoHost-0.png">
 
 ## Program Description
 
@@ -40,7 +40,7 @@ To host your shiny raid, make sure your raid is still there. If it isn't, close 
 
 When you host online with a link-code, the code is always randomized. For the purpose of auto-hosting, you will need to either stream the auto-host or use the [Discord notifications](/Wiki/Software/DiscordIntegration.md) to communicate the raid code to your audience.
 
-<img src="../images/AutoHost-1.png">
+<img src="images/AutoHost-1.png">
 
 For speed and convenience of [Fast Code Entry (FCE)](FastCodeEntry.md) users, the notifications will include the code as copy-pastable text. (The program will read the code from the video feed using optical character recognition.)
 

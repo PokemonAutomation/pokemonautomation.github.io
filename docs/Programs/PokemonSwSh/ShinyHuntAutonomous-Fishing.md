@@ -6,7 +6,7 @@ This program will shiny hunt fishing encounters.
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/823709108150075412/2021-03-22_19-04-14.mp4)
 
-<img src="../images/ShinyHuntAutonomous-Fishing-0.jpg" width="800">
+<img src="images/ShinyHuntAutonomous-Fishing-0.jpg" width="800">
 
 Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require no calibration. This program needs a capture card to detect a shiny from its animation.
 
@@ -58,7 +58,7 @@ This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/Ninten
 
 There is no option to search only for a square shiny. Nearly all shinies are square and only 15/65536 are star. Therefore it is infeasible to hunt for star shiny.
 
-<img src="../images/ShinyHuntAutonomous-Fishing-Settings.png">
+<img src="images/ShinyHuntAutonomous-Fishing-Settings.png">
 
 ### Go Home when Done:
 

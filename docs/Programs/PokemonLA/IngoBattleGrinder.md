@@ -14,7 +14,7 @@ This program will repeatedly attend Ingo's regular battles, send Pokémon to bat
 
 This program works on game version 1.0 and later.
 
-<img src="../images/IngoBattleGrinder-0.png">
+<img src="images/IngoBattleGrinder-0.png">
 
 
 ### Settings
@@ -39,7 +39,7 @@ This program works on game version 1.0 and later.
 3. Stand in front of Ingo.
 4. Start the program in the game.
 
-<img src="../images/IngoBattleGrinder-1.png">
+<img src="images/IngoBattleGrinder-1.png">
 
 The program will repeatedly talk to Ingo. It will choose an battle opponent according to the option. You can specify what styles you want to use on each move. You can also specify whether to switch the current Pokémon after a certain number of turns to keep the Pokémon alive (to gain exp or accumulate recoil damage for evolving Basculin).
 

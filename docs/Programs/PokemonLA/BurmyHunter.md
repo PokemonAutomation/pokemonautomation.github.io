@@ -14,7 +14,7 @@ Starting from Jubilife Village, travels to Fieldlands Heights and check 2 nearby
 
 The program will stop when a shiny, alpha and/or alpha shiny is found. According to what is specified in the configuration.
 
-<img src="../images/BurmyHunter-0.png">
+<img src="images/BurmyHunter-0.png">
 
 Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/965545237164462170/ShinyTreeHunt.mp4
 
@@ -45,7 +45,7 @@ Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/9655452371
 4. **You have Pokémon selected and NOT items on the right bottom side**
 5. Start the program in the game.
 
-<img src="../images/BurmyHunter-1.png">
+<img src="images/BurmyHunter-1.png">
 
 
 **Notes:**
