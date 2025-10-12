@@ -35,10 +35,6 @@ def find_image_paths(root_dir):
 
     # Walk through all subdirectories
     for md_file in Path(root_dir).rglob('*.md'):
-        # Skip index.md files
-        if md_file.name == 'index.md':
-            continue
-
         file_results = []
 
         try:

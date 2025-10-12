@@ -1,6 +1,6 @@
 # Controller Setup: Arduino Leonardo
 
-**Video tutorial**: [https://youtu.be/DFXZzWkOEMs](https://youtu.be/DFXZzWkOEMs)
+**Video tutorial:** Pokemon Automation Wired Setup with Arduino Leonardo: [https://youtu.be/DFXZzWkOEMs](https://youtu.be/DFXZzWkOEMs)
 
 <hr>
 

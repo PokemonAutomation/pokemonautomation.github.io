@@ -10,14 +10,14 @@ This setup uses an ESP32 microcontroller to emulate a wireless controller. It ca
 
 The USB port plugs into the computer which is how the program will control it. At the other end is an antenna that supports Bluetooth which is how it will fake itself as a joycon or a wireless pro controller to the Switch.
 
-<img src="../Images/ControllerSetup-ESP32-WROOM.jpg" height="350"> <img src="../Images/ControllerSetup-ESP32-WROOM-Setup.jpg" height="350">
+<img src="../../Images/ControllerSetup-ESP32-WROOM.jpg" height="350"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Setup.jpg" height="350">
 
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
-1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
-3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
+1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 4. An ESP32-WROOM-32 microcontroller.
 5. A micro-USB or USB-C to USB-A cable or dongle. Needs to connect your ESP32 to your computer. ESP32 can have either micro-USB or USB-C, so find out what you have before buying the cable for it.
 
@@ -27,14 +27,14 @@ The USB port plugs into the computer which is how the program will control it. A
 - **Single Setup:** $25 - $35
 - **Bulk Purchase:** ~$14 per setup
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Setup-Annotated-2.jpg" width="800">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Setup-Annotated-2.jpg" width="800">
 
 **Important:** There are many variants of the ESP32 microcontroller. The ESP32-WROOM is the only one that works here. So you must get that specific model. (e.g. Don't get the ESP32-S3-WROOM, or ESP32-S2-WROOM, or ESP32-C2, etc.)
 
 
 ### Recommended Purchase Links:
 
-**Capture Card:** [See previous section.](../README.md#video-capture-card-the-computers-eyes)
+**Capture Card:** [See previous section.](../index.md#video-capture-card-the-computers-eyes)
 
 **ESP32-WROOM-32 Microcontroller:**
 
@@ -63,7 +63,7 @@ We recommend getting ones without pins since you don't need them (though they ar
 
 Most likely you will end up buying a pack of at least 2 or 3 since they don't get any cheaper in single quantity. This is great if you want to automate multiple Switches.
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../Images/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../Images/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
 
 **A micro-USB or USB-C to USB-A cable:**
 - Micro-USB -> USB-A Cable: https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ
@@ -88,9 +88,9 @@ And that's it!
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../Images/GeneralSetup-CC.png">
+<img src="../../Images/GeneralSetup-CC.png">
 
-If not, you should go back to the [general setup guide](../README.md) and start over.
+If not, you should go back to the [general setup guide](../index.md) and start over.
 
 ### Step 1: Install UART drivers
 
@@ -112,7 +112,7 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
 3. When you see the following menu, select "ESP32" and "Develop". Then hit OK.
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Flash-0.png">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Flash-0.png">
 
 4. You will then be prompted with this complicated window. Fill everything as follows:
    - Check the box for the first entry, at the top left.
@@ -122,13 +122,13 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
    - At the bottom right corner, select the COM port of your ESP32.
    - Change "BAUD" to 460800.
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Flash-1.png">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Flash-1.png">
 
 5. Click Start and it should flash the PABotBase firmware to your ESP32.
 
 If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-stuck-on-).
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Flash-2.png">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Flash-2.png">
 
 6. Reboot your ESP32. You can do this either by:
    - Unplugging and re-plugging your ESP32.
@@ -141,7 +141,7 @@ The Grip menu is the only place where the ESP32 can connect to the Switch.
 
 To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
 
-<img src="../Images/GripMenu3.png">
+<img src="../../Images/GripMenu3.png">
 
 ### Step 4: Connect the ESP32 to the Computer Control program
 
@@ -152,7 +152,7 @@ If you don't see the device in the dropdown, you probably need to refresh it (es
 
 If everything worked correctly, it will look like this:
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Connected-Cropped.png">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Connected-Cropped.png">
 
 If you do not see this or you get an error, then see [troubleshooting](#troubleshooting).
 
@@ -164,7 +164,7 @@ After 5 seconds, you should see a controller pop-up in the Grip menu on the Swit
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Ready-Annotated.png">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Ready-Annotated.png">
 
 
 ### Step 6: Test the connection
@@ -175,7 +175,7 @@ We recommend familiarizing yourself with the keyboard controls as this is the pr
 
 Overall, the idea here is that you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-Controls.png">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-Controls.png">
 
 **Controller Types:**
 
@@ -207,7 +207,7 @@ If keyboard commands are working (along with video and audio), you are done!
 
 Try clicking on other programs on the sidebar. You will find that all of them are "virtual consoles" that will accept keyboard commands. At the top of every program is a link to the wiki that explains how to setup and use that program.
 
-Continue on to [Finishing Up](../README.md#step-4-finishing-up)!
+Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 
 ## Troubleshooting:
@@ -269,7 +269,7 @@ If you have multiple ESP32s, spread them out to reduce wireless interference.
 
 As tempting as it may be, do not do this:
 
-<img src="../Images/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../Images/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
+<img src="../../Images/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../../Images/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450">
 
 It is as cute as it is stupid, and it will give you problems. We tried it so you don't have to!
 
