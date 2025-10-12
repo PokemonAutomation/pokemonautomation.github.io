@@ -12,7 +12,7 @@ Download the latest version of our programs from [here](https://github.com/Pokem
 
 Once you have downloaded the package, unzip to somewhere you can access later. **Do not put it on Microsoft OneDrive.**
 
-<img src="Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" height="400">
 
 
 ### If you are on x64 Linux:
@@ -26,7 +26,7 @@ If you want to tinker with this anyway, see: [How to Build (Qt 6.8.2) - Ubuntu 2
 1. Run the `SerialPrograms-Windows.cmd` script.
 2. On left side is a list of programs. Click on "Virtual Console".
 
-<img src="Images/GeneralSetup-CCOpened.png" width="400"> <img src="Images/GeneralSetup-CCVirtualConsole.png" width="400">
+<img src="../Images/GeneralSetup-CCOpened.png" width="400"> <img src="../Images/GeneralSetup-CCVirtualConsole.png" width="400">
 
 At this point you will see a black bar and a white screen. That's because we haven't setup video or audio yet!
 
@@ -41,11 +41,11 @@ If you get errors about missing files like `MSVCP140.dll` or `VCRUNTIME140.dll`,
 
 Depending on your capture card, it may look different from this:
 
-<img src="Images/GeneralSetup-ConnectedCaptureCard.jpg" width="400"> <img src="Images/GeneralSetup-FullSystem.jpg" width="400">
+<img src="../Images/GeneralSetup-ConnectedCaptureCard.jpg" width="400"> <img src="../Images/GeneralSetup-FullSystem.jpg" width="400">
 
 3. Select your capture card in the "Camera" dropdown. If you don't see it there, click "Reset Camera" to refresh the list.
 
-<img src="Images/GeneralSetup-CameraSelect.png" width="400"> <img src="Images/GeneralSetup-CameraSelected.png" width="400">
+<img src="../Images/GeneralSetup-CameraSelect.png" width="400"> <img src="../Images/GeneralSetup-CameraSelected.png" width="400">
 
 ## Step 4: Setup sound.
 
@@ -56,7 +56,7 @@ The sound options are below the Camera options. Most of these options are self-e
 
 If you did everything right until now, the black bar will light up with the audio spectrum and you will hear the sound from your Switch.
 
-<img src="Images/GeneralSetup-AudioSelect.png" width="400"> <img src="Images/GeneralSetup-AudioSelected.png" width="400">
+<img src="../Images/GeneralSetup-AudioSelect.png" width="400"> <img src="../Images/GeneralSetup-AudioSelected.png" width="400">
 
 The Audio Input is the important one since programs that listen to audio will be using that.
 The Audio Output and playback are only for user consumption. You can mute the program by changing the Audio Output to (none) or moving the slider all the way to the left.
@@ -74,13 +74,14 @@ The Audio Output and playback are only for user consumption. You can mute the pr
 At this point, your computer is playing both the video and the audio from your Switch. In effect, you have turned your computer into a TV as far as your Switch is concerned. You can play your Switch on your computer using a controller connected to the Switch. (your regular joycons or pro controller)
 
 Feel free to adjust the visual settings:
+
 - You can toggle various overlays by checking/unchecking the boxes next to "Overlays". Right now, the only visible overlay is the stats in the upper right corner of the video feed.
 - You can change the audio visualization by clicking on the dropdown next to the volume slider.
 - You can change the theme (light or dark themes) in the "Settings" button at the bottom left corner of the window.
 
 Of course there are many other programs that can also play video and audio from your Switch through a capture card. But in the next step, we will be connecting a controller to it to allow the program to play (and automate) your Switch!
 
-Back to the [Setup Guide](README.md#step-3-controller-setup).
+Back to the [Setup Guide](index.md#step-3-controller-setup) for the next controller setup.
 
 
 ## Troubleshooting:
@@ -94,6 +95,7 @@ Back to the [Setup Guide](README.md#step-3-controller-setup).
 - The HDMI cable may be broken. Try a new cable.
 
 To rule out possible video capture errors:
+
 - Check if the PC sees the capture card via Windows Device Manager (or other device management software).
 - Check if the video stream is available on OBS (or other streaming software).
 
@@ -108,8 +110,11 @@ However, we have found that setting up the hardware to handle multiple serial po
 Capture cards are very hit-and-miss when you try to put multiple of them on the same USB hub.
 
 Some general observations:
+
 1. Capture cards draw a lot of power. If you put them with other high-powered USB devices drawing power from the same source, the card may not function.
+
 2. Capture cards use a lot of USB bandwidth. If you put multiple capture cards on the same USB hub, you may saturate the bandwidth on that hub.
+
 3. For some unknown reason (even when both the above do not apply), it can be difficult to get multiple capture cards on the same physical USB port (by means of a hub) on the computer to work simultaneously. You may need to spread them out. Thus for a 4-Switch setup, your computer will need at least 4 USB ports - one for each capture card. But within each port, you can use a hub to connect *one* capture card and other devices as well. (such as the UART serial connections)
 
 <hr>

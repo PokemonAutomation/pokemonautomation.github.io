@@ -5,11 +5,8 @@
 **Jump To:**
 
  - [**Step 1:** The Hardware](#step-1-the-hardware)
-
  - [**Step 2:** General Setup (setting up everything except the controller)](#step-2-general-setup-setting-up-everything-except-the-controller)
-
  - [**Step 3:** Controller Setup](#step-3-controller-setup)
-
  - [**Step 4:** Finishing up](#step-4-finishing-up)
 
 --------

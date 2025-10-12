@@ -23,6 +23,7 @@ A computer with video capture and a custom game controller!
 By capturing the video and audio using a capture card, a computer can see (and hear) everything that's happening on the Switch.
 
 To control the Switch, we create our own 3rd party gamepad using a programmable microcontroller:
+
 - Using a Raspberry Pi Pico W or an ESP32 microcontroller, we can make a joycon using the Bluetooth gamepad protocol.
 - Using an ESP32-S3, we can make a wired pro controller using the USB gamepad protocol.
 
@@ -46,25 +47,18 @@ Shiny detection in Pokémon Legends Arceus using audio recognition.
 
 ## What games do you automate?
 
-See our [full program list](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md)!
+See our [full program list](Programs/index.md)!
 
 We currently have automation for the following games/platforms:
 
-- [Nintendo Switch](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#nintendo-switch)
-
-- [Pokémon Home](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-home)
-
-- [Pokémon Let's Go Pikachu/Eevee](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-lets-go-pikachueevee-lgpe)
-
-- [Pokémon Sword/Shield](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-swordshield)
-
-- [Pokémon Brilliant Diamond/Shining Pearl](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-brilliant-diamondshining-pearl)
-
-- [Pokémon Legends Arceus](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-legends-arceus)
-
-- [Pokémon Scarlet/Violet](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#pok%C3%A9mon-scarlet-and-violet)
-
-- [Zelda: Tears of the Kingdom](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md#zelda-tears-of-the-kingdom)
+- [General Nintendo Switch Programs](Programs/index.md#general-nintendo-switch-programs)
+- [Pokémon Home](Programs/index.md#pokemon-home)
+- [Pokémon Let's Go Pikachu/Eevee](Programs/index.md#pokemon-lets-go-pikachueevee-lgpe)
+- [Pokémon Sword/Shield](Programs/index.md#pokemon-swordshield)
+- [Pokémon Brilliant Diamond/Shining Pearl](Programs/index.md#pokemon-brilliant-diamondshining-pearl)
+- [Pokémon Legends Arceus](Programs/index.md#pokemon-legends-arceus)
+- [Pokémon Scarlet/Violet](Programs/index.md#pokemon-scarlet-and-violet)
+- [Zelda: Tears of the Kingdom](Programs/index.md#zelda-tears-of-the-kingdom)
 
 
 ## Get Me Started!
@@ -74,9 +68,7 @@ We currently have automation for the following games/platforms:
 **Video Tutorials:**
 
 - [**Wired (ESP32-S3) Tutorial**](https://youtu.be/ezBuwk48z8w) (recommended for newcomers)
-
 - [**Wireless (ESP32) Tutorial**](https://youtu.be/YzGyQQOGjl8)
-
 - [**Legacy Wired (Arduino)**](https://youtu.be/DFXZzWkOEMs) (deprecated, difficult to setup)
 
 
@@ -91,7 +83,6 @@ MC automation has neither been developed nor maintained in years. So it's time t
 Nevertheless, the Microcontroller wiki can be found here:
 
 - [Microcontroller Repo](https://github.com/PokemonAutomation/Microcontroller)
-
 - [Microcontroller Setup Gude](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/SetupGuide/README.md)
 
 
