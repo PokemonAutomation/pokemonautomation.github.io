@@ -2,11 +2,16 @@ site_name: Pokémon Automation
 site_url: https://pokemonautomation.github.io
 repo_url: https://github.com/PokemonAutomation/About
 repo_name: PokemonAutomation/About
+# If true (default), use_directory_urls convert every md file not named index.md, <path>/<filename>.md, into 
+# <path/<filename>/index.html so the website viewers can use the link <path>/<filename> to view the page,
+# hiding .html extension. But this messes up the image asset links in those md files. In order to view images
+# both on the website and in the Github repo pages, we set use_directory_urls to false so eavery md file
+# is converted into <path>/<filename>.html. This preserves the folder hierarchy when converted to website. 
 use_directory_urls: false
 
 theme:
-  logo: assets/original_logo_no_background.png
-  favicon: assets/logo.png
+  logo: assets/original_logo_no_background.png  # logo shown on webpage
+  favicon: assets/logo.png  # brower tab icon
   name: material
   features:
     - navigation.tabs
