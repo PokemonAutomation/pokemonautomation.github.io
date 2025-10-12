@@ -33,7 +33,7 @@ Since there is no additional hardware, there are no additional hardware setup in
 
 Make sure you have everything else setup so that it looks like this:
 
-<img src="../../Images/GeneralSetup-CC.png">
+<img src="/SetupGuide/Images/GeneralSetup-CC.png">
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
