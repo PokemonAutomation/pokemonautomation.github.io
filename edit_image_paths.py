@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Script to find and modify image paths in markdown files.
-Searches docs/Programs/ directory (excluding index.md).
-Adds "../" prefix to image paths that start with "images/".
+Searches docs/SetupGuide/Controllers/ directory (excluding index.md).
+Modifies image paths that start with "../Images/" to "../../Images/".
 """
 
 import os
@@ -15,7 +15,7 @@ def find_image_paths(root_dir):
     Find all image paths in markdown files.
 
     Args:
-        root_dir: Root directory to search (docs/Programs/)
+        root_dir: Root directory to search (docs/SetupGuide/Controllers/)
 
     Returns:
         Dictionary mapping file paths to list of (line_number, line_content, image_path) tuples
@@ -72,10 +72,10 @@ def find_image_paths(root_dir):
 
 def fix_image_paths(root_dir, dry_run=True):
     """
-    Fix image paths in markdown files by adding "../" prefix to paths starting with "images/".
+    Fix image paths in markdown files by changing "../Images/" to "../../Images/".
 
     Args:
-        root_dir: Root directory to search (docs/Programs/)
+        root_dir: Root directory to search (docs/SetupGuide/Controllers/)
         dry_run: If True, only report changes without modifying files
 
     Returns:
@@ -100,7 +100,7 @@ def fix_image_paths(root_dir, dry_run=True):
 
             file_changes = []
 
-            # Replace HTML img tags with src="images/..." to src="../images/..."
+            # Replace HTML img tags with src="../Images/..." to src="../../Images/..."
             def replace_html_img(match):
                 full_tag = match.group(0)
                 img_path = match.group(1)
@@ -109,16 +109,16 @@ def fix_image_paths(root_dir, dry_run=True):
                 if 'discordapp' in img_path.lower():
                     return full_tag
 
-                # Only modify paths that start with "images/" and don't already have "../"
-                if img_path.startswith('images/') and not img_path.startswith('../'):
-                    new_path = '../' + img_path
-                    new_tag = full_tag.replace(f'"{img_path}"', f'"{new_path}"').replace(f"'{img_path}'", f"'{new_path}'")
+                # Only modify paths that start with "../Images/"
+                if img_path.startswith('../Images/'):
+                    new_path = '../' + img_path  # Adds one more "../" by prepending "."
+                    new_tag = full_tag.replace(f'"{img_path}"', f'"{new_path}"')
                     file_changes.append((img_path, new_path))
                     return new_tag
 
                 return full_tag
 
-            # Replace Markdown images ![alt](images/...) to ![alt](../images/...)
+            # Replace Markdown images ![alt](../Images/...) to ![alt](../../Images/...)
             def replace_md_img(match):
                 full_match = match.group(0)
                 alt_text = match.group(1)
@@ -128,9 +128,9 @@ def fix_image_paths(root_dir, dry_run=True):
                 if 'discordapp' in img_path.lower():
                     return full_match
 
-                # Only modify paths that start with "images/" and don't already have "../"
-                if img_path.startswith('images/') and not img_path.startswith('../'):
-                    new_path = '../' + img_path
+                # Only modify paths that start with "../Images/"
+                if img_path.startswith('../Images/'):
+                    new_path = '../' + img_path  # Adds one more "../" by prepending "."
                     new_match = f'![{alt_text}]({new_path})'
                     file_changes.append((img_path, new_path))
                     return new_match
@@ -193,16 +193,16 @@ def main():
 
     # Get the script directory
     script_dir = Path(__file__).parent
-    docs_programs_dir = script_dir / "docs" / "Programs"
+    docs_controllers_dir = script_dir / "docs" / "SetupGuide" / "Controllers"
 
-    if not docs_programs_dir.exists():
-        print(f"Error: Directory not found: {docs_programs_dir}")
+    if not docs_controllers_dir.exists():
+        print(f"Error: Directory not found: {docs_controllers_dir}")
         return
 
     # Check if --apply flag is provided
     dry_run = '--apply' not in sys.argv
 
-    print(f"Processing image paths in: {docs_programs_dir}")
+    print(f"Processing image paths in: {docs_controllers_dir}")
     print(f"Excluding: index.md files and Discord API images")
 
     if dry_run:
@@ -210,11 +210,11 @@ def main():
     else:
         print(f"Mode: APPLYING CHANGES\n")
 
-    stats = fix_image_paths(docs_programs_dir, dry_run=dry_run)
+    stats = fix_image_paths(docs_controllers_dir, dry_run=dry_run)
     print_results(stats, dry_run=dry_run)
 
     if dry_run and stats['paths_changed'] > 0:
-        print("\nTo apply these changes, run: python3 find_image_paths.py --apply")
+        print("\nTo apply these changes, run: python3 edit_image_paths.py --apply")
 
 
 if __name__ == "__main__":
