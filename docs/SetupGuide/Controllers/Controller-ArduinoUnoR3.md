@@ -13,6 +13,7 @@ The Arduino Uno R3 is the legacy setup that we support only because we (barely*)
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
+
 1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
@@ -24,6 +25,7 @@ The Arduino Uno R3 is the legacy setup that we support only because we (barely*)
 #1-3 are part of the initial setup so you should have all of these already. #4-7 are specific to this controller setup.
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
+
 - **Single Setup:** $33 - $43
 - **Bulk Purchase:** $29 per setup
 
@@ -42,9 +44,10 @@ These are super common and you probably already have a bunch of them sitting aro
 **USB to Serial TTL (UART):**
 
 There are many options here. The one we recommend (for ease of use) is the Adafruit model:
-  - https://www.adafruit.com/product/954
-  - https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488
-  - https://www.amazon.com/dp/B00DJUHGHI/
+
+  - [https://www.adafruit.com/product/954](https://www.adafruit.com/product/954)
+  - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
+  - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
 <img src="../../Images/ControllerSetup-UART-Adafruit.jpg" height="200">
 
@@ -60,8 +63,9 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 
 **Male-Male Jumper Wires:**
-  - https://www.digikey.com/en/products/detail/twin-industries/TW-MP-10/2116120
-  - https://www.amazon.com/dp/B07S1NGQR1
+
+  - [https://www.digikey.com/en/products/detail/twin-industries/TW-MP-10/2116120](https://www.digikey.com/en/products/detail/twin-industries/TW-MP-10/2116120)
+  - [https://www.amazon.com/dp/B07S1NGQR1](https://www.amazon.com/dp/B07S1NGQR1)
 
 If purchasing the items from this list, you will need Male to Male Jumper wires.
 **WARNING:** If you do ***not*** buy Hardware from this list, you will need to evaluate what you purchased for the correct type of Jumper Wire. e.g. Female-Male jumper wires may be needed instead.
@@ -76,6 +80,7 @@ Once you have your hardware, you need to make some connections between your UART
 **Step 1: Connect UART to the Uno R3**
 
 Make the following connections:
+
 | **UART pin** | **Adafruit UART Wire Color** | **Arduino Leonardo pin** |
 | --- | --- | --- |
 | TX | Green | RX <- 0 (pin0) |
@@ -116,6 +121,7 @@ If everything worked correctly, it should look like this:
 <img src="../../Images/ControllerSetup-UnoR3-FLIP-1.png" height="400">
 
 If you get an error, then it usually means one of the following:
+
 1. The ATmega16u2 driver hasn't been correctly installed.
 2. Your Arduino cannot enter DFU mode.
 3. Your computer allowing the Arduino to enter DFU mode.

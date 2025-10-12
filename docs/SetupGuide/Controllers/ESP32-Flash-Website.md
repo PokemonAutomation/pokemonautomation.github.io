@@ -3,7 +3,7 @@
 This is an alternate method to flash the ESP32.
 
 
-1. Open this website in Chrome or Edge: https://espressif.github.io/esptool-js/
+1. Open this website in Chrome or Edge: [https://espressif.github.io/esptool-js/](https://espressif.github.io/esptool-js/)
 2. Under `Program`, you may keep the `Baudrate` at the default of 921600.
 3. Click `Connect`.
 
@@ -41,6 +41,7 @@ If instead, you get the error: `Error: Invalid head of packet (0x80): Possible s
 <hr>
 
 **Credits:**
+
 - jw
 - kichithewolf
 

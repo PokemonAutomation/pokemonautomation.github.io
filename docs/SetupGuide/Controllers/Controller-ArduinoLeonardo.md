@@ -31,6 +31,7 @@ This version of the wired controller setup uses the Arduino Leonardo. It is the 
 #1-3 are part of the initial setup so you should have all of these already. #4-7 are specific to this controller setup.
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
+
 - **Single Setup:** $38 - $48
 - **Bulk Purchase:** $33 per setup
 
@@ -77,8 +78,9 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 
 **Male-Male Jumper Wires:**
-  - https://www.digikey.com/en/products/detail/twin-industries/TW-MP-10/2116120
-  - https://www.amazon.com/dp/B07S1NGQR1
+
+  - [https://www.digikey.com/en/products/detail/twin-industries/TW-MP-10/2116120](https://www.digikey.com/en/products/detail/twin-industries/TW-MP-10/2116120)
+  - [https://www.amazon.com/dp/B07S1NGQR1](https://www.amazon.com/dp/B07S1NGQR1)
 
 If purchasing the items from this list, you will need Male to Male Jumper wires.
 **WARNING:** If you do ***not*** buy Hardware from this list, you will need to evaluate what you purchased for the correct type of Jumper Wire. e.g. Female-Male jumper wires may be needed instead.
@@ -161,12 +163,14 @@ Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.m
 | "COM port not found!" | Same as the issue where you get "Flash complete", but no logging, try unplugging and replugging the microcontroller into the computer and try different USB ports. Also, double check that the USB cable supports data transfer |
 
 **Versions of QMK toolbox known to work:**
+
 - 0.1.1
 - 0.2.2
 - 0.3.1
 - 0.3.3
 
 **General Troubleshooting tips**
+
 - Try different USB ports.
 - Try a different USB cable (ensure it supports data transfer).
 - Try a different version of QMK toolbox.
@@ -177,9 +181,12 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
 ## Flashing the .hex directly with avrdude
 
 1. Download avrdude
+
     - Download `avrdude-v7.3-windows-x64.zip` from [here](https://github.com/avrdudes/avrdude/releases). (other versions of avrdude may also work)
     - Unzip the folder
+
 2. Open command prompt and change directory to the folder that contains `avrdude.exe`
+
    - To open command prompt: Press Windows key + R. Type `cmd` in the Run command box. Press `Enter`.
    - To change directory, type into the console:
 
@@ -194,6 +201,7 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
    <img src="../../Images/ControllerSetup-Leonardo-AVRDUDE-cd-to-avrdude.png" height="500">
 
 3. Confirm your microcontroller's COM port.
+
     - Open Device Manager: Right click Start button -> Click "Device Manager"
     - Ensure hidden devices are shown: Click "View" in the toolbar -> "Show hidden devices"
     - Ensure the Leonardo is plugged into your computer and click the Leonardo's reset button. It should then show up in the Device Manager under `Ports (COM & LPT)`, as `USB Serial Device (COM#)`. Often, the Leonardo will then disconnect itself after a few seconds, and it will be greyed out in the list. However, if "Show hidden devices" is enabled, you should still be able to see the device and its COM port number.
@@ -202,6 +210,7 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
     <img src="../../Images/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port.png" height="150">
 
 4. Flash the hex file with avrdude
+
    - Ensure the Leonardo is plugged into your computer and click the Leonardo's reset button. For a few seconds, it will no longer be greyed out in the Device manager. This means it's connected to your computer.
 
     <img src="../../Images/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port-2.png" height="150">
@@ -274,6 +283,7 @@ avrdude.exe done.  Thank you.
 **Discord Server:** 
 
 **Credits:**
+
 - Kuroneko/Mysticial
 - jw
 

@@ -1,6 +1,6 @@
 # Controller Setup: ESP32-S3
 
-**Video tutorial:** Pokemon Automation Wired setup with ESP32-S3: https://youtu.be/ezBuwk48z8w
+**Video tutorial:** Pokemon Automation Wired setup with ESP32-S3: [https://youtu.be/ezBuwk48z8w](https://youtu.be/ezBuwk48z8w)
 
 <hr>
 
@@ -63,8 +63,8 @@ We recommend getting ones without pins since you don't need them. Having the pin
 
 **USB Cables:**
 
-- USB-C -> USB-A: https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD
-- USB-C -> USB-C: https://www.amazon.com/3-Pack-Charging-Braided-iPhone-Samsung/dp/B0D222QDF1
+- USB-C -> USB-A: [https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD](https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD)
+- USB-C -> USB-C: [https://www.amazon.com/3-Pack-Charging-Braided-iPhone-Samsung/dp/B0D222QDF1](https://www.amazon.com/3-Pack-Charging-Braided-iPhone-Samsung/dp/B0D222QDF1)
 
 Pick the ones that are appropriate for your computer and Switch dock.
 
@@ -101,8 +101,8 @@ If you need drivers, it will either be CH340 or CP210x, depending on what ESP32-
 
 Install the appropriate driver for it:
 
-- CP210x: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip
-- CH340: https://www.arduined.eu/ch340-windows-10-driver-download/
+- CP210x: [https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)
+- CH340: [https://www.arduined.eu/ch340-windows-10-driver-download/](https://www.arduined.eu/ch340-windows-10-driver-download/)
 
 Only do this step if you do not see ESP32-S3 show up in device manager as a serial (COM) device.
 
@@ -111,7 +111,7 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 
 **Flash the ESP32:**
 
-1. Download the Espressif flash utility: https://dl.espressif.com/public/flash_download_tool.zip
+1. Download the Espressif flash utility: [https://dl.espressif.com/public/flash_download_tool.zip](https://dl.espressif.com/public/flash_download_tool.zip)
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
 3. When you see the following menu, select "ESP32-S3", "Develop", and "UART". Then hit OK.
 
@@ -212,7 +212,7 @@ If neither solution works:
 
 If nothing works, you are not alone! This is a common problem with ESP32 boards.
 
- - Further reading: https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/
+ - Further reading: [https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/](https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/)
  - Come to [our Discord](https://discord.gg/cQ4gWxN) for help.
 
 ### Unable to flash the ESP32-S3: `no log file output`

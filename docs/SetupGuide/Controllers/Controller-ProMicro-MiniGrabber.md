@@ -11,6 +11,7 @@ This tutorial will use mini-grabber cables to connect the UART to the Pro Micro.
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
+
 1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
@@ -20,25 +21,29 @@ This tutorial will use mini-grabber cables to connect the UART to the Pro Micro.
 7. Mini-Grabbers to Male Jumper Wires
 
 **Estimated Total Cost (USD):** (not including computer, Nintendo Switch, and household tools)
+
 - **Single Setup:** $40 - $50
 - **Bulk Purchase:** $24 per setup (in quantities of 4+)
 
 ### Recommended Purchase Links:
 
 **Capture Card:**
+
 - [See previous section.](../index.md#video-capture-card-the-computers-eyes)
 
-**Pro Micro:** https://www.amazon.com/gp/product/B08BJNV1J3
+**Pro Micro:** [https://www.amazon.com/gp/product/B08BJNV1J3](https://www.amazon.com/gp/product/B08BJNV1J3)
 
 **USB A to micro USB cable:**
-- https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ
+
+- [https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ](https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ)
 
 **USB to Serial TTL (UART):**
 
 There are many options here. The one we recommend (for ease of use) is the Adafruit model:
-  - https://www.adafruit.com/product/954
-  - https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488
-  - https://www.amazon.com/dp/B00DJUHGHI/
+
+  - [https://www.adafruit.com/product/954](https://www.adafruit.com/product/954)
+  - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
+  - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
 <img src="../../Images/ControllerSetup-UART-Adafruit.jpg" height="200">
 
@@ -47,7 +52,8 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 <img src="../../Images/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../../Images/ControllerSetup-UART-CP210x-Red.jpg" height="150">
 
 **Mini-Grabbers to Male Jumper Wires**
-- https://www.amazon.com/gp/product/B08M5GNY47
+
+- [https://www.amazon.com/gp/product/B08M5GNY47](https://www.amazon.com/gp/product/B08M5GNY47)
 
 If you choose a different UART make sure that the wire-end of the mini-grabber can plug into the UART. So if you picked the red CP2102 UART, you will want the female mini-grabber.
 
@@ -62,6 +68,7 @@ If you choose a different UART make sure that the wire-end of the mini-grabber c
 Once you have your hardware, you need to make some connections between your UART cables and the Pro Micro. Use the mini-grabber cables to connect them.
 
 Make the following connections:
+
 | **UART pin** | **Microcontroller pin** |
 | --- | --- |
 | TX | RX1 |
@@ -125,6 +132,7 @@ Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.m
 <hr>
 
 **Credits:**
+
 - Kuroneko/Mysticial
 - jw
 

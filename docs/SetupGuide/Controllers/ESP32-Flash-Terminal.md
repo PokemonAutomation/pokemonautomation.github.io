@@ -3,9 +3,10 @@
 This is an alternate method to flash the ESP32(-S3).
 
 ## Install esptool
-See the official instructions here: https://docs.espressif.com/projects/esptool/en/latest/esp32/installation.html
+See the official instructions here: [https://docs.espressif.com/projects/esptool/en/latest/esp32/installation.html](https://docs.espressif.com/projects/esptool/en/latest/esp32/installation.html)
 
 Briefly:
+
 - install [Python](https://www.python.org/downloads/)
 - Open the terminal
     - to confirm your Python installation: type into terminal: `python --version`
@@ -16,6 +17,7 @@ Briefly:
 - Type in terminal: `pip install setuptools`
 
 ## Flash the ESP32(-S3) using esptool
+
 - Open the terminal
 - Change the directory to the directory containing the .bin file
     - e.g. Type in terminal: cd `[path to directory]`
@@ -28,9 +30,10 @@ Briefly:
 
 ## Install ESP IDF with VS Code
 
-See the guide here: https://github.com/espressif/vscode-esp-idf-extension/?tab=readme-ov-file#install
+See the guide here: [https://github.com/espressif/vscode-esp-idf-extension/?tab=readme-ov-file#install](https://github.com/espressif/vscode-esp-idf-extension/?tab=readme-ov-file#install)
 
 Briefly:
+
 - Download and Install VSCode
 - Install ESP-IDF system prerequisites for your operating system:
     - Prerequisites for [MacOS and Linux](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-setup.html).
@@ -44,6 +47,7 @@ Briefly:
 - Click `Install`
 
 ## Flash the ESP32(-S3) using ESP-IDF terminal in VS Code
+
 - Install ESP-IDF in VS Code as above
 - Press `F1`. Then, type in and select `Open ESP-IDF terminal`.
 - In terminal, change directory of the ".bin" file.
@@ -58,6 +62,7 @@ Briefly:
 # For Developers only
 
 ## Install a different version of ESP-IDF
+
 - Install ESP-IDF in VS Code as above
 - Press `F1`. Then, type in and select `Configure ESP-IDF extension`.
 - Select `Express` mode
@@ -72,6 +77,7 @@ Briefly:
 - Click `Install`
 
 ## Change ESP-IDF version
+
 - Make sure you have installed your desired ESP-IDF as above (see Install a different version of ESP-IDF).
 - Press `F1`. Then, type in and select `Configure ESP-IDF extension`.
 - Select `Use Existing Setup`
@@ -80,6 +86,7 @@ Briefly:
 <hr>
 
 **Credits:**
+
 - jw
 
 **Discord Server:** 

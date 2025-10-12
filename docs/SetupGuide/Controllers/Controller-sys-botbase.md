@@ -13,11 +13,13 @@ Our current sys-botbase support only covers the wired pro controller. So it will
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
+
 1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
+
 - **Single Setup:** $10 - $20 (for the capture card)
 - **Bulk Purchase:** (no discounts over single setup)
 
@@ -37,12 +39,12 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 ### Step 1: Install ldn_mitm
 
-1. Download and unzip ld-mitm: https://github.com/Lusamine/ldn_mitm/releases/latest
+1. Download and unzip ld-mitm: [https://github.com/Lusamine/ldn_mitm/releases/latest](https://github.com/Lusamine/ldn_mitm/releases/latest)
 2. Copy the contents into the root of your SD card.
 
 ### Step 2: Install sys-botbase 3 (sbb3)
 
-1. Download and unzip sbb3: https://github.com/PokemonAutomation/sys-botbase-cpp/releases/latest
+1. Download and unzip sbb3: [https://github.com/PokemonAutomation/sys-botbase-cpp/releases/latest](https://github.com/PokemonAutomation/sys-botbase-cpp/releases/latest)
 2. Copy the contents into the root of your SD card.
 
 Note that this is sys-botbase 3. This is an improved rewrite of the original sys-botbase that has additional features required by CC to achieve maximum performance and stability.
@@ -53,6 +55,7 @@ sbb3 is backwards compatible with the official sys-botbase (sbb2) aside from the
 sys-botbase will create a virtual wired controller that behaves like a real controller. So it can only connect if your Switch is ready for it.
 
 Places where the Switch will accept a new controller:
+
 1. The grip menu.
 2. The Switch home or settings.
 3. In a game when no other controllers are connected.
@@ -104,6 +107,7 @@ This usually means the IP address is wrong.
 Try clicking "Reset Ctrl". This can sometimes fix intermittent issues.
 
 These are standard network connection issues. Common causes:
+
  - The IP address is wrong or there is no network path from your computer to the Switch.
  - A firewall (either on your computer or your network) is blocking the connection.
  - sys-botbase is not installed correctly.
@@ -169,6 +173,7 @@ Using ethernet instead of wireless does not solve this problem as local communic
 <hr>
 
 **Credits:**
+
 - Kuroneko/Mysticial
 
 **Discord Server:** 

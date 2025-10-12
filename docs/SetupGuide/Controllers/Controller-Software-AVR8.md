@@ -13,7 +13,8 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 ### Step 1: Install UART drivers
 
 Install your UART drivers. If you purchased as CP240x UART, the driver to install it is here:
-- SiLabs CP210x: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip
+
+- SiLabs CP210x: [https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)
 
 ### Step 2: Connect CC to the device
 
@@ -39,6 +40,7 @@ If you see neither, then see [troubleshooting](#troubleshooting).
 The Arduino/Teensy/Pro Micro behaves like a real wired controller. So it can only connect if your Switch is ready for it.
 
 Places where the Switch will accept a new controller:
+
 1. The grip menu.
 2. The Switch home or settings.
 3. In a game when no other controllers are connected.
@@ -69,6 +71,7 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 ### Troubleshooting serial connections:
 
 Step 1: Plug your device into the Switch without connecting the UART to the computer.
+
 | Error | Solution |
 | --- | --- |
 | Device flashes rapidly for 5 seconds, then stops | Proceed to "Step 2" below. |
@@ -77,6 +80,7 @@ Step 1: Plug your device into the Switch without connecting the UART to the comp
 
 
 Step 2: Plug the UART side into the computer and select it in the dropdown.
+
 | Error | Solution |
 | --- | --- |
 | Blue status text that says, "Program: PABotBase..." | No error. You're done! |
@@ -89,9 +93,13 @@ Step 2: Plug the UART side into the computer and select it in the dropdown.
 
 
 ### Output Window (Log):
+
 1. Spamming of "RESET" messages with nothing else
+
    - Check your wires
+
 2. Spams of invalid length and CRC errors.
+
    - Check your wires.
    - Make sure you don't have a PLxxx UART Controller (If you do, you need to buy a CP21xx UART)
 
@@ -107,6 +115,7 @@ Step 2: Plug the UART side into the computer and select it in the dropdown.
 <hr>
 
 **Credits:**
+
 - Kuroneko/Mysticial
 - jw
 

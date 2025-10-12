@@ -1,6 +1,6 @@
 # Controller Setup: ESP32-WROOM
 
-**Video tutorial:** Pokemon Automation Wireless setup with ESP32: https://youtu.be/YzGyQQOGjl8
+**Video tutorial:** Pokemon Automation Wireless setup with ESP32: [https://youtu.be/YzGyQQOGjl8](https://youtu.be/YzGyQQOGjl8)
 
 <hr>
 
@@ -15,6 +15,7 @@ The USB port plugs into the computer which is how the program will control it. A
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
+
 1. A regular [Nintendo Switch](../index.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
@@ -24,6 +25,7 @@ The USB port plugs into the computer which is how the program will control it. A
 #1-3 are part of the initial setup so you should have all of these already.
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
+
 - **Single Setup:** $25 - $35
 - **Bulk Purchase:** ~$14 per setup
 
@@ -42,17 +44,17 @@ For Beginners
 
 | **Quantity** | **Price / Unit** | **USB Type** | **UART Type** | **Shopping Link** |
 | --- | --- | --- | --- | --- |
-| 1 (with pins) | $8 / unit | USB-C | CP2102  | https://www.amazon.com/gp/product/B0DG8JFY3C |
-| 2 (with pins) | $6.50 / unit | Micro-USB | CP2102  | https://www.amazon.com/gp/product/B09XDMVS9N |
-| 2 (no pins) | $9 / unit | USB-C | CH340  | https://www.amazon.com/gp/product/B0D6BH4K9B |
+| 1 (with pins) | $8 / unit | USB-C | CP2102  | [https://www.amazon.com/gp/product/B0DG8JFY3C](https://www.amazon.com/gp/product/B0DG8JFY3C) |
+| 2 (with pins) | $6.50 / unit | Micro-USB | CP2102  | [https://www.amazon.com/gp/product/B09XDMVS9N](https://www.amazon.com/gp/product/B09XDMVS9N) |
+| 2 (no pins) | $9 / unit | USB-C | CH340  | [https://www.amazon.com/gp/product/B0D6BH4K9B](https://www.amazon.com/gp/product/B0D6BH4K9B) |
 
 For Experienced users
 
 | **Quantity** | **Price / Unit** | **USB Type** | **UART Type** | **Shopping Link** |
 | --- | --- | --- | --- | --- |
-| 3 (no pins) | $5.67 / unit | Micro-USB | CP2104 | https://www.amazon.com/gp/product/B09C5RDZ8G |
-| 8 (no pins) | $5 / unit | Micro-USB | CP2104 | https://www.amazon.com/gp/product/B08MFCC4SR |
-| many | ~$3 / unit | various | various | https://www.aliexpress.us/item/3256807120332765.html<br>AliExpress is generally the cheapest in bulk.<br>But you need to know what you're buying. |
+| 3 (no pins) | $5.67 / unit | Micro-USB | CP2104 | [https://www.amazon.com/gp/product/B09C5RDZ8G](https://www.amazon.com/gp/product/B09C5RDZ8G) |
+| 8 (no pins) | $5 / unit | Micro-USB | CP2104 | [https://www.amazon.com/gp/product/B08MFCC4SR](https://www.amazon.com/gp/product/B08MFCC4SR) |
+| many | ~$3 / unit | various | various | [https://www.aliexpress.us/item/3256807120332765.html<br>AliExpress](https://www.aliexpress.us/item/3256807120332765.html<br>AliExpress) is generally the cheapest in bulk.<br>But you need to know what you're buying. |
 
 **Important:**
 If you pick a model that's not in this list, make sure it has a built-in antenna. The ESP32-WROOM-32U and ESP32-WROOM-32UE models do not have a built-in antenna and require you to attach one.
@@ -66,9 +68,10 @@ Most likely you will end up buying a pack of at least 2 or 3 since they don't ge
 <img src="../../Images/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../../Images/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
 
 **A micro-USB or USB-C to USB-A cable:**
-- Micro-USB -> USB-A Cable: https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ
-- Micro-USB -> USB-A Dongle: https://www.amazon.com/gp/product/B09FXJD61Z
-- USB-C -> USB-A: https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD
+
+- Micro-USB -> USB-A Cable: [https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ](https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ)
+- Micro-USB -> USB-A Dongle: [https://www.amazon.com/gp/product/B09FXJD61Z](https://www.amazon.com/gp/product/B09FXJD61Z)
+- USB-C -> USB-A: [https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD](https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD)
 
 Different ESP32 models have different USBs on them. Make sure you buy the one that matches your model.
 
@@ -97,8 +100,9 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 Depending on exactly which ESP32 model you bought, it will have either an CH340 or a CP210x. (If you recognize these model #s from the wired controller setup, they are the same thing!)
 
 Install the appropriate driver for it:
-- CP210x: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip
-- CH340: https://www.arduined.eu/ch340-windows-10-driver-download/
+
+- CP210x: [https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)
+- CH340: [https://www.arduined.eu/ch340-windows-10-driver-download/](https://www.arduined.eu/ch340-windows-10-driver-download/)
 
 If you don't know which one you have, install both.
 
@@ -108,13 +112,14 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 **Flash the ESP32:**
 
-1. Download the Espressif flash utility: https://dl.espressif.com/public/flash_download_tool.zip
+1. Download the Espressif flash utility: [https://dl.espressif.com/public/flash_download_tool.zip](https://dl.espressif.com/public/flash_download_tool.zip)
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
 3. When you see the following menu, select "ESP32" and "Develop". Then hit OK.
 
 <img src="../../Images/ControllerSetup-ESP32-WROOM-Flash-0.png">
 
 4. You will then be prompted with this complicated window. Fill everything as follows:
+
    - Check the box for the first entry, at the top left.
    - For the first entry, click on the `...` and browse for `PABotBase-ESP32-2025032100.bin` in the serial programs download folder. (version number may vary)
    - The right-most box should be a zero.
@@ -131,6 +136,7 @@ If everything worked correctly, you should see a green progress bar like this. I
 <img src="../../Images/ControllerSetup-ESP32-WROOM-Flash-2.png">
 
 6. Reboot your ESP32. You can do this either by:
+
    - Unplugging and re-plugging your ESP32.
    - Pressing either the `EN` or `RESET` button on the ESP32.
 
@@ -180,6 +186,7 @@ Overall, the idea here is that you can play your Switch from your computer. Whil
 **Controller Types:**
 
 You will notice that there are 4 controller options:
+
 - None
 - Pro Controller
 - Left Joycon
@@ -217,11 +224,13 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 If you see that it gets stuck printing out `...` and never makes progress, try one of these:
 
 **Solution 1:**
+
   1. Start the flash such that it is printing out `...`
   2. Press and hold the `BOOT` button on the ESP32.
   3. Release the `BOOT` button when you see the green bar make progress.
      
 **Solution 2:**
+
   1. Start the flash such that it is printing out `...`
   2. Press and hold the `RESET` (EN) button.
   3. Press and hold the `BOOT` button.
@@ -231,14 +240,17 @@ If you see that it gets stuck printing out `...` and never makes progress, try o
 If your ESP32 doesn't have a `BOOT` button (such as the D1 mini ESP32), you can achieve the same thing by shorting the `IO0` and `GND` pins/holes.
 
 If neither solution works:
+
  - Try a different USB port.
  - Try putting a USB2 hub between the computer and the ESP32.
 
 If nothing works, you are not alone! This is a common problem with ESP32 boards.
- - Further reading: https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/
+
+ - Further reading: [https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/](https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/)
  - Come to [our Discord](https://discord.gg/cQ4gWxN) for help.
 
 ### Unable to flash the ESP32: `no log file output`
+
 - Try switching the USB cable. Make sure it supports data transfer, not just power delivery.
    - When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
 
@@ -250,6 +262,7 @@ Ensure the top left checkbox is checked. The top row should be green. Ensure the
 If you are unable to connect to the ESP32 in step 4, it means the ESP32 either isn't booting up properly, or it isn't properly flashed.
 
 Try the following:
+
  - Ensure you have reset the device. Try disconnecting the cable to the ESP32-S3 device, then reconnect it.
  - Try different USB cables and different USB ports. Sometimes it will not flash properly over certain USB ports.
  - If this still fails, review [step 2](#step-2-flash-the-firmware-to-the-esp32) above (Flash the firmware to the ESP32) and ensure that you flashed the firmware properly onto the device. When flashing, ensure that the top left checkbox is checked. The top row should be green.
@@ -277,6 +290,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 <hr>
 
 **Credits:**
+
 - Kuroneko/Mysticial
 - jw
 - kichithewolf
