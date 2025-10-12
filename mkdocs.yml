@@ -5,7 +5,7 @@ repo_name: PokemonAutomation/About
 
 theme:
   logo: assets/original_logo_no_background.png
-  favicon: assets/icon.ico
+  favicon: assets/logo.png
   name: material
   features:
     - navigation.tabs
