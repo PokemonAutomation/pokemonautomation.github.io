@@ -14,6 +14,7 @@
 This is the setup guide for the computer control (CC) automation setup. We recommend that you read this before purchasing any hardware. Cost estimates will vary depending on the method you choose.
 
 The computer control (CC) automation setup consists of 4 main components:
+
 1. A computer.
 2. A Nintendo Switch.
 3. A video capture card.
@@ -21,9 +22,9 @@ The computer control (CC) automation setup consists of 4 main components:
 
 The computer is the player. The capture card is its eyes. The controller is its hands.
 
-Here is an example of a full setup using an ESP32 microcontroller:
+Here is an example of a full setup using a Raspberry Pi Pico W microcontroller:
 
-<img src="Images/FullSetup-WirelessController.jpg">
+<img src="Images/FullSetup-WirelessController2.jpg">
 
 
 ## Step 1: The Hardware
@@ -67,9 +68,9 @@ However, it needs to be a *regular* Nintendo Switch that can be docked with HDMI
 
 **Switch 2:**
 
-Support for the Switch 2 is available starting from version 0.54 - but only for wired controllers. Support for wireless controllers (including joycons) on the Switch 2 remains a work in progress.
+Yes, we support the Switch 2!
 
-As of July 2025, we expect most automation to remain on the Switch 1 even for Switch 2 owners. There are currently no Pokémon games exclusive to the Switch 2. Most of our users who have jumped on the Switch 2 train use the Switch 2 for manual/normal play while their existing Switch 1 becomes the spare for running 24/7 automation.
+Partial support for Switch 2 began with version 0.54 for wired controllers only. Full support (including ESP32 wireless) began with version 0.56.
 
 
 ### Video Capture Card (the computer's eyes)
@@ -78,7 +79,9 @@ A video capture card will allow a computer to capture the HDMI video output from
 
 <img src="Images/GeneralSetup-CaptureCard.jpg" width="400" height="400">
 
-Example Shopping Links: [link 1](https://www.amazon.com/dp/B088HBRM7T) [link 2](https://www.amazon.com/dp/B09FLN63B3)
+Example Shopping Links:
+- [https://www.amazon.com/dp/B088HBRM7T](https://www.amazon.com/dp/B088HBRM7T)
+- [https://www.amazon.com/dp/B09FLN63B3](https://www.amazon.com/dp/B09FLN63B3)
 
 Most cheap capture cards work. Higher end-capture cards may cause issues with color detection.
 Ensure the capture card is capable of a video output resolution of 1080p at 30 frames per second (FPS). Though we recommend at least 1080p/60 FPS to minimize video tearing.
@@ -90,19 +93,21 @@ For Switch 2 owners, you do not need an (expensive) 4k capture card to run autom
 
 The controller is the most difficult part to setup because there is no off-the-shelf product that will do it for you.
 
-We currently support 3 different types of controllers. So take your pick on which suits you the best.
+While we support quite a few different setups, these are the 3 that we recommend to new users:
 
 | **Wireless** | **Wired** | **Custom Firmware** |
 | --- | --- | --- |
-| <img src="Images/ControllerSetup-ESP32-WROOM.jpg" width="1000"> | <img src="Images/ControllerSetup-ESP32-S3.jpg" width="1000"> | <img src="Images/ControllerSetup-sbb.jpg" width="1000"> |
-| **Supported Controller Types:**<br>- Wireless Pro Controller<br>- Left Joycon<br>- Right Joycon | **Supported Controller Types:**<br>Wired Pro Controller<br><br><br> | **Supported Controller Types:**<br>Wired Pro Controller<br><br><br> |
-| **Supported Microcontrollers:**<br>ESP32-WROOM-32<br><br><br><br><br> | **Supported Microcontrollers:**<br>ESP32-S3<br>Arduino Uno R3<br>Arduino Leonardo<br>Teensy 2.0 / Teensy++ 2.0<br>Pro Micro | **Supported Microcontrollers:**<br>None required.<br><br><br><br><br> |
-| Currently does not work on Switch 2. | Works on Switch 2. | Does not work on Switch 2 due to lack of CFW. |
-| Cheapest and easiest to setup for the average user. | More expensive. Also easy to setup if you pick ESP32-S3. Others are harder to setup. | Requires a hacked Switch running custom firmware (CFW). |
-| Can run LGPE programs.<br>Cannot run Sword/Shield day-skippers.<br>Runs all other programs.* | Cannot run LGPE programs.<br>Runs all other programs.* | sbb3: Identical to wired controllers.<br>sbb2: Cannot run programs that require timing precision. |
-| Fast and reliable for most programs. | Fastest and most reliable. Best for high-speed programs (date-spam exploits, FCE). | sbb3: Identical to wired controllers.<br>sbb2: Runs most programs well. Slow and unreliable for high-speed programs. |
+| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="1000"> | <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="1000"> | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="1000"> |
+| **Supported Controller Types:**<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | **Supported Controller Types:**<br>- USB Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller | **Supported Controller Types:**<br>Wired Pro Controller<br><br><br> |
+| **Recommended Microcontrollers:**<br>- Raspberry Pi Pico W<br>- ESP32 | **Recommended Microcontrollers:**<br>- ESP32-S3<br><br> | **Recommended Microcontrollers:**<br>- None required.<br><br> |
+| Cheapest. Easiest to setup.<br>Harder to use after setup. | More Expensive. Harder to setup.<br>Easiest to use after setup. | Requires a hacked Switch running custom firmware (CFW). |
+| Works on Switch 2. | Works on Switch 2. | Does not work on Switch 2 due to lack of CFW. |
+| Runs nearly all programs - including LGPE.* | Cannot run LGPE programs.<br>Runs all other programs.* | sbb3: Identical to wired controllers.<br>sbb2: Cannot run programs that require timing precision. |
+| Slower and less reliable than wired. | Fastest and most reliable. | sbb3: Identical to wired controllers.<br>sbb2: Very slow and unreliable. |
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access.<br>Very good for high density setups. | Not recommended for remote access. |
-| Recommended for all users including beginners. | Recommended for users who want maximum performance and reliability. | Recommended for regular CFW users who want to try CC programs with minimal investment. |
+| Recommended for first time users. | Recommended for heavy users who want maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
+
+For a complete list of setups - including older ones we no longer recommend, see our [Controller List](../ControllerList.md).
 
 *Please consult the [program list](../Programs/index.md) for the full compatibility table.*
 
@@ -110,10 +115,13 @@ We currently support 3 different types of controllers. So take your pick on whic
 
 | **User Type** | **Recommendation** | **Comments** |
 | --- | --- | --- |
-| You are completely new to automation. | Wired: ESP32-S3 | Easy to setup. Works on the Switch 2. |
-| If you want to automate LGPE. | Wireless ESP32-WROOM | This is the only option to automate LGPE. |
-| You are an existing Computer Control user who already has the Arduino/Teensy setup. | Wired: Keep what you have. | Unless you need to automate LGPE, what you have already works. |
-| You are a CFW user who already uses sys-botbase with Sysbot/Forkbot/not-Forkbot. | Custom Firmware: sys-botbase | This setup is designed specifically for you at no additional cost (beyond a capture card)! If you want to get serious with CC, you will eventually want to get one of the other microcontroller setups since they are faster and more reliable. |
+| You are completely new to automation. | Pico W | Cheapest. Easiest to setup. |
+| You want to automate LGPE. | Pico W or ESP32 | Wireless is required for LGPE. |
+| You are a heavy user of automation with multiple Switches running 24/7. | ESP32-S3 | Most stable and reliable. No hassle after setup. |
+| You are an existing Computer Control user who already has the Arduino/Teensy setup. | Keep what you have. | See the [Controller List](../ControllerList.md) to find the guide to re-setup your hardware. |
+| You are an experienced CFW user. | sys-botbase 3 | This setup is designed specifically for you at no additional cost (beyond a capture card)! |
+
+A full comparison of prices and difficulty of setup can be found on the [Controller List](../ControllerList.md#setup-comparison-table).
 
 Also, don't be afraid to get both wired and wireless setups! Many of us do exactly this!
 
@@ -134,29 +142,15 @@ When you are done, you should have the CC window running and looking like this:
 
 Here the guide will diverge depending on which controller type you have chosen. Pick the one you chose earlier.
 
-**Wireless Controller:**
+| | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
+| --- | --- | --- | --- | --- |
+| <img src="Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 3 | [Windows](Controllers/Controller-ESP32-WROOM.md)<br>[Mac](Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) |
+| <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller | 3 | [Windows](Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) |
+| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 1 | [Guide](Controllers/Controller-PicoW-USB.md) |
+| <img src="Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 5 | [Guide](Controllers/Controller-PicoW-UART.md) |
+| <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 | Switch 1: Wired Pro Controller | 2 | [Guide](Controllers/Controller-sys-botbase.md) |
 
-- [ESP32-WROOM Guide for Windows](Controllers/Controller-ESP32-WROOM.md) ([Video tutorial](https://youtu.be/YzGyQQOGjl8))
-- [ESP32-WROOM Guide for MacOS](Controllers/Controller-ESP32-WROOM-MacOS.md)
-
-**Wired Controller:**
-
-- [ESP32-S3 Guide](Controllers/Controller-ESP32-S3.md) ([Video tutorial](https://youtu.be/ezBuwk48z8w)) recommended for new-comers
-- [Arduino Leonardo Guide](Controllers/Controller-ArduinoLeonardo.md) ([Video tutorial](https://youtu.be/DFXZzWkOEMs))
-- [Arduino Uno R3 Guide](Controllers/Controller-ArduinoUnoR3.md)
-- Teensy(++) 2.0
-    - [UART + Mini Grabbers Guide](Controllers/Controller-Teensy2-MiniGrabbers.md)
-    - [UART + Solderless Hammer Headers Guide](Controllers/Controller-Teensy2-HammerHeaders.md)
-- Pro Micro
-     - [UART + Mini Grabbers Guide](Controllers/Controller-ProMicro-MiniGrabber.md)
-     - [UART + Solderless Hammer Headers Guide](Controllers/Controller-ProMicro-HammerHeaders.md)
-
-For wired controllers, the ESP32-S3 is the way to go as it is by far the easiest to setup. The other setups are older setups that are much more difficult to do and require manual wiring.
-
-**Custom Firmware:**
- - [sys-botbase](Controllers/Controller-sys-botbase.md)
-
-Note that usb-botbase is not supported because it clashes with the capture card which needs the same USB port.
+The full list can be found in the [Controller List](../ControllerList.md).
 
 ## Step 4: Finishing Up
 

@@ -24,7 +24,7 @@ x = 0 is left, x = 255 is right. y = 0 is up, y = 255 is down. 128 is neutral fo
 
 ## Credits
 
-- **Author:** Kuroneko/Mysticial
+- **Author:** pifopi
 
 
 

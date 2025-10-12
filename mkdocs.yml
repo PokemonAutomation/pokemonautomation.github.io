@@ -31,4 +31,5 @@ nav:
   - Home: index.md
   - Getting Started: SetupGuide/index.md
   - Programs: Programs/index.md
+  - Controllers: ControllerList.md
   # - FAQ: faq.md

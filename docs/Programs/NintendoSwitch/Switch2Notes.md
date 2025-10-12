@@ -87,14 +87,6 @@ If using an HDR-capable card, we recommend turning it off in System Settings -> 
 |---|---|
 |<img src="../images/Switch2-HDR-Off.png" width="400">|<img src="../images/Switch2-HDR-On.png" width="400">|
 
-### ESP32 wireless is currently broken.
-
-As of today, our ESP32 wireless controllers fail to connect to the Switch 2. Even though they implement the Switch 1 wireless controller protocol, they don't do it well enough. So the Switch 2 rejects them.
-
-As of this writing, we do not yet know how to fix this. Many other controller emulation projects are broken in the same way. So we will be keeping a close eye on them to see how they adapt and fix the issue.
-
-Until this is fixed, the only option to connect to the Switch 2 is using wired controllers (ESP32-S3, Arduino/Teensy).
-
 
 ## For Developers
 
@@ -114,7 +106,7 @@ For developers, we now have 3 different controller setups with different minimum
 
 - Wired controller (Switch 1): 8ms
 - Wired controller (Switch 2): 8ms or 16ms
-- ESP32 Wireless (Switch 1 only): 15ms
+- ESP32 Wireless: 15ms
 
 The minimum time unit is the minimum amount of time between controller state changes. Meaning that if you press A, you cannot release it until at least 8ms later (for 8ms tick size). ESP32 increased it to 15ms. Now on Switch 2, it needs to be at least 16ms.
 

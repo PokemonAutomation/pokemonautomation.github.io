@@ -1,55 +1,46 @@
 # Program List (Computer Control)
 
-[<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
-
 This is a list of all the computer-control programs. To run these programs, you need the [computer-control setup](../SetupGuide/index.md).
+**Jump To Program Section:**
+
+- [General Nintendo Switch Programs](#general-nintendo-switch-programs)
+- [Pokémon Home](#pokemon-home)
+- [Pokémon Let's Go Pikachu/Eevee](#pokemon-lets-go-pikachueevee-lgpe)
+- [Pokémon Sword/Shield](#pokemon-swordshield)
+- [Pokémon Brilliant Diamond/Shining Pearl](#pokemon-brilliant-diamondshining-pearl)
+- [Pokémon Legends Arceus](#pokemon-legends-arceus)
+- [Pokémon Scarlet/Violet](#pokemon-scarlet-and-violet)
+- [Zelda: Tears of the Kingdom](#zelda-tears-of-the-kingdom)
 
 **Notes:**
 
 - Programs that require video feedback cannot run on the Switch Lite because it does not have HDMI output.
-
 - Not every program can run on every controller. Please check the table for compatibility.
-
 - Controllers marked as "Degraded" mean that the program will run, but performance and reliability may be severely degraded.
-
-**Jump To Program Section:**
-
-- [General Nintendo Switch Programs](#general-nintendo-switch-programs)
-
-- [Pokémon Home](#pokemon-home)
-
-- [Pokémon Let's Go Pikachu/Eevee](#pokemon-lets-go-pikachueevee-lgpe)
-
-- [Pokémon Sword/Shield](#pokemon-swordshield)
-
-- [Pokémon Brilliant Diamond/Shining Pearl](#pokemon-brilliant-diamondshining-pearl)
-
-- [Pokémon Legends Arceus](#pokemon-legends-arceus)
-
-- [Pokémon Scarlet/Violet](#pokemon-scarlet-and-violet)
-
-- [Zelda: Tears of the Kingdom](#zelda-tears-of-the-kingdom)
 
 **Controller Categories:**
 
 | **Wired Controller** | **Wireless Controller** | **Other** |
 | --- | --- | --- |
-| - ESP32-S3<br>- Arduino Uno R3<br>- Arduino Leonardo<br>- Teensy 2.0<br>- Teensy++ 2.0<br>- Pro Micro<br>- sys-botbase 3 (sbb3) | - ESP32-WROOM | - sys-botbase 2.4 (sbb2) |
+| - ESP32-S3<br>- Pico W (wired controller)<br>- Pico 2 W (wired controller)<br>- sys-botbase 3 (sbb3)<br>- Arduino Uno R3<br>- Arduino Leonardo<br>- Teensy 2.0<br>- Teensy++ 2.0<br>- Pro Micro | - ESP32<br>- Pico W (wireless controller)<br>- Pico 2 W (wireless controller)<br><br><br><br><br><br><br> | - sys-botbase 2.4 (sbb2)<br><br><br><br><br><br><br><br><br> |
+
+Read more about [Controller Performance Categories](../ControllerList.md#controller-performance-classes).
 
 
 ## General Nintendo Switch Programs
 
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
-| [Framework Settings](NintendoSwitch/FrameworkSettings.md)         | --- | --- |
-| [Virtual Console](NintendoSwitch/VirtualConsole.md)               | --- | All |
-| [Switch Viewer](NintendoSwitch/SwitchViewer.md)                   | --- | All |
-| [TurboA](NintendoSwitch/TurboA.md)                                |     | All |
-| [Turbo Button](NintendoSwitch/TurboButton.md)                     |     | All |
-| [Turbo Macro](NintendoSwitch/TurboMacro.md)                       |     | All |
-| [Prevent Sleep](NintendoSwitch/PreventSleep.md)                   |     | All |
-| [Friend Code Adder](NintendoSwitch/FriendCodeAdder.md)            |     | All (Degraded: sbb2) |
-| [Friend Delete](NintendoSwitch/FriendDelete.md)                   |     | All |
+| [Framework Settings](NintendoSwitch/FrameworkSettings.md)                 | --- | --- |
+| [Virtual Console](NintendoSwitch/VirtualConsole.md)                       | --- | All |
+| [Switch Viewer](NintendoSwitch/SwitchViewer.md)                           | --- | All |
+| [TurboA](NintendoSwitch/TurboA.md)                                        |     | All |
+| [Turbo Button](NintendoSwitch/TurboButton.md)                             |     | All |
+| [Turbo Macro](NintendoSwitch/TurboMacro.md)                               |     | All |
+| [Prevent Sleep](NintendoSwitch/PreventSleep.md)                           |     | All |
+| [Friend Code Adder](NintendoSwitch/FriendCodeAdder.md)                    |     | All (Degraded: sbb2) |
+| [Friend Delete](NintendoSwitch/FriendDelete.md)                           |     | All |
+| [Record Keyboard Controller](NintendoSwitch/RecordKeyboardController.md)  |     | All |
 
 ## Pokémon Home
 
@@ -60,7 +51,7 @@ This is a list of all the computer-control programs. To run these programs, you 
 
 ## Pokémon Let's Go Pikachu/Eevee (LGPE)
 
-Note that this game cannot be played with a Pro Controller. Therefore, ESP32 wireless is the only supported controller.
+This game cannot be played with a Pro Controller and instead requires the use of joycons. Therefore, ESP32 and Pico W are the only supported setup since they are the only ones that implement the wireless joycons.
 
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
@@ -108,10 +99,10 @@ Note that this game cannot be played with a Pro Controller. Therefore, ESP32 wir
 | **Den Hunting:** |
 | [Purple Beam Finder](PokemonSwSh/PurpleBeamFinder.md) |         | Video            | All |
 | [Event Beam Finder](PokemonSwSh/EventBeamFinder.md) |           |                  | All |
-| [Day Skipper (JPN)](PokemonSwSh/DaySkipperJPN.md) |             |                  | Wired, Wireless (Degraded: Wireless) |
-| [Day Skipper (EU)](PokemonSwSh/DaySkipperEU.md) |               |                  | Wired, Wireless (Degraded: Wireless) |
-| [Day Skipper (US)](PokemonSwSh/DaySkipperUS.md) |               |                  | Wired, Wireless (Degraded: Wireless) |
-| [Day Skipper (JPN) - 7.8k](PokemonSwSh/DaySkipperJPN-7.8k.md) | |                  | Wired Only |
+| [Day Skipper (JPN)](PokemonSwSh/DaySkipperJPN.md) |             |                  | Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only |
+| [Day Skipper (EU)](PokemonSwSh/DaySkipperEU.md) |               |                  | Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only |
+| [Day Skipper (US)](PokemonSwSh/DaySkipperUS.md) |               |                  | Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only |
+| [Day Skipper (JPN) - 7.8k](PokemonSwSh/DaySkipperJPN-7.8k.md) | |                  | Switch 1: Wired Only<br>Switch 2: None |
 ||
 | **Hosting:** |
 | [Den Roller](PokemonSwSh/DenRoller.md) |                    | Video (Optional) | All (Degraded: sbb2) |
@@ -262,7 +253,7 @@ Note that this game cannot be played with a Pro Controller. Therefore, ESP32 wir
 | [Clothing Buyer](PokemonSV/ClothingBuyer.md) | Purchase clothing from shops.                                         | Video         | All |
 | [Autonomous Ball Thrower](PokemonSV/AutonomousBallThrower.md) | Repeatedly throw a ball until you catch the pokemon. | Video         | All |
 | [Size Checker](PokemonSV/SizeChecker.md) | Check boxes of Pokemon for size marks.                                    | Video         | All |
-| [Self Box Trade](PokemonSV/SelfBoxTrade.md) | Tade boxes of Pokemon between two local Switches.                      | Video         | All |
+| [Self Box Trade](PokemonSV/SelfBoxTrade.md) | Trade boxes of Pokemon between two local Switches.                      | Video         | All |
 | [Sandwich Maker](PokemonSV/SandwichMaker.md) | Make a sandwich  of your choice.                                      | Video         | All |
 || 
 | **Boxes:** |
@@ -313,7 +304,7 @@ Note that this game cannot be played with a Pro Controller. Therefore, ESP32 wir
 | [Ride Cloner (1.0.1)](PokemonSV/RideCloner-101.md) | Clone your ride legendary and its item using the add-to-party glitch. (glitch patched) | Video         | Wired, Wireless |
 | [Clone Items (1.0.1)](PokemonSV/CloneItems-101.md) | Clone items using the add-to-party glitch. (glitch patched)                            | Video         | Wired, Wireless |
 ||
-| **Beta programs:** |
+| **Beta/WIP Programs:** |
 | [AutoStory](PokemonSV/AutoStory.md) | Progress through the tutorial and mainstory of Scarlet/Violet | Video         | Wired (Wireless untested) |
 | [Claim Mystery Gift](PokemonSV/ClaimMysteryGift.md) | Claim the Mystery Gift in Scarlet/Violet | Video              | Wired (Wireless untested) |
 ||
@@ -332,3 +323,28 @@ Note that this game cannot be played with a Pro Controller. Therefore, ESP32 wir
 | [Mineru Item Duper](ZeldaTotK/MineruItemDuper.md)       |                  | Wired, Wireless |
 
 <hr>
+
+**Discord Server:** 
+
+[<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
