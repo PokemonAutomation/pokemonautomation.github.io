@@ -1,6 +1,7 @@
 # Controller List
 
 This is a full list of devices and controllers that we currently support.
+For the full setup guide, see [Getting Started](../SetupGuide/).
 
 **Terminology:**
 

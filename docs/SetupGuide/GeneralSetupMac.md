@@ -87,7 +87,7 @@ Feel free to adjust the visual settings:
 
 Of course there are many other programs that can also play video and audio from your Switch through a capture card. But in the next step, we will be connecting a controller to it to allow the program to play (and automate) your Switch!
 
-Back to the [Setup Guide](README.md#step-3-controller-setup).
+Back to the [Setup Guide](../index.md#step-3-controller-setup).
 
 
 ## Troubleshooting:
