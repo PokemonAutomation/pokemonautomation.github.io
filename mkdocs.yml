@@ -32,4 +32,5 @@ nav:
   - Getting Started: SetupGuide/index.md
   - Programs: Programs/index.md
   - Controllers: ControllerList.md
+  - Discord Integration: DiscordIntegration/index.md
   # - FAQ: faq.md
