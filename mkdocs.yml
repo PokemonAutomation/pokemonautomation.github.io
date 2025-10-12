@@ -9,7 +9,9 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
     - toc.integrate
     - search.suggest
     - search.highlight
@@ -32,6 +34,14 @@ nav:
   - Getting Started: SetupGuide/index.md
   - Programs: Programs/index.md
   - Controllers: ControllerList.md
-  - Discord Integration: DiscordIntegration/index.md
-  - Developer: Developer/index.md
-  # - FAQ: faq.md
+  - Discord Integration:
+      - Overview: DiscordIntegration/index.md
+      - Discord Bot: DiscordIntegration/DiscordBot.md
+      - Discord Webhooks: DiscordIntegration/DiscordWebhooks.md
+  - Developer:
+      - Overview: Developer/index.md
+      - Knowledge Requirement: Developer/Knowledge.md
+      - How to Use Github: Developer/Git.md
+      - Tutorial Button Script: Developer/TutorialMC.md
+      - Tutorial Home Sorter: Developer/TutorialCC.md
+     

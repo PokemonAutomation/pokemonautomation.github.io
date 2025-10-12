@@ -1,12 +1,10 @@
 # Guide for Contributing to Pokémon Automation
 
-[<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
-
 If you would like to contribute to our project, we have some documentation of our codebase to get started.
 
 If you have any questions regarding the documentation or find any errors in the doc, feel free to contact us directly in [our Discord server](https://discord.gg/cQ4gWxN).
 
-## Contents:
+**Contents:**
 
 - [Requirement of Development Knowledge](Knowledge.md)
 - [Develop Using Github](Git.md)

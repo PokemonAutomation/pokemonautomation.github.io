@@ -1,6 +1,7 @@
 # Program List (Computer Control)
 
 This is a list of all the computer-control programs. To run these programs, you need the [computer-control setup](../SetupGuide/index.md).
+
 **Jump To Program Section:**
 
 - [General Nintendo Switch Programs](#general-nintendo-switch-programs)
