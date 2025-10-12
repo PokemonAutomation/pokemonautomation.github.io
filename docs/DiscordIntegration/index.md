@@ -1,6 +1,6 @@
 # Discord Integration:
 
-The Computer-Programs application can integrate with Discord. These can be useful for various things:
+The computer control (CC) application can integrate with Discord. These can be useful for various things:
 
 1. Get notified when a shiny is found.
 2. Get notified when a long-running program is finished or otherwise needs your attention.
