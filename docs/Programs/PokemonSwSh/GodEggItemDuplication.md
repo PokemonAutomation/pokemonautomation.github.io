@@ -9,6 +9,7 @@ Duplicate items using the God Egg/MissingNo.
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Manual".
@@ -26,13 +27,16 @@ Duplicate items using the God Egg/MissingNo.
 
 1. Your party is full.
 2. All 6 Pokémon in your party are releasable. (not an egg, not a fused mon)
+
    - If you don't want to clone items on all 6 Pokémon in your party, you can set **"Party Round Robin"** to cycle through fewer Pokémon/items.
 
 ### Box Setup:
+
 - The entire 1st column of the current box must be empty.
 - Your party has 6 throw-away Pokémon* - each holding an item you wish to duplicate.
 
 ### Safety Recommendations:
+
 - Don't leave any Pokémon you care about in the game. This program releases Pokémon and has been observed to fail in a way that saves the game.
 - If you do need to leave Pokémon you care about, keep them out of the 1st column of any box.
 
@@ -69,6 +73,7 @@ Make this many attempts to fetch and duplicate an item.
 Round-robin through this many party Pokémon. By attaching different items to different Pokémon in your party, you can duplicate different items in the same run. Thus it can clone up to 6 different items in each run.
 
 Examples:
+
 - If set to 1, it will only clone the item held by the 1st party member.
 - If set to 2, it will alternate cloning items held by the 1st and 2nd party members.
 - If set to N, it will clone the items held by the 1st N members in your party in a round-robin fashion.

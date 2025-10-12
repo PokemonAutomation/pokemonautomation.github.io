@@ -18,6 +18,7 @@ This is the all-in-one autohost that can host all of the following:
    - Follow the hyperlink above for instructions specific to hosting a soft-locked den
 
 Functionally, all this program does is repeat the following sequence forever:
+
 1. Roll the den forward by N days.
 2. Host the Pokémon.
 3. Reset the game.
@@ -41,14 +42,17 @@ If you care about your den, get rid of all your wishing pieces. They are easy to
 ## Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Casual Mode: Off
@@ -59,8 +63,10 @@ If you care about your den, get rid of all your wishing pieces. They are easy to
 
 1. Game is _not_ currently connected to internet (Y-comm is white)
 2. Position character as follows:
+
    - Somewhere safe from being attacked by wild Pokémon
    - Standing in front of a wishing piece den _with watts collected_
+
 3. Save
 4. Return game to overworld
 5. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
@@ -164,6 +170,7 @@ For auto-hosting we no longer use the method of disconnecting from the raid. Ins
 2. Roll to the shiny and repeat until you get the desired Pokémon.
 3. While still in front of the den, enter the Pokémon Camp and leave it.
 > This establishes a backup save on the shiny frame with the current Pokémon.
+
 4. It hosts as if you are hardlocked. But when you reset, loads a backup save instead of regular save.
 5. When you are done hosting and you want to clear the softlock, just load the game normally. It will load back on the original saved frame that is 3 (or more) frames before the shiny.
 

@@ -1,6 +1,7 @@
 # Date Spam - Berry Farmer 2
 
 **Related Programs:**
+
 - [Date Spam - Berry Farmer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DateSpam-BerryFarmer.md)
 - [Date Spam - Berry Farmer 2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DateSpam-BerryFarmer2.md) (this program)
 - [Shiny Hunt (Autonomous) - Berry Tree](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-BerryTree.md)
@@ -23,15 +24,18 @@ This program will detect shiny Pokémon, however, a better alternative for this 
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 2. Audio input is properly set up.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Background Music: 0 (needs to be unlocked in Motostoke)
@@ -40,6 +44,7 @@ This program will detect shiny Pokémon, however, a better alternative for this 
 
 
 ### Setup of Party
+
 1. Your lead Pokémon must be able to run away. (faster or holding Smoke Ball)
 2. Your lead Pokémon must either be able to OHKO or not be able to use its first move. (for example, no PP left)
 3. Your lead Pokémon must not be shiny. (this will cause false positive detection)

@@ -15,14 +15,17 @@ Boosting the Sinistea (or anything in the area you are hunting) will *lower* the
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Y-Comm glitch must be active
@@ -32,12 +35,15 @@ Boosting the Sinistea (or anything in the area you are hunting) will *lower* the
 
 1. Select what Pokémon that you want to hunt
    > In the Dex Rec program menu
+
 2. Go to the area where it spawns
 3. Change the date so that the location has the correct weather to spawn the Pokémon that you want
 4. Menu cursor must be over the Pokédex
+
    - Enter the menu
    - Adjust cursor to be over Pokédex
    - Press 'B' to exit the menu
+
 5. You must be in the overworld (not inside the menu)
 6. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
 

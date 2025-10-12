@@ -1,6 +1,7 @@
 # Friend Delete
 
 **Related Programs:**
+
 - **Microcontroller:** [Friend Delete](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/FriendDelete.md)
 - **Computer Control:** [Friend Delete](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/FriendDelete.md) (this program)
 
@@ -29,12 +30,14 @@ Once you've auto-hosted enough, your friend list is going to fill up. FriendDele
 ### Implementation Notes:
 
 Please note the following prior to use:
+
 1. There is no way for the program to distinguish "best" friends from regular friends. Therefore you must either tell the program exactly how many to delete, or you must stop it manually.
 2. There is also no way for the program to know when to stop aside from telling it exactly how many friends to delete. When you delete a friend, the cursor automatically moves to the next friend (or the previous if it was your last friend).
 
 Therefore, the only way to feasibly auto-delete friends is to manipulate the sorting order of your friends to group all the ones you want to delete together. Then run the script on that group. Unfortunately, this requires the user to monitor the program while it's running since it's very easy to accidentally delete someone you didn't intend to.
 
 The default sorting order of your friends list is:
+
 1. Best friends who are online.
 2. Normal friends who are online.
 3. Best friends who are offline.

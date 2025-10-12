@@ -1,6 +1,7 @@
 # Shiny Hunt (Autonomous) - Swords of Justice
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: Swords of Justice](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.md)
 - [Shiny Hunt Autonomous: Swords of Justice](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.md) (this program)
 
@@ -10,6 +11,7 @@
 This is the autonomous version of [ShinyHuntUnattended-SwordsOfJustice](ShinyHuntUnattended-SwordsOfJustice.md).
 
 This program will automatically hunt for a shiny Sword of Justice and automatically stop on a shiny. It fully utilizes video feedback and has these advantages over the unattended version of this program:
+
 - No calibration is needed. This program will detect a shiny from its animation.
 - When a shiny is encountered, this program will save a video of the encounter.
 - This program will keep track of encounter statistics.
@@ -21,18 +23,22 @@ This program will automatically hunt for a shiny Sword of Justice and automatica
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 
 ### Setup of Party
+
 1. Your lead Pokémon must be faster than the Sword of Justice.
 2. Your lead Pokémon must not be shiny. (this will cause false positive detections)
 3. You must have no Pokémon in your party with max happiness. This can add delays in the camp.

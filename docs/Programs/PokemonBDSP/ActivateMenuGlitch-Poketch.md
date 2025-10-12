@@ -5,6 +5,7 @@
 See: [Version Preservation](VersionPreservation.md)
 
 **Related Programs:**
+
 - [Activate Menu Glitch (1.1.3)](ActivateMenuGlitch-113.md)
 - [Activate Menu Glitch (1.1.2)](ActivateMenuGlitch-Poketch.md) (this program)
 - [Clone Items (Box Copy Method 2)](CloneItemsBoxCopy2.md)
@@ -13,7 +14,7 @@ See: [Version Preservation](VersionPreservation.md)
 
 This program activates the menu glitch using the Pokétch method. It works on game version 1.1.2.
 
-The method is described here: https://www.youtube.com/watch?v=OGBPgeSsf-E
+The method is described here: [https://www.youtube.com/watch?v=OGBPgeSsf-E](https://www.youtube.com/watch?v=OGBPgeSsf-E)
 
 This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.md).
 
@@ -22,6 +23,7 @@ This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.
 ### Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Instructions

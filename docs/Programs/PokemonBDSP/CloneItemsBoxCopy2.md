@@ -5,6 +5,7 @@
 See: [Version Preservation](VersionPreservation.md)
 
 **Related Programs:**
+
 - [Activate Menu Glitch (1.1.3)](ActivateMenuGlitch-113.md)
 - [Activate Menu Glitch (Pokétch)](ActivateMenuGlitch-Poketch.md)
 - [Clone Items (Box Copy Method 2)](CloneItemsBoxCopy2.md) (this program)
@@ -20,8 +21,9 @@ This program requires that the menu overlap glitch be already active. *How* you 
 You can use [this program](ActivateMenuGlitch-Poketch.md) to help you activate the menu glitch on 1.1.2.
 
 Relevant Videos:
-- Original Box Clone Method: https://www.youtube.com/watch?v=naHINKnWu7k
-- Version 1.1.2 Update: https://www.youtube.com/watch?v=OGBPgeSsf-E
+
+- Original Box Clone Method: [https://www.youtube.com/watch?v=naHINKnWu7k](https://www.youtube.com/watch?v=naHINKnWu7k)
+- Version 1.1.2 Update: [https://www.youtube.com/watch?v=OGBPgeSsf-E](https://www.youtube.com/watch?v=OGBPgeSsf-E)
 
 (Note there is a slightly [faster method](https://www.youtube.com/watch?v=ZbNYA9PzCAw) to clone items.
 However, this approach is harder to automate because the sequence breaks when your bag is full.)
@@ -31,12 +33,15 @@ However, this approach is harder to automate because the sequence breaks when yo
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Box Setup

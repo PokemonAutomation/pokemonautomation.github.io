@@ -17,9 +17,11 @@ This program will also detect any shiny Pokémon along the way, thus it can be u
 1. Screen size: Must be 100% within the Switch settings
 2. Video Resolution: 1080p or higher in program settings
    > Shiny detection and text recognition is not reliable at low resolutions.
+
 3. Text Speed: Fast
 
 ### Setup of Party
+
 1. You currently have a [battle partner](https://www.serebii.net/brilliantdiamondshiningpearl/battlepartners.shtml).
 2. Your lead Pokémon must reliably win all battles by spamming its first move. (a good spread move that OHKO's both wild Pokémon)
 
@@ -37,6 +39,7 @@ This program will also detect any shiny Pokémon along the way, thus it can be u
 3. Start the program in game. Make sure the device is the connected controller.
 
 If setup properly, the program will repeatedly battle wild encounters until one of the following happens:
+
 1. Someone levels up and needs to learn a move.
 2. It encounters a shiny and your settings are set to stop on a shiny.
 3. An error occurs (such as your lead Pokémon fainting).

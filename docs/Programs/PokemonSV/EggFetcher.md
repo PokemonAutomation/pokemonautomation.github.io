@@ -1,6 +1,7 @@
 # Egg Fetcher
 
 **Related Programs:**
+
  - [Egg Fetcher](EggFetcher.md) (this program)
  - [Egg Hatcher](EggHatcher.md)
  - [Egg Autonomous](EggAutonomous.md)
@@ -14,12 +15,15 @@ Make sandwiches and collect eggs.
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Skip Move Learning: On
 3. After game version 2.0.1 (the DLC 1 update): Camera Support: On
@@ -55,7 +59,7 @@ Note: Pokémon with large parts of bright yellow color (e.g. Skeledirge) may int
 
 - If more than one Pokémon holds Destiny Knot and the rest holds nothing, only the Pokémon with Destiny Knots will pair among themselves. So if you bring two Ditto with Destiny Knots and some other Pokémon without items, you will never get eggs as Ditto won't produce eggs with another Ditto.
 
-For more investigation on Scarlet & Violet egg mechanism and how to optimize egg fetching, visit https://rotomlabs.net/article/breeding-scarlet-violet.
+For more investigation on Scarlet & Violet egg mechanism and how to optimize egg fetching, visit [https://rotomlabs.net/article/breeding-scarlet-violet.](https://rotomlabs.net/article/breeding-scarlet-violet.)
 
 
 ## Options

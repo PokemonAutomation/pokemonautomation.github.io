@@ -1,6 +1,7 @@
 # Egg Autonomous
 
 **Related Programs:**
+
  - [Egg Fetcher](EggFetcher.md)
  - [Egg Hatcher](EggHatcher.md)
  - [Egg Autonomous](EggAutonomous.md) (this program)
@@ -30,13 +31,16 @@ Hatching 500 eggs without a shiny is quite common. This can happen approximately
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Skip Move Learning: On
@@ -46,11 +50,14 @@ Hatching 500 eggs without a shiny is quite common. This can happen approximately
 ### Box Setup
 
 1. Prepare three boxes.
+
 - 1.1. Left box: place a Flame Body Pokémon at first row and first column of the left box.
 This Pokémon will be used to hatch the eggs. Make sure the second box column from the left is empty.
 This column will be used to hold your fetcher party when the program is hatching eggs.
+
 - 1.2. Middle box: leave it empty. It is used to hold eggs.
 - 1.3. Right box: this is the box to hold Pokémon you would like to keep. Give it enough space.
+
 2. Set the current box as the middle box.
 3. All three boxes need to use the default wallpaper, Wallpaper 1.
 4. If you want to selectively keep Pokémon with certain IV spreads,
@@ -83,7 +90,7 @@ Note: Pokémon with large parts of bright yellow color (e.g. Skeledirge) may int
 
 - If more than one Pokémon holds Destiny Knot and the rest holds nothing, only the Pokémon with Destiny Knots will pair among themselves. So if you bring two Ditto with Destiny Knots and some other Pokémon without items, you will never get eggs as Ditto won't produce eggs with another Ditto.
 
-For more investigation on Scarlet & Violet egg mechanism and how to optimize egg fetching, visit https://rotomlabs.net/article/breeding-scarlet-violet.
+For more investigation on Scarlet & Violet egg mechanism and how to optimize egg fetching, visit [https://rotomlabs.net/article/breeding-scarlet-violet.](https://rotomlabs.net/article/breeding-scarlet-violet.)
 
 
 

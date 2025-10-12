@@ -42,6 +42,7 @@ Use left mouse button to drag a red bounding box around an object in the image. 
 
 #### Add Labels to Boxes
 Use the "Select Label: " UI to assign labels to the currently selected object (denoted by the black refined box). The UI includes a dropdown menu to choose three kinds of labels: Pokémon Forms, Custom Set and Manual Input.
+
 - Pokémon Forms: it shows a second dropdown menu of an exhaustive list of Pokémon forms for the user to pick.
 - Custom Set: it shows a second dropdown menu of a customizable list of names for the user to pick. By default, it consists of only one name, "mc" for "main character", but you can click the button "Load Custom Set" to load your own custom list from a JSON file. The format of the JSON file is just a list of strings.
 - Manual Input: just type in whatever name you want to assign to the currently selected object.

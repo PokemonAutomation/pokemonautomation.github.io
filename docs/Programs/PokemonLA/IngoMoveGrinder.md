@@ -1,6 +1,7 @@
 # Ingo Move Grinder
 
 **Related Programs:**
+
 - [Ingo Battle Grinder](IngoBattleGrinder.md)
 - [Ingo Move Grinder](IngoMoveGrinder.md) (this program)
 
@@ -19,12 +20,15 @@ This program works on game version 1.0 and later.
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 

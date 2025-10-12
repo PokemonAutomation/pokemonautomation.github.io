@@ -7,6 +7,7 @@
 This is a program to farm the version 3.0.0 item duplication glitch. Though in theory, this program can be used to farm any item held by a wild Pokémon.
 
 **Important Note:** This program is only reliable if run in a place where both of these conditions hold:
+
 1. You cannot be attacked by other wild Pokémon.
 2. The cloned Pokémon cannot run around.
 
@@ -15,8 +16,9 @@ As of this writing, there is only one known location where this is possible ([se
 In all other locations that fail at least one condition, this program will not be able to reliably duplicate more than 50 - 100 (in the best case) items before it breaks.
 
 Before you begin, make sure you understand how the glitch works:
-- https://www.youtube.com/watch?v=vBel6GplgnY
-- https://www.youtube.com/watch?v=IeKAjpM18mc
+
+- [https://www.youtube.com/watch?v=vBel6GplgnY](https://www.youtube.com/watch?v=vBel6GplgnY)
+- [https://www.youtube.com/watch?v=IeKAjpM18mc](https://www.youtube.com/watch?v=IeKAjpM18mc)
 
 The program does not automate the part that clones a Pokémon into the wild. Instead, it automates the part that repeatedly battles it and steals its item. So you still need to setup according to the video.
 
@@ -30,6 +32,7 @@ The program does not automate the part that clones a Pokémon into the wild. Ins
 Your lead Pokémon must know Trick in the 1st position. This is what will be used to steal items. Furthermore, if this Pokémon forgets Trick, it must have Trick in the first relearn slot. When it runs out of PP, the program will forget and relearn Trick to restore its PP.
 
 However, this program has two major failure cases:
+
 1. If the clone wanders away from you such that the program can no longer engage it by throwing your lead out.
 2. If you encounter anything other than the clone.
 
@@ -38,12 +41,15 @@ In either case, the program will detect this error condition and stop. There is 
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 
@@ -94,6 +100,7 @@ Depending on what your clone Pokémon is, it may be possible to lead it up the r
 **Make sure you turn the "Forward Run" option ON.**
 
 Failure cases are:
+
 1. Eventually getting attacked from behind. (usually a Deerling)
 2. The encounter cycle rotates out of place and the clone wanders away from in front of you.
 

@@ -13,12 +13,15 @@ MultiGameFossil is a more advanced fossil reviving program that can revive fossi
 > **These must be setup on *each* participating save.**
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Have "Send to Boxes" set to "Automatic".
@@ -30,6 +33,7 @@ MultiGameFossil is a more advanced fossil reviving program that can revive fossi
    2. If you are reviving from both Sword and Shield, they must be in slots 1 and 2 of the games list.
 
 ### Safety Recommendations:
+
 - Because this program involves entering games, there is a chance that an error can cause it to enter the wrong game. If any of the games are holding dens, it is recommended to save them facing away from the den. The button presses for reviving fossils can easily destroy a den.
 
 ### Instructions
@@ -50,10 +54,13 @@ If you are only using one game, only use one entry.
 ### Checking if you have Revived a Shiny:
 
 Once you have revived a ton of fossils, you need to check if there are any shinies. There are generally 3 ways to do this:
+
 1. Manually check them one-by-one.
    > This option is pretty self-explanatory. Seriously, don't do this. It's time-consuming and error-prone. You won't want to miss a shiny because you're impatient and were checking them too quickly.
+
 2. Check your Pokédex for the shiny sprite.
    > This option is a very fast way to check if you have a shiny, but it only works if you don't already have the Pokédex entry for it. Thus it's only good for the 1st time you revive the shiny. If you don't have the shiny sprite in the Pokédex before running the program, but you do afterwards, then you have revived a shiny!
+
 3. Save the game, enter Pokémon Home, and filter by shiny.
    > This will always work, but requires Pokémon Home and the use of backup saves. Save the game if you haven't already, then immediately enter Pokémon Home. Pokémon Home lets you filter by shiny – thus you can quickly check if you have revived any shinies. If not, you need to close Home without saving and reload the backup save to recover the fossils. 
 

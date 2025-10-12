@@ -10,11 +10,13 @@ In the meantime, here are some notes regarding Switch 2 automation that will dif
 This is the tl;dr if you just want to know what settings to use for Switch 2.
 
 **Common Settings:**
+
 - Switch menu theme must be either light or dark theme.
 - Colors should be normal, not greyscale or inverted.
 - Text size should be normal. Not large.
 
 **Other Settings:**
+
 - For programs that reset the game, you must move the user profile to the 1st one (left-most slot).
 - Some programs require specifying the Switch type. (Switch 1, Switch 2 international, Switch 2 Japan-locked)
 
@@ -46,6 +48,7 @@ However, these settings are missing in the Japan region-locked Switch 2s.
 This affects programs that manipulate the date. Thus the program needs to know what Switch you have.
 
 There are 3 different Switch setting layouts:
+
 - Switch 1 (original and OLED have the same layouts)
 - Switch 2: international
 - Switch 2: Japan region-locked
@@ -54,6 +57,7 @@ Most programs can automatically detect which layout it is. But not always.
 In cases where it fails, you will need to manually specify the Switch type in the dropdown.
 
 Programs will stop and notify you in the following circumstances:
+
 - You do not set the Switch type, the program needs to know and is unable to detect.
 - You are not specific enough with the Switch type selection, the program needs to know and is unable to detect.
 - Your selection conflicts with what the program has detected.
@@ -63,9 +67,10 @@ Programs will stop and notify you in the following circumstances:
 
 Numerous people have been reporting issues with Elgato capture cards. There is an entire reddit thread for this, the one that affects us the most is that colors can become extremely washed out. This causes problems for programs that do color-sensitive visual recognition.
 
-Reddit Thread: https://www.reddit.com/r/elgato/comments/1l48p6g/megathread_switch_2_capture_or_streaming_issues/
+Reddit Thread: [https://www.reddit.com/r/elgato/comments/1l48p6g/megathread_switch_2_capture_or_streaming_issues/](https://www.reddit.com/r/elgato/comments/1l48p6g/megathread_switch_2_capture_or_streaming_issues/)
 
 In Elgato 4k Capture Utility settings:
+
 - HDMI Color Range: Bypass
 - Input EDID Mode: Display
 - EDID (Internal): Default
@@ -77,6 +82,7 @@ Additionally, make sure to close the 4k Capture Utility before running programs.
 HDR has been known to cause some issues. But these are often in conjunction with Elgato cards. So more information is needed.
 
 If using an HDR-capable card, we recommend turning it off in System Settings -> Display. Make sure to toggle the second HDR option (pictured below), as that controls the TV Output. (The first HDR option is for handheld mode.)
+
 |HDR Off|HDR On|
 |---|---|
 |<img src="../images/Switch2-HDR-Off.png" width="400">|<img src="../images/Switch2-HDR-On.png" width="400">|
@@ -105,6 +111,7 @@ For most of the history of this project (and many similar automation projects), 
 Both the Switch 1 as well as any computer will poll the controller at this steady 125 Hz. However, the Switch 2 has been observed to vary the poll rate between 125 Hz and 62.5 Hz. Needless to say, this broke our Arduino/Teensy controllers which we had to fix.
 
 For developers, we now have 3 different controller setups with different minimum time units (tick size):
+
 - Wired controller (Switch 1): 8ms
 - Wired controller (Switch 2): 8ms or 16ms
 - ESP32 Wireless (Switch 1 only): 15ms

@@ -1,6 +1,7 @@
 # Money Farmer (Route 212)
 
 **Related Programs:**
+
 - [Money Farmer (Route 212)](MoneyFarmerRoute212.md) (this program)
 - [Money Farmer (Route 210)](MoneyFarmerRoute210.md)
 
@@ -8,7 +9,7 @@
 
 Farm money by using the VS seeker to repeatedly battle a trainer with high payout.
 
-This is essentially an automated version of: https://www.youtube.com/watch?v=9qN-fB6XX90
+This is essentially an automated version of: [https://www.youtube.com/watch?v=9qN-fB6XX90](https://www.youtube.com/watch?v=9qN-fB6XX90)
 
 With the Amulet Coin, this program can max out your money at 999,999 in a couple hours.
 
@@ -17,12 +18,15 @@ With the Amulet Coin, this program can max out your money at 999,999 in a couple
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Instructions

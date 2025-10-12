@@ -1,6 +1,7 @@
 # Leap Grinder
 
 **Related Programs:**
+
 - [Nugget Farmer Highlands](NuggetFarmerHighlands.md)
 - [Ingo Battle Grinder](IngoBattleGrinder.md)
 - [Magikarp Move Grinder](MagikarpMoveGrinder.md)
@@ -22,12 +23,15 @@ Alternatively, the program also can stop if:
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 
@@ -59,6 +63,7 @@ How many leaps before stopping the program
 ### Stop On
 
 When should the program stop and act on the **Match Action**. Current options:
+
 - Shiny
 - Alpha
 - Shiny Alpha
@@ -69,6 +74,7 @@ When should the program stop and act on the **Match Action**. Current options:
 What to do when matching with the **Stop On** option
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.
@@ -84,6 +90,7 @@ This has no functional affect on the program. Don't set this value too large as 
 What to do when finding a shiny enroute to destination
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

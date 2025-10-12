@@ -1,6 +1,7 @@
 # Self Touch Trade
 
 **Related Programs:**
+
 - [Self Box Trade](SelfBoxTrade.md)
 - [Self Touch Trade](SelfTouchTrade.md) (this program)
 
@@ -14,12 +15,15 @@ Touch trade boxes of Pokémon from a host Switch to a receiving Switch. The purp
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 
@@ -63,34 +67,40 @@ This will shift all the boxes on the host Switch to the left by one. Once all bo
 **Starting Position:**
 
 Hosting Switch:
+
 - Box A
 - Box B
 - Box C
 - Box D
 
 Receiving Switch:
+
 - Box X
 
 **After all boxes are touch traded:**
 
 Hosting Switch:
+
 - Box X
 - Box A
 - Box B
 - Box C
 
 Receiving Switch:
+
 - Box D
 
 **End of Program:**
 
 Hosting Switch:
+
 - Box D
 - Box A
 - Box B
 - Box C
 
 Receiving Switch:
+
 - Box X
 
 

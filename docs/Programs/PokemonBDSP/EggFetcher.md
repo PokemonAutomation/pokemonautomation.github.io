@@ -10,11 +10,13 @@ This program is used with [EggHatcher](EggHatcher.md) to fetch and hatch eggs. T
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. The "Send to Boxes" option must be set to "Automatic".
 3. The parents are already deposited at the daycare center.
 
 **Strongly Recommended:**
+
 - Masuda Method: The Pokémon in the daycare are of different languages.
 - Have the Oval Charm.
 - Have the Shiny Charm.

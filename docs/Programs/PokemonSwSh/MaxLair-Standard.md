@@ -3,6 +3,7 @@
 [Max Lair Info](MaxLair.md)
 
 **Related Programs:**
+
 - [Max Lair: Standard](MaxLair-Standard.md) (this program)
 - [Max Lair: Strong Boss](MaxLair-StrongBoss.md)
 - [Max Lair: Boss Finder](MaxLair-BossFinder.md)
@@ -17,12 +18,15 @@ This program normally runs with random paths, but it can be configured to keep a
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Automatic".
@@ -77,6 +81,7 @@ This is the ball that will be used to catch the boss.
 ### No Shiny Action, Non-Boss Shiny Action, Shiny Boss Action
 
 At the end of each adventure, the result will be one of the following:
+
 1. No shinies found.
 2. One (or more) non-boss Pokémon is shiny.
 3. The boss is shiny.
@@ -84,6 +89,7 @@ At the end of each adventure, the result will be one of the following:
 This option lets you tell the program what to do for each of these cases.
 
 The possible actions are:
+
 1. Stop Program. This stops the *entire* program - including for all Switches.
 2. Continue Running. Take any shiny non-boss Pokémon along the way.
 3. Reset the game.
@@ -98,6 +104,7 @@ Resetting the game will cost ore in the long run, but will recover the balls you
 ### Mode
 
 Pretty self-explanatory. The options are:
+
 - **Not Hosting:** Run by yourself using only Switches controlled by this program.
 - **Host Locally:** Allow other local Switches to join.
 - **Host Online:** Allow other people online to join.

@@ -41,12 +41,15 @@ If you don't feel like bothering with increasing both friendship and sociability
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode is off.
 3. The "Send to Boxes" option must be set to "Automatic".

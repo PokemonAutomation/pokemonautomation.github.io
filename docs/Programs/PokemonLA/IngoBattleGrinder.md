@@ -1,6 +1,7 @@
 # Ingo Battle Grinder
 
 **Related Programs:**
+
 - [Ingo Battle Grinder](IngoBattleGrinder.md) (this program)
 - [Ingo Move Grinder](IngoMoveGrinder.md)
 
@@ -19,12 +20,15 @@ This program works on game version 1.0 and later.
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 
@@ -55,6 +59,7 @@ If you aim to grind move and style usages, make sure your Pokémon are fast or b
 
 
 **Example usages:**
+
 - Grind move usage and style usage research tasks for your high-level Pokémon:
   
   Beat an easy opponent like Wenton, Bren or Ress repeatedly with required move styles. Put the move to grind as the first move and select the proper style. If the move has few PPs, you can grind the research tasks of the second move after the program uses all PPs of the first move. You can also collect small amount of exp for the rest of your party.

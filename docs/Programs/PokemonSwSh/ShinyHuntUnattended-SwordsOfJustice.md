@@ -5,6 +5,7 @@
 -----
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: Swords of Justice](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.md) (this program)
 - [Shiny Hunt Autonomous: Swords of Justice](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.md)
 
@@ -30,6 +31,7 @@ Before you continue, first read the appendix on unattended shiny-hunting calibra
 Section: [Unattended Shiny-Hunting Calibration](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/UnattendedShinyHunting.md#calibrating-unattended-shiny-hunting)
 
 The variable that controls the critical delay for this program is **"Exit Camp to Run Delay"**.
+
 - When the encounter is not shiny, the LEDs should turn on ***0.3 – 1.7 seconds AFTER*** the battle menu appears. The program will run away from the battle.
 - When the encounter is shiny, the LEDs should turn on at least ***~0.3 seconds BEFORE*** the battle menu appears. The program will not run away and will instead trap itself in the summary of your Pokémon.
 
@@ -48,6 +50,7 @@ Most Switches will have a working value somewhere between 1800 and 1930 – whic
 **Too Much Variation:**
 
 On some Switches and environments, you may find that your range of delays is too large to fit into the recommended timing window. Here are some tricks you can try to reduce that variation:
+
 - Restart your Switch.
 - Turn on airplane mode and set "AIRPLANE_MODE" to true.
 - Detach your Joy-Cons.
@@ -90,6 +93,7 @@ If the variation is so high such that it will run from more than 50% of the shin
 ### Default Program Settings
 
 When correctly calibrated:
+
 - If the encounter is not shiny, the program will run from the battle and move on to the next encounter.
 - If the encounter is shiny, the program will trap itself inside the Pokémon menu. This allows you to manually back out and fight the shiny Pokémon.
 

@@ -16,12 +16,15 @@ Compared with [Nugget Farmer (Highlands)](NuggetFarmerHighlands.md), this progra
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 
@@ -58,6 +61,7 @@ There is a small chance the Arceus may lose to Pearl Clan. To ensure victory, yo
 ### Fourth Move on
 
 Let the program use Arceus' fourth move on one of the opponenent's Pokémon to grind their research tasks:
+
 - Set the fourth move to be Flamethrower to grind Mamoswine's research task.
 - Set the fourth move to be Rock Smash to grind Avalugg's research task.
 

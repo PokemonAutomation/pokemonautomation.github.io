@@ -1,6 +1,7 @@
 # Day Skipper (EU)
 
 **Related Programs:**
+
 - [Day Skipper (JPN)](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperJPN.md)
 - [Day Skipper (EU)](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperEU.md) (this program)
 - [Day Skipper (US)](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperUS.md)
@@ -12,6 +13,7 @@ There are different skippers for each date format. Use the one that matches your
 ## Program Description
 
 This is the EU day skipper that runs at about:
+
 - Switch 1: **7350 - 7550** skips/hour
 - Switch 2: **5655** skips/hour
 
@@ -69,6 +71,7 @@ When the program finishes skipping, it will continue to enter/exit the date chan
 ### Day Skipper Appendix:
 
 It is strongly recommended to read each of these sections. These are common to all the day skippers.
+
 - [Maximizing Switch Stability](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/SwitchStability.md)
 - [Common Usage Errors](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DaySkippers.md#common-usage-errors#common-usage-errors)
 - [How Many Skips are Remaining?](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DaySkippers.md#common-usage-errors#how-many-skips-are-remaining)

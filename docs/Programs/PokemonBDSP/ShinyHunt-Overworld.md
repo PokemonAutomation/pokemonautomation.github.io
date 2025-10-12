@@ -13,20 +13,25 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9114822822
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Setup of Party
+
 1. Your lead Pokémon must be able to run away. (faster or holding Smoke Ball)
 2. Your lead Pokémon must not be shiny. (This may cause false positives if a capture card lags)
    > **Recommended for Performance**
    > - Your lead Pokémon does not have high happiness.
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
+
 3. **If using Sweet Scent** See `Trigger Method` below for additional party setup to trigger encounters.
 
 

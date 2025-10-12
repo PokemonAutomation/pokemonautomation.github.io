@@ -1,6 +1,7 @@
 # Shiny Hunt - Custom Path
 
 **Related Programs:**
+
 - [Shiny Hunt - Flag Pin](ShinyHunt-FlagPin.md)
 - [Post MMO Spawn Reset](PostMMOSpawnReset.md)
 - [Shiny Hunt - Custom Path](ShinyHunt-CustomPath.md) (this program)
@@ -14,6 +15,7 @@ This is a harder to use program that will shiny hunt Pokémon along a set path.
 Some of the exceptions are covered by the specialized programs ([Crobat](AlphaCrobatHunter.md), [Froslass](AlphaFroslassHunter.md), [Gallade](AlphaGalladeHunter.md), etc...). But those are not exhaustive.
 
 For example, Zorua:
+
 1. Zorua cannot be hunted by Flag Pin because it's underground and requires turns.
 2. Zorua cannot be hunted by Post-MMO because it's underground and away from any MMO spawns.
 3. There are no specialized hunts for Zorua.
@@ -26,14 +28,17 @@ Thus the purpose of this program is cover some of the things that cannot be hunt
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Audio input is properly setup.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Vertical and Horizontal camera controls are both ***Regular***. Do not set either one to inverted.
@@ -62,6 +67,7 @@ When you start the program, it will first travel to the desired start location a
 Pick a start location from which you will begin traveling to the flag.
 
 Options include:
+
 - All camps.
 - All arenas.
 - The Diamond and Pearl settlements.
@@ -115,6 +121,7 @@ Change the shiny detected action to the "Enroute Shiny Action". Use this if you 
 This option allows you to select how the program should reset once it reaches the flag.
 
 Options:
+
 - Soft Reset. (Safer option)
 - Go back to village. (Faster option)
 
@@ -133,6 +140,7 @@ This program detects shinies by listening for the shiny sound. You can configure
 There are two of these options - one for enroute, and one for the destination. Thus you can customize the behavior - such as ignoring shinies while enroute.
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

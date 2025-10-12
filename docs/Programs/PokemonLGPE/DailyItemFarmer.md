@@ -16,7 +16,9 @@ Farm daily item respawns (ex. fossils) by date-skipping.
 ## Instructions
 
 1. Stand facing the location of any item that respawns daily.
+
     - If in an area with wild encounters, use a Repel.
+
 2. Start the program in-game.
 
 ex. In Cerulean Cave, there is a spot near Mewtwo (pictured above) with a 100% chance to spawn a fossil daily. This program will work to farm the fossils. However, Cerulean Cave also has a floor with Poke Balls, Berries, and fossils that respawn after 256 steps. This program will not work on those.

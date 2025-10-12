@@ -1,6 +1,7 @@
 # Self Touch Trade
 
 **Related Programs:**
+
 - [Self Box Trade](SelfBoxTrade.md)
 - [Self Touch Trade](SelfTouchTrade.md) (this program)
 
@@ -26,12 +27,15 @@ It takes roughly 3148 trades and 43 hours to touch-trade a complete Hisui living
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Make sure the Game Languages are set correctly.
 

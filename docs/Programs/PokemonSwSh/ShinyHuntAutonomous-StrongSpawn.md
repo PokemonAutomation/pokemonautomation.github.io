@@ -1,6 +1,7 @@
 # Shiny Hunt (Autonomous) - Strong Spawn
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md)
 - [Shiny Hunt Autonomous: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md) (this program)
 
@@ -10,6 +11,7 @@
 This is the autonomous version of [ShinyHuntUnattended-StrongSpawn](ShinyHuntUnattended-StrongSpawn.md).
 
 This program will automatically hunt for a shiny strong spawn and automatically stop on a shiny. It fully utilizes video feedback and has these advantages over the unattended version of this program:
+
 - No calibration is needed. This program will detect a shiny from its animation.
 - When a shiny is encountered, this program will save a video of the encounter.
 - This program will keep track of encounter statistics.
@@ -21,19 +23,23 @@ This program will automatically hunt for a shiny strong spawn and automatically 
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Switch Date: Change the date to one that has the appropriate weather for your desired strong spawn.
 
 ### Setup of Party
+
 1.  Your lead Pokémon must be able to run away. (faster or holding Smoke Ball)
 2.  Your lead Pokémon must not be shiny. (this will cause false positive detection)
    > **Recommended for Performance:**
@@ -73,6 +79,7 @@ Every this many hours, rollback the time by this many hours. This keeps the time
 ## Troubleshooting
 
 If you start the program and the target Pokémon does not pop-up below you:
+
 1. Stop the program.
 2. Move to where the Pokémon spawned.
 3. Redo the steps in "Run Program Instructions".

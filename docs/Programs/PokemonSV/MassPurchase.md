@@ -1,6 +1,7 @@
 # Mass Purchase
 
 **Related Programs:**
+
 - **Microcontroller:** [MassPurchase](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSV/MassPurchase.md)
 - **Computer-Control:** [MassPurchase](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/MassPurchase.md) (this program)
 
@@ -13,9 +14,11 @@ Automatically buy items.
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Make sure you have sufficient funds (In LP or Cash)
 

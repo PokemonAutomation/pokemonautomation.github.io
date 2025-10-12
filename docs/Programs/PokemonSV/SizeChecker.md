@@ -5,6 +5,7 @@
 Talk with NPCs to check boxes of Pokémon for ones that qualify for marks and/or ribbons.
 
 This is currently confirmed to work for:
+
 - Jumbo & Mini Marks from Size Checker in Mesagoza
 - Best Friends Ribbon from Friendship Checker in Cascarrafa
 - Effort Ribbon from Effort Value Checker in Levincia
@@ -14,12 +15,15 @@ This is currently confirmed to work for:
 ## Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto Save: Off
 

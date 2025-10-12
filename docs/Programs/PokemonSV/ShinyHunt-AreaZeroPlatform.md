@@ -7,7 +7,7 @@
 
 ## Program Description
 
-This program will shiny hunt on the specific platform detailed in this video: https://youtu.be/5NeLVaE7t8c?t=274
+This program will shiny hunt on the specific platform detailed in this video: [https://youtu.be/5NeLVaE7t8c?t=274](https://youtu.be/5NeLVaE7t8c?t=274)
 
 While that video is focused on the idling the ghost exploit for Flutter Mane, the same platform can be used to shiny hunt almost everything else there.
 
@@ -37,13 +37,16 @@ Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports 
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. The language in the option must match your in-game language.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Skip Move Learning: On
 3. Give Nicknames: Off
@@ -68,6 +71,7 @@ Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports 
 11. Start the program in the overworld with all menus closed.
 
 **Additional Instructions for Sandwich Mode**
+
 1. You have picniced at least once to clear the picnic tutorial.
 2. You have plenty of sandwich ingredients. (For any ingredient, you need at least 1 more than the required amount to successfully complete the sandwich.)
 3. For best performances, select the default tablecloth for your picnic table. (Light-colored tablecloth may interfere with with video recognition.)
@@ -77,6 +81,7 @@ Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports 
 If running without Encounter power active, the best known Pokémon for a lead is Corviknight that is level 100, defensively trained, and holding leftovers. Miraidon and Lucario will also work if given a Smoke Ball. However, the lack of leftovers for self-healing makes them less suitable for auto-catching.
 
 On Violet, Corviknight has issues walling Iron Hands and Iron Bundle during auto-catch:
+
 - Impish 252hp/252def will wall Iron Hands, but takes more than leftovers can heal against Iron Bundle.
 - Careful 252hp/252spdef will wall Iron Bundle, but takes more than leftovers can heal against Iron Hands.
 

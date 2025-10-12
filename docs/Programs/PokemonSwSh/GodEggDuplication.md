@@ -12,6 +12,7 @@ Duplicate Pokémon using the God Egg/MissingNo.
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Manual".
@@ -35,6 +36,7 @@ Duplicate Pokémon using the God Egg/MissingNo.
    - If you don't want to clone all 6 Pokémon in your party, you can set **"Party Round Robin"** to cycle through fewer Pokémon.
 
 ### Safety Recommendations:
+
 - Don't leave any Pokémon you care about in the game. This program releases Pokémon and has been observed to fail in a way that saves the game.
 - If you do need to leave Pokémon you care about, keep them out of the 1st column of any box.
 
@@ -70,6 +72,7 @@ Make this many attempts to fetch and duplicate a Pokémon.
 Round-robin through this many party Pokémon.
 
 Examples:
+
 - If set to 1, it will only clone the 1st party member.
 - If set to 2, it will alternate the 1st and 2nd party members.
 - If set to N, it will the 1st N members in your party in a round-robin fashion.

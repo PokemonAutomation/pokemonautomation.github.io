@@ -8,7 +8,7 @@
 
 If you're just cloning items, you can use this program to set it up. But there is a [faster program](CloneItems-101.md) for that.
 
-This program automates the legendary cloning part of this video: https://www.youtube.com/watch?v=3XHD_Cqw9Rk
+This program automates the legendary cloning part of this video: [https://www.youtube.com/watch?v=3XHD_Cqw9Rk](https://www.youtube.com/watch?v=3XHD_Cqw9Rk)
 
 So this program will clone your ride legendary into your boxes. You will need to run [Mass Release](MassRelease.md) to clean them up (which also automatically detaches the items from them).
 
@@ -20,14 +20,17 @@ This program catches Pokémon the same way as the [Tera Farmer](TeraSelfFarmer.m
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Give Nicknames: Off
 3. Send to Boxes: Manual

@@ -27,13 +27,16 @@ If video feedback is enabled, it will keep track of stats and will waste a lot l
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Casual mode: Off
@@ -76,6 +79,7 @@ If you are hosting from one game version only, set this to 1. You don't need to 
 If you are hosting from both Sword and Shield, set this to the game slot of the version when the program starts.
 
 For example:
+
 - If you want to host on Sword and Sword is the 1st slot in the game list when the program starts, set to 1.
 - If you want to host on Shield and Shield is the 2nd slot in the game list when the program starts, set to 2.
 
@@ -140,6 +144,7 @@ Wait this long in the lobby before starting the raid. Thus the start time is 3:0
 ### Accept Friend Requests for Future Games:
 
 While hosting the current den, accept friend requests for a future den.
+
 - If 0, accept friend requests for the current den.
 - If 1, accept friend requests for the next den to be hosted.
 - If 2, accept friend requests for the den that will be hosted 2 dens later.

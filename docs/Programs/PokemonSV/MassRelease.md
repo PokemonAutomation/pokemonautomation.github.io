@@ -1,6 +1,7 @@
 # Mass Release
 
 **Related Programs:**
+
 - **Microcontroller:** [Mass Release](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSV/MassRelease.md)
 - **Computer Control:** [Mass Release](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/MassRelease.md) (this program)
 
@@ -13,9 +14,11 @@ Mass release boxes of Pokémon.
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Box Setup

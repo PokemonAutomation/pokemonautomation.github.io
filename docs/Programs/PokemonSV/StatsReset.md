@@ -9,13 +9,16 @@ Repeatedly catch static encounters until you get the stats you want.
 ## Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 2. Skip Move Learning: On
@@ -32,12 +35,16 @@ Repeatedly catch static encounters until you get the stats you want.
 ## Instructions
 
 1. Stand in front of your target and save the game.
+
 	- For the Treasures of Ruin, their vault must first be unlocked by pulling their respective stakes.
+
 2. Start the program in-game.
+
 	- Master Ball strongly recommended for legendaries.
 	- If you cannot throw a Pokeball (ex. Chi-Yu used Bounce) the game will use your Pokemon's first move. Make sure to set the first move of all Pokemon in your party to something non-damaging/False Swipe.
 
 ## Notes
+
 - The game will reset if it runs out or cannot find the selected Pokeball.
 - Fainted Pokemon will be swapped out.
 - It is recommended to hunt for 0IV only, as all other stats can be bottle capped.
@@ -51,6 +58,7 @@ Repeatedly catch static encounters until you get the stats you want.
 ### Target:
 
 The Pokemon you are resetting for.
+
 - Treasures of Ruin: Set to this if you are targeting Wo-Chien, Chien-Pao, Ting-Lu, or Chi-Yu. Their vaults must be unlocked.
 - Loyal Three: Use this for Okidogi, Munkidori, and Fezandipiti.
 - Snacksworth Legendary + Meloetta: For Meloetta and the legendaries in Paldea that are unlocked after completing BBQs for Snacksworth.

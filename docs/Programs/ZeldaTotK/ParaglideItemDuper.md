@@ -18,8 +18,10 @@ Farm items by duplicating them in Tears of the Kingdom. This works by holding it
 
 1. A warp point has been placed using the Travel Medallion directly opposite the ladder to the Emergency Shelter in Lookout Landing. (See above image.)
    > Angle facing slightly to the left of the ladder. This will prevent accidently talking to the guard on the right at the bottom.
+
 2. On the Purah Pad (minus button menu), the Map tab is selected. Additionally, the zoom level is set to the default. (Zoom all the way in and then zoom out by one level.)
    > Clear the map of stickers/icons around the warp point.
+
 3. Unequip any metal weapons/armor in case there is a thunderstorm.
 
 ## Instructions

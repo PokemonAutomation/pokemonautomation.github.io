@@ -9,6 +9,7 @@ This program will apply Grit items on your party Pokémon to level up their Grit
 ### Settings
 
 **Game Settings:**
+
 1. Text speed is fast.
 
 
@@ -16,8 +17,10 @@ This program will apply Grit items on your party Pokémon to level up their Grit
 
 1. Place the party Pokémon you wish to apply Grit items on before the other Pokémon in the party.
 The program applies on Pokémon in the party order.
+
 2. You have enough Grit Dust, Grit Gravel, Grit Pebble and Grit Rock in your satchel.
 The program may use at most 108 Grit Dust, 108 Grit Gravel, 108 Grit Pebble and 36 Grit Rock in a single run.
+
 3. Order your Grit items shown in the picture below.
 4. Stay in the item menu. Move the cursor onto Grit Dust as shown in the picture.
 5. Start the program in the game.

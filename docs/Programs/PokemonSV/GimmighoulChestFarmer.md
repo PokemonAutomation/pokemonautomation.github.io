@@ -11,14 +11,17 @@ Farm Gimmighoul chests by advancing the in-game day with date skipping.
 ## Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Skip Move Learning: On
@@ -34,9 +37,12 @@ Farm Gimmighoul chests by advancing the in-game day with date skipping.
 
 1. Fly to the East Province (Area One) Watchtower fast-travel point.
 2. (Optional) Clear out any wild pokemon between your character and the watchtower.
+
 	- Only the first walk up to the watchtower needs to be clear. Be sure not to move off the fly point.
  	- Starting a picnic is a quick way to do this.	
+
 3. Start the program in-game.
+
 	- After defeating a chest, the program will reset your position by flying and climbing the tower. Very rarely, a wild Pokemon will run into you. If this happens, the program will attempt to defeat it and then reset position again. It will not check if it is shiny.
 
 Note that any extra coins obtained past 999 can be picked up from a NPC in Medali.

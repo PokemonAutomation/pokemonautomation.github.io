@@ -6,6 +6,7 @@
 
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-IoATrade.md) (this program)
 - [Shiny Hunt Autonomous: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-IoATrade.md)
 
@@ -36,6 +37,7 @@ Section: [Unattended Shiny-Hunting Calibration](https://github.com/PokemonAutoma
 
 **Calibrating the Run-Away time:**
 The variable that controls the critical delay for this program is **"Start to Run Delay"**.
+
 - If neither Pokémon is shiny, the LEDs will turn on ***0.5 – 1.5 seconds AFTER*** the battle menu appears. The program will run from the Beartic.
 - If either Pokémon is shiny, the LEDs will turn on ***0.5 – 1.0 seconds BEFORE*** the battle menu appears. The program will not run and will instead trap  itself in the summary of your Pokémon.
 
@@ -82,12 +84,14 @@ If you find that your character does not move towards the Beartic soon after lan
 ### Default Program Settings
 
 When correctly calibrated:
+
 - If neither Pokémon is shiny, the program will run from the Beartic and reset for the next attempt.
 - If either the traded Pokémon or the Beartic is shiny, the program will lock itself in the Pokémon summary.
 
 > With Shiny Charm, 75% of the shiny locks will be on a shiny Beartic. The remaining 25% will be for the traded Pokémon. Therefore, this program is more efficient without Shiny Charm.
 
 Once started, the program will do the following:
+
 1. Perform the trade.
 2. Go into your Pokémon summary to move the Smoke Ball from the 2nd Pokémon to the lead Pokémon.
 3. Fly to Route 10.

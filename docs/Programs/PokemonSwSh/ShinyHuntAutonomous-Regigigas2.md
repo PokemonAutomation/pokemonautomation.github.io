@@ -1,6 +1,7 @@
 # Shiny Hunt (Autonomous) - Regigigas 2
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-Regigigas2.md)
 - [Shiny Hunt Autonomous: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md) (this program)
 
@@ -10,6 +11,7 @@
 This is the autonomous version of [ShinyHuntUnattended-Regigigas2](ShinyHuntUnattended-Regigigas2.md).
 
 This program will automatically hunt for Regigigas and automatically stop on a shiny. It fully utilizes video feedback and has these advantages over the unattended version of this program:
+
 - No calibration is needed. This program will detect a shiny from its animation.
 - When a shiny is encountered, this program will save a video of the encounter.
 - This program will distinguish star shinies from square shinies.
@@ -26,18 +28,22 @@ This program will automatically hunt for Regigigas and automatically stop on a s
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 
 ### Setup of Party
+
 1. Your lead Pokémon must not be shiny. (this will cause false positive detections)
 2. *The first move on your lead Pokémon must be able to OHKO the Regigigas. (see below)*
    > **As of this writing, there is only one known way to ensure a OHKO on Regigigas:**

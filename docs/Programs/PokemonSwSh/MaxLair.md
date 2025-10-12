@@ -1,6 +1,7 @@
 # Max Lair Programs
 
 **Program List:**
+
 - [Max Lair: Standard](MaxLair-Standard.md)
 - [Max Lair: Strong Boss](MaxLair-StrongBoss.md)
 - [Max Lair: Boss Finder](MaxLair-BossFinder.md)
@@ -31,12 +32,14 @@ The online and auto-hosting functionality makes it possible for multiple people 
 Serial AutoDA is a rewrite/port of AutoMaxLair, but it's not an complete replacement.
 
 **Features new to serial AutoDA:**
+
 - Multi-Switch support.
 - Online and multiplayer mode.
 - Support for all 9 languages.
 - Automatic detection of boss from its sprite. No need to manually specify.
 
 **AutoMaxLair features missing from AutoDA:**
+
 - Stat and IV hunting.
 - Hunting for specific non-boss Pokémon.
 

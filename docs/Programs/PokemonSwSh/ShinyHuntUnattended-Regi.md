@@ -5,6 +5,7 @@
 -----
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-Regi.md) (this program)
 - [Shiny Hunt Autonomous: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regi.md)
 
@@ -32,6 +33,7 @@ This Regi program involves the (error prone) process of solving the light puzzle
 Before you do any extended run, it is important to check your calibration (next section). _**Do not just fire up this program and expect it to work. Way too many people are overly eager and skip calibration just to end up wasting many hours from locking on false positives or running from shinies.**_
 
 The variable that controls the critical delay for this program is **"Start to Run Delay"**.
+
 - When the encounter is not shiny, the LEDs should turn on ***0.5 – 1.5*** seconds AFTER the battle menu appears. The program will run away from the battle.
 - When the encounter is shiny, the LEDs should turn on ***0.5 - 1.0*** seconds BEFORE the battle menu appears. The program will not run away and will instead trap itself in the summary of your Pokémon.
 
@@ -51,6 +53,7 @@ Make only small changes at a time, no more than +/- 50 ticks at a time. Most Swi
 1. Your lead Pokémon is not shiny.
 2. Your lead Pokémon does not have an ability that activates upon entry to battle.
 Your lead Pokémon must be able to run away. (faster or holding Smoke Ball)
+
 3. Your lead Pokémon must not have high happiness.
    1. The in-battle shaking and dialog adds timing variation.
 
@@ -69,6 +72,7 @@ Your lead Pokémon must be able to run away. (faster or holding Smoke Ball)
 ### Default Program Settings
 
 When correctly calibrated:
+
 - If the encounter is not shiny, the program will run from the battle and move on to the next encounter.
 - If the encounter is shiny, the program will trap itself inside the Pokémon menu. This allows you to manually back out and fight the shiny Pokémon.
 

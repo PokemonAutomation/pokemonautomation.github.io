@@ -26,6 +26,7 @@ This program will dupe one item at a time. It is **necessary that you have at le
 
 1. Have two identical bows in your inventory and equip the first one. 
 	> You *can* have multiple bows, but your last two bows must be on the same row. It is easier to just drop your additional bows and retrieve them after duping.
+
 2. Make sure the area is clear around you, don't let enemies interrupt you.
 3. Using the Fuse menu (pulling out your bow, holding D-Pad Up), make sure you are on a sorting that is static ("By type" works best).
 4. While in the Fuse menu, select the item that you want to duplicate so that Link will fuse it to an Arrow. This will set the menu to return here once the glitch starts.

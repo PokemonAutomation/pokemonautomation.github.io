@@ -5,6 +5,7 @@
 -----
 
 **Related Programs:**
+
 - **Computer Control:** [Shiny Hunt Unattended: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-Regigigas2.md) (this program)
 - **Computer Control:** [Shiny Hunt Autonomous: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md)
 
@@ -31,6 +32,7 @@ Before you continue, first read the appendix on unattended shiny-hunting calibra
 Section: [Unattended Shiny-Hunting Calibration](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/UnattendedShinyHunting.md#calibrating-unattended-shiny-hunting)
 
 The variable that controls the critical delay for this program is **"Start to Attack Delay"**.
+
 - When the encounter is not shiny, the LEDs will turn on ***0.5 – 1.5 seconds AFTER*** the battle menu appears. The program will attack and kill Regigigas, then return to the front of the den for the next encounter.
 - When the encounter is shiny, the LEDs will turn on ***0.5 – 1.0 seconds BEFORE*** the battle menu appears. The program will not attack and will instead trap itself in the summary of your Pokémon.
 
@@ -76,6 +78,7 @@ Here is an example of a lead Pokémon that is properly setup to guarantee a OHKO
 ### Default Program Settings
 
 When correctly calibrated:
+
 - If the encounter is not shiny, the program will kill Regigigas, not catch it, and move on.
 - If the encounter is shiny, the program will trap itself inside the Pokémon menu. This allows you to manually back out and fight the shiny Regigigas.
 

@@ -1,6 +1,6 @@
 # Claim Mystery Gift
 
-Video demo: https://youtu.be/F6uf7MzdBY0
+Video demo: [https://youtu.be/F6uf7MzdBY0](https://youtu.be/F6uf7MzdBY0)
 
 # Program Description
 
@@ -9,6 +9,7 @@ This program will claim the Mystery Gift. This can even start from a new save, s
 NOTE: If you already have a playthrough, this program will only get you Mystery Gifts via Code. Getting Mystery Gifts via Internet only works with new save files.
 
 # General Setup
+
 - Ensure you are logged into a Nintendo account. This account does NOT need to have a subscription to Nintendo Switch Online.
 - [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
@@ -19,10 +20,12 @@ NOTE: If you already have a playthrough, this program will only get you Mystery 
 This is the language of your game and is required to read the text in game.
 
 ## Starting Point
+
 - New Game: Start after you have selected your username and character appearance
 - Start in Mystery Gift window, with cursor on the “1” key."
 
 ## Method for obtaining mystery gift
+
 - Via Internet: Get all mystery gifts from the "Get via internet" screen
 - Via Internet: Go to the Mystery Gift "Get via Internet" screen. Don't claim anything.
 - Via Code: Get the mystery gift based on the code entered below.

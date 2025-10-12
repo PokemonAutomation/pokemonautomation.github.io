@@ -9,6 +9,7 @@ MassRelease will release entire boxes of Pokémon. The main use case is getting 
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 

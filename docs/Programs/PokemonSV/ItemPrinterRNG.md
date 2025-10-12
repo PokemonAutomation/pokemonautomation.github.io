@@ -1,16 +1,17 @@
 # Item Printer RNG
 
 **Related Programs:**
+
 - [Auto Item Printer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/AutoItemPrinter.md)
 - [Item Printer RNG](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/ItemPrinterRNG.md) (this program)
 
 # Program Description
 
-This program will RNG manipulate the Item Printer to farm rare items. See this video for a tutorial of how this works: https://www.youtube.com/watch?v=_wmDXrI5Wz4
+This program will RNG manipulate the Item Printer to farm rare items. See this video for a tutorial of how this works: [https://www.youtube.com/watch?v=_wmDXrI5Wz4](https://www.youtube.com/watch?v=_wmDXrI5Wz4)
 
 Before you proceed, make sure you understand the mechanics of this exploit and how to do it manually.
 
-The default settings for this program will produce 10 rare balls using only a single seed. (using a seed found by Anubis) If you want other seeds for other items, please look them up online. Here is a list of useful seeds from Anubis: https://gist.github.com/Lusamine/112d4230919fadd254f0e6dfca850471
+The default settings for this program will produce 10 rare balls using only a single seed. (using a seed found by Anubis) If you want other seeds for other items, please look them up online. Here is a list of useful seeds from Anubis: [https://gist.github.com/Lusamine/112d4230919fadd254f0e6dfca850471](https://gist.github.com/Lusamine/112d4230919fadd254f0e6dfca850471)
 
 <img src="../images/ItemPrinterRNG-0.png">
 
@@ -22,15 +23,18 @@ The item printer depletes Pokémon materials and saves after each iteration, be 
 # Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. The language in the option must match your in-game language.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ## In-Game Setup
@@ -104,6 +108,7 @@ When this is enabled, after using the item printer, automatically fly to North P
 Select your desired item and its quantity, and items will be automatically printed. The program will automatically farm materials as needed.
 
 Requirements:
+
 - Have enough Blueberry points to do all your desired prints (accounting for the 70-75% success rate for each print to give you the correct item(s))
 - Maxed out in your inventory on the following sandwich ingredients: Chorizo, Bananas, Mayonnaise, Whipped cream
 - Strong/fast lead pokemon for auto-battling, for farming materials. (e.g. Ceruledge)

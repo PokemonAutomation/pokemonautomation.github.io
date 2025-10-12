@@ -11,14 +11,17 @@ Farm Blueberry Quests in the Terarium for BP.
 ## Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Skip Move Learning: On
@@ -42,6 +45,7 @@ Farm Blueberry Quests in the Terarium for BP.
         * The Pokemon in this slot must be set up to handle Tera Raids.
 	* Slots 3/4/5/6:
         * Filler. One Pokemon should have Flame Body/Magma Armor/Steam Engine for the Egg Hatching quest. Make sure none of them will evolve while running the program.
+
 2. All the fly locations in the Terarium must be unlocked.
 3. The Indigo Disk story must be completed and Koraidon/Miraidon's flying has been unlocked. (Talk to Amarys in Classroom 3-2.)
 4. You are offline and not in a Union Circle.

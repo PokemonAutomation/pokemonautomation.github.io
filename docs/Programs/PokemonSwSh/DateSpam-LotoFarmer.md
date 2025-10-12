@@ -5,12 +5,14 @@
 LotoFarmer will farm the loto. It requires activating the Y-Comm glitch.
 
 **Switch 1:**
+
 - **Wired Controller:** 21.8 seconds/attempt
 - **ESP32 Wireless:** 22.2 seconds/attempt
 - **sys-botbase 2.x:** 29.0 seconds/attempt (very unreliable)
 - **sys-botbase 3.0:** TBD
 
 **Switch 2:**
+
 - **Wired Controller:** 22.3 seconds/attempt
 
 <img src="../images/DateSpam-LotoFarmer-0.png">
@@ -18,14 +20,17 @@ LotoFarmer will farm the loto. It requires activating the Y-Comm glitch.
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Y-Comm glitch must be active

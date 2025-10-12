@@ -9,12 +9,15 @@ Purchase clothing from shops.
 ## Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ## Instructions
@@ -36,6 +39,7 @@ Check this if you want to put on items after purchase.
 ### Number of categories:
 
 The number of clothing categories (ex. Footwear, Gloves, Bags) that the shop you are in has. Minimum is 1, maximum is 5.
+
 - To purchase everything in a shop: set the number of categories to match the shop.
 - To purchase only one category of clothing: set the number of categories to 1 and navigate to that category. Leave the selection arrow on the first item. 
 - If this number is larger than the number of categories in the shop, the program will still run and complete. However, it will take much longer as it attempts buy already purchased items.

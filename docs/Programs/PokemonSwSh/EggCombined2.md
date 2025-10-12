@@ -30,14 +30,17 @@ Be aware that the complexity of this program makes it inherently less reliable t
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Automatic".
@@ -59,6 +62,7 @@ Be aware that the complexity of this program makes it inherently less reliable t
 
 1. Place entire boxes filled with eggs consecutively
    > It is okay to have non-eggs mixed in with eggs, but all boxes you intend to hatch must be completely filled with something.
+
 2. You must be on the first box of eggs.
 3. All the eggs that you are hatching MUST hatch at the same time and at the specified # of steps. Eggs are not allowed to hatch early
    > *Do not use this program on partially hatched eggs. Even a single early hatching egg can break the program.*
@@ -69,6 +73,7 @@ Be aware that the complexity of this program makes it inherently less reliable t
 > * It is NOT safe for eggs to hatch early. If an egg hatches during a fetch attempt, it can put the program into an unexpected state.
 
 ### Required Parameters:
+
 - **Boxes to Hatch**: You MUST set this to the # of boxes you wish to hatch. Otherwise, you either won't hatch all the eggs you want, or the program goes crazy if you run out of eggs.
 - **Step Count**: You MUST set this to the correct step-count for the Pokémon you are hatching. If this is set too small, the program will fail and may unintentionally start a trade. (see Precautions)
 
@@ -77,6 +82,7 @@ The program will hatch eggs in batches of 5 (one column at a time). Once a box i
 Newly fetched eggs will be dropped one box ahead of the one that's being hatched. These will spill forward to later boxes as necessary, thus it is possible to set **"Boxes to Hatch"** to more than what you have. But you will need to monitor the program to make sure it fetches eggs quickly enough to keep up with the hatching.
 
 ### Safety Recommendations:
+
 - As a precaution, it is strongly recommended to be offline. In the event that the eggs do not finish hatching before the program enters the storage system, there is a high chance that it will go into YCOMM and start a trade.
 
 ### Run Instructions

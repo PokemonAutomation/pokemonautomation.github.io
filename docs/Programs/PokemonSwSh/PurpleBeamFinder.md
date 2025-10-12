@@ -1,6 +1,7 @@
 # Purple Beam Finder
 
 **Related Programs:**
+
 - [Beam Reset](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/BeamReset.md)
 - [Purple Beam Finder](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/PurpleBeamFinder.md) (this program)
 
@@ -18,12 +19,15 @@ A smart version of [Beam Reset](BeamReset.md) that automatically stops on a purp
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: ***SLOW*** (this is different from other programs!)
 2. Casual mode: Off
 
@@ -33,6 +37,7 @@ A smart version of [Beam Reset](BeamReset.md) that automatically stops on a purp
 2. Verify there are no purple beams visible in the background.
 
    > If there are, it may detect the background beam instead
+
 3. The weather is not snow or snowstorm. Intensive weather can interfere with the detection.
 4. Save in the position listed in #1
 5. Close the menu (if not already closed).

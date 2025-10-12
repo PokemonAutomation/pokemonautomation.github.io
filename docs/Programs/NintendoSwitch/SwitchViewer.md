@@ -1,6 +1,7 @@
 # Switch Viewer
 
 **Related Programs:**
+
 - **Computer Control:** [Virtual Console](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/VirtualConsole.md)
 - **Computer Control:** [Switch Viewer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/SwitchViewer.md) (this program)
 
@@ -22,12 +23,14 @@ Note that running multiple Switches is resource-intensive due to the video outpu
 If you know how to use the Virtual Console, this should be pretty self-explanatory.
 
 To figure out your serial/camera mappings:
+
 1. Randomly open all the video captures and serial ports.
 2. Input commands into one of the videos and see which video actually responds.
 3. If the wrong video responds, swap either the video or the serial connections.
 4. Repeat steps 2 and 3 until everything is mapped correctly.
 
 Things to keep in mind:
+
 1. Each serial port and camera can only be opened in one place at a time. In order to swap two ports/videos, you will need to first deactivate one of them by setting it to `(none)`.
 2. Depending on where a Switch is in (game or Switch settings), the Switch may not respond to commands if there is another controller attached as the primary. So we recommend disconnecting all other controllers either physically, or by navigating into the [grip menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md).
 

@@ -7,6 +7,7 @@ Farm items from max raids that can be one-hit-KO'ed.
 > This program requires at least 2 Switches each with serial connections.
 
 Use Cases:
+
 - Farm Exp Candies off of a Shedinja raid.
 - Farm Dynite Ore off of a baby Crown Tundra or promo den.
 
@@ -14,16 +15,18 @@ This program is not restricted to raids that can be OHKO'ed. By adjusting the ap
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/814164114305581106/Candy_Farmer.mov)
 
-<img src="https://raw.githubusercontent.com/PokemonAutomation/SwSh-Arduino/master/Documentation/SerialPrograms/images/CandyFarmer.png" height="600">
+<img src="[https://raw.githubusercontent.com/PokemonAutomation/SwSh-Arduino/master/Documentation/SerialPrograms/images/CandyFarmer.png"](https://raw.githubusercontent.com/PokemonAutomation/SwSh-Arduino/master/Documentation/SerialPrograms/images/CandyFarmer.png") height="600">
 
 ### Setup of Settings
 
 Setup for All Switches:
+
 1. Casual mode: Off
 2. There are no other Switches nearby that can produce stamps. (watch out for auto-hosts!)
 3. Whoever attacks first must be able to one-hit-KO (OHKO) the Pokémon.
 
 Switch Hosting the Raid:
+
 1. The hosting Switch is the upper-left Switch.
 2. The first move of the lead Pokémon must be faster than the raid Pokémon.
 3. The first move of the lead Pokémon must OHKO the raid Pokémon.
@@ -33,10 +36,12 @@ Switch Hosting the Raid:
 7. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
 
 Switch(s) Raiding:
+
 1. Setup safeguards
    * The menu cursor is over the Pokédex; in case it fails to join the raid
    * In settings, Send to Boxes is set to Automatic; in case it catches the Pokémon
    * The default Poké Ball is a low value ball; in case it tries to catch the Pokémon
+
 2. You are in the overworld and safe from being attacked.
 3. There is nothing in front of you that can be interacted with.
 4. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

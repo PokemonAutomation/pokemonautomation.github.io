@@ -16,19 +16,23 @@ This program will randomly seek out and encounter overworld Pokémon until it fi
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Vertical and Horizontal camera controls are both ***Regular***. Do not set either one to inverted.
 
 ### Setup of Party
+
 1. Your lead Pokémon is not following you around. (Applies to Isle of Armor and Crown Tundra)
 2. Your lead Pokémon must not be shiny. (This will cause false positive detection)
 
@@ -43,6 +47,7 @@ This program will randomly seek out and encounter overworld Pokémon until it fi
 1. You are standing in a grassy area with overworld spawns.
    * You must be zoomed out to maximize the view. (Needed for accurate trajectory calculation)
    * You are not on your bike. (Needed for correct trajectory movement)
+
 2. Save.
 3. Close the menu (if not already closed).
 4. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
@@ -106,6 +111,7 @@ Aim this far below the bottom of the exclamation/question mark. 1.0 is the heigh
 ### Mark Priority:
 
 Prefer exclamation marks or question marks?
+
 - Exclamation Marks Only (Ignore Question Marks)
 - Prioritize Exclamation Marks
 - No Preference
@@ -116,6 +122,7 @@ Prefer exclamation marks or question marks?
 ### Trigger Method:
 
 How do you want to trigger Pokémon to react?
+
 - Whistle Only
 - Whistle 3 times, then circle once.
 - Circle 3 times, then whistle once.

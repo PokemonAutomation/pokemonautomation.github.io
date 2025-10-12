@@ -3,6 +3,7 @@
 ***This program relies on a glitch that was patched out in 1.2.0. It can only be used on versions 1.0.0 - 1.1.0.***
 
 **Related Programs:**
+
 - **Microcontroller:** [Item Dupe](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSV/ItemDupe.md)
 - **Computer Control:** [Clone Items](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/CloneItems-101.md) (this program)
 
@@ -14,7 +15,7 @@ The microcontroller and computer-control versions of this program are functional
 
 ## Program Description
 
-This program automates the cloning method described in this video: https://www.youtube.com/watch?v=staa9Fv0Rwo
+This program automates the cloning method described in this video: [https://www.youtube.com/watch?v=staa9Fv0Rwo](https://www.youtube.com/watch?v=staa9Fv0Rwo)
 
 To set this program up, you will need to have activated the glitch and have cloned your ride legendary. If you don't want to do it manually, the you can run the [Ride Cloner](RideCloner-101.md) for one or more iterations and it will have cloned your ride legendary into your boxes. From there you can move it into your party to complete the setup.
 
@@ -29,6 +30,7 @@ As covered in the videos, this fast cloning method consists of two parts:
 2. Once cloned, have your ride legendary in ride form, then place a clone in your party. Then exploit the box system.
 
 Furthermore, your ride legendary (including clones)
+
 1. Cannot be moved from party to box. (unless you exploit the A+B glitch again)
 2. Cannot be released from your party, but can be released from the box system.
 3. Cannot be traded.
@@ -46,12 +48,15 @@ Most people can keep their ride legendary in their party all the time since it's
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 

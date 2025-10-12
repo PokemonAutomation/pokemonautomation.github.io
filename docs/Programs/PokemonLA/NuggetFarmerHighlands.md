@@ -9,6 +9,7 @@ This program will repeatedly seek out and battle Charm in the Coronet Highlands.
 Although this program is not intended to be a shiny hunting program, it nevertheless will listen for shinies and stop for them if the user chooses so.
 
 The following Pokémon lie on or near the path taken by this program and can therefore be shiny hunted by this program:
+
 - Carnivine
 - Bronzor
 - Bronzong
@@ -28,14 +29,17 @@ Note: we have now a more efficient program to earn money and exp: [Tenacity Cand
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Audio input is properly setup.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 
@@ -44,7 +48,9 @@ Note: we have now a more efficient program to earn money and exp: [Tenacity Cand
 
 1. You are in the post-game with Braviary unlocked.
 2. The first Pokémon in your party must be able to reliably defeat Charm using only its first move.
+
     - Charm's Pokémon are Rhydon and Gengar. Gengar knows Hypnosis.
+
 3. The Pokémon selection in the bottom right corner is on your first Pokémon.
 4. Stand in the following location. In front of the Jubilife gate with your back towards both the gate and the camera.
 5. Save the game in this location and position.
@@ -67,6 +73,7 @@ None specific to this program.
 This program detects shinies by listening for the shiny sound. You can configure what the program should do if it hears a shiny.
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

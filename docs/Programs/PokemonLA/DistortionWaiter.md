@@ -11,9 +11,11 @@ Once they are unlocked, distortions take at most 40 minutes to appear even if yo
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Game Language is set correctly. This program needs to read the notification!
 

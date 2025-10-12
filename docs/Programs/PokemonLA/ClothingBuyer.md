@@ -1,6 +1,7 @@
 # Clothing Buyer
 
 <!-- **Related Programs:**
+
 - **Microcontroller:** [Clothing Buyer](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/ClothingBuyer.md)
 - **Computer Control:** [Clothing Buyer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ClothingBuyer.md) (this program)
 
@@ -16,6 +17,7 @@ As its name implies, this program will automatically buy clothing.
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text speed is fast.
 
 ### Instructions

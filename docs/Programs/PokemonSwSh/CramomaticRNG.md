@@ -11,14 +11,17 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/1036457871
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Instructions
@@ -27,6 +30,7 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/1036457871
 2. Stand in front of the Cram-o-matic.
 3. Open the bag and place the cursor over the Apricorns you want to use.
  > If you want Sport Balls you need to have a second type of Apricorn directly below the one your cursor is placed on.
+
 4. Close your bag and place the cursor over the "Pokémon" option.
 5. Close the menu.
 6. Start the program in-game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

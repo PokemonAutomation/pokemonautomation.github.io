@@ -1,6 +1,7 @@
 # Virtual Console
 
 **Related Programs:**
+
 - **Computer Control:** [Virtual Console](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/VirtualConsole.md) (this program)
 - **Computer Control:** [Switch Viewer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/SwitchViewer.md)
 
@@ -24,8 +25,10 @@ None since the Virtual Console isn't a program. But here are the basic setup ins
 
 1. Select the appropriate Serial Port and Camera for your Switch.
    > If you don't know which are the correct ones, try all of them.
+
 2. Click on the "Output Window" to see logging.
    > If the program that is flashed to the device is a [microcontroller program](https://github.com/PokemonAutomation/Microcontroller/tree/master/Wiki/Programs) that has logging, you will see it here.
+
 3. Click on the video to activate the keyboard controls and play on your computer.
    > This requires that the program on the device is PABotBase.
    > PABotBase is the only program that will accept keyboard commands.

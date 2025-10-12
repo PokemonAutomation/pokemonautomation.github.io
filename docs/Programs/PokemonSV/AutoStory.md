@@ -31,6 +31,7 @@ IVs: 0 Atk<br>
 Essentially, we catch the Ralts in the Autostory save file, move it to your main account via Pokemon Home. Train it up with candies/vitamins, then move the Gardevoir back to the Autostory save file.
 
 **Catching the Ralts and moving it the main account**
+
 -	In the autostory save file: Go to Los Platos. Catch the Ralts near the cliff (at the red pokeball in the map below). The gender of the Ralts doesn't matter.
 
 <img src="../images/AutostoryRalts.png">
@@ -46,14 +47,17 @@ Essentially, we catch the Ralts in the Autostory save file, move it to your main
 -	Open Pokemon SV on your main account
 
 **Building the Ralts/Gardevoir**
+
 -	Level up Ralts with EXP candy (these can be farmed via [Item Printer RNG](ItemPrinterRNG.md), or with Tera raids). Evolve it to Gardevoir. Get it to level 100.<br>
 NOTE: Don’t give all the EXP candy at once. Give it in at least 2 batches, so that Ralts has the chance to evolve twice. If you end up with a level 100 Kirlia, to evolve it to Gardevoir you have to give an extra rare candy.<br>
 NOTE 2: I recommend disabling Move learning. So you skip all the dialog boxes from the moves you will learn as you level up. Afterwards, you can just relearn the moves as needed.
+
 - Set the moves to the following:<br>
 \- Moon Blast
 \- Dazzling Gleam
 \- Psychic
 \- Mystical fire
+
 - Give 26 carbos and 26 Calcium to maximize Speed and Special Attack EVs. Afterwards, give 1 Iron to give an extra point of Defense (make sure to do this after giving the Carbos and Calcium)
 - Give Modest Mint. To change nature to Modest
 - Use PP ups/PP max on all moves
@@ -64,6 +68,7 @@ NOTE 2: I recommend disabling Move learning. So you skip all the dialog boxes fr
 - NOTE: after vitamins, mint and hypertraining, the stats should be as follows: HP 277, Attack [doesn't matter], Defense 167, Speed 259, Sp. Def 266, Sp. Atk 383
 
 **Moving the Gardevoir back to the Autostory account**
+
 - In your main account, put the Gardevoir back into the box. Save and close the game.
 -	Open Pokemon Home on the main account. Move the Gardevoir into the Home box.
 -	Open Pokemon Home on the autostory account. Move the Gardevoir into the autostory account’s box.
@@ -82,6 +87,7 @@ I recommend having two Level 100 Talonflames. Fletchinder are commonly found in 
 This is the language of your game and is required to read the text in game.
 
 ## Story Section
+
 - Tutorial: From the intro cutscene, until you finish the school section of the story and when you first mount Koraidon/Miraidon.
 - Main Story: From when you first mount Koraidon/Miraidon, until you finish the Scarlet/Violet main story. Note: your team needs to be setup as per the instructions above, with a Gardevoir and two other strong pokemon (e.g. level 100 Talonflames).
 

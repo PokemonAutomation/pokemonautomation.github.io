@@ -1,6 +1,7 @@
 # Alpha Crobat Hunter
 
 **Related Programs:**
+
 - [Alpha Crobat Hunter](AlphaCrobatHunter.md) (this program)
 - [Alpha Gallade Hunter](AlphaGalladeHunter.md)
 - [Alpha Froslass Hunter](AlphaFroslassHunter.md)
@@ -9,9 +10,10 @@
 
 ## Program Description
 
-Shiny hunt the alpha Crobat in the Wayward Cave using the method described here: https://www.youtube.com/watch?v=tz0b62pkKTk
+Shiny hunt the alpha Crobat in the Wayward Cave using the method described here: [https://www.youtube.com/watch?v=tz0b62pkKTk](https://www.youtube.com/watch?v=tz0b62pkKTk)
 
 This program uses audio recognition to detect shinies. And as such, it will also pick up shinies of anything on or near the path to the Crobat.
+
 - Alpha Crobat
 - Zubat
 - Golbat
@@ -27,14 +29,17 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9498823622
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Audio input is properly setup.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 
@@ -69,6 +74,7 @@ This program detects shinies by listening for the shiny sound. You can configure
 There are two of these options - one for enroute, and one for the destination. Thus you can customize the behavior - such as ignoring shinies while enroute.
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

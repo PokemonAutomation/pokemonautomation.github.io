@@ -1,6 +1,7 @@
 # Tournament Farmer 2
 
 **Related Programs:**
+
 - [Tournament Farmer](TournamentFarmer.md)
 - [Tournament Farmer 2](TournamentFarmer2.md) (this program)
 
@@ -30,6 +31,7 @@ All Pokémon should be level 100 with 31 IVs (or hypertrained) in the relevant s
 <img src="../images/TournamentFarmer2-MoveTable.png">
 
 The strategy behind this setup is as follows:
+
 - Kyurem/Calyrex is your main attacker. With Choice Specs/Band + Ice Tera it will be able to OHKO nearly every Pokémon in the league.
 - Smeargle/Zoroark is your suicide lead for increasing money rewards.
     - Amulet Coin and Happy Hour will quadruple the money rewards.
@@ -39,10 +41,12 @@ The strategy behind this setup is as follows:
 The main difference from the [original Tournament Farmer](TournamentFarmer.md) is that you move the Amulet Coin off the attacker for a Choice item to boost its damage output. Then you add Taunt to the suicide lead to block any setup that would prevent sweeping.
 
 **Happy Hour H-Zoroark:**
+
 - Happy Hour H-Zoroark is an event Pokémon that was given out as an event for those who preordered the DLC.
 - Smeargle is an alternative if you do you not have (or don't want to use) the event Happy Hour H-Zoroark.
 
 **Smeargle Sketching:**
+
 - Given an existing Pokémon that knows Happy Hour (as well as most other moves), find a wild Ditto and let it transform into this Pokémon. Then switch to your Smeargle and Sketch it when the Ditto uses it.
 - Taunt is harder to get because it will block your use of Sketch. But you can either wait it out or block it with Protect.
 - The easiest way sketch Memento is to block it with Protect, then Sketch it the next turn. The Koffings by the Crystal Pool in Kitakami will know Memento.
@@ -53,12 +57,15 @@ Since Happy Hour cannot be transfered from other games and the DLC preordering h
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Instructions
@@ -91,14 +98,17 @@ Go to the Switch Home to idle when finished.
 While Kyurem-W and Calyrex-Ice are the recommended attackers, there may be others that will work.
 
 **Good:**
+
 - **Dialga:** With Flash Cannon + Choice Specs, it appears viable through limited testing.
 
 **Bad:**
+
 - **Kyogre:** While it undoubtedly has the highest damage output due to double-STAB Surf/Water Spout, it will not ***will not work***. Penny's Vaporeon has Water Absorb.
 - Any move type with an immunity: Electric, Ground, Ghost, Normal, Fighting, Poison, Psychic, Dragon, Water (Water Absorb), Grass (Sip Sapper), Fire (Flash Fire). This leaves just Steel, Fairy, Ice, Flying, Rock, Bug, and Dark.
 - Any move that's not 100% accurate. Give the opponent a free turn and they'll setup or status you.
 
 **Untested:**
+
 - **Sylveon:** The same one from the original Tournament Farmer may work if given Choice Specs. While the damage output is higher than Kyurem-W, it is much slower and more fragile. Even at max speed, it may not be able to outrun everything in the Tournament post-DLC2.
 
 ## Credits

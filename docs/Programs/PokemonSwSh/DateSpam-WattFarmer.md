@@ -5,12 +5,14 @@
 WattFarmer will farm watts from a wishing piece beam. It requires activating the Y-Comm glitch.
 
 **Switch 1:**
+
 - **Wired Controller:** 9.0 seconds/fetch (~800k watts per hour at 2000/fetch)
 - **ESP32 Wireless:** 9.5 seconds/fetch (~760k watts per hour at 2000/fetch)
 - **sys-botbase 2.x:** 16.3 seconds/fetch (~440k watts per hour at 2000/fetch)
 - **sys-botbase 3.0:** TBD
 
 **Switch 2:**
+
 - **Wired Controller:** 9.6 seconds/fetch (~750k watts per hour at 2000/fetch)
 
 <img src="../images/DateSpam-WattFarmer-0.png">
@@ -18,14 +20,17 @@ WattFarmer will farm watts from a wishing piece beam. It requires activating the
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Y-Comm glitch must be active

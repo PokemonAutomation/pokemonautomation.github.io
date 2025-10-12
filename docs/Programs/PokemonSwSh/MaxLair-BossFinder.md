@@ -3,6 +3,7 @@
 [Max Lair Info](MaxLair.md)
 
 **Related Programs:**
+
 - [Max Lair: Standard](MaxLair-Standard.md)
 - [Max Lair: Strong Boss](MaxLair-StrongBoss.md)
 - [Max Lair: Boss Finder](MaxLair-BossFinder.md) (this program)
@@ -14,6 +15,7 @@ This program looks for a specific boss. It runs adventures with random bosses un
 It does not reset the game or try to preserve balls, thus the path is random every time.
 
 The stop conditions can be specified on a per-boss basis:
+
 - Always stop program. (use this if you're looking for this boss)
 - Stop if shiny.
 
@@ -22,12 +24,15 @@ Since this program does not know the boss for each adventure, win rates will be 
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Automatic".
@@ -72,6 +77,7 @@ This is the ball that will be used to catch all non-boss Pokémon.
 ### Mode
 
 Pretty self-explanatory. The options are:
+
 - **Not Hosting:** Run by yourself using only Switches controlled by this program.
 - **Host Locally:** Allow other local Switches to join.
 - **Host Online:** Allow other people online to join.

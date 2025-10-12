@@ -1,6 +1,7 @@
 # Ramanas Island Combee Finder
 
 **Related Programs:**
+
 - [Cloth Buyer](ClothingBuyer.md)
 - [Skip Full Moon](SkipToFullMoon.md)
 - [Outbreak Finder](OutbreakFinder.md.md)
@@ -17,12 +18,15 @@ Alternatively, the program also can stop if a shiny is heard during the route to
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 
@@ -49,6 +53,7 @@ Game Language to help detect Pokémon name
 What to do when finding a shiny enroute to destination
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

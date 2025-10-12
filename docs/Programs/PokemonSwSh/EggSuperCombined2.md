@@ -22,6 +22,7 @@ EggSuperCombined2 is the most optimized of the egg programs in this package. Whe
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Automatic".
@@ -44,6 +45,7 @@ EggSuperCombined2 is the most optimized of the egg programs in this package. Whe
 1. The next N boxes can contain anything. They will be skipped.
 2. Place entire boxes filled with eggs consecutively
    > It is okay to have non-eggs mixed in with eggs, But all boxes that you intend to hatch must be completely filled.
+
 3. You must be on the first box of Pokémon to be released.
 4. All the eggs that you are hatching MUST hatch at the same time and at the specified # of steps. Eggs are not allowed to hatch early
    > *Do not use this program on partially hatched eggs. Even a single early hatching egg can break the program.*
@@ -79,11 +81,13 @@ Boxes to Skip       =   2
 Boxes to Hatch      =   30
 ```
 Starting with Box 3 as the current box, the program will:
+
 1. Release 3 boxes: 3, 4, 5
 2. Skip 2 boxes: 6, 7
 3. Run EggCombined for 30 boxes: 8-32 (wrap-around) 1-5
 
 ### Required Parameters:
+
 - **Boxes to Release**: You MUST set this parameter correctly or you may release Pokémon you didn't intend to release!
 - **Boxes to Skip**: You MUST set this parameter correctly or you may not hatch the correct boxes.
 - **Boxes to Hatch**: You MUST set this to the # of boxes you wish to hatch. Otherwise, you either won't hatch all the eggs you want, or the program goes crazy if you run out of eggs.
@@ -92,6 +96,7 @@ Starting with Box 3 as the current box, the program will:
    > All recommendations, precautions, and usage tips for EggCombined apply to this program as well.
 
 ### Additional Recommendations:
+
 - See [Maximizing Switch Stability](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/SwitchStability.md). The MassRelease portion of this program is sensitive to jitter.
 - Don't leave any Pokémon you care about in the game. It goes without saying that mass-release is inherently dangerous to run unattended.
 - Use a dedicated game with 32 empty boxes. If you're at the point where you're considering this program for optimized egg hatching, you might as well just speedrun a new game and shiny charm it with a living dex that you probably already have sitting in Pokémon Home.

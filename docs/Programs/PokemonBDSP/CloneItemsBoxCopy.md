@@ -7,22 +7,25 @@
 See: [Version Preservation](VersionPreservation.md)
 
 **Related Programs:**
+
 - [Clone Items (Box Copy Method 2)](CloneItemsBoxCopy2.md)
 - [Clone Items (Box Copy Method)](CloneItemsBoxCopy.md) (this program)
 - [Clone Items (Menu Overlap Method)](CloneItemsMenuOverlap.md)
 
 ## Program Description
 
-Clone an entire box of items at a time using the method described here: https://www.youtube.com/watch?v=naHINKnWu7k
+Clone an entire box of items at a time using the method described here: [https://www.youtube.com/watch?v=naHINKnWu7k](https://www.youtube.com/watch?v=naHINKnWu7k)
 
 <img src="../images/CloneItemsBoxCopy-0.png">
 
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Box Setup

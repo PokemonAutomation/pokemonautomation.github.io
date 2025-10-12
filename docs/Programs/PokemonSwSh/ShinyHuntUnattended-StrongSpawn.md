@@ -5,6 +5,7 @@
 -----
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md) (this program)
 - [Shiny Hunt Autonomous: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md)
 
@@ -34,10 +35,12 @@ Before you continue, first read the appendix on unattended shiny-hunting calibra
 Section: [Unattended Shiny-Hunting Calibration](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/UnattendedShinyHunting.md#calibrating-unattended-shiny-hunting)
 
 The variable that controls the critical delay for this program is **"Enter Game to Run Delay"**.
+
 - When the encounter is not shiny, the LEDs will turn on ***0.5 – 1.5 seconds AFTER*** the battle menu appears. The program will run away from the battle.
 - When the encounter is shiny, the LEDs will turn on ***0.5 -1.0 seconds BEFORE*** the battle menu appears. The program will not run away and will instead trap itself in the summary of your Pokémon.
 
 Unlike the Regi and Sword of Justice programs, you will likely need to make large adjustments to the delay to make things work.
+
 - Use a stopwatch to help you.
 - Each tick is 8 milliseconds, and each second is 125 ticks.
 
@@ -81,6 +84,7 @@ Because you will get attacked the moment you enter the game, changing the lead w
 ### Default Program Settings
 
 When correctly calibrated:
+
 - If the encounter is not shiny, the program will run from the battle and move on to the next encounter.
 - If the encounter is shiny, the program will trap itself inside the Pokémon menu. This allows you to manually back out and fight the shiny Pokémon.
 

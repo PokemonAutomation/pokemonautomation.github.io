@@ -9,6 +9,7 @@ Drop wishing pieces between two dens until you find an event den.
 ### Setup of Settings
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Airplane mode; On
@@ -34,6 +35,7 @@ Drop wishing pieces between two dens until you find an event den.
 The program will travel back-and-forth between the two dens closest to the Bridge Field daycare center. Each time, it will drop a wishing piece and enter the den to let you view it.
 
 This program goes back-and-forth between the following two dens:
+
 - **Den 5/46 (Shedinja):** By the trees near the Obstagoon.
 - **Den 4/92 (Gmax Orbeetle):** To the right of the Digging Duo.
 

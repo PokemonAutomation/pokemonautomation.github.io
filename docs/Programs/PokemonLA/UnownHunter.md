@@ -1,6 +1,7 @@
 # Unown Hunter
 
 **Related Programs:**
+
 - [Alpha Crobat Hunter](AlphaCrobatHunter.md)
 - [Alpha Gallade Hunter](AlphaGalladeHunter.md)
 - [Alpha Froslass Hunter](AlphaFroslassHunter.md)
@@ -14,6 +15,7 @@ Goes from Jubilife Village to Solaceon Ruins to shiny hunt Unowns.
 This program uses audio recognition to detect shinies. And as such, it will also pick up shinies of anything on or near the path to the Ruins.
 
 These are the Pokémon this program can shiny hunt:
+
 - Unown
 - Psyduck
 - Carnivine
@@ -31,14 +33,17 @@ Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/9545290437
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Audio input is properly setup.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 
@@ -67,6 +72,7 @@ The program will loop through going from the village to Solaceon Ruins until a s
 There are two of these options - one for enroute, and one for the destination. Thus you can customize the behavior - such as ignoring shinies while enroute.
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

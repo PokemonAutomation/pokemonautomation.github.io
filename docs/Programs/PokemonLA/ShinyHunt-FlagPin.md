@@ -1,6 +1,7 @@
 ﻿# Shiny Hunt - Flag Pin
 
 **Related Programs:**
+
 - [Shiny Hunt - Flag Pin](ShinyHunt-FlagPin.md) (this program)
 - [Post MMO Spawn Reset](PostMMOSpawnReset.md)
 - [Shiny Hunt - Custom Path](ShinyHunt-CustomPath.md)
@@ -12,10 +13,12 @@ Shiny hunt Pokémon around a flag pin.
 Place the flag pin somewhere on the map. This program will repeatedly navigate to the flag and stop when it hears a shiny.
 
 This program can be used to shiny-hunt nearly every Pokémon in the game that:
+
 1. Spawns normally. (not a distortion or outbreak exclusive)
 2. The spawn location can be reached via a straight line from a warp location. This "straight line" can include climbable walls.
 
 This program cannot shiny hunt:
+
 1. Pokémon inside caves or sub-zones. They cannot be reached via a straight line.
 2. Distortion exclusives. Distortions do not spawn since this program constantly resets.
 3. Outbreak exclusives. Outbreak seeds are persistent across resets.
@@ -29,14 +32,17 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9523300442
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Audio input is properly setup.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Vertical and Horizontal camera controls are both ***Regular***. Do not set either one to inverted.
@@ -60,6 +66,7 @@ When you start the program, it will first travel to the desired start location. 
 The program will climb over walls that get in the way and will dive down when it gets near the flag.
 
 However, there are some things that the program cannot handle:
+
 1. The program cannot climb ice.
 2. The program can get stuck on the edge of the map.
 3. The program can (rarely) get stuck under a tree.
@@ -94,6 +101,7 @@ Instead, you can take the route from the Pearl Settlement. It is slower because 
 Pick a start location from which you will begin traveling to the flag.
 
 Options include:
+
 - All camps.
 - All arenas.
 - The Diamond and Pearl settlements.
@@ -106,6 +114,7 @@ Note that the Colbalt Coastlands arena has an alternate version where it moves t
 This determines which shiny detected action to use.
 
 There are two shiny detected actions, "enroute" and "destination".
+
 - If your current distance from the flag exceeds the enroute distance, the program will use the "Enroute Shiny Action". 
 - If your current distance from the flag is less than the enroute distance, the program will use the "Destination Shiny Action".
 
@@ -116,6 +125,7 @@ Thus you can configure the program to ignore enroute shinies.
 This option allows you to select how the program should reset once it reaches the flag.
 
 Options:
+
 - Soft Reset. (Safer option)
 - Go back to village. (Faster option)
 
@@ -126,6 +136,7 @@ This program detects shinies by listening for the shiny sound. You can configure
 There are two of these options - one for enroute, and one for the destination. Thus you can customize the behavior - such as ignoring shinies while enroute.
 
 **Shiny Detected Action:**
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.

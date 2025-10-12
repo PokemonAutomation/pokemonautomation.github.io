@@ -27,6 +27,7 @@ Since the program cannot see shinies in the overworld, it will not immediately t
 Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports auto-catching by blindly throwing balls.
 
 To shiny hunt Scatterbug for Vivillon form collection:
+
 - In Sandwich Maker option:
   - Set Sandwich Recipe to be Sparkling + Title + Encounter and Bug.
   - Set the two Herb Mystica that can realize the above recipe, e.g. one Bitter and one Sweet.
@@ -39,13 +40,16 @@ WARNING: if you interrupt the program or if the program stops due to a program b
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. The language in the option must match your in-game language.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Skip Move Learning: On
 3. Give Nicknames: Off
@@ -68,6 +72,7 @@ WARNING: if you interrupt the program or if the program stops due to a program b
 10. Start the program in the overworld with all menus closed.
 
 **Additional Instructions for Making Sandwich **
+
 1. You have picniced at least once to clear the picnic tutorial.
 2. You have plenty of sandwich ingredients. (For any ingredient, you need at least 1 more than the required amount to successfully complete the sandwich.)
 3. For best performances, select the default tablecloth for your picnic table. (Light-colored tablecloth may interfere with with video recognition.)

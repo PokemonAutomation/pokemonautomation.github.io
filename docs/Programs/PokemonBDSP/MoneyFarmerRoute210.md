@@ -1,6 +1,7 @@
 # Money Farmer (Route 210)
 
 **Related Programs:**
+
 - [Money Farmer (Route 212)](MoneyFarmerRoute212.md)
 - [Money Farmer (Route 210)](MoneyFarmerRoute210.md) (this program)
 
@@ -15,12 +16,15 @@ This version of the Money Farmer uses a higher paying trainer (double) battle on
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Instructions

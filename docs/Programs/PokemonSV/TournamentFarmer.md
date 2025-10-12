@@ -1,6 +1,7 @@
 # Tournament Farmer
 
 **Related Programs:**
+
 - [Tournament Farmer](TournamentFarmer.md) (this program)
 - [Tournament Farmer 2](TournamentFarmer2.md)
 
@@ -18,6 +19,7 @@ Farm the Academy Ace Tournament for money and prizes.
 	* This cannot be your mount as the program will use it to return to the academy if you end up at the Pokemon Center.
 	* It is strongly recommended that your Pokemon is level 100.
 	* Remember to equip Amulet Coin.
+
 2. The last Pokemon Center visited is Mesagoza West. The program will attempt to return to the academy from here if you lose the tournament.
 
 Note: Pre-v0.38.3 required that you only have a single Pokemon in your party. Versions 38.3 and later support having a full party of Pokemon and will swap Pokemon in on faint. All party members will use their first move.
@@ -28,6 +30,7 @@ Level: 100
 Modest Nature
 Ability: Pixilate
 EVs: 78 Def / 252 SpA / 180 Spd
+
 - Hyper Voice
 ```
 **Indigo Disk DLC Update:** If you decide to continue using this program anyway after completing DLC2, one of the following setups is necessary:
@@ -37,6 +40,7 @@ Level: 100
 Tera Type: Ice
 Modest Nature
 EVs: 252 Special Attack, 252 Speed
+
 - Freeze Dry / Ice Beam
 Note: Delete all other moves. If it runs out, it can still use Struggle.
 
@@ -45,6 +49,7 @@ Level: 100
 Tera Type: Ice
 Adamant Nature
 EVs: 252 Attack, 252 Speed
+
 - Glacial Lance
 Note: Max out the PP on Glacial Lance and delete all other moves. If it runs out, it can still use Struggle.
 ```
@@ -53,13 +58,16 @@ Note that this sacrifices the Amulet Coin for Choice Specs as this is needed to 
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 
 ### Instructions
@@ -78,6 +86,7 @@ If you have a Hisuian Zoroark from the Scarlet/Violet DLC preorder, you can use 
 	* Zoroark does not need a particular EV spread. As long as it can use Happy Hour on the first turn it is fine.
 	* The Pokemon in your second slot is setup to farm tournaments with the requirements from above.
 	* Note: Having two Pokemon in your party means you can give Zoroark the Amulet Coin. This frees up the item slot on your farming 'mon. Give them the appropriate Choice item for faster kills.
+
 2. Check the "Happy Hour H-Zoroark" option.
 3. As with the normal setup, the last Pokemon Center visited is Mesagoza West and your farming Pokemon is not your mount.
 
@@ -86,6 +95,7 @@ Once the conditions above are set, start the tournament as usual. In each fight,
 **Indigo Disk DLC Update:** With the release of DLC2, the event Hisuian Zoroark can be substituted with a Smeargle. Use Sketch to learn Happy Hour in slot 1 from the event H-Zoroark, and then Sketch any move that will kill Smeargle (ex. Memento, Explosion) in slot 2. Memento can be blocked by Protect and still count for Sketching purposes.
 
 ## Notes
+
 - The Turbo A/Turbo Button programs will run through the tournament faster than this, and can be used instead if none of the options (ex. Tera during battle, Prize reading, continuing even if tournament lost) in this program are needed.
 
 ## Options

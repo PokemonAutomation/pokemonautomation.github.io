@@ -14,13 +14,16 @@ This program works by making a sandwich to boost spawns, then repeatedly sending
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. The language in the option must match your in-game language.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. After game version 2.0.1 (the DLC 1 update): Camera Support: On
 
@@ -37,11 +40,13 @@ This program works by making a sandwich to boost spawns, then repeatedly sending
 9. Start the program in the overworld with all menus closed.
 
 **Additional Instructions for Making Sandwich**
+
 1. You have picniced at least once to clear the picnic tutorial.
 2. You have plenty of sandwich ingredients. (For any ingredient, you need at least 1 more than the required amount to successfully complete the sandwich.)
 3. For best performances, select the default tablecloth for your picnic table. (Light-colored tablecloth may interfere with with video recognition.)
 
 Suggested sandwich for Normal Encounter power level 2:
+
 - Chorizo x4, Banana x2, Mayonnaise x3, Whipped Cream x1
 - This recipe allows for the Sandwich maker to drop either 1 Chorizo or 2 Bananas and still get encounter level 2. Even in the worst case scenario where multiple items drop, it will still be Normal Encounter power level 1.
   - This is in contrast to Sandwich #34, which also gives Normal Encounter level 2, but has to be perfect and has no room for error. The jalapeno tends to fall off when using the sandwich making program (as of this writing), which turns it into Fighting Encounter level 1.

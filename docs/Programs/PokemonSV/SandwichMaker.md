@@ -9,21 +9,26 @@ Make a sandwich of your choice.
 ## Setup
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. The language in the option must match your in-game language.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. You have picniced at least once to clear in-game picnic guide.
 3. For best performance, use the default tablecloth on your picnic table.
+
 	- Other tablecloths may contain white patterns that will slow down the program detecting the white picnic hand cursor.
 	- Yellow tablecloths may intefere with the bowl label reader.
+
 4. You have more ingredients than the quantities required to make the sandwich, as using up an ingredient makes the icon appear faded and interferes with proper ingredient reading.
 
 ## Instructions
 
 1. Enter picnic mode and select "make a sandwich."
 	> Stay on the Sandwich Recipe menu.
+
 2. Start the program in-game.
 
 ## Sandwich Recipe selection
@@ -66,6 +71,7 @@ All preset recipes use the following type-specific fillings:
 The sparkling preset recipes are based off of [this](https://twitter.com/silentdestroysr/status/1597664770991468545) chart, with two extra fillings of Curry Powder for consistency.
 
 Each use will require:
+
 - 1x Cucumber
 - 1x Pickle
 - 3x type-specific filling
@@ -75,6 +81,7 @@ Each use will require:
 For example, a Fighting type sandwich would have: 1x Cucumber, 4x Pickle, 2x Curry Powder, and 2x Herba Mystica.
 
 Herba exclusions for this sandwich are:
+
 - 1x Sweet and 1x Sour do not work for any type
 - 1x Salty and 1x Sour only work for: Flying, Ground, Rock, and Ice
 - 1x Sour and 1x Bitter do not work for: Fighting, Bug, and Fairy
@@ -86,6 +93,7 @@ Herba exclusions for this sandwich are:
 Both the humungo and teensy recipes are from [here](https://old.reddit.com/r/PokemonScarletViolet/comments/zi7ag1/ultimate_guide_for_all_18_types_of/). Unfortunately, both humungo and teensy are not as flexible as encounter is.
 
 Each use will require:
+
 - 1x type-specific filling
 - 2x Mustard
 - 1x Spicy Herba
@@ -96,6 +104,7 @@ Spicy Herba is required. The second Herba Mystica can be anything except Sweet.
 #### Sparkling + Title + Teensy:
 
 Each use will require:
+
 - 1x type-specific filling
 - 2x Mayonnaise
 - 1x Sour Herba,
@@ -118,6 +127,7 @@ All preset recipes require two herba mystica to achieve Lv. 3 Sparkling Power. W
 Pick the fillings (ex. Hamburger, Onion) and condiments (ex. Ketchup, Herba) you wish to use. If you want to use an ingredient more than once, select it in multiple rows. Keep in mind the ingredient limits are six fillings and four condiments. If you exceed the limits or do not pick at least one filling and one condiment, the program will throw an error.
 
 For example, a Normal type Sparkling + Title + Encounter sandwich from the preset recipes above would be entered as:
+
 - Cucumber
 - Pickle
 - Tofu
@@ -129,6 +139,7 @@ For example, a Normal type Sparkling + Title + Encounter sandwich from the prese
 - 2nd Herba
 
 However, as this is a custom sandwich, you could also do the following for the same effects\*:
+
 - Tofu
 - Salty Herba
 - Salty Herba

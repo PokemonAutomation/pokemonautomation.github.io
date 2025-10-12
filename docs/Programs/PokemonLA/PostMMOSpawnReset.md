@@ -1,6 +1,7 @@
 ﻿# Post-MMO Spawn Reset
 
 **Related Programs:**
+
 - [Shiny Hunt - Flag Pin](ShinyHunt-FlagPin.md)
 - [Post MMO Spawn Reset](PostMMOSpawnReset.md) (this program)
 - [Shiny Hunt - Custom Path](ShinyHunt-CustomPath.md)
@@ -24,14 +25,17 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9701645462
 ### Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
+
 1. Video Resolution: 1080p or higher
 2. Audio input is properly setup.
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Vertical and Horizontal camera controls should both be ***Regular***. Do not set either one to inverted.
@@ -64,6 +68,7 @@ As of this time, there is no option to ignore shinies that you don't want.
 Once you save and reset after the MMO is cleared, you will no longer be able to restore this save to before the usual spawns appeared. If you didn't set the correct time of the day or weather before starting, you will not be able to change them anymore on this save.
 
 Fortunately, you can use the hidden backup save to revert the game back to a prior state:
+
 - Press DPAD UP, X and B at the same time at the game title screen to load the backup save.
 - This backup save is created whenever you enter a camp.
 - If your last visit to the camp was before the MMO spawns were cleared, then you can use this backup save to revert the game and adjust the time/weather if your desired spawn does not appear after resetting the game.
@@ -97,6 +102,7 @@ Finally, this controls how many ticks to wait for the shiny sound after movement
 This program detects shinies by listening for the shiny sound and then performs an action based on your settings.
 
 #### Possible Actions  
+
 - Ignore the shiny. Do not stop the program.
 - Stop program. Align camera for a screenshot. Then go Home.
 - Stop program. Align camera for a screenshot + video. Then go Home.
@@ -107,6 +113,7 @@ This has no functional effect on the program. Don't set this value too high as s
 
 
 ## Credits 
+
 - So far the earliest source of the method is from [光之烙铁](https://tiebac.baidu.com/p/7759990346?pn=1)
 - **Author:** Gin
 

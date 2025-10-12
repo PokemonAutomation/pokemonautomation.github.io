@@ -1,6 +1,7 @@
 # Shiny Hunt (Autonomous) - IoA Trade
 
 **Related Programs:**
+
 - [Shiny Hunt Unattended: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-IoATrade.md)
 - [Shiny Hunt Autonomous: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-IoATrade.md) (this program)
 
@@ -10,6 +11,7 @@
 This is the autonomous version of [ShinyHuntUnattended-IoATrade](ShinyHuntUnattended-IoATrade.md).
 
 This program will automatically hunt for a shiny Regina trade and stop on a shiny. It requires video feedback and has these advantages over the unattended version of this program:
+
 - No calibration is needed. This program will detect a shiny from its shiny icon.
 - When a shiny is found, this program will save a video of the encounter.
 - Autonomous programs are faster than their unattended counterparts since they use feedback instead of timed waits.
@@ -23,14 +25,17 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
 ### Setup of Settings
 
 **Switch Settings:**
+
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
+
 1. Video Resolution: 720p or higher
 
 **Game Settings:**
+
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Setup in-game menu as follows (default locations):
@@ -38,6 +43,7 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
    * The Pokémon button must be in the 1st row, 2nd from the left. 
 
 ### Setup of Party
+
 1. The Pokémon that you will be trading away must be in the first party slot.
 
 ### Instructions
@@ -47,6 +53,7 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
 3. Close the menu by pressing "B".
 4. Save by pressing "R".
    > This ensures your cursor stays over the "Pokédex" button.
+
 5. Close the menu (if not already closed).
 6. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
 
