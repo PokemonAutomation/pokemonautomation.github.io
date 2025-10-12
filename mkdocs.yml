@@ -33,4 +33,5 @@ nav:
   - Programs: Programs/index.md
   - Controllers: ControllerList.md
   - Discord Integration: DiscordIntegration/index.md
+  - Developer: Developer/index.md
   # - FAQ: faq.md
