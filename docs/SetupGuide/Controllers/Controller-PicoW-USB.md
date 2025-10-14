@@ -11,7 +11,7 @@ There are two operating modes of the Pico W family:
 | **USB Mode (this guide)** | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | Very Easy |
 | [UART Mode](Controller-PicoW-UART.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wireless and wired:<br>- HID: Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | More Difficult |
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-USB.jpg" height="350"> <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Setup-Small.jpg" height="350">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Setup-Small.jpg" width="45%">
 
 ## Hardware Setup:
 

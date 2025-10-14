@@ -8,7 +8,7 @@ The ESP32-S3 is by far the easiest wired controller setup for the simple reason 
 
 If you are setting up a wired controller setup for the first time, we recommend this option.
 
-<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" height="350"> <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Setup.jpg" height="350">
+<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="45%"> <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Setup.jpg" width="45%">
 
 
 Note that ESP32 and ESP32-S3 are different controllers made by the same company (Espressif).
@@ -65,7 +65,7 @@ The ESP32-S3 exists in two variants: 1 USB or 2 USBs. You must get a model that 
 
 We recommend getting ones without pins since you don't need them. Having the pins is a liability for accidentally shorting out and damaging the board.
 
-<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Board.jpg" height="300">
+<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Board.jpg" width="66%">
 
 **USB Cables:**
 
@@ -82,7 +82,7 @@ Unlike the ESP32 wireless setup, there are two USB ports. They are not interchan
 2. Connect the "USB"/"OTG" side to your Nintendo Switch.
 3. Connect the "COM"/"UART" side to your computer.
 
-<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Backside.jpg" height="600"><img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Backside-2.jpg" height="600">
+<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Backside.jpg" width="45%"><img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Backside-2.jpg" width="45%">
 
 And that's it! One extra cable compared to the ESP32 wireless setup, but still much simpler than the Arduino/Teensy setups. The "COM" port is the built-in UART that eliminates the need to manually wire up an external UART.
 

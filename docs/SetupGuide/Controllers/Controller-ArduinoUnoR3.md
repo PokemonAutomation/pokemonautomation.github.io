@@ -10,7 +10,7 @@ This version of the wired controller setup uses the Arduino Leonardo. The hardwa
 
 The Arduino Uno R3 is the legacy setup that we support only because we (barely*) still can. If you already one, then use this guide. If not, go buy an [Arduino Leonardo](Controller-ArduinoLeonardo.md) instead.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" height="350"> <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Setup.jpg" height="350">
+<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="45%"> <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-Setup.jpg" width="45%">
 
 *The problem with the Uno R3 is that the ATmega16U2 USB chip has so little memory that is has caused us numerous problems in the past. While we have mostly mitigated these issues, we cannot guarantee that they will return in the future.*
 
@@ -53,17 +53,17 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" width="30%">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" width="22%"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" width="34.5%">
 
 **Important:**
 
 **DO NOT get cables with the Prolific controllers. e.g. PL2303 or any other model number.** They are cheap, do not work, and they are explicitly blocked in the program. **They often look deceptively similar to the Adafruit UART, but they are not the same.** If you buy outside of this link, verify it does not use PL controllers. If you buy it anyway, you will be wasting your time and money. **YOU HAVE BEEN WARNED!**
 
-<img src="../Images/UART/ControllerSetup-UART-NoProlific.png" height="500">
+<img src="../Images/UART/ControllerSetup-UART-NoProlific.png" width="40%">
 
 
 **Male-Male Jumper Wires:**
@@ -74,7 +74,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 If purchasing the items from this list, you will need Male to Male Jumper wires.
 **WARNING:** If you do ***not*** buy Hardware from this list, you will need to evaluate what you purchased for the correct type of Jumper Wire. e.g. Female-Male jumper wires may be needed instead.
 
-<img src="../Images/UART/ControllerSetup-UART-JumperCables.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-JumperCables.jpg" width="20%">
 
 
 ### Hardware Assembly:
@@ -94,7 +94,7 @@ Make the following connections:
 
 > **If you did **not** buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-Wiring-0.jpg" height="300"> <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-Wiring-1.jpg" height="300">
+<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-Wiring-0.jpg" width="40%"> <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-Wiring-1.jpg" width="40%">
 
 
 **Step 2: Download and install FLIP**
@@ -105,24 +105,24 @@ Download and install [FLIP](https://www.microchip.com/developmenttools/ProductDe
 
 The root folder of the SerialPrograms package should have a set of .hex files for each of the different devices.
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 1. Run the FLIP program that you downloaded earlier.
 2. `Device` -> `Select`. Select `ATmega16U2` and click OK.
 3. `File` -> `Load HEX File...`. Open the .hex named `NintendoSwitch-PABotBase-xxxxxxxxx-ArduinoUnoR3.hex`.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-0.png" height="400">
+<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-0.png" width="50%">
 
 4. Plug the Arduino into your computer.
 5. Short the following two pins with a conductive object, then release it. Your computer should play the unplug/plug sound.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-0.jpg" height="200"> <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-1.jpg" height="200">
+<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-0.jpg" width="30%"> <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-1.jpg" width="30%">
 
 6. Click on the USB icon. Select `USB` and click `Open`.
 
 If everything worked correctly, it should look like this:
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-1.png" height="400">
+<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-1.png" width="50%">
 
 If you get an error, then it usually means one of the following:
 
@@ -140,7 +140,7 @@ We won't go into too much detail on how to debug things at this point. This is o
 
 7. Click Run.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-2.png" height="400">
+<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-2.png" width="50%">
 
 If you see no errors, the you have successfully flashed the program to your Arduino!
 

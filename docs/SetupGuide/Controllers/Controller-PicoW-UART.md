@@ -17,7 +17,7 @@ In UART mode, the line of communication between the Pico W and the computer is m
 
 This is the most versatile setup as it supports every single controller in this project - both wired and wireless. 
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" height="350"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" height="350">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -45,7 +45,7 @@ This is the most versatile setup as it supports every single controller in this 
     - USB Cable/Adapter: < $1 each from AliExpress
     - UART: $2 each from Amazon
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated-Small.jpg" height="600">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated-Small.jpg" width="45%">
 
 
 ### Recommended Purchase Links:
@@ -89,17 +89,17 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" width="30%">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" width="22%"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" width="34.5%">
 
 **Important:**
 
 **DO NOT get cables with the Prolific controllers. e.g. PL2303 or any other model number.** They are cheap, do not work, and they are explicitly blocked in the program. **They often look deceptively similar to the Adafruit UART, but they are not the same.** If you buy outside of this link, verify it does not use PL controllers. If you buy it anyway, you will be wasting your time and money. **YOU HAVE BEEN WARNED!**
 
-<img src="../Images/UART/ControllerSetup-UART-NoProlific.png" height="500">
+<img src="../Images/UART/ControllerSetup-UART-NoProlific.png" width="40%">
 
 ### Hardware Assembly:
 

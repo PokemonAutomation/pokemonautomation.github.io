@@ -12,7 +12,7 @@ Download the latest version of our programs from [here](https://github.com/Pokem
 
 Once you have downloaded the package, unzip to somewhere you can access later. **Do not put it on Microsoft OneDrive.**
 
-<img src="Images/GeneralSetup-CCFolder.png" height="400">
+<img src="Images/GeneralSetup-CCFolder.png" width="88%">
 
 
 ### If you are on x64 Linux:

@@ -31,12 +31,12 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 
 5. Open **System Settings** and navigate to the **Privacy & Security** section. Scroll down until you see the SerialPrograms warning. Click **Open Anyway**.
 
-<img src="Images/Mac/security-settings.png" height=800 style="display: block; margin: 10px 40px">
+<img src="Images/Mac/security-settings.png" style="display: block; margin: 10px 40px" width="64%">
 
 6. Follow the prompts to open the app. You may need to click **Open Anyways** multiple times and you may need to input your password. Note that this is only needed the first time you open the app. For the first time, the app may take some time to open.
 7. The app may ask you to install Rosetta and/or give the app permissions to files/camera/microphone. These are required in order to write program settings to file and read video and audio from your capture card.
 
-<img src="Images/Mac/app-interface.png" height=800 style="display: block; margin: 10px 40px"> 
+<img src="Images/Mac/app-interface.png" style="display: block; margin: 10px 40px" width="80%"> 
 
 ## Step 3: Setup video.
 
@@ -45,11 +45,11 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 
 Depending on your capture card, it may look different from this:
 
-<img src="Images/Mac/capture-card.png" height=800>
+<img src="Images/Mac/capture-card.png" width="40%">
 
 1. Select your capture card in the "Camera" dropdown. If you don't see it there, click "Reset Camera" to refresh the list.
 
-<img src="Images/Mac/select-capture-device.png" height=800> <img src="Images/Mac/select-capture-device-2.png" height=800>
+<img src="Images/Mac/select-capture-device.png" width="47%"> <img src="Images/Mac/select-capture-device-2.png" width="47%">
 
 ## Step 4: Setup sound.
 
@@ -62,7 +62,7 @@ The sound options are below the Camera options. Most of these options are self-e
 If you did everything right until now, the black bar will light up with the audio spectrum and you will hear the sound from your Switch.
 
 
-<img src="Images/Mac/select-audio-device.png" height=800> <img src="Images/Mac/select-audio-device-2.png" height=800>
+<img src="Images/Mac/select-audio-device.png" width="47%"> <img src="Images/Mac/select-audio-device-2.png" width="47%">
 
 The Audio Input is the important one since programs that listen to audio will be using that.
 The Audio Output and playback are only for user consumption. You can mute the program by changing the Audio Output to (none) or moving the slider all the way to the left.

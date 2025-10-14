@@ -11,7 +11,7 @@ Discord bot integration can be useful for various things. For example:
 3. Send notifications for live (real-time) hosting.
 4. Use remote control commands to start or stop a program, send controller inputs, take screenshots, etc.
 
-<img src="images/discord-notifications-0.png">
+<img src="images/discord-notifications-0.png" width="50%">
 
 
 

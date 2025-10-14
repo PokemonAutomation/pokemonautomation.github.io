@@ -19,7 +19,7 @@ This is an alternate method to flash the ESP32.
 6. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
 7. Click `Choose File`: Select the firmware file (will be named something like: `PABotBase-ESP32-2025032100.bin`), then click `Open` to choose the file.
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 9. Click `Program`.
 <table><tr><td>

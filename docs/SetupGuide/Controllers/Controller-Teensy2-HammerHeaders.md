@@ -10,7 +10,7 @@ The Teensy 2.0 or Teensy++ 2.0 have been discontinued by the manufacturer. So we
 
 This tutorial will use solderless hammer headers to connect the UART to the Teensy. This is a cleaner, but harder setup while still avoiding any soldering.
 
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensy-Setup.jpg" height="350">
+<img src="../Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensy-Setup.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -46,11 +46,11 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" width="30%">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" width="22%"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" width="34.5%">
 
 **Solderless Hammer Headers**
 
@@ -58,7 +58,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 These "hammer headers" have a bulge on the short side which enables it to attach to pin holes without the use of solder.
 
-<img src="../Images/UART/ControllerSetup-UART-HammerHeaders.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-HammerHeaders.jpg" width="30%">
 
 
 ### Hardware Assembly:
@@ -82,8 +82,8 @@ Make the following connections:
 
 You will need a LOT of force to push the hammer headers into the holes. Recommend using pliers to pull the pins out of the plastic holds and inserting the long side into the microcontroller board. Then put the covers back on and use pliers to squeeze it in.
 
-<img src="../Images/Teensy2/ControllerSetup-Teensypp2-HammerHeaders-0.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensypp2-HammerHeaders-1.jpg" height="350">
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders-0.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensypp2-HammerHeaders-2.jpg" height="350">
+<img src="../Images/Teensy2/ControllerSetup-Teensypp2-HammerHeaders-0.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensypp2-HammerHeaders-1.jpg" width="45%">
+<img src="../Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders-0.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensypp2-HammerHeaders-2.jpg" width="45%">
 
 
 
@@ -98,7 +98,7 @@ Direct download link: [https://www.pjrc.com/teensy/teensy.exe](https://www.pjrc.
 
 The root folder of the SerialPrograms package should have a set of .hex files for each of the different devices.
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 1. Run the Teensy Loader program that you downloaded earlier.
 2. Click the purple file icon and browse for `NintendoSwitch-PABotBase-xxxxxxxxx-Teensy2.hex` or `NintendoSwitch-PABotBase-xxxxxxxxx-TeensyPP2.hex` depending on which one you have.

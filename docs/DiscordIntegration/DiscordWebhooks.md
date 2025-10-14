@@ -10,7 +10,7 @@ Notifications can be useful for various things. For example:
 2. Get notified when a long-running program is finished or otherwise needs your attention.
 3. Send notifications for live (real-time) hosting.
 
-<img src="images/discord-notifications-0.png" height="600">
+<img src="images/discord-notifications-0.png" width="50%">
 
 
 

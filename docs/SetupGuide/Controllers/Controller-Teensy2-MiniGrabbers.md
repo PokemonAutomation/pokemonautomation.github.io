@@ -10,7 +10,7 @@ The Teensy 2.0 or Teensy++ 2.0 have been discontinued by the manufacturer. So we
 
 This tutorial will use mini-grabber cables to connect the UART to the Teensy. While it is ugly and bulky, it is the easiest option for Teensy users who prefer not to do any soldering.
 
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-MiniGrabbers.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensy-Setup.jpg" height="350">
+<img src="../Images/Teensy2/ControllerSetup-Teensy2-MiniGrabbers.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensy-Setup.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -44,11 +44,11 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" width="30%">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" width="22%"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" width="34.5%">
 
 **Mini-Grabbers to Male Jumper Wires**
 
@@ -56,7 +56,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 If you choose a different UART make sure that the wire-end of the mini-grabber can plug into the UART. So if you picked the red CP2102 UART, you will want the female mini-grabber.
 
-<img src="../Images/UART/ControllerSetup-UART-MiniGrabber.jpg" height="350">
+<img src="../Images/UART/ControllerSetup-UART-MiniGrabber.jpg" width="40%">
 
 
 ### Hardware Assembly:
@@ -78,11 +78,11 @@ Note that the mini grabber clips may not fit through the holes on the Teensy 2.0
 
 **Teensy 2.0:** (click on images to enlarge)
 
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-MiniGrabbers-0.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensy2-MiniGrabbers-1.jpg" height="350">
+<img src="../Images/Teensy2/ControllerSetup-Teensy2-MiniGrabbers-0.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensy2-MiniGrabbers-1.jpg" width="45%">
 
 **Teensy++ 2.0:** (click on images to enlarge)
 
-<img src="../Images/Teensy2/ControllerSetup-Teensypp2-MiniGrabbers-0.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensypp2-MiniGrabbers-1.jpg" height="350">
+<img src="../Images/Teensy2/ControllerSetup-Teensypp2-MiniGrabbers-0.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensypp2-MiniGrabbers-1.jpg" width="45%">
 
 
 **Step 2: Download and install Teensy Loader**
@@ -95,7 +95,7 @@ Direct download link: [https://www.pjrc.com/teensy/teensy.exe](https://www.pjrc.
 
 The root folder of the SerialPrograms package should have a set of .hex files for each of the different devices.
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 1. Run the Teensy Loader program that you downloaded earlier.
 2. Click the purple file icon and browse for `NintendoSwitch-PABotBase-xxxxxxxxx-Teensy2.hex` or `NintendoSwitch-PABotBase-xxxxxxxxx-TeensyPP2.hex` depending on which one you have.

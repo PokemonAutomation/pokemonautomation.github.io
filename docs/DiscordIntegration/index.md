@@ -8,7 +8,7 @@ The computer control (CC) application can integrate with Discord. These can be u
 4. Remotely control your Switch via Discord bot commands.
 5. Remotely start/stop programs via Discord bot commands.
 
-<img src="images/discord-notifications-0.png" height="600">
+<img src="images/discord-notifications-0.png" width="50%">
 
 
 **Sub-Articles:**

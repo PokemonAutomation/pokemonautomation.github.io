@@ -8,7 +8,7 @@ This setup uses an ESP32 microcontroller to emulate a wireless controller. It ca
 
 The USB port plugs into the computer which is how the program will control it. At the other end is an antenna that supports Bluetooth which is how it will fake itself as a joycon or a wireless pro controller to the Switch.
 
-<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" height="350"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Setup.jpg" height="350">
+<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="45%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Setup.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -69,7 +69,7 @@ We recommend getting ones without pins since you don't need them (though they ar
 
 Most likely you will end up buying a pack of at least 2 or 3 since they don't get any cheaper in single quantity. This is great if you want to automate multiple Switches.
 
-<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board.jpg" height="300"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" height="300"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" height="250"> 
+<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board.jpg" width="35%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" width="20%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" width="35%"> 
 
 **A micro-USB or USB-C to USB-A cable:**
 

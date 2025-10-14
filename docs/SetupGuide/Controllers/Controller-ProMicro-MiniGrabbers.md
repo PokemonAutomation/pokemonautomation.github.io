@@ -10,7 +10,7 @@ The Pro Micro is the recommended microcontroller to use for experimenced users. 
 
 This tutorial will use mini-grabber cables to connect the UART to the Pro Micro. While it is ugly and bulky, it is the easiest option for users who prefer not to do any soldering.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-MiniGrabbers.jpg" height="350"> <img src="../Images/Teensy2/ControllerSetup-Teensy-Setup.jpg" height="350">
+<img src="../Images/ProMicro/ControllerSetup-ProMicro-MiniGrabbers.jpg" width="45%"> <img src="../Images/Teensy2/ControllerSetup-Teensy-Setup.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -49,11 +49,11 @@ There are many options here. The one we recommend (for ease of use) is the Adafr
   - [https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488](https://www.digikey.com/en/products/detail/adafruit-industries-llc/954/7064488)
   - [https://www.amazon.com/dp/B00DJUHGHI/](https://www.amazon.com/dp/B00DJUHGHI/)
 
-<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" height="200">
+<img src="../Images/UART/ControllerSetup-UART-Adafruit.jpg" width="30%">
 
 Or you can search for "CP2102" and you'll get tons of hits from various brands/sellers that look like these:
 
-<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" height="150"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" height="150">
+<img src="../Images/UART/ControllerSetup-UART-CP210x-Blue.png" width="22%"> <img src="../Images/UART/ControllerSetup-UART-CP210x-Red.jpg" width="34.5%">
 
 **Mini-Grabbers to Male Jumper Wires**
 
@@ -61,7 +61,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 If you choose a different UART make sure that the wire-end of the mini-grabber can plug into the UART. So if you picked the red CP2102 UART, you will want the female mini-grabber.
 
-<img src="../Images/UART/ControllerSetup-UART-MiniGrabber.jpg" height="350">
+<img src="../Images/UART/ControllerSetup-UART-MiniGrabber.jpg" width="40%">
 
 
 
@@ -82,7 +82,7 @@ Make the following connections:
 
 Note that the mini grabber clips may not fit through the holes on the Pro Micro. This is fine.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-MiniGrabbers-0.jpg" height="350"> <img src="../Images/ProMicro/ControllerSetup-ProMicro-MiniGrabbers-1.jpg" height="350">
+<img src="../Images/ProMicro/ControllerSetup-ProMicro-MiniGrabbers-0.jpg" width="45%"> <img src="../Images/ProMicro/ControllerSetup-ProMicro-MiniGrabbers-1.jpg" width="45%">
 
 **Step 2: Download QMK Toolbox**
 
@@ -96,24 +96,24 @@ You want the file `qmk_toolbox.exe`. You'll find it under `Assets`, under the ve
 
 The root folder of the SerialPrograms package should have a set of .hex files for each of the different devices.
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+<img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 1. Run the QMK Toolbox program that you downloaded in PART 2.
 2. Open the .hex named `NintendoSwitch-PABotBase-xxxxxxxxx-ProMicro.hex`.
 3. Change the MCU to `atmega32u4`.
 4. Check the "Auto-Flash" box.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-0.png" height="600">
+<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-0.png" width="75%">
 
 5. Plug the Pro Micro into your computer.
 6. Short the RST and GND pins.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-1.jpg" height="400">
+<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-1.jpg" width="30%">
 
 The QMK program will now flash the program to the Pro Micro and show a bunch of logging.
 Afterwards, the 2 LEDs on the Pro Micro should flash in unison for 5 seconds before turning off.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-2.png" height="600">
+<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-2.png" width="75%">
 
 7. Unplug the Leonardo from your computer.
 

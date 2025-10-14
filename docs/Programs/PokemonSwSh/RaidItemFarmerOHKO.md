@@ -15,7 +15,7 @@ This program is not restricted to raids that can be OHKO'ed. By adjusting the ap
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/814164114305581106/Candy_Farmer.mov)
 
-<img src="[https://raw.githubusercontent.com/PokemonAutomation/SwSh-Arduino/master/Documentation/SerialPrograms/images/CandyFarmer.png"](https://raw.githubusercontent.com/PokemonAutomation/SwSh-Arduino/master/Documentation/SerialPrograms/images/CandyFarmer.png") height="600">
+<img src="images/CandyFarmer.png" width="90%">
 
 ### Setup of Settings
 

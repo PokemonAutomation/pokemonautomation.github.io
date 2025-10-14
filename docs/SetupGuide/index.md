@@ -78,7 +78,7 @@ Partial support for Switch 2 began with version 0.54 for wired controllers only.
 
 A video capture card will allow a computer to capture the HDMI video output from your Nintendo Switch (or any other game console).
 
-<img src="Images/GeneralSetup-CaptureCard.jpg" width="400" height="400">
+<img src="Images/GeneralSetup-CaptureCard.jpg" width="400">
 
 Example Shopping Links:
 
@@ -137,7 +137,7 @@ See: [General Setup for MacOS](GeneralSetupMac.md)
 
 When you are done, you should have the CC window running and looking like this:
 
-<img src="Images/GeneralSetup-FullSystem.jpg" height="350"> <img src="Images/GeneralSetup-AudioSelected.png" height="350">
+<img src="Images/GeneralSetup-FullSystem.jpg" width="48.5%"> <img src="Images/GeneralSetup-AudioSelected.png" width="45.3%">
 
 
 ## Step 3: Controller Setup:
