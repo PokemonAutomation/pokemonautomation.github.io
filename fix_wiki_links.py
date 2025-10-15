@@ -4,6 +4,9 @@ Script to fix old GitHub wiki links to point to new documentation.
 Searches for links containing "github.com/PokemonAutomation/ComputerControl/blob/master"
 and converts them to point to the new docs/ directory.
 
+To simply search for a string recursively, use:
+grep -r "github.com/PokemonAutomation/ComputerControl/blob/master" ./**/*.md
+
 Usage:
     python fix_wiki_links.py           # Print all old wiki links and check if new docs exist
     python fix_wiki_links.py --apply   # Apply the link replacements
