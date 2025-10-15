@@ -1,13 +1,13 @@
 # Shiny Hunt (Unattended) - Regi (deprecated)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regi.md) instead.***
+***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Regi](ShinyHuntAutonomous-Regi.md) instead.***
 
 -----
 
 **Related Programs:**
 
-- [Shiny Hunt Unattended: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-Regi.md) (this program)
-- [Shiny Hunt Autonomous: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regi.md)
+- [Shiny Hunt Unattended: Regi](ShinyHuntUnattended-Regi.md) (this program)
+- [Shiny Hunt Autonomous: Regi](ShinyHuntAutonomous-Regi.md)
 
 The last one on the list is the most advanced. It can detect shinies, distinguish stars from squares, stop on them, and notify the user.
 

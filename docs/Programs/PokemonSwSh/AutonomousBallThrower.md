@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Ball Thrower](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/BallThrower.md)
-- [Autonomous Ball Thrower](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/AutonomousBallThrower.md) (this program)
+- [Ball Thrower](BallThrower.md)
+- [Autonomous Ball Thrower](AutonomousBallThrower.md) (this program)
 
 
 ## Program Description

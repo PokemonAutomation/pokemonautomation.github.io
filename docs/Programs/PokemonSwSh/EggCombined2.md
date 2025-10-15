@@ -1,6 +1,6 @@
 # Egg Combined 2 (deprecated)
 
-***This program is deprecated and is no longer maintained. Please use [Egg Autonomous](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/EggAutonomous.md) instead.***
+***This program is deprecated and is no longer maintained. Please use [Egg Autonomous](EggAutonomous.md) instead.***
 
 -----
 

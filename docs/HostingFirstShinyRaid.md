@@ -11,7 +11,7 @@ This page is provided as a courteous and may not cover all the questions you hav
    - [DaySkipperJPN-7.8k](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperJPN-7.8k.md)
 - **Beam Finding:**
    - [Beam Reset](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/BeamReset.md)
-   - [Purple Beam Finder](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/PurpleBeamFinder.md)
+   - [Purple Beam Finder](Programs/PokemonSwSh/PurpleBeamFinder.md)
 - **Hosting**
    - [Den Roller](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/DenRoller.md)
    - [AutoHost Rolling](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/AutoHost-Rolling.md)
@@ -56,7 +56,7 @@ To start off, we will work through obtaining the correct beam you want and findi
 
 1. Approach an empty den
 2. Activate the den
-   1. If you need a rare den (purple beam): follow [Beam Reset](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/BeamReset.md) if you have a MC Setup _or_ [Purple Beam Finder](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/PurpleBeamFinder.md) if you have a CC Setup.
+   1. If you need a rare den (purple beam): follow [Beam Reset](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/BeamReset.md) if you have a MC Setup _or_ [Purple Beam Finder](Programs/PokemonSwSh/PurpleBeamFinder.md) if you have a CC Setup.
    2. If you need a normal den (red beam) use a wishing piece. There is a 1/10 chance the beam will be purple and you will need to clear the den and try again. Conversely you can use [Beam Reset](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/BeamReset.md) and manually stop the program when you have a red beam.
 3. Your game will save automatically, but do not save it yourself after that point. 
 4. Enter the raid, defeat the Pokémon, and catch it. **DO NOT SAVE**

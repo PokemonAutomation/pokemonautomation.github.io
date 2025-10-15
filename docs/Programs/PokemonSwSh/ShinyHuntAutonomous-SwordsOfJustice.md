@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Shiny Hunt Unattended: Swords of Justice](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.md)
-- [Shiny Hunt Autonomous: Swords of Justice](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.md) (this program)
+- [Shiny Hunt Unattended: Swords of Justice](ShinyHuntUnattended-SwordsOfJustice.md)
+- [Shiny Hunt Autonomous: Swords of Justice](ShinyHuntAutonomous-SwordsOfJustice.md) (this program)
 
 
 ## Program Description

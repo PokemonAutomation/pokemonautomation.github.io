@@ -1,13 +1,13 @@
 # Shiny Hunt (Unattended) - Strong Spawn (deprecated)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md) instead.***
+***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Strong Spawn](ShinyHuntAutonomous-StrongSpawn.md) instead.***
 
 -----
 
 **Related Programs:**
 
-- [Shiny Hunt Unattended: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md) (this program)
-- [Shiny Hunt Autonomous: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md)
+- [Shiny Hunt Unattended: Strong Spawn](ShinyHuntUnattended-StrongSpawn.md) (this program)
+- [Shiny Hunt Autonomous: Strong Spawn](ShinyHuntAutonomous-StrongSpawn.md)
 
 The last one on the list is the most advanced. It can detect shinies, distinguish stars from squares, stop on them, and notify the user.
 

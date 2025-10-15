@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Beam Reset](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/BeamReset.md)
-- [Purple Beam Finder](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/PurpleBeamFinder.md) (this program)
+- [Beam Reset](BeamReset.md)
+- [Purple Beam Finder](PurpleBeamFinder.md) (this program)
 
 
 ## Program Description

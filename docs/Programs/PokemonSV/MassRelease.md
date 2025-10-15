@@ -3,7 +3,7 @@
 **Related Programs:**
 
 - **Microcontroller:** [Mass Release](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSV/MassRelease.md)
-- **Computer Control:** [Mass Release](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/MassRelease.md) (this program)
+- **Computer Control:** [Mass Release](MassRelease.md) (this program)
 
 ## Program Description
 

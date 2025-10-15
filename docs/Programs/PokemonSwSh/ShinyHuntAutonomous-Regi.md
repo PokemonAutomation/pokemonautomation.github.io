@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Shiny Hunt Unattended: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-Regi.md)
-- [Shiny Hunt Autonomous: Regi](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regi.md) (this program)
+- [Shiny Hunt Unattended: Regi](ShinyHuntUnattended-Regi.md)
+- [Shiny Hunt Autonomous: Regi](ShinyHuntAutonomous-Regi.md) (this program)
 
 
 ## Program Description

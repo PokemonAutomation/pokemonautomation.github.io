@@ -3,7 +3,7 @@
 <!-- **Related Programs:**
 
 - **Microcontroller:** [Clothing Buyer](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/ClothingBuyer.md)
-- **Computer Control:** [Clothing Buyer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ClothingBuyer.md) (this program)
+- **Computer Control:** [Clothing Buyer](../PokemonSwSh/ClothingBuyer.md) (this program)
 
 The microcontroller and computer-control versions of this program are functionally identical. -->
 

@@ -15,9 +15,9 @@ Note it is a non-feedback program because no video or audio detection is used.
 - To write a new program, the easiest way is to study the existing non-feedback program
 [**PokemonLA_BraviaryHeightGlitch**](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/General/PokemonLA_BraviaryHeightGlitch.h).
 The program applys an exploit while the player character rides on Braviary so that the player can gain unlimited height in the overworld.
-See its [Wiki page](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonLA/BraviaryHeightGlitch.md) on how to use the program.
+See its [Wiki page](../Programs/PokemonLA/BraviaryHeightGlitch.md) on how to use the program.
 
-	- A more complex program example is [**PokemonLA_ApplyGrits**](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/General/PokemonLA_ApplyGrits.h) ([Wiki](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonLA/ApplyGrits.md)).
+	- A more complex program example is [**PokemonLA_ApplyGrits**](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/General/PokemonLA_ApplyGrits.h) ([Wiki](../Programs/PokemonLA/ApplyGrits.md)).
 
 - Copy the code in **PokemonLA_BraviaryHeightGlitch** to create a new program listed in SerialPrograms/Source/PokemonLA/Programs/ and compile it. If successful, you can run **SerialPrograms** and notice a new program appears under the *LA* panel.
 

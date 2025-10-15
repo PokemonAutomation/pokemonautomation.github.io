@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- **Computer Control:** [Virtual Console](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/VirtualConsole.md) (this program)
-- **Computer Control:** [Switch Viewer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/NintendoSwitch/SwitchViewer.md)
+- **Computer Control:** [Virtual Console](VirtualConsole.md) (this program)
+- **Computer Control:** [Switch Viewer](SwitchViewer.md)
 
 
 ## Program Description

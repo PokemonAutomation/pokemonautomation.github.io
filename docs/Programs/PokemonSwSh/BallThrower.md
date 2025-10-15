@@ -1,13 +1,13 @@
 # Ball Thrower (deprecated)
 
-***This program is deprecated and is no longer maintained. Please use [Autonomous Ball Thrower](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/AutonomousBallThrower.md) instead.***
+***This program is deprecated and is no longer maintained. Please use [Autonomous Ball Thrower](AutonomousBallThrower.md) instead.***
 
 -----
 
 **Related Programs:**
 
-- [Ball Thrower](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/BallThrower.md) (this program)
-- [Autonomous Ball Thrower](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/AutonomousBallThrower.md)
+- [Ball Thrower](BallThrower.md) (this program)
+- [Autonomous Ball Thrower](AutonomousBallThrower.md)
 
 The "autonomous" version of this program will automatically detect stop conditions such as successful catch, somebody faints, out of balls.
 

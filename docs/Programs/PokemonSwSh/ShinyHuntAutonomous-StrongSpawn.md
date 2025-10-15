@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Shiny Hunt Unattended: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md)
-- [Shiny Hunt Autonomous: Strong Spawn](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md) (this program)
+- [Shiny Hunt Unattended: Strong Spawn](ShinyHuntUnattended-StrongSpawn.md)
+- [Shiny Hunt Autonomous: Strong Spawn](ShinyHuntAutonomous-StrongSpawn.md) (this program)
 
 
 ## Program Description

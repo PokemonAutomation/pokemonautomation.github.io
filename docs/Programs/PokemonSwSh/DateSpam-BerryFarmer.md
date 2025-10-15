@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Date Spam - Berry Farmer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DateSpam-BerryFarmer.md) (this program)
-- [Date Spam - Berry Farmer 2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DateSpam-BerryFarmer2.md)
+- [Date Spam - Berry Farmer](DateSpam-BerryFarmer.md) (this program)
+- [Date Spam - Berry Farmer 2](DateSpam-BerryFarmer2.md)
 
 ## Program Description
 

@@ -2,10 +2,10 @@
 
 **Related Programs:**
 
-- [Day Skipper (JPN)](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperJPN.md)
-- [Day Skipper (EU)](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperEU.md) (this program)
-- [Day Skipper (US)](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperUS.md)
-- [Day Skipper (JPN) - 7.8k](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DaySkipperJPN-7.8k.md)
+- [Day Skipper (JPN)](DaySkipperJPN.md)
+- [Day Skipper (EU)](DaySkipperEU.md) (this program)
+- [Day Skipper (US)](DaySkipperUS.md)
+- [Day Skipper (JPN) - 7.8k](DaySkipperJPN-7.8k.md)
 
 There are different skippers for each date format. Use the one that matches yours or change your language/region to match the faster Japanese date skippers.
 

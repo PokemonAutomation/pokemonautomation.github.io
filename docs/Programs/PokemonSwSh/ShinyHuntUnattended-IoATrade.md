@@ -1,14 +1,14 @@
 # Shiny Hunt (Unattended) - Isle of Armor Trade (deprecated)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-IoATrade.md) instead.***
+***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: IoA Trade](ShinyHuntAutonomous-IoATrade.md) instead.***
 
 -----
 
 
 **Related Programs:**
 
-- [Shiny Hunt Unattended: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-IoATrade.md) (this program)
-- [Shiny Hunt Autonomous: IoA Trade](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-IoATrade.md)
+- [Shiny Hunt Unattended: IoA Trade](ShinyHuntUnattended-IoATrade.md) (this program)
+- [Shiny Hunt Autonomous: IoA Trade](ShinyHuntAutonomous-IoATrade.md)
 
 The last one on the list is the most advanced. It can automatically detect the shiny, stop on it, and notify the user.
 

@@ -2,8 +2,8 @@
 
 **Related Programs:**
 
-- [Auto Item Printer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/AutoItemPrinter.md) (this program)
-- [Item Printer RNG](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSV/ItemPrinterRNG.md)
+- [Auto Item Printer](AutoItemPrinter.md) (this program)
+- [Item Printer RNG](ItemPrinterRNG.md)
 
 ## Program Description
 

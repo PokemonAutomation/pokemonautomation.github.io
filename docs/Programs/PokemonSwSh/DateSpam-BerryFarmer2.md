@@ -2,9 +2,9 @@
 
 **Related Programs:**
 
-- [Date Spam - Berry Farmer](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DateSpam-BerryFarmer.md)
-- [Date Spam - Berry Farmer 2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/DateSpam-BerryFarmer2.md) (this program)
-- [Shiny Hunt (Autonomous) - Berry Tree](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-BerryTree.md)
+- [Date Spam - Berry Farmer](DateSpam-BerryFarmer.md)
+- [Date Spam - Berry Farmer 2](DateSpam-BerryFarmer2.md) (this program)
+- [Shiny Hunt (Autonomous) - Berry Tree](ShinyHuntAutonomous-BerryTree.md)
 
 This version of the program uses sound feedback to be more efficient.
 
@@ -16,7 +16,7 @@ BerryFarmer2 will farm berries from a tree. It requires activating the Y-Comm gl
 Under optimal conditions, this program runs at an average of around 9 seconds per fetch.
 
 In rare cases, a battle starts and the opposing Pokémon gets defeated. If you do not want a Pokémon to accidentally gain experience or EV points remove it from your party.
-This program will detect shiny Pokémon, however, a better alternative for this specific use is [Shiny Hunt (Autonomous) - Berry Tree](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-BerryTree.md).
+This program will detect shiny Pokémon, however, a better alternative for this specific use is [Shiny Hunt (Autonomous) - Berry Tree](ShinyHuntAutonomous-BerryTree.md).
 
 <img src="images/DateSpam-BerryFarmer2-0.png">
 

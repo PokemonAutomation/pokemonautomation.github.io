@@ -1,13 +1,13 @@
 # Shiny Hunt (Unattended) - Regigigas 2 (deprecated)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md) instead.***
+***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Regigigas2](ShinyHuntAutonomous-Regigigas2.md) instead.***
 
 -----
 
 **Related Programs:**
 
-- **Computer Control:** [Shiny Hunt Unattended: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntUnattended-Regigigas2.md) (this program)
-- **Computer Control:** [Shiny Hunt Autonomous: Regigigas2](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md)
+- **Computer Control:** [Shiny Hunt Unattended: Regigigas2](ShinyHuntUnattended-Regigigas2.md) (this program)
+- **Computer Control:** [Shiny Hunt Autonomous: Regigigas2](ShinyHuntAutonomous-Regigigas2.md)
 
 The last one on the list is the most advanced. It can detect shinies, distinguish stars from squares, stop on them, and notify the user.
 
