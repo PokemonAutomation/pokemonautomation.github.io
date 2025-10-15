@@ -131,7 +131,7 @@ Also, don't be afraid to get both wired and wireless setups! Many of us do exact
 
 The setup is quite simple until you get to the controller. So we will cover everything before the controller here.
 
-See: [General Setup](GeneralSetup.md)
+See: [General Setup for Windows](GeneralSetup.md)
 
 See: [General Setup for MacOS](GeneralSetupMac.md)
 

@@ -1,4 +1,4 @@
-# How to host your first raid
+# How to Host Your First Raid
 
 This page is provided as a courteous and may not cover all the questions you have about hosting. We suggest spending some time looking up videos on YouTube if you need a visual explanation in addition to this.
 
@@ -129,7 +129,7 @@ After verifying how far you are from your shiny frame, you double check the den 
       1. _Turn your TV sound on_
       2. This means removing the device from the dock.
    2. For CC users:
-      1. Follow the Serial Guide to [Setup Sound](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Software/Windows.md#step-7-setup-sound).
+      1. Follow the Serial Guide to Setup Sound on [Windows](SetupGuide/GeneralSetup.md#step-4-setup-sound) or [Mac](SetupGuide/GeneralSetupMac.md#step-4-setup-sound).
       2. you can stop the program.
 3. Enter the raid.
 4. Verify the Pokémon is shiny
