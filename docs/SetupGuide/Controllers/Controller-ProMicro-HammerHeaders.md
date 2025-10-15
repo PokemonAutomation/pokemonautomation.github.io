@@ -59,6 +59,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 **Solderless Hammer Headers**
 
+- [https://www.adafruit.com/product/5938](https://www.adafruit.com/product/5938)
 - [https://www.adafruit.com/product/3662](https://www.adafruit.com/product/3662)
 
 These "hammer headers" have a bulge on the short side which enables it to attach to pin holes without the use of solder.
@@ -151,6 +152,7 @@ Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.m
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
