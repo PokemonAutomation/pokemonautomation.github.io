@@ -21,19 +21,19 @@ This program does not use bike boosts, but is nevertheless roughly the same spee
 2. Casual mode: Off
 3. Nicknaming: Off
 4. The menu icons are in their default locations.
-   1. The Town Map must be in the 2nd row on the far left.
-   2. The Pokémon option must be in the 1st row, 2nd from the left.
+    1. The Town Map must be in the 2nd row on the far left.
+    2. The Pokémon option must be in the 1st row, 2nd from the left.
 
 ### Party Setup
 
 1. Your party must have exactly 1 Pokémon.
-   1. The Pokémon in your party MUST be a flame body (or similar) Pokémon.
+    1. The Pokémon in your party MUST be a flame body (or similar) Pokémon.
 
 ### Pokémon Box Setup
 
 1. Place entire boxes filled with eggs consecutively.
-   1. It is okay to have non-eggs mixed in with eggs.
-   2. The only requirement is that first row of each box is occupied.
+    1. It is okay to have non-eggs mixed in with eggs.
+    2. The only requirement is that first row of each box is occupied.
 
 2. You must be on the first box of eggs.
 

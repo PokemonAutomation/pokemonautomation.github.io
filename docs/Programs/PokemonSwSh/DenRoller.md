@@ -35,7 +35,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 ### Instructions
 
 1. Stand in front of a wishing piece den with watts collected.
-   1. Your location should be safe from getting attacked by wild Pokémon.
+    1. Your location should be safe from getting attacked by wild Pokémon.
 2. Save.
 3. Return to the overworld (not in a menu).
 4. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

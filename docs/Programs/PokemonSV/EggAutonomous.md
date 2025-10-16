@@ -51,12 +51,12 @@ Hatching 500 eggs without a shiny is quite common. This can happen approximately
 
 1. Prepare three boxes.
 
-- 1.1. Left box: place a Flame Body Pokémon at first row and first column of the left box.
-This Pokémon will be used to hatch the eggs. Make sure the second box column from the left is empty.
-This column will be used to hold your fetcher party when the program is hatching eggs.
+    - 1.1. Left box: place a Flame Body Pokémon at first row and first column of the left box.
+    This Pokémon will be used to hatch the eggs. Make sure the second box column from the left is empty.
+    This column will be used to hold your fetcher party when the program is hatching eggs.
 
-- 1.2. Middle box: leave it empty. It is used to hold eggs.
-- 1.3. Right box: this is the box to hold Pokémon you would like to keep. Give it enough space.
+    - 1.2. Middle box: leave it empty. It is used to hold eggs.
+    - 1.3. Right box: this is the box to hold Pokémon you would like to keep. Give it enough space.
 
 2. Set the current box as the middle box.
 3. All three boxes need to use the default wallpaper, Wallpaper 1.

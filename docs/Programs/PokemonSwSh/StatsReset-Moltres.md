@@ -22,7 +22,7 @@ This program will automatically hunt for Moltres and automatically stop based on
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Navigate to the Pokémon PC and press "+" until the IVs of the Pokémon in your boxes are shown
-   1. You need to have unlocked the IV judge for this functionality
+    1. You need to have unlocked the IV judge for this functionality
 
 ## Instructions
 
@@ -30,10 +30,10 @@ This program will automatically hunt for Moltres and automatically stop based on
 2. Have at least one masterball
 3. Follow the instruction from here : [https://twitter.com/Sibuna_Switch/status/1326256818050502661](https://twitter.com/Sibuna_Switch/status/1326256818050502661)
 4. Arrange the menu as specified:
-   1. The Pokémon icon shall be on the top row, second from the left (default location).
-   2. The camp icon shall be on the bottom row, second from the left (default location).
-   3. Put the cursor over the camp icon.
-   4. Close the menu.
+    1. The Pokémon icon shall be on the top row, second from the left (default location).
+    2. The camp icon shall be on the bottom row, second from the left (default location).
+    3. Put the cursor over the camp icon.
+    4. Close the menu.
 5. Save.
 6. Run the program.
 

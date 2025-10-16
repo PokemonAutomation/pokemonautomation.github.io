@@ -22,26 +22,26 @@ This program will automatically hunt for Calyrex (and its horse) and automatical
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Navigate to the Pokémon PC and press "+" until the IVs of the Pokémon in your boxes are shown
-   1. You need to have unlocked the IV judge for this functionality
+    1. You need to have unlocked the IV judge for this functionality
 
 ## Party Setup
 
 1. Your lead Pokémon must be able to "wall Calyrex"
-   1. This means Calyrex is unable to damage your Pokémon
-   2. See the associated [Pokémon Walls](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/PokemonWalls.md) appendix page.
+    1. This means Calyrex is unable to damage your Pokémon
+    2. See the associated [Pokémon Walls](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/PokemonWalls.md) appendix page.
 
 ## Instructions
 
 1. Have exactly 4 Pokémon in your party.
-   1. Lead Pokémon being your wall!
+    1. Lead Pokémon being your wall!
 2. Stand directly in front of Calyrex.
 3. Arrange the menu as specified:
-   1. The Pokémon icon shall be on the top row, second from the left (default location).
-   2. The Bag icon shall be on the top row, third from the left (default location).
-   3. Put the cursor over the top left icon (default is Mystery Gift).
-   4. Close the menu.
+    1. The Pokémon icon shall be on the top row, second from the left (default location).
+    2. The Bag icon shall be on the top row, third from the left (default location).
+    3. Put the cursor over the top left icon (default is Mystery Gift).
+    4. Close the menu.
 4. Save.
-   1. The program will press "A" to start the encounter
+    1. The program will press "A" to start the encounter
 5. Run the program.
 
 > **NOTE:** In order to check that everything is working properly, I encourage you to let it run first with masterball for an easy catch that would allow you to fix your setup if needed.

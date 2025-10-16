@@ -63,9 +63,9 @@ If you find that your character does not move towards the Beartic soon after lan
 6. The fly spot on Route 10 must be activated.
 7. The Beartic on Route 10 must be active. (not despawned due to a prior encounter)
 8. Menu icons are in their default locations.
-   1. The Pokédex must be in the upper-left corner.
-   2. The Pokémon option must be in the 1st row, 2nd from the left. 
-   3. The Town Map must be in the 2nd row on the far left.
+    1. The Pokédex must be in the upper-left corner.
+    2. The Pokémon option must be in the 1st row, 2nd from the left. 
+    3. The Town Map must be in the 2nd row on the far left.
 
 ### Setup of Party
 

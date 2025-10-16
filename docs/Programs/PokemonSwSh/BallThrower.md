@@ -26,7 +26,7 @@ This program is intended for a very specific use case - to Beast Ball catch lege
 This program blindly throws balls without context. Thus the only way it can work is to setup the following:
 
 1. You need to have enough balls to ensure a catch with high probability.
-   1. 900+ Beast Balls is recommended
+    1. 900+ Beast Balls is recommended
 2. You need to be able to reduce the opposing Pokémon down to 1 HP with paralysis.
 3. The opposing Pokémon can never run out of PP. 
 4. Your current Pokémon can never get knocked out. [A perfect wall](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/PokemonWalls.md)
@@ -51,14 +51,14 @@ This program blindly throws balls without context. Thus the only way it can work
    > If any Pokémon in your party is not level 100, make sure they cannot level up or learn any abilities should they level up after catching the opposing Pokémon.
 
 1. A Pokémon(s) with False Swipe and a paralyzing move
-   1. These can be separate Pokémon if you wish.
+    1. These can be separate Pokémon if you wish.
 2. A Pokémon that knows Soak or Magic Powder
-   1. To change the typing from Ghost and allow you to hit it with False Swipe
+    1. To change the typing from Ghost and allow you to hit it with False Swipe
 3. A Pokémon that can wall the Legendary you are hunting
-   1. See the associated [Pokémon Walls](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/PokemonWalls.md) appendix page.
-   2. With the exception of Zapdos and Calyrex (Ghost), every single legendary in Sword/Shield has a wall that is completely immune to it.
+    1. See the associated [Pokémon Walls](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/PokemonWalls.md) appendix page.
+    2. With the exception of Zapdos and Calyrex (Ghost), every single legendary in Sword/Shield has a wall that is completely immune to it.
 4. A Trevenant with Harvest (ability), Skill Swap (move), and holding a Leppa Berry
-   1. To do this, you need to trick a Leppa Berry and Skill Swap (an item recovering ability) onto the opposing Pokémon. This can be done using a Trevenant with the Harvest ability that is holding a Leppa Berry.
+    1. To do this, you need to trick a Leppa Berry and Skill Swap (an item recovering ability) onto the opposing Pokémon. This can be done using a Trevenant with the Harvest ability that is holding a Leppa Berry.
 
 Example of Trevenant:
 
@@ -80,17 +80,17 @@ Example of Trevenant:
 ### Instructions
 
 1. Stock up on balls
-   1. Make sure the last used ball is the one you are trying to catch with.
-   2. For a legendary that is paralyzed at 1 HP, a Beast Ball has a 0.86% chance of success. Thus it will take on average 120 balls to catch.
-   3. The probability of failing to catch after 999 Beast Balls is about 1 in 4000.
+    1. Make sure the last used ball is the one you are trying to catch with.
+    2. For a legendary that is paralyzed at 1 HP, a Beast Ball has a 0.86% chance of success. Thus it will take on average 120 balls to catch.
+    3. The probability of failing to catch after 999 Beast Balls is about 1 in 4000.
 2. Open the menu and place your cursor on the Pokédex. Close the menu.
-   1. For Sword of Justice encounters, the cursor will be over the Pokémon Camp which should still work (but is currently untested).
+    1. For Sword of Justice encounters, the cursor will be over the Pokémon Camp which should still work (but is currently untested).
 3. Start the fight with the Legendary you are trying to catch.
 4. Reduce Opposing Pokémon down to 1 HP and Paralyze.
-   1. Reducing down to 1 HP will require something with False Swipe. If the opposing Pokémon is a ghost type, you will need to change its type with a move such as Soak or Magic Powder.
-   2. Electric Pokémon cannot be paralyzed.
+    1. Reducing down to 1 HP will require something with False Swipe. If the opposing Pokémon is a ghost type, you will need to change its type with a move such as Soak or Magic Powder.
+    2. Electric Pokémon cannot be paralyzed.
 5. Prevent the Opposing Pokémon from running out of PP.
-   1. Early in the battle, you should send out Trevenant and use both Skill Swap and Trick. This moves the PP-restoring Leppa Berry onto the opposing Pokémon and changes its ability to Harvest so that the berry is restored after use. This setup prevents it from ever running out of PP.
+    1. Early in the battle, you should send out Trevenant and use both Skill Swap and Trick. This moves the PP-restoring Leppa Berry onto the opposing Pokémon and changes its ability to Harvest so that the berry is restored after use. This setup prevents it from ever running out of PP.
 6. Swap to your [Pokémon wall](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/PokemonSwSh/PokemonWalls.md)
 7. Place cursor over "Pokémon" button (while in battle)
 8. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

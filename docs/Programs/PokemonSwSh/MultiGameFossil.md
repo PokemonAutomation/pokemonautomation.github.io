@@ -29,8 +29,8 @@ MultiGameFossil is a more advanced fossil reviving program that can revive fossi
 5. Have the Pokédex entry for the Pokémon they are reviving.
 6. Have spoken to the professor before.
 7. Game icon setup (on Home screen)
-   1. If you are reviving from one game version only (Sword or Shield), it must be the 1st slot in the games list.
-   2. If you are reviving from both Sword and Shield, they must be in slots 1 and 2 of the games list.
+    1. If you are reviving from one game version only (Sword or Shield), it must be the 1st slot in the games list.
+    2. If you are reviving from both Sword and Shield, they must be in slots 1 and 2 of the games list.
 
 ### Safety Recommendations:
 

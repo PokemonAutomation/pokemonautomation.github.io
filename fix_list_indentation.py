@@ -2,7 +2,7 @@
 """
 Find and fix list indentation in markdown files.
 
-Searches for list lines (starting with "-") that have exactly 3 spaces of indentation.
+Searches for list lines (starting with "-" or numbered like "1. ") that have exactly 3 spaces of indentation.
 With --apply flag, fixes them to have 4 spaces of indentation.
 """
 
@@ -22,14 +22,18 @@ def find_and_fix_list_indentation(docs_dir='docs', apply_fixes=False):
         apply_fixes: If True, apply fixes and save files
 
     Returns:
-        List of tuples: (file_path, line_number, line_content, context_before, context_after)
+        List of tuples: (file_path, line_number, line_content, list_type, context_before, context_after)
     """
     results = []
     files_to_update = {}  # file_path -> modified_lines
 
     # Pattern for list lines with exactly 3 spaces before the dash
     # ^   -  means: start of line, exactly 3 spaces, then a dash
-    three_space_list_pattern = re.compile(r'^   -\s')
+    three_space_dash_pattern = re.compile(r'^   -\s')
+
+    # Pattern for numbered list lines with exactly 3 spaces before the number
+    # ^   \d+\.  means: start of line, exactly 3 spaces, then digit(s), then a dot and space
+    three_space_numbered_pattern = re.compile(r'^   \d+\.\s')
 
     # Find all .md files in docs directory
     docs_path = Path(docs_dir)
@@ -51,8 +55,14 @@ def find_and_fix_list_indentation(docs_dir='docs', apply_fixes=False):
             for i in range(len(lines)):
                 current_line = lines[i]
 
-                # Check if current line matches the pattern
-                if three_space_list_pattern.match(current_line):
+                # Check if current line matches either pattern
+                list_type = None
+                if three_space_dash_pattern.match(current_line):
+                    list_type = 'dash'
+                elif three_space_numbered_pattern.match(current_line):
+                    list_type = 'numbered'
+
+                if list_type:
                     # Get context: 2 lines before and 2 lines after
                     context_before = []
                     context_after = []
@@ -69,6 +79,7 @@ def find_and_fix_list_indentation(docs_dir='docs', apply_fixes=False):
                         str(md_file),
                         i + 1,  # Line number (1-indexed)
                         current_line.rstrip(),
+                        list_type,
                         context_before,
                         context_after
                     ))
@@ -83,7 +94,7 @@ def find_and_fix_list_indentation(docs_dir='docs', apply_fixes=False):
 
                 # Fix each line by replacing 3 spaces with 4 spaces at the start
                 for idx in lines_to_fix:
-                    # Replace "   -" with "    -" at the start of the line
+                    # Replace "   " with "    " at the start of the line (works for both dash and numbered lists)
                     modified_lines[idx] = '    ' + lines[idx][3:]
 
                 files_to_update[md_file] = modified_lines
@@ -113,12 +124,12 @@ def find_and_fix_list_indentation(docs_dir='docs', apply_fixes=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Find and fix list indentation (3 spaces -> 4 spaces) in markdown files'
+        description='Find and fix list indentation (3 spaces -> 4 spaces) for both dash and numbered lists in markdown files'
     )
     parser.add_argument(
         '--apply',
         action='store_true',
-        help='Apply fixes by changing 3-space indentation to 4-space indentation'
+        help='Apply fixes by changing 3-space indentation to 4-space indentation for both dash (-) and numbered (1. 2. ...) lists'
     )
     parser.add_argument(
         '--docs-dir',
@@ -137,9 +148,9 @@ def main():
     print(f"Found {len(results)} list line(s) with 3-space indentation:\n")
     print("=" * 80)
 
-    for file_path, line_num, line_content, context_before, context_after in results:
+    for file_path, line_num, line_content, list_type, context_before, context_after in results:
         print(f"\nFile: {file_path}")
-        print(f"Line: {line_num}")
+        print(f"Line: {line_num} (type: {list_type})")
         print()
 
         # Print 2 lines before
@@ -156,12 +167,16 @@ def main():
         print("-" * 80)
 
     # Summary
+    dash_count = sum(1 for r in results if r[3] == 'dash')
+    numbered_count = sum(1 for r in results if r[3] == 'numbered')
     print(f"\n\nSummary: {len(results)} list line(s) with 3-space indentation found")
+    print(f"  - {dash_count} dash list(s)")
+    print(f"  - {numbered_count} numbered list(s)")
 
     if args.apply:
         files_fixed = len(set(r[0] for r in results))
         print(f"\nFixes applied to {files_fixed} file(s)! Files saved with Windows line endings (CRLF).")
-        print("  - Changed 3-space indentation to 4-space indentation for list items")
+        print("  - Changed 3-space indentation to 4-space indentation for dash and numbered list items")
     else:
         print("\nRun with --apply to fix indentation and save files.")
 

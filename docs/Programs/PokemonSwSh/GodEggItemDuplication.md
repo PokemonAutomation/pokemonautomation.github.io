@@ -14,8 +14,8 @@ Duplicate items using the God Egg/MissingNo.
 2. Casual mode: Off
 3. The "Send to Boxes" option must be set to "Manual".
 4. The menu icons are in their default locations:
-   1. The Town Map must be in the 2nd row on the far left.
-   2. The Pokémon option must be in the 1st row, 2nd from the left.
+    1. The Town Map must be in the 2nd row on the far left.
+    2. The Pokémon option must be in the 1st row, 2nd from the left.
 5. Your bike must be fully upgraded.
 6. You must have the God Egg and a Ditto deposited at the Route 5 daycare center.
 

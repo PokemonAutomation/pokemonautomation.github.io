@@ -27,7 +27,7 @@ Duplicate Pokémon using the God Egg/MissingNo.
 
 1. Your party is full.
 2. There are no fused Pokémon in your party.
-   1. Fused Pokémon cannot be released and will permanently take a box slot
+    1. Fused Pokémon cannot be released and will permanently take a box slot
 
 ### Box Setup
 

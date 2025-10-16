@@ -54,7 +54,7 @@ Make only small changes at a time, no more than +/- 50 ticks at a time. Most Swi
 3. Your lead Pokémon is not shiny.
 4. Your lead Pokémon does not have an ability that activates upon entry to battle.
 5. The second move on your lead Pokémon (Reversal) is fully PP up'ed to 24 PP.
-   1. The second move on your lead Pokémon must be able to OHKO the Regigigas. (see below)
+    1. The second move on your lead Pokémon must be able to OHKO the Regigigas. (see below)
 
 > **As of this writing, there is only one known way to ensure a OHKO on Regigigas:**
 > 1. Your Pokémon is fighting type (for STAB).

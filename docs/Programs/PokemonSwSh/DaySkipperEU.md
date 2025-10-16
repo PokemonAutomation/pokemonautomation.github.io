@@ -33,7 +33,7 @@ This setup here depends on whether you are on a Switch 1 or a Switch 2.
 
 1. System time: Un-synced
 2. The language/region for the Switch must have a date layout of dd/mm/year/hour/min.
-   1. Unlike the JPN date skipper, you do not need to set the starting the date. However you do need to set the current year correctly.
+    1. Unlike the JPN date skipper, you do not need to set the starting the date. However you do need to set the current year correctly.
 3. The VS (Y-COMM) glitch must be active.
 4. The console type is set to "Switch 1".
 
@@ -52,7 +52,7 @@ Most people use the following workflow:
 1. Undock the Switch if it is docked.
 2. Change the Switch region to EU.
 3. Enter the game and go to a Pokémon center.
-   1. The Isle of Armor dojo is not reliable!
+    1. The Isle of Armor dojo is not reliable!
 4. Connect to the internet and start a link battle.
 5. When someone is found, turn on airplane mode and keep it on.
 6. Mash B to clear all the messages.

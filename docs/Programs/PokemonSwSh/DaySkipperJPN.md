@@ -37,7 +37,7 @@ Most people use the following workflow:
 2. Change the Switch language to Japanese.
 3. Set the date to the 1st of a month with 31 days that is not March.
 4. Enter the game and go to a Pokémon center.
-   1. The Isle of Armor dojo is not reliable!
+    1. The Isle of Armor dojo is not reliable!
 5. Connect to the internet and start a link battle.
 6. When someone is found, turn on airplane mode and keep it on.
 7. Mash B to clear all the messages.

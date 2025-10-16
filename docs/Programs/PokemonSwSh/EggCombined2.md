@@ -48,15 +48,15 @@ Be aware that the complexity of this program makes it inherently less reliable t
 5. Your bike must be fully upgraded.
 6. The parents are already deposited at the Route 5 daycare center.
 7. The Rotom Phone apps on the menu are in their default locations.
-   1. The Town Map app must be in the 2nd row on the far left.
-   2. The Pokémon app must be in the 1st row, 2nd from the left.
+    1. The Town Map app must be in the 2nd row on the far left.
+    2. The Pokémon app must be in the 1st row, 2nd from the left.
 
 > *If you are playing in Japanese or Italian, you need to [**"Egg Fetch Extra Line"**](PokemonSettings.md#egg-fetch-extra-line) or this program will not work.*
 
 ### Party Setup
 
 1. Your party must have exactly 1 Pokémon.
-   1. The Pokémon in your party MUST be a flame body (or similar) Pokémon.
+    1. The Pokémon in your party MUST be a flame body (or similar) Pokémon.
 
 ### Pokémon Box Setup
 

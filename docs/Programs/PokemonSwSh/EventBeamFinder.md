@@ -21,8 +21,8 @@ Drop wishing pieces between two dens until you find an event den.
 
 1. Travel to Bridge Field daycare
 2. Check that the two dens closet to the Bridge Field daycare do not have a natural beam.
-   1. If they do, fight and despawn then.
-   2. It is ok if a beam was created by wishing piece. They will be despawned.
+    1. If they do, fight and despawn then.
+    2. It is ok if a beam was created by wishing piece. They will be despawned.
 3. Get on your bike.
 4. Enter the menu and place the cursor over the Town Map.
 5. Exit the menu with "B"

@@ -55,7 +55,7 @@ Make only small changes at a time, no more than +/- 50 ticks at a time. Most Swi
 Your lead Pokémon must be able to run away. (faster or holding Smoke Ball)
 
 3. Your lead Pokémon must not have high happiness.
-   1. The in-battle shaking and dialog adds timing variation.
+    1. The in-battle shaking and dialog adds timing variation.
 
 ### Instructions
 

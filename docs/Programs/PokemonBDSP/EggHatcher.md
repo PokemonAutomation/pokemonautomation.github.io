@@ -26,13 +26,13 @@ Hatch eggs from your boxes. This is the counterpart to [EggFetcher](EggFetcher.m
 ### Party Setup
 
 1. Your party must have exactly 1 Pokémon.
-   1. The Pokémon in your party MUST be a flame body (or similar) Pokémon.
+    1. The Pokémon in your party MUST be a flame body (or similar) Pokémon.
 
 ### Pokémon Box Setup
 
 1. Place entire boxes filled with eggs consecutively.
-   1. It is okay to have non-eggs mixed in with eggs.
-   2. The only requirement is that first row of each box is occupied.
+    1. It is okay to have non-eggs mixed in with eggs.
+    2. The only requirement is that first row of each box is occupied.
 
 2. You must be on the first box of eggs.
 

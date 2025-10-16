@@ -34,7 +34,7 @@ LotoFarmer will farm the loto. It requires activating the Y-Comm glitch.
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Y-Comm glitch must be active
-   1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
+    1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
 ### Instructions
 

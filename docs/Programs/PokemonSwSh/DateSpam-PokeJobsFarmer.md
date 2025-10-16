@@ -22,7 +22,7 @@ This program farms Poké Jobs in order to make Pokémons gain experience without
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Y-Comm glitch must be active
-   1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
+    1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
    > **Warning:** If you have all eight badges, it is recommended to complete the ten-stars Poké Job at least once before using this program. This Poké Job is named _Top-secret project_. When this special job is completed the first time, the only jobs available are EV-training jobs. If this program is run in this state, Pokémons will receive EV-training which might not be intended.
 

@@ -34,7 +34,7 @@ WattFarmer will farm watts from a wishing piece beam. It requires activating the
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Y-Comm glitch must be active
-   1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
+    1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 4. You must be offline.
 5. Airplane mode must be off.
 

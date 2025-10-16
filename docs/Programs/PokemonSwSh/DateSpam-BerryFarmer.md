@@ -39,7 +39,7 @@ BerryFarmer will farm berries from a tree. It requires activating the Y-Comm gli
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Y-Comm glitch must be active
-   1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
+    1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
 ### Instructions
 

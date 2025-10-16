@@ -24,9 +24,9 @@ You can't shiny-hunt these, so you might as well go for stats...
 1. Text Speed: Fast
 2. Casual mode: Off
 3. Setup of menu icons are in their default locations
-   1. The Pokémon option must be in the 1st row, 2nd from the left.
+    1. The Pokémon option must be in the 1st row, 2nd from the left.
 4. Navigate to the Pokémon PC and press "+" until the IVs of the Pokémon in your boxes are shown
-   1. You need to have unlocked the IV judge for this functionality
+    1. You need to have unlocked the IV judge for this functionality
 
 ### Party and Box Setup
 

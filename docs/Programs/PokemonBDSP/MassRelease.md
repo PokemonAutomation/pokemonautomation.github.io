@@ -16,7 +16,7 @@ MassRelease will release entire boxes of Pokémon. The main use case is getting 
 
 1. Place entire boxes filled with Pokémon to be released consecutively.
 2. All boxes marked for deletion must be full.
-   1. This program does not tolerate partial boxes.
+    1. This program does not tolerate partial boxes.
 
 ### Instructions
 
