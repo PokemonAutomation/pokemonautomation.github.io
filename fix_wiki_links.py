@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """
-Script to fix old GitHub wiki links to point to new documentation.
-Searches for links containing "github.com/PokemonAutomation/ComputerControl/blob/master"
-and converts them to point to the new docs/ directory.
+Script to fix old GitHub wiki links and /Wiki/ path links to point to new documentation.
+
+Searches for:
+1. Links containing "github.com/PokemonAutomation/ComputerControl/blob/master"
+2. Links starting with "/Wiki/"
+
+Converts them to relative paths pointing to the docs/ directory.
+
+Examples:
+- "https://github.com/.../blob/master/Wiki/SetupGuide.md" -> "../SetupGuide.md"
+- "/Wiki/Programs/NintendoSwitch/FrameworkSettings.md" -> "Programs/NintendoSwitch/FrameworkSettings.md"
 
 To simply search for a string recursively, use:
 grep -r "github.com/PokemonAutomation/ComputerControl/blob/master" ./**/*.md
+grep -r "/Wiki/" ./**/*.md
 
 Usage:
     python fix_wiki_links.py           # Print all old wiki links and check if new docs exist
@@ -53,6 +62,44 @@ def is_old_wiki_link(url: str) -> bool:
         True if it's an old wiki link
     """
     return "github.com/PokemonAutomation/ComputerControl/blob/master" in url
+
+
+def is_wiki_path_link(url: str) -> bool:
+    """
+    Check if a URL starts with /Wiki/ pattern.
+
+    Args:
+        url: The URL to check
+
+    Returns:
+        True if it's a /Wiki/ path link
+    """
+    return url.startswith("/Wiki/")
+
+
+def convert_wiki_path_to_docs_path(url: str) -> Optional[str]:
+    """
+    Convert /Wiki/ path link to docs path.
+
+    Args:
+        url: The /Wiki/ path URL
+        e.g. "/Wiki/Programs/NintendoSwitch/FrameworkSettings.md"
+
+    Returns:
+        New docs path relative to docs/ directory
+        e.g. "Programs/NintendoSwitch/FrameworkSettings.md" or None if conversion not possible
+    """
+    if not is_wiki_path_link(url):
+        return None
+
+    # Remove "/Wiki/" prefix
+    path = url[6:]  # Remove "/Wiki/"
+
+    # Remove any anchor/fragment
+    if '#' in path:
+        path = path[:path.index('#')]
+
+    return path
 
 
 def convert_github_link_to_docs_path(url: str) -> Optional[str]:
@@ -143,7 +190,7 @@ def convert_to_relative_link(from_file: Path, to_file: Path, docs_dir: Path) -> 
         return '/'.join(relative_parts)
 
 
-def find_old_wiki_links(docs_dir: Path) -> List[Tuple[Path, int, str, str, Optional[str], bool]]:
+def find_old_wiki_links(docs_dir: Path) -> List[Tuple[Path, int, str, str, Optional[str], bool, str]]:
     """
     Find all old wiki links in markdown files.
 
@@ -151,10 +198,11 @@ def find_old_wiki_links(docs_dir: Path) -> List[Tuple[Path, int, str, str, Optio
         docs_dir: Base docs directory
 
     Returns:
-        List of tuples (file_path, line_number, full_link, old_url, new_path, exists)
-        e.g. [(Path("docs/foo.md"), 10, "[text](url)", "old_url", "new_path", True), ...]
+        List of tuples (file_path, line_number, full_link, old_url, new_path, exists, link_type)
+        e.g. [(Path("docs/foo.md"), 10, "[text](url)", "old_url", "new_path", True, "github"), ...]
+        link_type can be "github" or "wiki_path"
     """
-    results: List[Tuple[Path, int, str, str, Optional[str], bool]] = []
+    results: List[Tuple[Path, int, str, str, Optional[str], bool, str]] = []
 
     # Find all markdown files
     for md_file in docs_dir.rglob('*.md'):
@@ -166,12 +214,21 @@ def find_old_wiki_links(docs_dir: Path) -> List[Tuple[Path, int, str, str, Optio
         links = extract_markdown_links(content)
 
         for link_text, url, position in links:
+            new_path = None
+            link_type = None
+
             if is_old_wiki_link(url):
+                # Convert old GitHub link
+                new_path = convert_github_link_to_docs_path(url)
+                link_type = "github"
+            elif is_wiki_path_link(url):
+                # Convert /Wiki/ path link
+                new_path = convert_wiki_path_to_docs_path(url)
+                link_type = "wiki_path"
+
+            if link_type:
                 # Find line number
                 line_num = content[:position].count('\n') + 1
-
-                # Convert to new docs path
-                new_path = convert_github_link_to_docs_path(url)
 
                 # Check if new docs file exists
                 exists = False
@@ -181,7 +238,7 @@ def find_old_wiki_links(docs_dir: Path) -> List[Tuple[Path, int, str, str, Optio
                 # Store the full link text for replacement
                 full_link = f"[{link_text}]({url})"
 
-                results.append((md_file, line_num, full_link, url, new_path, exists))
+                results.append((md_file, line_num, full_link, url, new_path, exists, link_type))
 
     return results
 
@@ -200,14 +257,14 @@ def print_old_wiki_links(docs_dir: Path) -> None:
         return
 
     # Group by file
-    files_dict: Dict[Path, List[Tuple[int, str, str, Optional[str], bool]]] = {}
+    files_dict: Dict[Path, List[Tuple[int, str, str, Optional[str], bool, str]]] = {}
     # Track missing links for summary at the end: new_path -> list of (file, line_num, old_url)
     missing_links: Dict[Optional[str], List[Tuple[Path, int, str]]] = {}
 
-    for file_path, line_num, full_link, old_url, new_path, exists in results:
+    for file_path, line_num, full_link, old_url, new_path, exists, link_type in results:
         if file_path not in files_dict:
             files_dict[file_path] = []
-        files_dict[file_path].append((line_num, full_link, old_url, new_path, exists))
+        files_dict[file_path].append((line_num, full_link, old_url, new_path, exists, link_type))
 
         # Track missing links
         if not exists:
@@ -220,20 +277,28 @@ def print_old_wiki_links(docs_dir: Path) -> None:
 
     found_count = 0
     missing_count = 0
+    github_count = 0
+    wiki_path_count = 0
 
     for file_path in sorted(files_dict.keys()):
         rel_path = file_path.relative_to(docs_dir.parent)
         print(f"\n{rel_path}:")
         print("-" * 80)
 
-        for line_num, full_link, old_url, new_path, exists in files_dict[file_path]:
+        for line_num, full_link, old_url, new_path, exists, link_type in files_dict[file_path]:
             status = "✓ EXISTS" if exists else "✗ MISSING"
             if exists:
                 found_count += 1
             else:
                 missing_count += 1
 
+            if link_type == "github":
+                github_count += 1
+            elif link_type == "wiki_path":
+                wiki_path_count += 1
+
             print(f"  Line {line_num}: {full_link}")
+            print(f"    Type: {link_type}")
             print(f"    Old: {old_url}")
             if new_path:
                 print(f"    New: {new_path} [{status}]")
@@ -242,6 +307,8 @@ def print_old_wiki_links(docs_dir: Path) -> None:
 
     print("\n" + "=" * 80)
     print(f"\nTotal: {len(results)} old wiki link(s)")
+    print(f"  - {github_count} GitHub links")
+    print(f"  - {wiki_path_count} /Wiki/ path links")
     print(f"  ✓ {found_count} have corresponding new docs")
     print(f"  ✗ {missing_count} are missing in new docs")
 
@@ -278,11 +345,11 @@ def apply_link_fixes(docs_dir: Path) -> None:
         return
 
     # Group by file
-    files_dict: Dict[Path, List[Tuple[int, str, str, Optional[str], bool]]] = {}
-    for file_path, line_num, full_link, old_url, new_path, exists in results:
+    files_dict: Dict[Path, List[Tuple[int, str, str, Optional[str], bool, str]]] = {}
+    for file_path, line_num, full_link, old_url, new_path, exists, link_type in results:
         if file_path not in files_dict:
             files_dict[file_path] = []
-        files_dict[file_path].append((line_num, full_link, old_url, new_path, exists))
+        files_dict[file_path].append((line_num, full_link, old_url, new_path, exists, link_type))
 
     total_replaced = 0
     total_skipped = 0
@@ -299,7 +366,7 @@ def apply_link_fixes(docs_dir: Path) -> None:
         replaced_in_file = 0
         skipped_in_file = 0
 
-        for line_num, full_link, old_url, new_path, exists in files_dict[md_file]:
+        for line_num, full_link, old_url, new_path, exists, link_type in files_dict[md_file]:
             if exists and new_path:
                 # Calculate relative link from current file to target
                 target_file = docs_dir / new_path
@@ -314,7 +381,7 @@ def apply_link_fixes(docs_dir: Path) -> None:
                     # Replace in content
                     if full_link in content:
                         content = content.replace(full_link, new_link, 1)
-                        print(f"  Line {line_num}: Replaced")
+                        print(f"  Line {line_num}: Replaced ({link_type})")
                         print(f"    Old: {old_url}")
                         print(f"    New: {relative_link}")
                         replaced_in_file += 1
