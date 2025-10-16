@@ -11,7 +11,7 @@ NOTE: If you already have a playthrough, this program will only get you Mystery 
 # General Setup
 
 - Ensure you are logged into a Nintendo account. This account does NOT need to have a subscription to Nintendo Switch Online.
-- [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+- [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 # Options
 

@@ -10,7 +10,7 @@
 
 ## Program Description
 
-This is an optimized version of the original [Fast Code Entry](/Wiki/Programs/PokemonSwSh/FastCodeEntry.md).
+This is an optimized version of the original [Fast Code Entry](../PokemonSwSh/FastCodeEntry.md).
 
 This program does not have a code entry box. Instead, it monitors your clipboard and immediately begins entering it the moment you copy a valid code.
 

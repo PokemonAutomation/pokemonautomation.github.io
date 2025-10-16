@@ -86,7 +86,7 @@ When correctly calibrated:
 
 ### Options
 
-This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
+This program uses [**Tolerate System Update Menu (fast)**](../NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
 <img src="images/ShinyHuntUnattended-Regigigas2-Settings.png">
 

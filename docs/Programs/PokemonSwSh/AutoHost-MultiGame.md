@@ -52,7 +52,7 @@ If video feedback is enabled, it will keep track of stats and will waste a lot l
 5. Close all games across all systems.
 5. Start the program in the Switch home or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
 
-> *If starting the game requires checking the internet (because it is digital on a non-primary Switch), you will need to enable ["**Start Game Requires Internet**"](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#start-game-requires-internet).
+> *If starting the game requires checking the internet (because it is digital on a non-primary Switch), you will need to enable ["**Start Game Requires Internet**"](../NintendoSwitch/FrameworkSettings.md#start-game-requires-internet).
 
 
 ## Options:
@@ -123,7 +123,7 @@ If you are farming a Pokémon and the time between raids is too short to join co
 
 ## Global Options:
 
-This program uses [**Tolerate System Update Menu (slow)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-slow) to bypass the system update window.
+This program uses [**Tolerate System Update Menu (slow)**](../NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-slow) to bypass the system update window.
 
 In addition to the main options below, there are more [global options](PokemonSettings.md) that can be configured if you encounter problems.
 

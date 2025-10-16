@@ -30,7 +30,7 @@ Thus the purpose of this program is cover some of the things that cannot be hunt
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 

@@ -6,7 +6,7 @@
 - **Computer Control:** [Turbo A](TurboA.md)
 - **Computer Control:** [Turbo Button](TurboButton.md)
 
-This program is deprecated for computer-control. Use [Turbo Button](/Wiki/Programs/NintendoSwitch/TurboButton.md) instead.
+This program is deprecated for computer-control. Use [Turbo Button](TurboButton.md) instead.
 
 
 ## Program Description

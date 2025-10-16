@@ -10,7 +10,7 @@
 
 ## Program Description
 
-Yet another improved version of the [Fast Code Entry](/Wiki/Programs/PokemonSwSh/FastCodeEntry.md).
+Yet another improved version of the [Fast Code Entry](../PokemonSwSh/FastCodeEntry.md).
 
 This FCE uses text recognition to read the link code from a part of your screen. Thus this program no longer requires a copy-pasteable code.
 

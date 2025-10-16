@@ -17,7 +17,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
@@ -29,7 +29,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 1. Text Speed: Fast
 2. Casual mode: Off
 
-> *If starting the game requires checking the internet (because it is digital on a non-primary Switch), you will need to enable ["**Start Game Requires Internet**"](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#start-game-requires-internet).
+> *If starting the game requires checking the internet (because it is digital on a non-primary Switch), you will need to enable ["**Start Game Requires Internet**"](../NintendoSwitch/FrameworkSettings.md#start-game-requires-internet).
 
 
 ### Instructions
@@ -43,7 +43,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 
 ## Options
 
-This program uses [**Tolerate System Update Menu (slow)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-slow) to bypass the system update window.
+This program uses [**Tolerate System Update Menu (slow)**](../NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-slow) to bypass the system update window.
 
 <img src="images/DenRoller-Settings.png">
 

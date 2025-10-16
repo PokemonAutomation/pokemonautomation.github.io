@@ -31,7 +31,7 @@ Preliminary testing suggests that this program takes an hour to buy out the enti
 
 ## Options
 
-This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
+This program uses [**Tolerate System Update Menu (fast)**](../NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
 Most of the options here are self-explanatory.
 

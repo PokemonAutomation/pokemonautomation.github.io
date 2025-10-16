@@ -15,7 +15,7 @@ Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require *no
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](/Wiki/Programs/NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 3. System Time: Unsynced
 
 **Program Settings:**
@@ -55,7 +55,7 @@ Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require *no
 
 ## Options
 
-This program uses [**Tolerate System Update Menu (fast)**](/Wiki/Programs/NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
+This program uses [**Tolerate System Update Menu (fast)**](../NintendoSwitch/FrameworkSettings.md#tolerate-system-update-menu-fast) to bypass the system update window.
 
 <img src="images/ShinyHuntAutonomous-BerryTree-Settings.png">
 

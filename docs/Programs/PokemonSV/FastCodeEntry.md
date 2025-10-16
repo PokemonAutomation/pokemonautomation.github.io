@@ -10,7 +10,7 @@
 
 ## Program Description
 
-This program is similar to the [Sword/Shield Fast Code Entry](/Wiki/Programs/PokemonSwSh/FastCodeEntry.md).
+This program is similar to the [Sword/Shield Fast Code Entry](../PokemonSwSh/FastCodeEntry.md).
 
 ### Link Code Modes
 
