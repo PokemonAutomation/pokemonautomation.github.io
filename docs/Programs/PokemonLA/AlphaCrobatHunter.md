@@ -6,7 +6,7 @@
 - [Alpha Gallade Hunter](AlphaGalladeHunter.md)
 - [Alpha Froslass Hunter](AlphaFroslassHunter.md)
 - [Unown Hunter](UnownHunter.md)
-- [Tree Shiny Hunter](TreeShinyHunter.md)
+- [Burmy Hunter](BurmyHunter.md)
 
 ## Program Description
 

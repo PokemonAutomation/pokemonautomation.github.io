@@ -4,7 +4,7 @@
 
 - [Cloth Buyer](ClothingBuyer.md)
 - [Skip Full Moon](SkipToFullMoon.md)
-- [Outbreak Finder](OutbreakFinder.md.md)
+- [Outbreak Finder](OutbreakFinder.md)
 - [Ramanas Combee Finder](RamanasCombeeFinder.md) (this program)
 
 ## Program Description

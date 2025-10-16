@@ -41,7 +41,7 @@ The item printer depletes Pokémon materials and saves after each iteration, be 
 
 1. You have unlocked the Item Printer in the League Room.
 2. The Item Printer should be fully upgraded for the commonly published seeds to work.
-2. Have enough BP (can be farmed with [Flying Trial Farmer](PokemonSV/FlyingTrialFarmer.md)) and Pokémon materials (can be farmed with [Shiny Hunt - Area Zero Platform](PokemonSV/ShinyHunt-AreaZeroPlatform.md) running Dragon Encounter Power) to run the program.
+2. Have enough BP (can be farmed with [Flying Trial Farmer](FlyingTrialFarmer.md)) and Pokémon materials (can be farmed with [Shiny Hunt - Area Zero Platform](ShinyHunt-AreaZeroPlatform.md) running Dragon Encounter Power) to run the program.
 
 ## Instructions
 

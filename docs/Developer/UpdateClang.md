@@ -16,7 +16,7 @@ Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools
 ```
 The exact version, target and installed directory may be different on your machine.
-But as long as your Clang version is higher than 13.0.0, you should be fine to compile our programs by continuing the [guide](MacInstallationGuide.md#verify-clang-version).
+But as long as your Clang version is higher than 13.0.0, you should be fine to compile our programs by continuing the [guide](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md#verify-clang-version).
 
 ### Change Clang Path
 
@@ -66,7 +66,7 @@ After it finishes execution, try checking the Clang version again by
 ```
 g++ --version
 ```
-If the version reaches requirement, then you are fine to compile our programs by continuing the [guide](MacInstallationGuide.md#verify-clang-version).
+If the version reaches requirement, then you are fine to compile our programs by continuing the [guide](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md#verify-clang-version).
 
 ### Update Software
 
@@ -80,4 +80,4 @@ If you can update and finish the updates, try the steps in the [last section](#c
 
 If all of those failed, please reach out to us in [our Discord server](https://discord.gg/cQ4gWxN) for help.
 
-[Back to Mac installation guide](MacInstallationGuide.md)
+[Back to Mac installation guide](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md)

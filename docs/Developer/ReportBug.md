@@ -4,7 +4,7 @@ If you find a bug that you would like to report to developers, please prepare th
 
 ## Double Check Program Wiki
 
-First of all, double check the program wiki listed [here](../Programs/README.md) to make sure you use the program as intended: you set the correct in-game setting and program options.
+First of all, double check the program wiki listed [here](../Programs/index.md) to make sure you use the program as intended: you set the correct in-game setting and program options.
 
 ## Program Options
 
