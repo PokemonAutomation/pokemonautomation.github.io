@@ -136,7 +136,7 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 
 5. Click Start and it should flash the PABotBase firmware to your ESP32-S3.
 
-    If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-s3-stuck-on-).
+    If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-s3-stuck-on).
 
     <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-2.png">
 

@@ -135,7 +135,7 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 5. Click Start and it should flash the PABotBase firmware to your ESP32.
     
-    If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-stuck-on-).
+    If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-stuck-on).
 
     <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-2.png">
 
