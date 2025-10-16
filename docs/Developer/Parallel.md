@@ -3,6 +3,7 @@
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
 
 Sometimes we would like to achieve the following actions:
+
 - Wait for the game to start a battle.
 - Move the player character in circles until an egg is hatching.
 

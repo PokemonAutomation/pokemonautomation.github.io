@@ -6,6 +6,7 @@
 This section covers how to set up and configure a Discord bot.
 
 Discord bot integration can be useful for various things. For example:
+
 1. Get notified when a shiny is found.
 2. Get notified when a long-running program is finished or otherwise needs your attention.
 3. Send notifications for live (real-time) hosting.
@@ -18,22 +19,21 @@ Discord bot integration can be useful for various things. For example:
 ## Step 1: Create and set up your Discord bot application
 
 1. Go to [Discord's Developer Portal](https://discord.com/developers/applications) and create a new application.
-
 2. Navigate to the `Bot` tab on the left sidebar and add a new bot. You can give it a username and an avatar if you wish. This is the tab you will get your bot token from, we'll need it later. Under `TOKEN`, copy the token and save it somewhere. If you forget to copy and save it, just click `Reset Token`, and copy the new token. Note that this will invalidate the old token.
 
     ***Important note: never share or reveal your token to anyone. If you do, other people will be able to access your bot account and abuse it.***
 
 3. Navigate to the `Installation` tab on the left sidebar. Under `Installation Contexts`, ensure `Guild Install` is checked, and `User Install` is unchecked. Under `Install Link`, set the dropdown to `None`.
 
-<img src="images/discord-bot-installation.png">
+    <img src="images/discord-bot-installation.png">
 
 4. Make sure your bot is set to private, otherwise anyone will be able to invite it to their servers.
 
-<img src="images/discord-bot-private.png">
+    <img src="images/discord-bot-private.png">
 
 5. Under Privileged Gateway Intents enable `Presence Intent`, `Server Members Intent`, and `Message Content Intent`. Save your changes.
 
-<img src="images/discord-bot-intents-0.png">
+    <img src="images/discord-bot-intents-0.png">
 
 6. Go to the OAuth2 tab in the left sidebar. We will now generate an invite URL with the correct permissions. 
 
@@ -54,6 +54,7 @@ Copy the generated URL shown above and paste it into your browser of choice. Cli
 <img src="images/discord-bot-paste-url-in-browser.png">
 
 **NOTE:** If you don't already have a server that you have Manage Server permissions in, one way is to create your own server. 
+
 - On the Discord left sidebar, scroll to the bottom of the list of servers that you're in.
 - Click the `+` button, `Add a Server`.
 - `Create My Own`. Then follow the rest of the prompts to create your own server.
@@ -63,18 +64,18 @@ Copy the generated URL shown above and paste it into your browser of choice. Cli
 
 Open up the Pokemon Automation Computer control program and click on the Settings button in the bottom-left section. This opens up the settings panel. Scroll down to the Discord settings. Enable `Discord Integration Settings`.
 
-
 <img src="images/discord-bot-program-settings-0.png">
 
 
 ## Step 3: Get your Discord bot's token and your user ID.
 
 1. Paste the Discord Bot token into the `Discord Token` box. If you haven't already copied the token, head back to the Bot tab in Discord's Developer Portal, reveal and copy your bot's token. 
-<img src="images/discord-bot-token.png">
+
+    <img src="images/discord-bot-token.png">
 
 2. Your Discord ID is not "Username#1234". It's actually just a number. To get your Discord User ID, [follow this guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). You will first need to enable Developer mode on your account. Paste your User ID into the `Discord User ID` box.
 
- <img src="images/discord-bot-userid.png">
+    <img src="images/discord-bot-userid.png">
 
 
 ## Step 4: Set up your channels and notifications.
@@ -85,7 +86,7 @@ Open up the Pokemon Automation Computer control program and click on the Setting
 
 3. If you want your bot to respond to commands in that channel, check `Allow Commands`.
 
-<img src="images/discord-notifications-program-settings-bots-1.png">
+    <img src="images/discord-notifications-program-settings-bots-1.png">
 
 
 ## Step 5: Send a test message and try out commands.
@@ -140,6 +141,7 @@ Enter your own description for each channel so you can identify them more easily
 If unchecked, you will never be pinged by the bot. If checked, you will be pinged if the notification requests a ping.
 
 In order to be pinged by a notification, all of these conditions must be met:
+
 1. The notification is sent to your bot.
 2. "Allow Pings" is checked.
 3. "Should Ping" is checked for the respective event in the program's discord notification settings.
@@ -149,6 +151,7 @@ In order to be pinged by a notification, all of these conditions must be met:
 This lets you filter what events are sent. A notification is only sent if a tag is shared with the event itself.
 
 A notification is sent only if all of these conditions are met:
+
 1. The bot is started and `Enabled` is checked for a given row in Discord settings.
 2. The corresponding event in the program is enabled. (Notifications are enabled for the program and "Enable" is checked for the respective event.)
 3. There is at least one tag in common between the channel and the event type in the program.

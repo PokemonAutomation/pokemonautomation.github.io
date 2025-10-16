@@ -120,29 +120,29 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
 3. When you see the following menu, select "ESP32" and "Develop". Then hit OK.
 
-<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-0.png">
+    <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-0.png">
 
 4. You will then be prompted with this complicated window. Fill everything as follows:
 
-   - Check the box for the first entry, at the top left.
-   - For the first entry, click on the `...` and browse for `PABotBase-ESP32-2025032100.bin` in the serial programs download folder. (version number may vary)
-   - The right-most box should be a zero.
-   - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
-   - At the bottom right corner, select the COM port of your ESP32.
-   - Change "BAUD" to 460800.
+    - Check the box for the first entry, at the top left.
+    - For the first entry, click on the `...` and browse for `PABotBase-ESP32-2025032100.bin` in the serial programs download folder. (version number may vary)
+    - The right-most box should be a zero.
+    - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
+    - At the bottom right corner, select the COM port of your ESP32.
+    - Change "BAUD" to 460800.
 
-<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-1.png">
+    <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-1.png">
 
 5. Click Start and it should flash the PABotBase firmware to your ESP32.
+    
+    If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-stuck-on-).
 
-If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-stuck-on-).
-
-<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-2.png">
+    <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-2.png">
 
 6. Reboot your ESP32. You can do this either by:
 
-   - Unplugging and re-plugging your ESP32.
-   - Pressing either the `EN` or `RESET` button on the ESP32.
+    - Unplugging and re-plugging your ESP32.
+    - Pressing either the `EN` or `RESET` button on the ESP32.
 
 
 ### Step 3: Navigate to the Grip Menu
@@ -258,7 +258,7 @@ If nothing works, you are not alone! This is a common problem with ESP32 boards.
 ### Unable to flash the ESP32: `no log file output`
 
 - Try switching the USB cable. Make sure it supports data transfer, not just power delivery.
-   - When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
+    - When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
 
 ### Problem with flashing ESP32: Download tool shows `FINISH`, but no green progress bar appeared.`
 Ensure the top left checkbox is checked. The top row should be green. Ensure the correct COM is selected, and BAUD is set to 460800. Then try flashing again.

@@ -71,6 +71,7 @@ If the version reaches requirement, then you are fine to compile our programs by
 ### Update Software
 
 If neither Clang available in the two paths above has high enough version, you can try:
+
 - See if you can update your XCode App on App Store.
 - See if you have software upgrade available from System Preferences App -> Software Upgrade.
 - See if you can run `xcode-select --install` on Terminal to try installing Clang again.

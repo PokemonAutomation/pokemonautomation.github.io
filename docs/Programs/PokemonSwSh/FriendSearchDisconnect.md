@@ -27,7 +27,7 @@ To activate Y-COMM glitch using this program:
 
 1. Use keyboard controls.
 
-   - Keyboard input text on program must be purple
+    - Keyboard input text on program must be purple
 
 2. Open up Y-COMM in game.
 3. Connect to the internet.

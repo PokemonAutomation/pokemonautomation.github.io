@@ -28,7 +28,7 @@ Duplicate items using the God Egg/MissingNo.
 1. Your party is full.
 2. All 6 Pokémon in your party are releasable. (not an egg, not a fused mon)
 
-   - If you don't want to clone items on all 6 Pokémon in your party, you can set **"Party Round Robin"** to cycle through fewer Pokémon/items.
+    - If you don't want to clone items on all 6 Pokémon in your party, you can set **"Party Round Robin"** to cycle through fewer Pokémon/items.
 
 ### Box Setup:
 

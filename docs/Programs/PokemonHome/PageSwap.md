@@ -12,8 +12,8 @@ This program can also be used on the last (incomplete) page of Pokémon Home as 
 
 1. Have Pokémon home in the following configuration. (see above)
 
-   - Both panels are viewing boxes.
-   - Your cursor is on the left panel over the upper-left most box.
+    - Both panels are viewing boxes.
+    - Your cursor is on the left panel over the upper-left most box.
 
 2. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.
 

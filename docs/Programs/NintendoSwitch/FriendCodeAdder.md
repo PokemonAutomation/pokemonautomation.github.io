@@ -10,11 +10,11 @@ Quickly and easily add friend codes. Copy paste friend codes to the program and 
 
 1. Copy-paste one or more friend codes into the text box. One per line only. The codes do not need to be formatted in a particular way. Any line with exactly 12 numbers will be considered a friend code. So you can realistically copy-paste entire Discord raid posts and the program will automatically pick out the friend code(s) for ultimate laziness.
 
-<img src="images/FriendCodeAdder-0.png" width="80%">
+    <img src="images/FriendCodeAdder-0.png" width="80%">
 
 2. Click away from the text box. The program will automatically remove all the invalid lines and leave behind only the ones that it thinks are friend codes. These friend codes are what the program will attempt to add when it you run it.
 
-<img src="images/FriendCodeAdder-1.png" width="80%">
+    <img src="images/FriendCodeAdder-1.png" width="80%">
 
 3. Select the [user slot](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/UserSlotNumber.md) for the user you wish to add the friend codes to.
 4. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

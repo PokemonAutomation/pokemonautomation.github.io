@@ -13,6 +13,7 @@ But remember to call `context.wait_for_all_requests()` after that to make sure t
 ## Important:
 
 Do not use any of the usual C++ or OS wait functions. These include:
+
 - `std::condition_variable::wait_xx()`
 - Windows: `Sleep()`
 - Linux: `usleep()`

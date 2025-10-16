@@ -112,17 +112,17 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 3. Change the MCU to `atmega32u4`.
 4. Check the "Auto-Flash" box.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-0.png" width="75%">
+    <img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-0.png" width="75%">
 
 5. Plug the Pro Micro into your computer.
 6. Short the RST and GND pins.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-1.jpg" width="30%">
+    <img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-1.jpg" width="30%">
 
-The QMK program will now flash the program to the Pro Micro and show a bunch of logging.
-Afterwards, the 2 LEDs on the Pro Micro should flash in unison for 5 seconds before turning off.
+    The QMK program will now flash the program to the Pro Micro and show a bunch of logging.
+    Afterwards, the 2 LEDs on the Pro Micro should flash in unison for 5 seconds before turning off.
 
-<img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-2.png" width="75%">
+    <img src="../Images/ProMicro/ControllerSetup-ProMicro-Flash-2.png" width="75%">
 
 7. Unplug the Leonardo from your computer.
 

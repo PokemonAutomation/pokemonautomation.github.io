@@ -122,17 +122,18 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 3. Change the MCU to `atmega32u4`.
 4. Check the "Auto-Flash" box.
 
-<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK.png" width="86%">
+    <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK.png" width="86%">
 
 5. Plug the Leonardo into your computer.
 6. Press the reset button.
 
-<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-ResetButton.jpg" width="40.0%">
-
-The QMK program will now flash the program to the Leonardo and show a bunch of logging.
-Afterwards, the 3 LEDs on the Leonardo should flash in unison for 5 seconds before turning off.
-
-<img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK-Flashed.png" width="86.2%">
+    <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-ResetButton.jpg" width="40.0%">
+    
+    The QMK program will now flash the program to the Leonardo and show a bunch of logging.
+    
+    Afterwards, the 3 LEDs on the Leonardo should flash in unison for 5 seconds before turning off.
+    
+    <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-QMK-Flashed.png" width="86.2%">
 
 7. Unplug the Leonardo from your computer.
 
@@ -183,18 +184,18 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
 
 2. Open command prompt and change directory to the folder that contains `avrdude.exe`
 
-   - To open command prompt: Press Windows key + R. Type `cmd` in the Run command box. Press `Enter`.
-   - To change directory, type into the console:
+    - To open command prompt: Press Windows key + R. Type `cmd` in the Run command box. Press `Enter`.
+    - To change directory, type into the console:
 
-   `cd "<path to the folder that contains avrdude.exe>"`
+    `cd "<path to the folder that contains avrdude.exe>"`
 
-   - For example:
+    - For example:
 
-   `cd "C:\Users\Public\Pokemon\avrdude-v7.3-windows-x64"`
+    `cd "C:\Users\Public\Pokemon\avrdude-v7.3-windows-x64"`
 
-   - To confirm that this was done properly, type `avrdude` into the console. You should see the avrdude version number, as well as a list of options available.
+    - To confirm that this was done properly, type `avrdude` into the console. You should see the avrdude version number, as well as a list of options available.
 
-   <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-cd-to-avrdude.png" width="80%">
+    <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-cd-to-avrdude.png" width="80%">
 
 3. Confirm your microcontroller's COM port.
 
@@ -207,19 +208,19 @@ If all else fails, you can try flashing the hex file directly with avrdude. See 
 
 4. Flash the hex file with avrdude
 
-   - Ensure the Leonardo is plugged into your computer and click the Leonardo's reset button. For a few seconds, it will no longer be greyed out in the Device manager. This means it's connected to your computer.
+    - Ensure the Leonardo is plugged into your computer and click the Leonardo's reset button. For a few seconds, it will no longer be greyed out in the Device manager. This means it's connected to your computer.
 
     <img src="../Images/ArduinoLeonardo/ControllerSetup-Leonardo-AVRDUDE-device-manager-com-port-2.png" width="105.6%">
 
-   - While the Leonardo is connected for those few seconds, type/paste the following command into the console:
+    - While the Leonardo is connected for those few seconds, type/paste the following command into the console:
 
     `avrdude.exe -p atmega32u4 -c avr109 -U flash:w:"<path to hex file>":i -P COM<number for COM port>`
 
-   - For example:
+    - For example:
 
-   `avrdude.exe -p atmega32u4 -c avr109 -U flash:w:"C:\Users\Public\Pokemon\NintendoSwitch-TurboA-ArduinoLeonardo.hex":i -P COM3`
+    `avrdude.exe -p atmega32u4 -c avr109 -U flash:w:"C:\Users\Public\Pokemon\NintendoSwitch-TurboA-ArduinoLeonardo.hex":i -P COM3`
 
-   - Note: The Leonardo only stays connected for a few seconds, so I recommend typing the command ahead of time in something like Notepad, then pasting the command into the console when you're ready.
+    - Note: The Leonardo only stays connected for a few seconds, so I recommend typing the command ahead of time in something like Notepad, then pasting the command into the console when you're ready.
 
 
 If flashed successfully, it should look something like this:
@@ -270,7 +271,7 @@ avrdude.exe done.  Thank you.
 | Error | Solution |
 | --- | --- |
 | ArduinoLeonardo.hex is not readable: No such file or directory | Double check that you typed your file path to the .hex file correctly. Ensure there aren't any extra spaces that shouldn't be there. |
-| cannot open port \\\\.\COM#: The system cannot find the file specified. | Make sure you typed in the correct COM port number. Also, make sure the Leonardo is plugged in and detectable by the Device Manager. If not, click the Leonardo's reset button |
+| cannot open port \\\\.\\COM#: The system cannot find the file specified. | Make sure you typed in the correct COM port number. Also, make sure the Leonardo is plugged in and detectable by the Device Manager. If not, click the Leonardo's reset button |
 
 
 

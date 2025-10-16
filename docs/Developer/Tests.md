@@ -80,6 +80,7 @@ You can also selectively run a subset of the tests by setting
 "20-GlobalSettings": "COMMAND_LINE_TESTS": "TEST_LIST"
 ```
 as a list of strings. Each string will be a relative path. Example types of the path can be any of:
+
  - "PokemonBDSP"
  - "PokemonBDSP/DialogDetector"
  - "PokemonBDSP/DialogDetector/Win_Mirabox"
@@ -103,6 +104,7 @@ Each string in the list serves as a prefix to the test path that the test framew
 When adding new tests, add the new test function to both `Tests.cpp` and `Tests.h`, as well as to `TestMap.cpp`.
 
 For example, in order to implement a test for BattleMenuDetector:
+
 - Implement a ScreenBoolDetectorFunction, `test_pokemonLA_BattleMenuDetector()` that calls the detector code and compares the result with the target bool. The implementation is written in `PokemonLA_Tests.cpp`.
 - Write the function declaration in `PokemonLA_Tests.h`
 - Add a new entry to `TestMap.cpp:TEST_MAP` by utilizing screen_bool_detector_helper:

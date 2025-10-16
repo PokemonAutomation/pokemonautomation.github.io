@@ -111,12 +111,12 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 2. `Device` -> `Select`. Select `ATmega16U2` and click OK.
 3. `File` -> `Load HEX File...`. Open the .hex named `NintendoSwitch-PABotBase-xxxxxxxxx-ArduinoUnoR3.hex`.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-0.png" width="50%">
+    <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-0.png" width="50%">
 
 4. Plug the Arduino into your computer.
 5. Short the following two pins with a conductive object, then release it. Your computer should play the unplug/plug sound.
 
-<img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-0.jpg" width="30%"> <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-1.jpg" width="30%">
+    <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-0.jpg" width="30%"> <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-ResetPins-1.jpg" width="30%">
 
 6. Click on the USB icon. Select `USB` and click `Open`.
 

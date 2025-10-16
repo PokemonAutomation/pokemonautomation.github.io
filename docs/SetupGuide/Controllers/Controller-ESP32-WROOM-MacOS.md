@@ -128,26 +128,26 @@ Download the latest version of PABotBase-ESP32 from [here](https://github.com/Po
 2. Under `Program`, you may keep the `Baudrate` at the default of 921600.
 3. Click `Connect`.
 4. Select your ESP32 device in the pop-up. Click `Connect`.
-   
-<img src="../Images/Mac/esp32-flash-select.png" width=400 style="display: block; margin: 10px 40px">
+
+    <img src="../Images/Mac/esp32-flash-select.png" width=400 style="display: block; margin: 10px 40px">
 
 5. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
 6. Click `Choose File`: Select the firmware file (`PABotBase-ESP32-<version>.bin`), then click `Open` to choose the file.
 7. Click `Program`.
 
-<img src="../Images/Mac/esp32-flash-load.png" width="600" style="display: block; margin: 10px 40px">
+    <img src="../Images/Mac/esp32-flash-load.png" width="600" style="display: block; margin: 10px 40px">
 
 8. Click `Program`.
 
-<img src="../Images/Mac/esp32-flash-program.png" width="600" style="display: block; margin: 10px 40px">
+    <img src="../Images/Mac/esp32-flash-program.png" width="600" style="display: block; margin: 10px 40px">
 
 9. Wait for the program to flash. If successful, you should see the following in the console:
-```
-Hash of data verified.
-Leaving...
-Hard resetting via RTS pin...
-```
-> If instead, you get the error: `Error: Invalid head of packet (0x80): Possible serial noise or corruption.`. Then refresh the page, restart at step 2, but try changing the baudrate to 115200.
+
+        Hash of data verified.
+        Leaving...
+        Hard resetting via RTS pin...
+
+    > If instead, you get the error: `Error: Invalid head of packet (0x80): Possible serial noise or corruption.`. Then refresh the page, restart at step 2, but try changing the baudrate to 115200.
 
 10. Click `Disconnect` to unmount
 

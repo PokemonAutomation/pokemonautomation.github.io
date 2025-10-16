@@ -29,7 +29,7 @@ This program is similar to brianuuuSonic's BoxSurpriseTrade, but is also toleran
 
 1. Place boxes of Pokémon to be traded consecutively.
 
-   - The boxes do not need to be full. Empty slots are safely skipped, but you will leave the partner waiting for a long time before disconnecting them without trading anything.
+    - The boxes do not need to be full. Empty slots are safely skipped, but you will leave the partner waiting for a long time before disconnecting them without trading anything.
 
 2. You must be on the first box.
 3. Do not have any untradable Pokémon in these boxes. (no fused Pokémon)

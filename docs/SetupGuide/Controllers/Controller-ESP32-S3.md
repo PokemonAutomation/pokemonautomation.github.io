@@ -121,29 +121,29 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
 3. When you see the following menu, select "ESP32-S3", "Develop", and "UART". Then hit OK.
 
-<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-0.png">
+    <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-0.png">
 
 4. You will then be prompted with this complicated window. Fill everything as follows:
 
-   - Check the box for the first entry, at the top left.
-   - For the first entry, click on the `...` and browse for `PABotBase-ESP32-S3-2025032100.bin` in the serial programs download folder. (version number may vary)
-   - The right-most box should be a zero.
-   - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
-   - At the bottom right corner, select the COM port of your ESP32-S3.
-   - Change "BAUD" to 460800.
+    - Check the box for the first entry, at the top left.
+    - For the first entry, click on the `...` and browse for `PABotBase-ESP32-S3-2025032100.bin` in the serial programs download folder. (version number may vary)
+    - The right-most box should be a zero.
+    - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
+    - At the bottom right corner, select the COM port of your ESP32-S3.
+    - Change "BAUD" to 460800.
 
-<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-1.png">
+    <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-1.png">
 
 5. Click Start and it should flash the PABotBase firmware to your ESP32-S3.
 
-If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-s3-stuck-on-).
+    If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-s3-stuck-on-).
 
-<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-2.png">
+    <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Flash-2.png">
 
 6. Reboot your ESP32-S3. You can do this either by:
 
-   - Pressing either the `EN` or `RESET` button on the ESP32-S3.
-   - Unplugging both USB cables and plugging them back in.
+    - Pressing either the `EN` or `RESET` button on the ESP32-S3.
+    - Unplugging both USB cables and plugging them back in.
 
 ### Step 3: Connect the ESP32-S3 to the Computer Control program
 
@@ -226,7 +226,7 @@ If nothing works, you are not alone! This is a common problem with ESP32 boards.
 ### Unable to flash the ESP32-S3: `no log file output`
 
 - Try switching the USB cable. Make sure it supports data transfer, not just power delivery.
-   - When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
+    - When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
 
 ### Problem with flashing ESP32-S3: Download tool shows `FINISH`, but no green progress bar appeared.`
 Ensure the top left checkbox is checked. The top row should be green. Ensure the correct COM is selected, and BAUD is set to 460800. Then try flashing again.

@@ -33,7 +33,7 @@ Duplicate Pokémon using the God Egg/MissingNo.
 
 - The entire 1st column of the current box must be empty.
 - Your party has 6 throw-away Pokémon.
-   - If you don't want to clone all 6 Pokémon in your party, you can set **"Party Round Robin"** to cycle through fewer Pokémon.
+    - If you don't want to clone all 6 Pokémon in your party, you can set **"Party Round Robin"** to cycle through fewer Pokémon.
 
 ### Safety Recommendations:
 

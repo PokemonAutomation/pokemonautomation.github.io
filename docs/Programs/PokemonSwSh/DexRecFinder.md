@@ -40,9 +40,9 @@ Boosting the Sinistea (or anything in the area you are hunting) will *lower* the
 3. Change the date so that the location has the correct weather to spawn the Pokémon that you want
 4. Menu cursor must be over the Pokédex
 
-   - Enter the menu
-   - Adjust cursor to be over Pokédex
-   - Press 'B' to exit the menu
+    - Enter the menu
+    - Adjust cursor to be over Pokédex
+    - Press 'B' to exit the menu
 
 5. You must be in the overworld (not inside the menu)
 6. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

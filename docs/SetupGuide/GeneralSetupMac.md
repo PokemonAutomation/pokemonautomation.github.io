@@ -20,20 +20,23 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 ## Step 2: Open up SerialPrograms.
 
 1. Open `SerialPrograms-Installer.dmg`
+
 2. Drag `SerialPrograms` into the `Applications` folder
-   
-<img src="Images/Mac/dmg-installer.png" width=600 style="display: block; margin: 10px 40px">
+
+    <img src="Images/Mac/dmg-installer.png" width=600 style="display: block; margin: 10px 40px">
 
 3. Go to your `Applications` folder and open `SerialPrograms` 
+
 4. You will be greeted with the following warning, click **Done**. This warning is given on any program downloaded on the internet that does not have Apple's official (paid) notarization. This project is unmonitized and the entirety of the MacOS installation is open sourced if you wish to vet the program yourself.
 
-<img src="Images/Mac/open-warning.png" width=400 style="display: block; margin: 10px 40px">
+    <img src="Images/Mac/open-warning.png" width=400 style="display: block; margin: 10px 40px">
 
 5. Open **System Settings** and navigate to the **Privacy & Security** section. Scroll down until you see the SerialPrograms warning. Click **Open Anyway**.
 
-<img src="Images/Mac/security-settings.png" style="display: block; margin: 10px 40px" width="64%">
+    <img src="Images/Mac/security-settings.png" style="display: block; margin: 10px 40px" width="64%">
 
 6. Follow the prompts to open the app. You may need to click **Open Anyways** multiple times and you may need to input your password. Note that this is only needed the first time you open the app. For the first time, the app may take some time to open.
+
 7. The app may ask you to install Rosetta and/or give the app permissions to files/camera/microphone. These are required in order to write program settings to file and read video and audio from your capture card.
 
 <img src="Images/Mac/app-interface.png" style="display: block; margin: 10px 40px" width="80%"> 
@@ -41,13 +44,11 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 ## Step 3: Setup video.
 
 1. Connect an HDMI cable from your Switch dock to your video capture card.
-2. Connect your capture card to your computer.
+2. Connect your capture card to your computer. Depending on your capture card, it may look different from this:
 
-Depending on your capture card, it may look different from this:
+    <img src="Images/Mac/capture-card.png" width="40%">
 
-<img src="Images/Mac/capture-card.png" width="40%">
-
-1. Select your capture card in the "Camera" dropdown. If you don't see it there, click "Reset Camera" to refresh the list.
+3. Select your capture card in the "Camera" dropdown. If you don't see it there, click "Reset Camera" to refresh the list.
 
 <img src="Images/Mac/select-capture-device.png" width="47%"> <img src="Images/Mac/select-capture-device-2.png" width="47%">
 

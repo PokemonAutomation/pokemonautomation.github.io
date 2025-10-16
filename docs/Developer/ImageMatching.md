@@ -182,6 +182,7 @@ See [Command Line Tests](Tests.md) for more details on how to run the command li
 In SerialProgram-Settings.json, you can also enable more print statements for debugging. Set `DEBUG.IMAGE_TEMPLATE_MATCHING` to true. If this is enabled, when the program runs, it will print out the area ratio, aspect ratio and RMSD for each Waterfill object. It will also dump image files into the folder `DebugDumps\CommonFramework\WaterfillTemplateMatcher`. If you’re building with Qt, it will be within the `build-SerialPrograms-Desktop_Qt_6_3_2_MSVC2019_64bit-Debug` folder (or something similar, depending on your Qt version). It dumps both the cropped template image as well as the cropped images from the Waterfill objects, so you can inspect them. It also dumps the binary image, which is the result of your color filters being applied to the area of interest on the screen; this can help you determine if your color filters are too broad or too narrow.
 
 Some tips with inspecting the dump folder:
+
 - If your desired Waterfill object isn’t within the debug dump at all, try expanding the color range for your Waterfill filters, or adding additional filters. Also, double check your `min_object_size` thresholds. 
 - If your desired Waterfill object is there, but within a larger image/Waterfill object, try narrowing your color filters.
 - If your desired Waterfill object is there, but only a portion of it is present, try expanding your filters. 

@@ -142,7 +142,7 @@ If not, you should go back to the [general setup guide](../index.md) and start o
      - Pico W(H): `PABotBase-Pico1W-2025092300.uf2` (version number may vary)
      - Pico 2 W(H): `PABotBase-Pico2W-2025092300.uf2` (version number may vary)
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.png">
+    <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.png">
 
 6. Unplug the Pico W's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.

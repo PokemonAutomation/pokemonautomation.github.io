@@ -6,6 +6,7 @@
 This section covers how to setup and customize notifications using Discord webhooks.
 
 Notifications can be useful for various things. For example:
+
 1. Get notified when a shiny is found.
 2. Get notified when a long-running program is finished or otherwise needs your attention.
 3. Send notifications for live (real-time) hosting.
@@ -78,6 +79,7 @@ Enter your own description for this webhook so you can identify them. This doesn
 If unchecked, you will never be pinged by that webhook. If checked, you will be pinged if the notification requests a ping.
 
 In order to be pinged by a notification, all of these conditions must be met:
+
 1. The notification is sent down this webhook.
 2. "Allow Pings" is checked for this webhook.
 3. "Should Ping" is checked for the respective event in the program's discord notification settings.
@@ -87,6 +89,7 @@ In order to be pinged by a notification, all of these conditions must be met:
 This lets you filter what events are sent down this webhook. A notification is only sent down a webhook if it shares a tag with the event itself.
 
 A notification is sent down the webhook only if all of these conditions are met:
+
 1. The webhook is enabled. ("Enabled" is checked)
 2. The corresponding event in the program is enabled. (Notifications are enabled for the program and "Enable" is checked for the respective event.)
 3. There is at least one tag in common between the webhook and the event type in the program.

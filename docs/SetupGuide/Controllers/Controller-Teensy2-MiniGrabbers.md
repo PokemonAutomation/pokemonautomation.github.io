@@ -100,18 +100,18 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 1. Run the Teensy Loader program that you downloaded earlier.
 2. Click the purple file icon and browse for `NintendoSwitch-PABotBase-xxxxxxxxx-Teensy2.hex` or `NintendoSwitch-PABotBase-xxxxxxxxx-TeensyPP2.hex` depending on which one you have.
 
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-0.png">
+    <img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-0.png">
 
 3. Plug the Teensy into your computer.
 4. Press the white button on the Teensy. You may need to wait for Windows to install drivers.
 
-At this point, two green arrows should show up in Teensy Loader.
+    At this point, two green arrows should show up in Teensy Loader.
 
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-1.png">
+    <img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-1.png">
 
 5. Click the left arrow. This flashes the program into the Teensy.
 
-<img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-2.png">
+    <img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-2.png">
 
 6. Unplug the Teensy from your computer.
 

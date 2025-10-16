@@ -62,9 +62,9 @@ If you would like to use computer-controlled programs, make sure you meet all of
 3. Be willing to spend an additional $20 - $50 USD for the new hardware.
 4. Your computer must be sufficiently powerful:
 
-- If you intend to control **1** Switch: A dual-core processor @ 3 GHz no older than 2015 should be sufficient.
-- If you intend to control **2** Switches: A quad-core processor @ 3 GHz no older than 2015 should be sufficient.
-- If you intend to control **4** Switches: 6-8 cores minimum.
+    - If you intend to control **1** Switch: A dual-core processor @ 3 GHz no older than 2015 should be sufficient.
+    - If you intend to control **2** Switches: A quad-core processor @ 3 GHz no older than 2015 should be sufficient.
+    - If you intend to control **4** Switches: 6-8 cores minimum.
 
 > There are many ways to set this up with varying cost and difficulty. Here we will present some simple options that do not require soldering. If you are experienced with electronics, feel free to do your own thing.
 
@@ -110,16 +110,16 @@ Before you begin, make sure **you have a computer.** This used to go without say
 > 
 > **Microcontroller -> USB Cable -> PC**
 
-## [Step 3] How to flash the TurboA `.hex` file
+# [Step 3] How to flash the TurboA `.hex` file
 
 Flashing the `.hex` file type is paramount to utilizing our programs. This is the base-level of what you need to handle for automation.
 
 > 1. Open the package from previous section and double-click on HexGenerator-Windows.cmd to run it.
-> In the "Board Type" drop-down, change it to `your purchased Microcontroller`.
-> In the program list, click on "Turbo A".
+> 2. In the "Board Type" drop-down, change it to `your purchased Microcontroller`.
+> 3. In the program list, click on "Turbo A".
 
 
-#### [Step 4] Device Specific MC Flash Instructions
+# [Step 4] Device Specific MC Flash Instructions
 
 Click the link below based on the microcontroller and OS.
 

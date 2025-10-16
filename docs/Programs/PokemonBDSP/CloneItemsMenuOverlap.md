@@ -39,7 +39,7 @@ Clone 5 items at a time using the menu overlap menu method described here: [http
 1. Your lead Pokémon is always able to run away from encounters. (faster or holding Smoke Ball)
 2. Your lead is either shiny, has high happiness, or has an activating ability.
 
-   - This is needed to help delay the battle menu long enough for the program to swap the party.
+    - This is needed to help delay the battle menu long enough for the program to swap the party.
 
 3. The 5 other Pokémon in your party are all holding items which you wish to duplicate.
 4. The first column in the current box is empty.
@@ -52,8 +52,8 @@ Clone 5 items at a time using the menu overlap menu method described here: [http
 1. Setup your party and box like the above image:
 2. You are standing in this specific grassy area in Route 212.
 
-   - This location is always rainy and cloudy which helps the program identify the overworld.
-   - The rain helps delay the battle menu long enough for the program to swap the party.
+    - This location is always rainy and cloudy which helps the program identify the overworld.
+    - The rain helps delay the battle menu long enough for the program to swap the party.
 
 2. You are on foot. (not on your bike)
 3. Your cursor in the menu is over "Pokémon".

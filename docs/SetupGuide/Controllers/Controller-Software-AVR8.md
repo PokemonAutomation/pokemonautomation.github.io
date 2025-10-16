@@ -98,12 +98,12 @@ Step 2: Plug the UART side into the computer and select it in the dropdown.
 
 1. Spamming of "RESET" messages with nothing else
 
-   - Check your wires
+    - Check your wires
 
 2. Spams of invalid length and CRC errors.
 
-   - Check your wires.
-   - Make sure you don't have a PLxxx UART Controller (If you do, you need to buy a CP21xx UART)
+    - Check your wires.
+    - Make sure you don't have a PLxxx UART Controller (If you do, you need to buy a CP21xx UART)
 
 **Correct output window:** 
 

@@ -40,3 +40,34 @@ This MkDocs command builds the website from md files and pushes the generated HT
 This repo is setup on Github to load its gh-deploy branch as the Github Pages.
 
 This repo must be named as `<organization_name>.github.io` in order for its Github Pages to be hosted at link `<organization_name>.github.io`. Since this project's organization name on Github is "PokemonAutomation", we have the repo name and Github Pages link as we know them.
+
+# CAVEATS on Writing MkDocs Compatible Markdown Files
+
+MkDocs parses markdown files (.md files) slightly differently than how Github renders them.
+
+- For non-numbered lists (starting with "-"), numbered lists ("1. ..."), tables ("|...|") and image tags (`<img src=...>`), you need to add an empty line before them for MkDocs to place them at a new line.
+
+- MkDocs won't create a clickable link (e.g. `https://example.link`) on a raw https link. You have to create it by yourself: `[https://example.link](https://example.link)`.
+
+- If you have nested lists inside a list, the nested lists need to have at least four whitespaces of indent for MkDocs to register them as nested lists.
+
+- If you have nested lists or image tags between two lines of a numbered list, add empty lines surrounding the nested items and indent them with four whitespaces. Otherwise the numbers on the outer list will be broken. e.g.:
+```
+1. Numbered line 1.
+
+    - Nested line 1
+
+    - Nested line 2
+
+    <img src=...>
+
+2. Numbered line 2.
+```
+
+- If you have nested coding block (surrounded by three "`"), add empty lines surrounding them and have eight whitespaces to indent them.
+
+- MkDocs defaults all images' max-width to be 100% and height to be "auto" so we shouldn't use image tab attribute "height" in md files to control image sizes. Use width control like `width="500"` or `width="50%"` instead.
+
+
+
+

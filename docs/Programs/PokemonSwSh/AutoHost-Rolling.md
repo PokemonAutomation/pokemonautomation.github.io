@@ -5,17 +5,17 @@
 This is the all-in-one autohost that can host all of the following:
 
 - Rolling autohosts
-   - Roll a den and host a random Pokémon.
-   - **To host a rolling den:** Set N to 3 (or more).
+    - Roll a den and host a random Pokémon.
+    - **To host a rolling den:** Set N to 3 (or more).
 
 - Hard-locked Dens
-   - Host a den that is locked on a single mon
-   - **To host a hard-locked den:** Set N to zero.
+    - Host a den that is locked on a single mon
+    - **To host a hard-locked den:** Set N to zero.
 
 - [Soft-locked Dens](#hosting-a-soft-lock)
-   - Host's a singular soft-locked mon _but_ maintains a backup save for re-rolling the den
-   - **To host a soft-locked den:** Set N to zero and check the box for "**Load Backup Save**". (see below.)
-   - Follow the hyperlink above for instructions specific to hosting a soft-locked den
+    - Host's a singular soft-locked mon _but_ maintains a backup save for re-rolling the den
+    - **To host a soft-locked den:** Set N to zero and check the box for "**Load Backup Save**". (see below.)
+    - Follow the hyperlink above for instructions specific to hosting a soft-locked den
 
 Functionally, all this program does is repeat the following sequence forever:
 
@@ -64,8 +64,8 @@ If you care about your den, get rid of all your wishing pieces. They are easy to
 1. Game is _not_ currently connected to internet (Y-comm is white)
 2. Position character as follows:
 
-   - Somewhere safe from being attacked by wild Pokémon
-   - Standing in front of a wishing piece den _with watts collected_
+    - Somewhere safe from being attacked by wild Pokémon
+    - Standing in front of a wishing piece den _with watts collected_
 
 3. Save
 4. Return game to overworld
