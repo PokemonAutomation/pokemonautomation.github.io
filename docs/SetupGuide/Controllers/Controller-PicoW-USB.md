@@ -2,8 +2,6 @@
 
 The Raspberry Pi Pico W (and Pico 2 W) is the easiest setup to get up and running (even easier than the ESP32). Thus, it is ideal for new users who just want to try out this project without getting too deep.
 
-There is no difference between the Pico W and the Pico 2 W for this project. Either will work. The Pico 2 is newer and $1 more expensive.
-
 There are two operating modes of the Pico W family:
 
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
@@ -63,7 +61,9 @@ There are two operating modes of the Pico W family:
 | Pico W | 2 (no pins) | $10 / unit | [https://www.amazon.com/gp/product/B0B72GV3K3/](https://www.amazon.com/gp/product/B0B72GV3K3/) |
 | Pico 2 W | 1 (no pins) | $13 / unit | [https://www.amazon.com/gp/product/B0DPF9N1MN](https://www.amazon.com/gp/product/B0DPF9N1MN) |
 
-You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
+Notes:
+- You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
+- There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
 Unlike other controllers, we ***strongly*** recommend the ones with pins for the sole reason that it becomes much easier to do [UART Mode](Controller-PicoW-UART.md) in the future. We only recommend the pinless boards if you either never intend to do UART mode, or if you have another way to connect to the holes (such as soldering, mini-grabbers, hammer headers, etc...)
 
@@ -211,6 +211,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
