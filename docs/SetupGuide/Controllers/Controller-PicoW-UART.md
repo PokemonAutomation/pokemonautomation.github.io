@@ -2,8 +2,6 @@
 
 The Raspberry Pi Pico W (and Pico 2 W) is the easiest setup to get up and running (even easier than the ESP32). Thus, it is ideal for new users who just want to try out this project without getting too deep.
 
-There is no difference between the Pico W and the Pico 2 W for this project. Either will work. The Pico 2 is newer and $1 more expensive.
-
 There are two operating modes of the Pico W family:
 
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
@@ -72,7 +70,9 @@ This is the most versatile setup as it supports every single controller in this 
 | Pico W | 2 (no pins) | $10 / unit | [https://www.amazon.com/gp/product/B0B72GV3K3/](https://www.amazon.com/gp/product/B0B72GV3K3/) |
 | Pico 2 W | 1 (no pins) | $13 / unit | [https://www.amazon.com/gp/product/B0DPF9N1MN](https://www.amazon.com/gp/product/B0DPF9N1MN) |
 
-You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
+Notes:
+- You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
+- There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
 Here you will need the versions with pre-soldered pins in order to connect the UART. If you have other methods of connecting such as soldering or [press-fit/hammer headers](https://www.adafruit.com/product/5938), feel free to get the pinless ones and do your own thing.
 
@@ -112,7 +112,9 @@ Make the following connections:
 | GND | Black | GND (pin 8, or any other GND pin) |
 | VCC | Red | Leave unconnected |
 
-> **If you did **not** buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
+Notes:
+- **If you did **not** buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
+- It is important to leave VCC disconnected. VCC allows the UART to power the board. But the board is already being powered by the USB. Attempting to power the board from multiple sources without the appropriate backflow protection can damage your hardware!
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wiring-0.jpg">
 
@@ -248,6 +250,17 @@ Try clicking on other programs on the sidebar. You will find that all of them ar
 Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 
+## Troubleshooting:
+
+### Docking and undocking the Switch resets the Pico.
+
+When you dock or undock the Switch from Nintendo's official dock, the USB momentarily loses power. This causes the Pico to reset back to the "None" controller and lose its wireless pairing state.
+
+Unfortunately, fixing this requires a more complicated hardware setup. For now we will leave it out-of-scope for this wiki.
+
+If you are experienced with circuits and would like to attempt this fix, the solution involves connecting the UART's +5V VCC to the Pico VSYS pin via a diode to prevent backflow into the UART. This allows the UART to keep the Pico powered during the momentary loss of power from the USB while docking/undocking.
+
+
 
 <hr>
 
@@ -258,6 +271,7 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
