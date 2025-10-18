@@ -9,6 +9,30 @@ This program will automate the Scarlet/Violet story.
 
 The program has two sections: the tutorial and the main story. After it finishes the tutorial, the program will pause. If you want to automate the main story, you will need to ensure that your party has a level 100 Gardevoir, and two other strong pokemon (see below for more details). This allows us to focus on automating the story elements, without also having to consider training up the team or dealing with the battle AI.
 
+# Setup of Settings
+
+**Switch Settings:**
+
+1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+3. System Time: Unsynced
+
+**Program Settings:**
+
+1. Video Resolution: 1080p or higher
+
+**Game Settings:**
+- This will be automatically set by the program.
+- Key settings:
+  - Text Speed: Fast
+  - Auto-Save: Off
+  - Skip Move Learning: On
+  - Give Nicknames: Off
+  - Send to Boxes: Automatic
+  - Camera Support: Off
+  - Vertical/Horizonal Camera Controls: Regular
+  - Camera Interpolation: Normal
+
 # Team setup instructions for the main story
 Your main team needs to consist of 3 pokemon. A Gardevoir and two other strong pokemon. The two other pokemon are for the Team Star autobattle portions, so I prefer something that can fly such as Talonflame.
 
@@ -107,5 +131,6 @@ End the autostory program at this segment in the story.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
