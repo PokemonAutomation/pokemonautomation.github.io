@@ -22,16 +22,17 @@ The program has two sections: the tutorial and the main story. After it finishes
 1. Video Resolution: 1080p or higher
 
 **Game Settings:**
+
 - This will be automatically set by the program.
 - Key settings:
-  - Text Speed: Fast
-  - Auto-Save: Off
-  - Skip Move Learning: On
-  - Give Nicknames: Off
-  - Send to Boxes: Automatic
-  - Camera Support: Off
-  - Vertical/Horizonal Camera Controls: Regular
-  - Camera Interpolation: Normal
+    - Text Speed: Fast
+    - Auto-Save: Off
+    - Skip Move Learning: On
+    - Give Nicknames: Off
+    - Send to Boxes: Automatic
+    - Camera Support: Off
+    - Vertical/Horizonal Camera Controls: Regular
+    - Camera Interpolation: Normal
 
 # Team setup instructions for the main story
 Your main team needs to consist of 3 pokemon. A Gardevoir and two other strong pokemon. The two other pokemon are for the Team Star autobattle portions, so I prefer something that can fly such as Talonflame.
@@ -63,7 +64,7 @@ Essentially, we catch the Ralts in the Autostory save file, move it to your main
 -	Move Ralts to the box
 -	Save and close the game
 -	Open Pokemon Home with your main account.
-  -	To get Pokemon Home: Download it from the eShop.
+    -	To get Pokemon Home: Download it from the eShop.
 -	Open the Pokemon Home box. Select the autostory account. 
 -	Move the Ralts into Pokemon Home
 -	Open the Pokemon Home box again. But select your main account this time.
@@ -131,6 +132,7 @@ End the autostory program at this segment in the story.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
