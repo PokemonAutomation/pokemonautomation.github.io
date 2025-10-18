@@ -71,6 +71,7 @@ This is the most versatile setup as it supports every single controller in this 
 | Pico 2 W | 1 (no pins) | $13 / unit | [https://www.amazon.com/gp/product/B0DPF9N1MN](https://www.amazon.com/gp/product/B0DPF9N1MN) |
 
 Notes:
+
 - You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
 - There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
@@ -271,6 +272,7 @@ If you are experienced with circuits and would like to attempt this fix, the sol
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
