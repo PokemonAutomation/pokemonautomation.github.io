@@ -1,0 +1,2484 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pokemonautomation.github.io/Programs/index.html">
+      
+      
+        <link rel="prev" href="../SetupGuide/index.html">
+      
+      
+        <link rel="next" href="../ControllerList.html">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Programs - Pokémon Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#program-list-computer-control" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Pokémon Automation" class="md-header__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pokémon Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Programs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../SetupGuide/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ControllerList.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Controllers
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../DiscordIntegration/index.html" class="md-tabs__link">
+          
+  
+  
+  Discord Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Developer/index.html" class="md-tabs__link">
+          
+  
+  
+  Developer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Pokémon Automation" class="md-nav__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    Pokémon Automation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SetupGuide/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-nintendo-switch-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Nintendo Switch Programs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pokemon-home" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pokémon Home
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pokemon-lets-go-pikachueevee-lgpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pokémon Let's Go Pikachu/Eevee (LGPE)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pokemon-swordshield" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pokémon Sword/Shield
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pokemon-brilliant-diamondshining-pearl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pokémon Brilliant Diamond/Shining Pearl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pokemon-legends-arceus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pokémon Legends Arceus
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pokemon-scarlet-and-violet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pokémon Scarlet and Violet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zelda-tears-of-the-kingdom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zelda: Tears of the Kingdom
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ControllerList.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discord Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordWebhooks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/Knowledge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Requirement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/Git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use Github
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/TutorialMC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Button Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/TutorialCC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Home Sorter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="program-list-computer-control">Program List (Computer Control)</h1>
+<p>This is a list of all the computer-control programs. To run these programs, you need the <a href="../SetupGuide/index.html">computer-control setup</a>.</p>
+<p><strong>Jump To Program Section:</strong></p>
+<ul>
+<li><a href="#general-nintendo-switch-programs">General Nintendo Switch Programs</a></li>
+<li><a href="#pokemon-home">Pokémon Home</a></li>
+<li><a href="#pokemon-lets-go-pikachueevee-lgpe">Pokémon Let's Go Pikachu/Eevee</a></li>
+<li><a href="#pokemon-swordshield">Pokémon Sword/Shield</a></li>
+<li><a href="#pokemon-brilliant-diamondshining-pearl">Pokémon Brilliant Diamond/Shining Pearl</a></li>
+<li><a href="#pokemon-legends-arceus">Pokémon Legends Arceus</a></li>
+<li><a href="#pokemon-scarlet-and-violet">Pokémon Scarlet/Violet</a></li>
+<li><a href="#zelda-tears-of-the-kingdom">Zelda: Tears of the Kingdom</a></li>
+</ul>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Programs that require video feedback cannot run on the Switch Lite because it does not have HDMI output.</li>
+<li>Not every program can run on every controller. Please check the table for compatibility.</li>
+<li>Controllers marked as "Degraded" mean that the program will run, but performance and reliability may be severely degraded.</li>
+</ul>
+<p><strong>Controller Categories:</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Wired Controller</strong></th>
+<th><strong>Wireless Controller</strong></th>
+<th><strong>Other</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>- ESP32-S3<br>- Pico W (wired controller)<br>- Pico 2 W (wired controller)<br>- sys-botbase 3 (sbb3)<br>- Arduino Uno R3<br>- Arduino Leonardo<br>- Teensy 2.0<br>- Teensy++ 2.0<br>- Pro Micro</td>
+<td>- ESP32<br>- Pico W (wireless controller)<br>- Pico 2 W (wireless controller)<br><br><br><br><br><br><br></td>
+<td>- sys-botbase 2.4 (sbb2)<br><br><br><br><br><br><br><br><br></td>
+</tr>
+</tbody>
+</table>
+<p>Read more about <a href="../ControllerList.html#controller-performance-classes">Controller Performance Categories</a>.</p>
+<h2 id="general-nintendo-switch-programs">General Nintendo Switch Programs</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="NintendoSwitch/FrameworkSettings.html">Framework Settings</a></td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/VirtualConsole.html">Virtual Console</a></td>
+<td>---</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/SwitchViewer.html">Switch Viewer</a></td>
+<td>---</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/TurboA.html">TurboA</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/TurboButton.html">Turbo Button</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/TurboMacro.html">Turbo Macro</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/PreventSleep.html">Prevent Sleep</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/FriendCodeAdder.html">Friend Code Adder</a></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/FriendDelete.html">Friend Delete</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="NintendoSwitch/RecordKeyboardController.html">Record Keyboard Controller</a></td>
+<td></td>
+<td>All</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pokemon-home">Pokémon Home</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="PokemonHome/PageSwap.html">Page Swap</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonHome/BoxSorter.html">Box Sorter</a></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pokemon-lets-go-pikachueevee-lgpe">Pokémon Let's Go Pikachu/Eevee (LGPE)</h2>
+<p>This game cannot be played with a Pro Controller and instead requires the use of joycons. Therefore, ESP32 and Pico W are the only supported setup since they are the only ones that implement the wireless joycons.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Settings</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>General:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonLGPE/DailyItemFarmer.html">Daily Item Farmer</a></td>
+<td>Video</td>
+<td>Wireless Only</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Shiny Hunting:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonLGPE/AlolanTrade.html">Alolan Trade</a></td>
+<td>Video</td>
+<td>Wireless Only</td>
+</tr>
+<tr>
+<td><a href="PokemonLGPE/FossilRevival.html">Fossil Revival</a></td>
+<td>Video</td>
+<td>Wireless Only</td>
+</tr>
+<tr>
+<td><a href="PokemonLGPE/GiftReset.html">Gift Reset</a></td>
+<td>Video</td>
+<td>Wireless Only</td>
+</tr>
+<tr>
+<td><a href="PokemonLGPE/LegendaryReset.html">Legendary Reset</a></td>
+<td>Video + Audio</td>
+<td>Wireless Only</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pokemon-swordshield">Pokémon Sword/Shield</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="PokemonSwSh/PokemonSettings.html">Game Settings</a></td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>QoL Macros:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/FastCodeEntry.html">Fast Code Entry (FCE)</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: Wireless, sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/FriendSearchDisconnect.html">Friend Search Disconnect</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>General Programs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/MassRelease.html">Mass Release</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/SurpriseTrade.html">Surprise Trade</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/TradeBot.html">Trade Bot</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ClothingBuyer.html">Clothing Buyer</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/AutonomousBallThrower.html">Autonomous Ball Thrower</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DexRecFinder.html">Dex Rec Finder</a></td>
+<td></td>
+<td>Video (Optional)</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/BoxReorderNationalDex.html">Box Reorder National Dex</a></td>
+<td></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Date-Spam Farmers:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-WattFarmer.html">Date Spam: Watt Farmer</a></td>
+<td>Farm watts. To farm money, use watts to buy Luxury balls, then sell them.</td>
+<td></td>
+<td>All (Degraded: Wireless, sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-BerryFarmer.html">Date Spam: Berry Farmer</a></td>
+<td>Farm berries.</td>
+<td></td>
+<td>All (Degraded: Wireless, sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-BerryFarmer2.html">Date Spam: Berry Farmer 2</a></td>
+<td>Farm berries using audio/video feedback</td>
+<td>Video + Audio</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-LotoFarmer.html">Date Spam: Loto Farmer</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-StowOnSideFarmer.html">Date Spam: Stow-On-Side Farmer</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-DailyHighlightFarmer.html">Date Spam: Daily Highlight Farmer</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DateSpam-PokeJobsFarmer.html">Date Spam: Poké Jobs Farmer</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Den Hunting:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/PurpleBeamFinder.html">Purple Beam Finder</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EventBeamFinder.html">Event Beam Finder</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DaySkipperJPN.html">Day Skipper (JPN)</a></td>
+<td></td>
+<td></td>
+<td>Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DaySkipperEU.html">Day Skipper (EU)</a></td>
+<td></td>
+<td></td>
+<td>Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DaySkipperUS.html">Day Skipper (US)</a></td>
+<td></td>
+<td></td>
+<td>Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DaySkipperJPN-7.8k.html">Day Skipper (JPN) - 7.8k</a></td>
+<td></td>
+<td></td>
+<td>Switch 1: Wired Only<br>Switch 2: None</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Hosting:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/DenRoller.html">Den Roller</a></td>
+<td></td>
+<td>Video (Optional)</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/AutoHost-Rolling.html">Auto-Host Rolling</a></td>
+<td></td>
+<td>Video (Optional)</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/AutoHost-MultiGame.html">Auto-Host Multi-Game</a></td>
+<td></td>
+<td>Video (Optional)</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Eggs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EggFetcher2.html">Egg Fetcher 2</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EggFetcherMultiple.html">Egg Fetcher Multiple</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EggHatcher.html">Egg Hatcher</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EggAutonomous.html">Egg Autonomous</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/GodEggItemDuplication.html">God Egg Item Duplication</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/GodEggDuplication.html">God Egg Duplication (developer only)</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Non-Shiny Hunting:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/StatsReset.html">Stats Reset</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/StatsReset-Calyrex.html">Stats Reset - Calyrex</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/StatsReset-Moltres.html">Stats Reset - Moltres</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/StatsReset-Regi.html">Stats Reset - Regi</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Shiny Hunting:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/MultiGameFossil.html">Multi-Game Fossil Revive</a></td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/CurryHunter.html">Curry Hunter</a></td>
+<td></td>
+<td>Video (Optional)</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-Regi.html">Shiny Hunt Autonomous - Regi</a></td>
+<td></td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.html">Shiny Hunt Autonomous - Swords Of Justice</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.html">Shiny Hunt Autonomous - Strong Spawn</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-Regigigas2.html">Shiny Hunt Autonomous - Regigigas2</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-IoATrade.html">Shiny Hunt Autonomous - IoA Trade</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-BerryTree.html">Shiny Hunt Autonomous - Berry Tree</a></td>
+<td></td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-Whistling.html">Shiny Hunt Autonomous - Whistling</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-Fishing.html">Shiny Hunt Autonomous - Fishing</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntAutonomous-Overworld.html">Shiny Hunt Autonomous - Overworld</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>RNG:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/SeedFinder.html">RNG Seed Finder</a></td>
+<td>Finds the current state to be used for manual RNG manipulation</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/CramomaticRNG.html">Cram-o-matic RNG</a></td>
+<td>Farm apriballs using RNG manip of Cram-o-matic</td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Multi-Switch Programs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Synchronized Spinning</td>
+<td></td>
+<td></td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/RaidItemFarmerOHKO.html">Raid Item Farmer (OHKO)</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/MaxLair.html"><strong>Auto Max Lair 2.0:</strong></a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/MaxLair-Standard.html">Max Lair: Standard</a></td>
+<td>Run Dynamax Adventures until a shiny Legendary is found.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/MaxLair-StrongBoss.html">Max Lair: Strong Boss</a></td>
+<td>Run Dynamax Adventures and intelligently reset to keep paths with high win rates (for Legendaries that are hard to beat)</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/MaxLair-BossFinder.html">Max Lair: Boss Finder</a></td>
+<td>Run Dynamax Adventures until you find the boss you want.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Deprecated Programs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/BallThrower.html">Ball Thrower</a></td>
+<td></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/BeamReset.html">Beam Reset</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EggCombined2.html">Egg Combined 2</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/EggSuperCombined2.html">Egg Super-Combined 2</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntUnattended-Regi.html">Shiny Hunt Unattended - Regi</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.html">Shiny Hunt Unattended - Swords Of Justice</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntUnattended-StrongSpawn.html">Shiny Hunt Unattended - Strong Spawn</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntUnattended-Regigigas2.html">Shiny Hunt Unattended - Regigigas2</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSwSh/ShinyHuntUnattended-IoATrade.html">Shiny Hunt Unattended - IoA Trade</a></td>
+<td></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pokemon-brilliant-diamondshining-pearl">Pokémon Brilliant Diamond/Shining Pearl</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Settings</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>General:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/MassRelease.html">Mass Release</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/AutonomousBallThrower.html">Autonomous Ball Thrower</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Trading:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/SelfBoxTrade.html">Self Box Trade</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/SelfTouchTrade.html">Self Touch Trade</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Farming:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/MoneyFarmerRoute212.html">Money Farmer (Route 212)</a></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/MoneyFarmerRoute210.html">Money Farmer (Route 210)</a></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/DoublesLeveling.html">Double Battle Leveling</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/AmitySquarePickUpFarmer.html">Amity Square Pick Up Farmer</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/GiftBerryReset.html">Gift Berry Reset</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/PoffinCooker.html">Poffin Cooker</a></td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Shiny Hunting:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/StarterReset.html">Starter Reset</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/LegendaryReset.html">Legendary Reset</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/ShinyHunt-Overworld.html">Shiny Hunt - Overworld</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/ShinyHunt-Fishing.html">Shiny Hunt - Fishing</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/ShinyHunt-Shaymin.html">Shiny Hunt - Shaymin</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Eggs:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/EggFetcher.html">Egg Fetcher</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/EggHatcher.html">Egg Hatcher</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/EggAutonomous.html">Egg Autonomous</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Glitches (v1.1.3):</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/ActivateMenuGlitch-113.html">Activate Menu Glitch (1.1.3)</a></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/CloneItemsBoxCopy2.html">Clone Items (Box Copy Method 2)</a></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Glitches (v1.1.2):</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonBDSP/ActivateMenuGlitch-Poketch.html">Activate Menu Glitch (1.1.2)</a></td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pokemon-legends-arceus">Pokémon Legends Arceus</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Settings</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>General:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonLA/BraviaryHeightGlitch.html">Braviary Height Glitch</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/DistortionWaiter.html">Distortion Waiter</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/OutbreakFinder.html">Outbreak Finder</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/ClothingBuyer.html">Clothing Buyer</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/SkipToFullMoon.html">Skip To Full Moon</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/ApplyGrits.html">Apply Grits</a></td>
+<td></td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/PokedexTasksReader.html">Pokédex Task Reader</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Trading:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonLA/SelfBoxTrade.html">Self Box Trade</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/SelfTouchTrade.html">Self Touch Trade</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Farming:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonLA/NuggetFarmerHighlands.html">Nugget Farmer (Highlands)</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/IngoBattleGrinder.html">Ingo Battle Grinder</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/IngoMoveGrinder.html">Ingo Move Grinder</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/MagikarpMoveGrinder.html">Magikarp Move Grinder</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/TenacityCandyFarmer.html">Tenacity Candy Farmer</a></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/LeapGrinder.html">Leap Grinder</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Shiny Hunting:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonLA/AlphaCrobatHunter.html">Alpha Crobat Hunter</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/AlphaGalladeHunter.html">Alpha Gallade Hunter</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/AlphaFroslassHunter.html">Alpha Froslass Hunter</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/BurmyHunter.html">Burmy Hunter</a></td>
+<td>Video + Audio</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/UnownHunter.html">Unown Hunter</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/ShinyHunt-FlagPin.html">Shiny Hunt - Flag Pin</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/PostMMOSpawnReset.html">Post-MMO Spawn Reset</a></td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonLA/ShinyHunt-CustomPath.html">Shiny Hunt - Custom Path</a></td>
+<td>Video + Audio</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pokemon-scarlet-and-violet">Pokémon Scarlet and Violet</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Settings</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>General:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/MassPurchase.html">Mass Purchase</a></td>
+<td>Purchase items from the shop.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ClothingBuyer.html">Clothing Buyer</a></td>
+<td>Purchase clothing from shops.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/AutonomousBallThrower.html">Autonomous Ball Thrower</a></td>
+<td>Repeatedly throw a ball until you catch the pokemon.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/SizeChecker.html">Size Checker</a></td>
+<td>Check boxes of Pokemon for size marks.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/SelfBoxTrade.html">Self Box Trade</a></td>
+<td>Trade boxes of Pokemon between two local Switches.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/SandwichMaker.html">Sandwich Maker</a></td>
+<td>Make a sandwich  of your choice.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Boxes:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/MassRelease.html">Mass Release</a></td>
+<td>Mass release boxes of Pokemon.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/MassAttachItems.html">Mass Attach Items</a></td>
+<td>Mass attach items to Pokemon.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Farming:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/LPFarmer.html">LP Farmer</a></td>
+<td>Farm LP by day skipping Tera raids.</td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/GimmighoulRoamingFarmer.html">Gimmighoul Roaming Farmer</a></td>
+<td>Farm roaming Gimmighoul for coins.</td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/GimmighoulChestFarmer.html">Gimmighoul Chest Farmer</a></td>
+<td>Farm chest Gimmighoul for coins.</td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/AuctionFarmer.html">Auction Farmer</a></td>
+<td>Farm special Pokeballs (now superceded by Item Printer RNG), EV reset berries, feathers</td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ESPTraining.html">ESP Training</a></td>
+<td>Farm EV reset berries</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/TournamentFarmer.html">Tournament Farmer</a></td>
+<td>Farm money (now superceded by Item Printer RNG)</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/TournamentFarmer2.html">Tournament Farmer 2</a></td>
+<td>Farm money (now superceded by Item Printer RNG)</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/FlyingTrialFarmer.html">Flying Trial Farmer</a></td>
+<td>Farm Blueberry points (BP) with the Flying trial</td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/BBQSoloFarmer.html">BBQ Farmer</a></td>
+<td>Farm Blueberry points (BP) with Blueberry quests</td>
+<td>Video + Audio</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/MaterialFarmer.html">Material Farmer</a></td>
+<td>Farm Happiny dust</td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ItemPrinterRNG.html">Item Printer RNG</a></td>
+<td>Farm rare items (e.g. Ability Patch, PP Max, EXP Candy, rare Pokeballs, Tera shards). To farm money, farm and sell Ability Patches.</td>
+<td>Video + Audio</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Eggs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/EggFetcher.html">Egg Fetcher</a></td>
+<td>Fetch eggs from a picnic.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/EggHatcher.html">Egg Hatcher</a></td>
+<td>Hatch eggs from boxes.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/EggAutonomous.html">Egg Autonomous</a></td>
+<td>Get meal power, fetch eggs, and hatch them.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Tera Raids:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/AutoHost.html">Auto-Host</a></td>
+<td>Auto-host a Tera raid.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/TeraRoller.html">Tera Roller</a></td>
+<td>Roll Tera raids to find shiny Pokemon.</td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/TeraSelfFarmer.html">Tera Self Farmer</a></td>
+<td>Farm items and Pokemon from Tera raids. Hunt for shiny and high reward raids.</td>
+<td>Video</td>
+<td>All (Degraded: sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/TeraMultiFarmer.html">Tera Multi-Farmer</a></td>
+<td>Farm items and Pokemon from your own Tera raid using multiple Switches.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fast Code Entry:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/FastCodeEntry.html">Fast Code Entry (FCE)</a></td>
+<td>Quickly enter a 4, 6, 8 digit link code.</td>
+<td></td>
+<td>All (Degraded, Wireless, sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ClipboardFastCodeEntry.html">Clipboard Fast Code Entry (C-FCE)</a></td>
+<td>Quickly enter a 4, 6, 8 digit link code from clipboard.</td>
+<td></td>
+<td>All (Degraded, Wireless, sbb2)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/VideoFastCodeEntry.html">Video Fast Code Entry (V-FCE)</a></td>
+<td>Read a 4, 6, 8 digit link code from someone on your screen and enter it quickly.</td>
+<td></td>
+<td>All (Degraded, Wireless, sbb2)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Stats Hunting:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/StatsReset.html">Stats Reset</a></td>
+<td>Repeatedly catch static encounters (e.g. Legendaries) until you get the stats you wish.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/StatsResetEventBattle.html">Stats Reset - Event Battle</a></td>
+<td>Repeatedly catch Ursaluna/Pecharunt until you get the stats you wish.</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Shiny Hunting:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ShinyHunt-AreaZeroPlatform.html">Shiny Hunt - Area Zero Platform</a></td>
+<td>Shiny hunt Pokemon on the isolated platform at the bottom of Area Zero.</td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ShinyHunt-Scatterbug.html">Shiny Hunt - Scatterbug</a></td>
+<td>Shiny hunt Scatterbug.</td>
+<td>Video + Audio</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Glitches (v3.0.0):</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/WildItemFarmer.html">Wild Item Farmer (cloning glitch)</a></td>
+<td>Farm an item held by a cloned wild Pokemon. (glitch patched)</td>
+<td>Video</td>
+<td>All</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Glitches (v1.0.1):</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/RideCloner-101.html">Ride Cloner (1.0.1)</a></td>
+<td>Clone your ride legendary and its item using the add-to-party glitch. (glitch patched)</td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/CloneItems-101.html">Clone Items (1.0.1)</a></td>
+<td>Clone items using the add-to-party glitch. (glitch patched)</td>
+<td>Video</td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Beta/WIP Programs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/AutoStory.html">AutoStory</a></td>
+<td>Progress through the tutorial and mainstory of Scarlet/Violet</td>
+<td>Video</td>
+<td>Wired (Wireless untested)</td>
+</tr>
+<tr>
+<td><a href="PokemonSV/ClaimMysteryGift.html">Claim Mystery Gift</a></td>
+<td>Claim the Mystery Gift in Scarlet/Violet</td>
+<td>Video</td>
+<td>Wired (Wireless untested)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Deprecated Programs:</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PokemonSV/AutoItemPrinter.html">Autonomous Item Printer</a></td>
+<td></td>
+<td>Video</td>
+<td>All</td>
+</tr>
+</tbody>
+</table>
+<h2 id="zelda-tears-of-the-kingdom">Zelda: Tears of the Kingdom</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Program</strong></th>
+<th><strong>Feedback</strong></th>
+<th><strong>Controllers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Glitches (v1.1.1):</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="ZeldaTotK/BowItemDuper.html">Bow Item Duper</a></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="ZeldaTotK/ParaglideItemDuper.html">Paraglide Item Duper</a></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="ZeldaTotK/SurfItemDuper.html">Shield Surf Item Duper</a></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+<tr>
+<td><a href="ZeldaTotK/MineruItemDuper.html">Mineru Item Duper</a></td>
+<td></td>
+<td>Wired, Wireless</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+<p><strong>Discord Server:</strong> </p>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

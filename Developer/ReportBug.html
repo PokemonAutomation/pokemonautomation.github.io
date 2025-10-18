@@ -1,0 +1,911 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pokemonautomation.github.io/Developer/ReportBug.html">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>How to Report Bugs for Computer-Controlled Programs - Pokémon Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-report-bugs-for-computer-controlled-programs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Pokémon Automation" class="md-header__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pokémon Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              How to Report Bugs for Computer-Controlled Programs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../SetupGuide/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Programs/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ControllerList.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Controllers
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../DiscordIntegration/index.html" class="md-tabs__link">
+          
+  
+  
+  Discord Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+  Developer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Pokémon Automation" class="md-nav__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    Pokémon Automation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SetupGuide/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Programs/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ControllerList.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discord Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordWebhooks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Knowledge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Requirement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use Github
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TutorialMC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Button Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TutorialCC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Home Sorter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="how-to-report-bugs-for-computer-controlled-programs">How to Report Bugs for Computer-Controlled Programs</h1>
+<p>If you find a bug that you would like to report to developers, please prepare the following data before reporting:</p>
+<h2 id="double-check-program-wiki">Double Check Program Wiki</h2>
+<p>First of all, double check the program wiki listed <a href="../Programs/index.html">here</a> to make sure you use the program as intended: you set the correct in-game setting and program options.</p>
+<h2 id="program-options">Program Options</h2>
+<p>If you think the bug is related to some program options, e.g. you set one program option to auto-save the game but the program failed to do so, please report all the related program options you use when the bug happened.</p>
+<h2 id="general-information">General Information</h2>
+<p>Report the automation program version (like v0.24.8) and the name of the program that has bug.</p>
+<p>Report when you started the program and when the bug happened.</p>
+<p>Report your OS platform (like Win11) and your machine specs (what CPU, how many cores, memory and so on).</p>
+<p>Report your capture card model (like Mirabox USB3.0 HDMI Video Capture Card) and how your capture card is connected to the computer.
+Some of the programs rely on a very stable capture card video stream. A capture card may have not enough power or bandwidth if it is connected via a USB hub and the hub has no external power or has too many other devices connected. It this is the case, first try connecting the capture card directly to your computer's USB port and see if the bug still appears.</p>
+<h2 id="program-runtime-resource-usages">Program Runtime Resource Usages</h2>
+<p>Some programs require fast video streaming and visual inferences. They may fail if the computer is too slow.</p>
+<p>If it is likely a visual detection failure and you know your machine is not fast, please report how many CPU cores are busy and how much memory used by the program when the bug happened.</p>
+<p>The program also shows stats including video stream FPS and video pivot utilization on top right corner of the video stream view, when the "Stats" checkbox is selected.
+Please also report those stats when the bug happened.</p>
+<p>If the computer is powerful enough, you will see video FPS to be stable 30 or 60 FPS and video pivot utilization below 10%, shown in white. If the computer is not fast enough, FPS may sometimes slow down to 20-25 FPS and video pivot utilization may be higher than 50%, shown in yellow or even red.</p>
+<p>Usually a bug is found when the program already stopped. If you can, re-run the program, monitor the above resource usages until the bug appears, and report the usages. If the bug does not appear every time or it takes a very long time for it to occur, you can instead report the resource usages when the program runs into the stage where the bug may appear.</p>
+<p>If your FPS is below 25 FPS, first try increasing the FPS to be at least 30. You can try closing other computer software that may occupy resources. Try connecting the capture card directly to your computer's USB port so that it has enough power and bandwidth. If you have another capture card, try using the other one. If you have a more powerful computer, try running on it. See if the bug still appears after you get a good FPS.</p>
+<h2 id="program-logs">Program Logs</h2>
+<p>Program logs are very helpful for developers to debug a program.</p>
+<h3 id="get-logs-from-log-window">Get Logs From Log Window</h3>
+<p>When running the program, you can click the "Output Window" button to display the log window.
+This window shows all the logs from the current program session. If you close and reopen the program, you won't see any past logs from the log window.
+When a bug happens, if the program is not closed, you can copy paste the logs from the log window and post them into Discord.
+Note that the logs may be very long and spammy. Make sure you copy paste a long enough section of logs to be useful for debugging. Most log lines start with a timestamp:</p>
+<pre><code>2022-12-20 03:14:45.054103 - [Console 0]: Sending: pbf_press_dpad() - seqnum = 39118, dpad = 0(DPAD_UP), hold_ticks = 20, release_ticks = 30
+2022-12-20 03:14:45.461269 - [Console 0]: Cursor moved.
+2022-12-20 03:14:45.565994 - [Console 0]: EggPartyColumnWatcher: Count = 3, Mean = 0.332333 ms, Stddev = 0.0282902 ms, Min = 0.301 ms, Max = 0.356 ms
+2022-12-20 03:14:45.566594 - [Console 0]: Saving failed inference image to: ErrorDumps/20221220-031445566588-NonEggPokemonInParty.png
+2022-12-20 03:14:45.621560 - [Console 0]: OperationFailedException: check_only_eggs_in_party: Found non-egg pokemon in party
+2022-12-20 03:14:45.621707 - [Console 0]: Sending: pbf_press_button() - seqnum = 39120, button = 8192( BUTTON_CAPTURE ), hold_ticks = 250, release_ticks = 250
+2022-12-20 03:14:49.618579 - [Program]: Found an error before we can save the game to protect the newly kept pokemon.
+2022-12-20 03:14:49.619437 - [Program]: Program stopped with an exception!
+2022-12-20 03:14:49.619529 - [Program]: EventNotification(Program Error (Fatal)): Notifications not enabled.
+2022-12-20 03:14:49.619548 - [Program]: Saving historical stats...
+2022-12-20 03:14:49.620385 - [Program]: Stats successfully saved!
+2022-12-20 03:14:49.620418 - [Program]: Program State: STOPPED
+</code></pre>
+<p>You can use the timestamps to know when the bug happened.
+In the above logs, the program first found sth. wrong at 03:14:45, 2022-12-20 and saved a debug image in "ErrorDumps" folder.
+Later it decided to report this as an error at 03:14:49 and stopped the program at same time.</p>
+<p>You can go back enough time (like 5 min.) to get the logs starting at about 03:09:00 and copy paste the logs between 03:09:00 and 03:15:00 into Discord.</p>
+<h3 id="get-logs-from-log-file">Get Logs From Log File</h3>
+<p>If you cannot get the logs from the log window due to the program was closed or crashed beforehand, 
+you can find all your past logs in a file called "SerialPrograms.log" in the folder where you launch the program.</p>
+<p>The whole log file may be large. It could be as large as several hundred MBs!
+If the whole log file is relatively small, you can upload the whole log file. Otherwise, isolate the lines that illustrate the problem you are facing.
+See the above <a href="#get-logs-from-log-window"><strong>Get Logs From Log Window</strong> section</a> on how to isolate log lines.
+You can open and view the log file with any text editor. For large log files, it may wait for a while to load the entire file.</p>
+<h2 id="screenshots">Screenshots</h2>
+<p>Screenshots are useful for developers to test visual detection code. In the example logs in the <strong>Program Logs</strong> section above you can find a log line</p>
+<pre><code>2022-12-20 03:14:45.566594 - [Console 0]: Saving failed inference image to: ErrorDumps/20221220-031445566588-NonEggPokemonInParty.png
+</code></pre>
+<p>This log tells you the program saved a debug image in "ErrorDumps" folder.
+You can find debug images like this in "ErrorDumps" folder and post it into Discord.
+The name of the image contains the timestamp when it is saved. In the above example, it is 2022-12-20, 03:14:45.
+So you can also use the timestamps to find the debug images without the need to look into the logs.</p>
+<p>If the program did not save a debug image in "ErrorDumps" folder, you can still use the "Screenshot" button on the program to take a screenshot manually at the screen where the program stopped. The screenshot is saved in the same folder where you launch the program. The file name starts with "screenshot-".</p>
+<p>NOTE: DON'T use your OS screen capture functionality or other screenshot software.
+Screenshots from those are not aligned with the exact shape of the Switch screen and therefore cannot be used for the test code.</p>
+<p>NOTE: we need the screenshot captured via the program, not via the image file transferred from the Switch after you took it using Switch's screenshot functionality, because the former is what the program sees from the capture card.</p>
+<h2 id="video-optional">Video (Optional)</h2>
+<p>If you happened to be recording your computer screen when the program was running, you can also post the video into Discord.
+Otherwise, if you can, re-run the program with screen recording to capture the bug. A common screen recording software is OBS.
+Make sure the recorded view includes both the program video stream and the log window so that we can match the log content with the video.</p>
+<p>NOTE: make sure you have enough disk space to store the saved video stream and your computer is powerful enough so that it can process video recording while also running the automation program.</p>
+<h2 id="other-info">Other info</h2>
+<p>Please include all the other details that you think can be helpful.
+For example, past program usages: "I used the old version of the program for the past week and it worked fine. But after I started using the newest version, it failed. The old version is v0.24.8, the new version is v0.25.9"</p>
+<h2 id="submit-to-our-discord-server">Submit to Our Discord Server</h2>
+<p>After collecting the above data, please go to <a href="https://discord.gg/cQ4gWxN">our Discord server</a> and make a post under <strong>arduino-help</strong> forum area, inside <strong>ARDUINO/MICROCONTROLLER</strong> section.</p>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

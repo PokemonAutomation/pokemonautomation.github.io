@@ -1,0 +1,1223 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pokemonautomation.github.io/SetupGuide/index.html">
+      
+      
+        <link rel="prev" href="../index.html">
+      
+      
+        <link rel="next" href="../Programs/index.html">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Getting Started - Pokémon Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#computer-control-cc-setup-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Pokémon Automation" class="md-header__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pokémon Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Programs/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ControllerList.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Controllers
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../DiscordIntegration/index.html" class="md-tabs__link">
+          
+  
+  
+  Discord Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Developer/index.html" class="md-tabs__link">
+          
+  
+  
+  Developer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Pokémon Automation" class="md-nav__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    Pokémon Automation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-the-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: The Hardware
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: The Hardware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-computer-the-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Computer: (the player)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-nintendo-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Nintendo Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video-capture-card-the-computers-eyes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Capture Card (the computer's eyes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-controller-the-computers-hands" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Controller: (the computer's hands)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-general-setup-setting-up-everything-except-the-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: General Setup: (setting up everything except the controller)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-controller-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Controller Setup:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-finishing-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Finishing Up
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Finishing Up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#you-have-now-unleashed-the-power-of-automation-may-you-play-more-than-24-hours-per-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      You have now unleashed the power of automation. May you play more than 24 hours per day!
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Programs/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ControllerList.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discord Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordWebhooks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/Knowledge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Requirement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/Git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use Github
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/TutorialMC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Button Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Developer/TutorialCC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Home Sorter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="computer-control-cc-setup-guide">Computer Control (CC) Setup Guide</h1>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+<p><strong>Jump To:</strong></p>
+<ul>
+<li><a href="#step-1-the-hardware"><strong>Step 1:</strong> The Hardware</a></li>
+<li><a href="#step-2-general-setup-setting-up-everything-except-the-controller"><strong>Step 2:</strong> General Setup (setting up everything except the controller)</a></li>
+<li><a href="#step-3-controller-setup"><strong>Step 3:</strong> Controller Setup</a></li>
+<li><a href="#step-4-finishing-up"><strong>Step 4:</strong> Finishing up</a></li>
+</ul>
+<hr />
+<p>This is the setup guide for the computer control (CC) automation setup. We recommend that you read this before purchasing any hardware. Cost estimates will vary depending on the method you choose.</p>
+<p>The computer control (CC) automation setup consists of 4 main components:</p>
+<ol>
+<li>A computer.</li>
+<li>A Nintendo Switch.</li>
+<li>A video capture card.</li>
+<li>A controller to control the Switch.</li>
+</ol>
+<p>The computer is the player. The capture card is its eyes. The controller is its hands.</p>
+<p>Here is an example of a full setup using a Raspberry Pi Pico W microcontroller:</p>
+<p><img src="Images/FullSetup-WirelessController2.jpg"></p>
+<h2 id="step-1-the-hardware">Step 1: The Hardware</h2>
+<h3 id="the-computer-the-player">The Computer: (the player)</h3>
+<p>You need a full computer to run CC programs. A phone or tablet will not work.</p>
+<p>Specifically, the computer must:</p>
+<ol>
+<li>Be running 64-bit Windows 10 or later on an x64 CPU. (An Intel or an AMD CPU. You cannot use a Qualcomm Snapdragon.)</li>
+<li>Be sufficiently powerful.*</li>
+</ol>
+<p><em>We recommend a quad-core CPU of 3+ GHz, no older than 2015. If you intend to control more than 1 switch, you will need a more powerful CPU with more cores. If you want to run 4 Switches all with feedback, we recommend a modern 8-core computer.</em></p>
+<p>You will also need 2 spare USB ports. (or 2 ports per Switch if you intend to run multiple Switches)</p>
+<p><strong>MacOS:</strong></p>
+<p>CC is functional on MacOS albeit missing a few features present on Windows. A distributable is available for Intel and M1 Macs on MacOS Ventura (13) or later. For MacOS Monterrey (12) and earlier, you will need to follow an extra set of instructions to build CC from source code.</p>
+<p>If you are an experienced developer with MacOS, your help in making MacOS feature-complete would be greatly appreciated!</p>
+<p><strong>Other Platforms:</strong></p>
+<p>Due to lack of developer support, our support of Linux is limited. While you can set these programs up on Linux, you will need to know how to run command-line build scripts.</p>
+<p>If you are not willing to do that or you have no idea what this means, then stop. Unfortunately, you will not be able to run these programs unless you can go to Windows.</p>
+<p>If you are willing and able to go down this rabbit hole:</p>
+<ul>
+<li>Linux builds have broken video and are thus not usable. We would love some help here!</li>
+</ul>
+<h3 id="the-nintendo-switch">The Nintendo Switch</h3>
+<p><img src="Images/GeneralSetup-NintendoSwitch.png"></p>
+<p>If you're going to automate a Nintendo Switch game, then you need to have a Nintendo Switch.</p>
+<p>However, it needs to be a <em>regular</em> Nintendo Switch that can be docked with HDMI video output. You cannot use a Switch Lite. We need the video output for the computer to see your Switch. Unfortunately you cannot just point a camera at the Switch Lite's screen since that comes with too much loss of quality. (Even if this worked, it's bad idea anyway since 24/7 gameplay will burn out the screen.)</p>
+<p><strong>Switch 2:</strong></p>
+<p>Yes, we support the Switch 2!</p>
+<p>Partial support for Switch 2 began with version 0.54 for wired controllers only. Full support (including ESP32 wireless) began with version 0.56.</p>
+<h3 id="video-capture-card-the-computers-eyes">Video Capture Card (the computer's eyes)</h3>
+<p>A video capture card will allow a computer to capture the HDMI video output from your Nintendo Switch (or any other game console).</p>
+<p><img src="Images/GeneralSetup-CaptureCard.jpg" width="400"></p>
+<p>Example Shopping Links:</p>
+<ul>
+<li><a href="https://www.amazon.com/dp/B088HBRM7T">https://www.amazon.com/dp/B088HBRM7T</a></li>
+<li><a href="https://www.amazon.com/dp/B09FLN63B3">https://www.amazon.com/dp/B09FLN63B3</a></li>
+</ul>
+<p>Most cheap capture cards work. Higher end-capture cards may cause issues with color detection.
+Ensure the capture card is capable of a video output resolution of 1080p at 30 frames per second (FPS). Though we recommend at least 1080p/60 FPS to minimize video tearing.</p>
+<p>For Switch 2 owners, you do not need an (expensive) 4k capture card to run automation on the Switch 2. These cheap 1080p capture cards will work fine on the Switch 2. But if you don't mind the price, feel free to get a 4k capture card anyway for the better graphics quality. Automation will work on both 1080p and 4k.</p>
+<h3 id="the-controller-the-computers-hands">The Controller: (the computer's hands)</h3>
+<p>The controller is the most difficult part to setup because there is no off-the-shelf product that will do it for you.</p>
+<p>While we support quite a few different setups, these are the 3 that we recommend to new users:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Wireless</strong></th>
+<th><strong>Wired</strong></th>
+<th><strong>Custom Firmware</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="1000"></td>
+<td><img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="1000"></td>
+<td><img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="1000"></td>
+</tr>
+<tr>
+<td><strong>Supported Controller Types:</strong><br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon</td>
+<td><strong>Supported Controller Types:</strong><br>- USB Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller</td>
+<td><strong>Supported Controller Types:</strong><br>Wired Pro Controller<br><br><br></td>
+</tr>
+<tr>
+<td><strong>Recommended Microcontrollers:</strong><br>- Raspberry Pi Pico W<br>- ESP32</td>
+<td><strong>Recommended Microcontrollers:</strong><br>- ESP32-S3<br><br></td>
+<td><strong>Recommended Microcontrollers:</strong><br>- None required.<br><br></td>
+</tr>
+<tr>
+<td>Cheapest. Easiest to setup.<br>Harder to use after setup.</td>
+<td>More Expensive. Harder to setup.<br>Easiest to use after setup.</td>
+<td>Requires a hacked Switch running custom firmware (CFW).</td>
+</tr>
+<tr>
+<td>Works on Switch 2.</td>
+<td>Works on Switch 2.</td>
+<td>Does not work on Switch 2 due to lack of CFW.</td>
+</tr>
+<tr>
+<td>Runs nearly all programs - including LGPE.*</td>
+<td>Cannot run LGPE programs.<br>Runs all other programs.*</td>
+<td>sbb3: Identical to wired controllers.<br>sbb2: Cannot run programs that require timing precision.</td>
+</tr>
+<tr>
+<td>Slower and less reliable than wired.</td>
+<td>Fastest and most reliable.</td>
+<td>sbb3: Identical to wired controllers.<br>sbb2: Very slow and unreliable.</td>
+</tr>
+<tr>
+<td>Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference.</td>
+<td>Very good for remote access.<br>Very good for high density setups.</td>
+<td>Not recommended for remote access.</td>
+</tr>
+<tr>
+<td>Recommended for first time users.</td>
+<td>Recommended for heavy users who want maximum reliability.</td>
+<td>Recommended for existing CFW users who want to try CC programs with minimal investment.</td>
+</tr>
+</tbody>
+</table>
+<p>For a complete list of setups - including older ones we no longer recommend, see our <a href="../ControllerList.html">Controller List</a>.</p>
+<p><em>Please consult the <a href="../Programs/index.html">program list</a> for the full compatibility table.</em></p>
+<h3 id="recommendations"><strong>Recommendations:</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>User Type</strong></th>
+<th><strong>Recommendation</strong></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>You are completely new to automation.</td>
+<td>Pico W</td>
+<td>Cheapest. Easiest to setup.</td>
+</tr>
+<tr>
+<td>You want to automate LGPE.</td>
+<td>Pico W or ESP32</td>
+<td>Wireless is required for LGPE.</td>
+</tr>
+<tr>
+<td>You are a heavy user of automation with multiple Switches running 24/7.</td>
+<td>ESP32-S3</td>
+<td>Most stable and reliable. No hassle after setup.</td>
+</tr>
+<tr>
+<td>You are an existing Computer Control user who already has the Arduino/Teensy setup.</td>
+<td>Keep what you have.</td>
+<td>See the <a href="../ControllerList.html">Controller List</a> to find the guide to re-setup your hardware.</td>
+</tr>
+<tr>
+<td>You are an experienced CFW user.</td>
+<td>sys-botbase 3</td>
+<td>This setup is designed specifically for you at no additional cost (beyond a capture card)!</td>
+</tr>
+</tbody>
+</table>
+<p>A full comparison of prices and difficulty of setup can be found on the <a href="../ControllerList.html#setup-comparison-table">Controller List</a>.</p>
+<p>Also, don't be afraid to get both wired and wireless setups! Many of us do exactly this!</p>
+<h2 id="step-2-general-setup-setting-up-everything-except-the-controller">Step 2: General Setup: (setting up everything except the controller)</h2>
+<p>The setup is quite simple until you get to the controller. So we will cover everything before the controller here.</p>
+<p>See: <a href="GeneralSetup.html">General Setup for Windows</a></p>
+<p>See: <a href="GeneralSetupMac.html">General Setup for MacOS</a></p>
+<p>When you are done, you should have the CC window running and looking like this:</p>
+<p><img src="Images/GeneralSetup-FullSystem.jpg" width="48.5%"> <img src="Images/GeneralSetup-AudioSelected.png" width="45.3%"></p>
+<h2 id="step-3-controller-setup">Step 3: Controller Setup:</h2>
+<p>Here the guide will diverge depending on which controller type you have chosen. Pick the one you chose earlier.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Device Type</strong></th>
+<th><strong>Supported Controllers</strong></th>
+<th><strong>Setup Difficulty<br>(Scale 1-10)</strong></th>
+<th><strong>Guides</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"></td>
+<td>ESP32</td>
+<td>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+<td>3</td>
+<td><a href="Controllers/Controller-ESP32-WROOM.html">Windows</a><br><a href="Controllers/Controller-ESP32-WROOM-MacOS.html">Mac</a><br><a href="https://youtu.be/YzGyQQOGjl8">Video Tutorial</a></td>
+</tr>
+<tr>
+<td><img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"></td>
+<td>ESP32-S3</td>
+<td>HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller</td>
+<td>3</td>
+<td><a href="Controllers/Controller-ESP32-S3.html">Windows</a><br><a href="https://youtu.be/ezBuwk48z8w">Video Tutorial</a></td>
+</tr>
+<tr>
+<td><img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"></td>
+<td>Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode)</td>
+<td>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+<td>1</td>
+<td><a href="Controllers/Controller-PicoW-USB.html">Guide</a></td>
+</tr>
+<tr>
+<td><img src="Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"></td>
+<td>Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode)</td>
+<td>HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+<td>5</td>
+<td><a href="Controllers/Controller-PicoW-UART.html">Guide</a></td>
+</tr>
+<tr>
+<td><img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"></td>
+<td>CFW: sys-botbase 2<br>CFW: sys-botbase 3</td>
+<td>Switch 1: Wired Pro Controller</td>
+<td>2</td>
+<td><a href="Controllers/Controller-sys-botbase.html">Guide</a></td>
+</tr>
+</tbody>
+</table>
+<p>The full list can be found in the <a href="../ControllerList.html">Controller List</a>.</p>
+<h2 id="step-4-finishing-up">Step 4: Finishing Up</h2>
+<p>Now that you are done with your setup, go run some programs!</p>
+<p><a href="../Programs/index.html">Computer Control Program List</a></p>
+<p>Here are some misc. tips/tricks, and other hidden features of the CC programs!</p>
+<ul>
+<li><strong>Disable Sticky Keys:</strong> The SHIFT key is mapped to the B button. So if you press it 5 times in the row, you will get a notification about sticky keys. You should turn it off.</li>
+<li><strong>Per-Program Wiki:</strong> The top of the window is a link to wiki for the currently selected program. It will contain instructions on how to use the program.</li>
+<li><strong>Full Screen:</strong> Double click a video feed to pop it out into a separate window. Double click the popped-out window again to full screen. ESC will exit full screen.</li>
+<li><strong>Saving Settings:</strong> Settings are automatically saved when you close a program.</li>
+<li><strong>Console Settings</strong> (controller, video, audio) are saved on a per-program basis rather than globally. (This is due to the existence of multi-Switch programs where it makes less sense to save globally.) So every time you switch to different program, you may need to re-enter everything. Needless to say, this can be annoying and inconvenient. Use the "Save Profile" and "Load Profile" buttons to easily save and load console settings across programs.</li>
+<li><strong>Upgrading:</strong> To upgrade to a new version of the CC programs, download and unzip the new version. Then copy and paste the folder <code>UserSettings/</code> into the same place of the new version. This will transfer over all of your settings and program stats.</li>
+<li><strong>Suppress Screensaver:</strong> If you are using the CC program to play your Switch manually using an external controller, the screensaver will likely kick on or your monitors will turn off due to inactivity on the computer. At the bottom left corner is an option called "Sleep Suppress". Check the box to force your computer to keep the monitors on so this doesn't happen. Just remember to turn it off when you are done or your monitors will stay on forever!</li>
+<li><strong>Stereo Audio:</strong> Most cheap capture cards output mono channel audio at 96 KHz. In reality, it is 48 KHz stereo. We split the channels out to give you the original high-quality stereo sound from your Switch!</li>
+</ul>
+<h3 id="you-have-now-unleashed-the-power-of-automation-may-you-play-more-than-24-hours-per-day">You have now unleashed the power of automation. May you play more than 24 hours per day!</h3>
+<p><img src="Images/MultipleSwitches.jpg"></p>
+<hr>
+
+<p><strong>Discord Server:</strong> </p>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

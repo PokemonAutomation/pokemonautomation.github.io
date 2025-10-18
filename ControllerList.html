@@ -1,0 +1,1320 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pokemonautomation.github.io/ControllerList.html">
+      
+      
+        <link rel="prev" href="Programs/index.html">
+      
+      
+        <link rel="next" href="DiscordIntegration/index.html">
+      
+      
+      <link rel="icon" href="assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Controllers - Pokémon Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#controller-list" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="Pokémon Automation" class="md-header__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pokémon Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Controllers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="SetupGuide/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Programs/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="ControllerList.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Controllers
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="DiscordIntegration/index.html" class="md-tabs__link">
+          
+  
+  
+  Discord Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="Developer/index.html" class="md-tabs__link">
+          
+  
+  
+  Developer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="Pokémon Automation" class="md-nav__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    Pokémon Automation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SetupGuide/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Programs/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="ControllerList.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#controller-setups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller Setups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Controller Setups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recommended-setups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Setups:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deprecated-setups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deprecated Setups:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-comparison-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup Comparison Table:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller-performance-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller Performance Classes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Controller Performance Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wired" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wired:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireless:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sys-botbase-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      sys-botbase 2:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discord Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DiscordIntegration/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DiscordIntegration/DiscordBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DiscordIntegration/DiscordWebhooks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Developer/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Developer/Knowledge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Requirement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Developer/Git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use Github
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Developer/TutorialMC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Button Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Developer/TutorialCC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Home Sorter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="controller-list">Controller List</h1>
+<p>This is a full list of devices and controllers that we currently support.
+For the full setup guide, see <a href="SetupGuide/index.html">Getting Started</a>.</p>
+<p><strong>Terminology:</strong></p>
+<ul>
+<li><strong>Device</strong> - A microcontroller such as an ESP32, Arduino, Teensy, etc...</li>
+<li><strong>Controller</strong> - A game controller such as the Nintendo Pro Controller or Joycon.</li>
+<li><strong>Setup</strong> or <strong>Controller Setup</strong> - A setup where a "device" is emulating a "controller" for automation.</li>
+</ul>
+<h2 id="controller-setups">Controller Setups</h2>
+<p>This table lists all the device and controller combinations that we support in this project.</p>
+<h3 id="recommended-setups">Recommended Setups:</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Device Type</strong></th>
+<th><strong>Supported Controllers</strong></th>
+<th><strong>Setup Difficulty<br>(Scale 1-10)</strong></th>
+<th><strong>Guides</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"></td>
+<td>ESP32</td>
+<td>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+<td>3</td>
+<td><a href="SetupGuide/Controllers/Controller-ESP32-WROOM.html">Windows</a><br><a href="SetupGuide/Controllers/Controller-ESP32-WROOM-MacOS.html">Mac</a><br><a href="https://youtu.be/YzGyQQOGjl8">Video Tutorial</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"></td>
+<td>ESP32-S3</td>
+<td>HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller</td>
+<td>3</td>
+<td><a href="SetupGuide/Controllers/Controller-ESP32-S3.html">Windows</a><br><a href="https://youtu.be/ezBuwk48z8w">Video Tutorial</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"></td>
+<td>Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode)</td>
+<td>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+<td>1</td>
+<td><a href="SetupGuide/Controllers/Controller-PicoW-USB.html">Guide</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"></td>
+<td>Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode)</td>
+<td>HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+<td>5</td>
+<td><a href="SetupGuide/Controllers/Controller-PicoW-UART.html">Guide</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"></td>
+<td>CFW: sys-botbase 2<br>CFW: sys-botbase 3</td>
+<td>Switch 1: Wired Pro Controller</td>
+<td>2</td>
+<td><a href="SetupGuide/Controllers/Controller-sys-botbase.html">Guide</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="deprecated-setups">Deprecated Setups:</h3>
+<p>These are older setups that are still supported, but no longer recommended for new users.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Device Type</strong></th>
+<th><strong>Supported Controllers</strong></th>
+<th><strong>Setup Difficulty<br>(Scale 1-10)</strong></th>
+<th><strong>Guides</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"></td>
+<td>Arduino Uno R3</td>
+<td>Switch 2: Wired Controller<br>(compatible with Switch 1)</td>
+<td>7</td>
+<td><a href="SetupGuide/Controllers/Controller-ArduinoUnoR3.html">Guide</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"></td>
+<td>Arduino Leonardo</td>
+<td>Switch 2: Wired Controller<br>(compatible with Switch 1)</td>
+<td>7</td>
+<td><a href="SetupGuide/Controllers/Controller-ArduinoLeonardo.html">Guide</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"></td>
+<td>Pro Micro</td>
+<td>Switch 2: Wired Controller<br>(compatible with Switch 1)</td>
+<td>8 - (Mini Grabber)<br>10 - (Hammer Header)</td>
+<td><a href="SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.html">Mini-Grabbers</a><br><a href="SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.html">Hammer Headers</a></td>
+</tr>
+<tr>
+<td><img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"></td>
+<td>Teensy 2.0<br>Teensy++ 2.0</td>
+<td>Switch 2: Wired Controller<br>(compatible with Switch 1)</td>
+<td>8 - (Mini Grabber)<br>10 - (Hammer Header)</td>
+<td><a href="SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.html">Mini-Grabbers</a><br><a href="SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.html">Hammer Headers</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="setup-comparison-table">Setup Comparison Table:</h3>
+<table>
+<thead>
+<tr>
+<th>Setup</th>
+<th><strong>Supported Controllers</strong></th>
+<th><strong>Price (per Unit)</strong></th>
+<th><strong>Setup Difficulty<br>(Scale 1-10)</strong></th>
+<th><strong>Notes:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raspberry Pi Pico W<br>(USB Mode)</td>
+<td>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon</td>
+<td>Single: $8<br>Volume: $7</td>
+<td>1</td>
+<td>Upgradable to UART mode.</td>
+</tr>
+<tr>
+<td>ESP32</td>
+<td>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon</td>
+<td>Single: $10<br>Volume: $4</td>
+<td>3</td>
+<td>Unresolved Bugs:<br>- <a href="https://github.com/PokemonAutomation/Arduino-Source/issues/587">Issue 587</a><br>- <a href="https://github.com/PokemonAutomation/Arduino-Source/issues/694">Issue 694</a></td>
+</tr>
+<tr>
+<td>ESP32-S3</td>
+<td>HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller</td>
+<td>Single: $15<br>Volume: $8</td>
+<td>3</td>
+<td>Best wired setup by far.<br>Workhorse for most seasoned users.</td>
+</tr>
+<tr>
+<td>Raspberry Pi Pico W<br>(UART Mode)</td>
+<td>HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon</td>
+<td>Single: $19<br>Volume: $10</td>
+<td>5</td>
+<td>Exposed pins can be annoying.</td>
+</tr>
+<tr>
+<td>Arduino Uno R3</td>
+<td>NS2: Wired Controller</td>
+<td>Single: $20</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr>
+<td>Arduino Leonardo</td>
+<td>NS2: Wired Controller</td>
+<td>Single: $25</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr>
+<td>Teensy 2/Teensy++ 2<br>(Mini Grabbers)</td>
+<td>NS2: Wired Controller</td>
+<td>(discontinued)</td>
+<td>8</td>
+<td>Final product is bulky and fragile.</td>
+</tr>
+<tr>
+<td>Teensy 2/Teensy++ 2<br>(Hammer Headers)</td>
+<td>NS2: Wired Controller</td>
+<td>(discontinued)</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td>Pro Micro<br>(Mini Grabbers)</td>
+<td>NS2: Wired Controller</td>
+<td>Single: $25<br>Volume: $10</td>
+<td>8</td>
+<td>Final product is bulky and fragile.</td>
+</tr>
+<tr>
+<td>Pro Micro<br>(Hammer Headers)</td>
+<td>NS2: Wired Controller</td>
+<td>Single: $25<br>Volume: $8</td>
+<td>10</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="device-types">Device Types</h2>
+<p>A "device" is a microcontroller or development board that we will use to implement a game controller.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Image</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" width="200"></td>
+<td><strong>ESP32-WROOM</strong><br><br>Supported Controllers:<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon<br><br>The ESP32 is a microcontroller that supports Bluetooth. It is one of the few microcontrollers that supports Bluetooth Classic (BTC) since the world has moved onto Bluetooth LE (BLE). Thus it is (almost) uniquely suited to implement the Switch 1 wireless controllers which are also BTC.<br><br>The USB port on it is a built-in UART intended for debugging, but we hijack it as the main line of communication with CC to eliminate the need for an external UART. This makes it super convenient since a simgle USB adapter turns it into fully wireless dongle that allows your computer full control of your Switch without the hassle of any cables at all.<br><br>The ESP32 also supports BLE which is what the Switch 2 wireless controllers use. So it has the potential to implement the Switch 2 wireless controllers in the future.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="Images/Devices/ESP32-S3.jpg" width="200"></td>
+<td><strong>ESP32-S3</strong><br><br>Supported Controllers:<br>- HID: Keyboard<br>- Switch 1: Wired controller<br>- Switch 2: Wired controller<br><br>The ESP32-S3 is the by far the best wired controller setup. It has both USB OTG and USB UART as separate ports. The USB OTG can be programmed as a game controller while the USB UART elminates the need for the external UART that was needed by the AVR8 setups (Arduino/Teensy). Thus ESP32-S3 is the perfect replacement for those older setups. Ease of setup is very important as it lowers the technical bar of entry for new users.<br><br>The ESP32-S3 also supports Bluetooth, but only Bluetooth LE (BLE). So while it cannot implement the Switch 1 wireless controllers, it does give us future ambitions of supporting the Switch 2 wireless controllers.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Pico W</strong><br><img src="Images/Devices/PicoW.jpg" width="200"><br><br><br><strong>Pico 2 W</strong><br><img src="Images/Devices/Pico2W.jpg" width="200"></td>
+<td><strong>Raspberry Pi: Pico W and Pico 2 W</strong><br><br>Supported Controllers:<br>- HID: Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon<br><br>The Raspberry Pi Pico W is unique in that it can support every single controller. However, accessing the wired controllers is more difficult as it requires more setup.<br><br>The large (silver) chip is a Bluetooth module that supports both BTC and BLE. This allows it to implement wireless controllers. Meanwhile, the USB port on it is USB OTG which allows it to implement the wired controllers. But unlike the ESP32-S3, it does not have a 2nd USB port to use as a UART connection to the computer. <br><br>Therefore we have programmed two operating modes for the Pico W:<br>- USB Mode<br>- UART Mode<br><br>In USB mode, the USB port acts as a serial port that can be plugged directly into the computer. This makes it functionally the same as the ESP32 with only wireless controller support.<br><br>In UART mode, the USB port becomes a wired controller plugged into the console. This unlocks all the remaining (wired) controllers. However, you need to wire up an external UART to UART1 in order for it to communicate with the computer. Thus this setup is similar to that of the Teensy 2 and Pro Micro with the added bonus of the wireless controller support.<br><br>Both operating modes use the same firmware binary. On boot, it starts in USB mode. It will automatically switch to UART mode the moment it sees valid traffic on UART1.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="Images/Devices/ArduinoUnoR3.jpg" width="200"></td>
+<td><strong>Arduino Uno R3</strong><br><br>Supported Controllers:<br>- Switch 2: Wired controller<br><br>The Arduino Uno R3 is one of the original boards that spearheaded the Nintendo Switch automation community. However, it's ATmega16U2 AVR8 CPU is very weak with only 512 bytes of ram and 12KB of usable program memory.<br><br>This controller is only suitable for emulating the basic wired controllers. It doesn't even have enough memory to hold multiple controller implementations the way that some of the newer controllers can.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="Images/Devices/ArduinoLeonardo.jpg" width="200"></td>
+<td><strong>Arduino Leonardo</strong><br><br>Supported Controllers:<br>- Switch 2: Wired controller<br><br>The Arduino Leonardo uses an ATmega32U4 AVR8 CPU. It has significantly more ram and program memory at 2.5KB and 32KB respectively. This was the last addition to the AVR8 microcontroller line up and was chosen because it was easier to setup a serial connection than the Teensy or Pro Micro boards.<br><br>Being an AVR8 processor, it shares codebase with the Arduino Uno R3 and thus we only support a single wired controller type on it.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="Images/Devices/ProMicro.jpg" width="200"></td>
+<td><strong>Pro Micro</strong><br><br>Supported Controllers:<br>- Switch 2: Wired controller<br><br>The Pro Micro uses an ATmega32U4 AVR8 CPU and is functionally the same as the Arduino Leonardo and Teensy 2.0. This was added to our lineup because it was the cheapest microcontroller of this type in volume. Thus it became the work horse for many people with multiple Switches.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="Images/Devices/Teensy2.jpg" width="200"></td>
+<td><strong>Teensy 2.0</strong><br><br>Supported Controllers:<br>- Switch 2: Wired controller<br><br>The Arduino Uno R3 is one of the original boards that spearheaded the Nintendo Switch automation community.<br><br>The Teensy 2.0 uses an ATmega32U4 AVR8 CPU and is functionally the same as the Arduino Leonardo and Pro Micro. This (along with the Teensy++ 2.0) was by far the best board during the microcontroller-only automation era due to the easy-to-use button to put the board into flash mode. It began to fall out of use in the computer-control era due to the difficulty of setting up a serial connection on it.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="Images/Devices/TeensyPP2.jpg" width="200"></td>
+<td><strong>Teensy++ 2.0</strong><br><br>Supported Controllers:<br>- Switch 2: Wired controller<br><br>The Teensy++ 2.0 is the same as the Teensy 2.0, but with an upgraded AT90USB1286 CPU which has much more ram and program memory.<br><br>This extra ram and program memory was never put to use in this project. So it is functionally the same as the Teensy 2.0 along with all its advantages and drawbacks.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="controller-types">Controller Types</h2>
+<p>A "controller" (not to be confused with the microcontrollers above) refers to a game controller that will be emulated for the purpose of controlling the game console.</p>
+<table>
+<thead>
+<tr>
+<th>Image</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="Images/Controllers/HID-Keyboard.jpg" width="300"></td>
+<td><strong>HID: Keyboard</strong><br><br>This is a standard HID keyboard over USB. While it can't be used to play a Nintendo Switch, it is useful for typing in text fields. Thus it provides the fastest method for Fast Code Entry.<br><br>This uses the standard 8-byte HID keyboard report that allows for up to 6 keys to be held at once.</td>
+</tr>
+<tr>
+<td><img src="Images/Controllers/Switch1-Horipad-Wired.jpg" width="300"></td>
+<td><strong>Switch 1: Wired Controller</strong><br><br>This is the standard 3rd party "officially licensed" wired controller. Most wired controllers from Horipad and PowerA fall into this category.<br><br>This controller type only supports the standard buttons/joystick and do not support rumble or gyro. It also does not support custom colors in its icon when connected to the Switch.<br><br>These use the standard 8-byte HID report type with 14 buttons, a dpad, and two joysticks with 8-bit precision.</td>
+</tr>
+<tr>
+<td><img src="Images/Controllers/Switch2-PowerA-Wired.jpg" width="300"></td>
+<td><strong>Switch 2: Wired Controller</strong><br><br>This is the same as the Switch 1 wired controller, except that they add the GL, GR, and C (gamechat) buttons for the Switch 2. This controller type is backwards compatible with the Switch 1 such that pressing the new buttons simply do nothing on the Switch 1.<br><br>These also use the standard 8-byte HID report type with 17 buttons, a dpad, and two joysticks with 8-bit precision. Due to the button field having only 16 bits, the 17'th button (the C button) instead uses an unused bit in the dpad byte.</td>
+</tr>
+<tr>
+<td><img src="Images/Controllers/Switch1-ProController.jpg" width="300"></td>
+<td><strong>Switch 1: Wireless Pro Controller</strong><br><br>This is the official pro controller from Nintendo - connected wirelessly to the Switch.<br><br>At this time, this project does not support gyro, rumble, NFC, or console wake up. So in effect, it is functionally the same as the wired controller - though less stable due to wireless communication.<br><br>This uses Nintendo's proprietary 48-byte HID report 0x30.<br><br><strong>Switch 1: Wired Pro Controller</strong><br><br>This is the official pro controller connected to the Switch over USB.<br><br>Currently, the only implementation we have is sys-botbase. It does not use reports and instead, directly sets the controller state by writing to system memory.</td>
+</tr>
+<tr>
+<td><img src="Images/Controllers/Switch1-Joycons.jpg" width="300"></td>
+<td><strong>Switch 1: Left + Right Joycons</strong><br><br>These are the official joycons from Nintendo - connected wirelessly to the Switch.<br><br>At this time, this project does not support gyro, rumble, NFC, or console wake up.<br><br>This uses Nintendo's proprietary 48-byte HID report 0x30.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="controller-performance-classes">Controller Performance Classes</h2>
+<p>For the purposes of program compatibility, each setup/device + controller combination is placed into one of 3 performance categories:</p>
+<ul>
+<li>Wired</li>
+<li>Wireless</li>
+<li>sys-botbase 2</li>
+</ul>
+<p>Programs that are speed-critical will have separate execution paths optimized for each performance category. (i.e. date spam, Fast Code Entry...)</p>
+<h3 id="wired">Wired:</h3>
+<p>Wired controllers are by far the most stable with a button timing accuracy of &lt; 1ms (typically ~100us). They are not prone to random disconnects and can connect to the Switch from almost anywhere. This makes them the best suited for automation.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Device</strong></th>
+<th><strong>Controller</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESP32-S3<br>Pico 1/2 W (UART mode)</td>
+<td>HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller</td>
+</tr>
+<tr>
+<td>Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0</td>
+<td>Switch 2: Wired Controller</td>
+</tr>
+<tr>
+<td>sys-botbase 3 (sbb3)</td>
+<td>Switch 1: Wired Pro Controller</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wireless">Wireless:</h3>
+<p>Wireless controllers are less stable and usually have timing variation on the order of 2-10ms. While they are clean and easy to setup with no additional cabling, wireless controllers are generally less reliable since they are prone to random disconnects and high latencies from wireless interference. Nintendo's complicated (and proprietary) wireless protocol means that 3rd party implementations (including this project) are typically less than perfect and prone to compatibility issues.</p>
+<p>The main issue with wireless is that it can only reliably connect to the Switch inside the grip menu. So if you get disconnected outside of the grip menu and are unable to reconnect, you will need another controller or physical access to navigate back to the grip menu to re-pair the controller. For this reason, wireless controllers are less suited for remotely controlled automation.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Device</strong></th>
+<th><strong>Controller</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESP32<br>Pico 1/2 W (both modes)</td>
+<td>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sys-botbase-2">sys-botbase 2:</h3>
+<p>This category exists simply because sys-botbase 2 (sbb2) is extremely unstable with timing variations upwards of 150ms along with massive throughput issues due to backpressure. As a result, many programs written for the above wired and wireless controllers do not work on sbb2.</p>
+<p>With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Device</strong></th>
+<th><strong>Controller</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sys-botbase 2 (sbb2)</td>
+<td>Switch 1: Wired Pro Controller</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+<p><strong>Discord Server:</strong> </p>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

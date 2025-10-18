@@ -1,0 +1,1124 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pokemonautomation.github.io/SetupGuide/Controllers/Controller-ESP32-WROOM.html">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Espressif ESP32-WROOM - Pokémon Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#espressif-esp32-wroom" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../index.html" title="Pokémon Automation" class="md-header__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pokémon Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Espressif ESP32-WROOM
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Programs/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ControllerList.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Controllers
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../DiscordIntegration/index.html" class="md-tabs__link">
+          
+  
+  
+  Discord Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Developer/index.html" class="md-tabs__link">
+          
+  
+  
+  Developer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="Pokémon Automation" class="md-nav__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    Pokémon Automation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Programs/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ControllerList.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discord Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DiscordIntegration/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DiscordIntegration/DiscordBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DiscordIntegration/DiscordWebhooks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Developer/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Developer/Knowledge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Requirement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Developer/Git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use Github
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Developer/TutorialMC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Button Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Developer/TutorialCC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Home Sorter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="espressif-esp32-wroom">Espressif ESP32-WROOM</h1>
+<p><strong>Video tutorial:</strong> Pokemon Automation Wireless setup with ESP32: <a href="https://youtu.be/YzGyQQOGjl8">https://youtu.be/YzGyQQOGjl8</a></p>
+<hr>
+
+<p>This setup uses an ESP32 microcontroller to emulate a wireless controller. It can emulate both left and right joycons as well as the wireless pro controller. Since this covers all the controller types, an ESP32 will be able to run nearly our entire repertoire of programs for the Nintendo Switch.</p>
+<p>The USB port plugs into the computer which is how the program will control it. At the other end is an antenna that supports Bluetooth which is how it will fake itself as a joycon or a wireless pro controller to the Switch.</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="45%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Setup.jpg" width="45%"></p>
+<h2 id="hardware-setup">Hardware Setup:</h2>
+<p><strong>Required Hardware (Full List):</strong></p>
+<ol>
+<li>A regular <a href="../index.html#the-nintendo-switch">Nintendo Switch</a> and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)</li>
+<li>A <a href="../index.html#the-computer-the-player">computer</a> running x64 Windows. (or another OS if you are able to set it up.)</li>
+<li>A <a href="../index.html#video-capture-card-the-computers-eyes">video capture card</a>.</li>
+<li>An ESP32-WROOM-32 microcontroller.</li>
+<li>A micro-USB or USB-C to USB-A cable or dongle. Needs to connect your ESP32 to your computer. ESP32 can have either micro-USB or USB-C, so find out what you have before buying the cable for it.</li>
+</ol>
+<p>#1-3 are part of the initial setup so you should have all of these already.</p>
+<p><strong>Estimated Total Cost (USD):</strong> (not including computer and Nintendo Switch)</p>
+<ul>
+<li><strong>Single Setup:</strong> $20 - $30<ul>
+<li>Capture Card: $10 - $20</li>
+<li>ESP32: $8</li>
+<li>USB Cable/Adapter: $2</li>
+</ul>
+</li>
+<li><strong>Bulk Purchase:</strong> ~$14 per setup<ul>
+<li>Capture Card: $10</li>
+<li>ESP32: $3 each from AliExpress</li>
+<li>USB Cable/Adapter: &lt; $1 each from AliExpress</li>
+</ul>
+</li>
+</ul>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Setup-Annotated-2.jpg" width="800"></p>
+<p><strong>Important:</strong> There are many variants of the ESP32 microcontroller. The ESP32-WROOM is the only one that works here. So you must get that specific model. (e.g. Don't get the ESP32-S3-WROOM, or ESP32-S2-WROOM, or ESP32-C2, etc.)</p>
+<h3 id="recommended-purchase-links">Recommended Purchase Links:</h3>
+<p><strong>Capture Card:</strong> <a href="../index.html#video-capture-card-the-computers-eyes">See previous section.</a></p>
+<p><strong>ESP32-WROOM-32 Microcontroller:</strong></p>
+<p>For Beginners</p>
+<table>
+<thead>
+<tr>
+<th><strong>Quantity</strong></th>
+<th><strong>Price / Unit</strong></th>
+<th><strong>USB Type</strong></th>
+<th><strong>UART Type</strong></th>
+<th><strong>Shopping Link</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 (with pins)</td>
+<td>$8 / unit</td>
+<td>USB-C</td>
+<td>CP2102</td>
+<td><a href="https://www.amazon.com/gp/product/B0DG8JFY3C">https://www.amazon.com/gp/product/B0DG8JFY3C</a></td>
+</tr>
+<tr>
+<td>2 (with pins)</td>
+<td>$6.50 / unit</td>
+<td>Micro-USB</td>
+<td>CP2102</td>
+<td><a href="https://www.amazon.com/gp/product/B09XDMVS9N">https://www.amazon.com/gp/product/B09XDMVS9N</a></td>
+</tr>
+<tr>
+<td>2 (no pins)</td>
+<td>$9 / unit</td>
+<td>USB-C</td>
+<td>CH340</td>
+<td><a href="https://www.amazon.com/gp/product/B0D6BH4K9B">https://www.amazon.com/gp/product/B0D6BH4K9B</a></td>
+</tr>
+</tbody>
+</table>
+<p>For Experienced users</p>
+<table>
+<thead>
+<tr>
+<th><strong>Quantity</strong></th>
+<th><strong>Price / Unit</strong></th>
+<th><strong>USB Type</strong></th>
+<th><strong>UART Type</strong></th>
+<th><strong>Shopping Link</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3 (no pins)</td>
+<td>$5.67 / unit</td>
+<td>Micro-USB</td>
+<td>CP2104</td>
+<td><a href="https://www.amazon.com/gp/product/B09C5RDZ8G">https://www.amazon.com/gp/product/B09C5RDZ8G</a></td>
+</tr>
+<tr>
+<td>8 (no pins)</td>
+<td>$5 / unit</td>
+<td>Micro-USB</td>
+<td>CP2104</td>
+<td><a href="https://www.amazon.com/gp/product/B08MFCC4SR">https://www.amazon.com/gp/product/B08MFCC4SR</a></td>
+</tr>
+<tr>
+<td>many</td>
+<td>~$3 / unit</td>
+<td>various</td>
+<td>various</td>
+<td><a href="https://www.aliexpress.us/item/3256807120332765.html&lt;br&gt;AliExpress">https://www.aliexpress.us/item/3256807120332765.html<br>AliExpress</a> is generally the cheapest in bulk.<br>But you need to know what you're buying.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important:</strong>
+If you pick a model that's not in this list, make sure it has a built-in antenna. The ESP32-WROOM-32U and ESP32-WROOM-32UE models do not have a built-in antenna and require you to attach one.</p>
+<p>If you're not experienced with electronics, we recommend buying one with both the Reset/EN and Boot/IO0 buttons, because it makes it easier to troubleshoot certain issues. All of the boards listed in the "For Beginners" section should have both the Reset and Boot buttons. The D1 mini boards (listed under "For Experienced users") are cheaper and smaller, but they only have a single Reset button, which can make it harder to troubleshoot certain issues.</p>
+<p>We recommend getting ones without pins since you don't need them (though they are more expensive). Having the pins is a liability for accidentally shorting out and damaging the board.</p>
+<p>Most likely you will end up buying a pack of at least 2 or 3 since they don't get any cheaper in single quantity. This is great if you want to automate multiple Switches.</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board.jpg" width="35%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" width="20%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Board-Mini.jpg" width="35%"> </p>
+<p><strong>A micro-USB or USB-C to USB-A cable:</strong></p>
+<ul>
+<li>Micro-USB -&gt; USB-A Cable: <a href="https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ">https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ</a></li>
+<li>Micro-USB -&gt; USB-A Dongle: <a href="https://www.amazon.com/gp/product/B09FXJD61Z">https://www.amazon.com/gp/product/B09FXJD61Z</a></li>
+<li>USB-C -&gt; USB-A: <a href="https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD">https://www.amazon.com/Charging-Durable-Station-Compatible-Samsung/dp/B08LL1SVZD</a></li>
+</ul>
+<p>Different ESP32 models have different USBs on them. Make sure you buy the one that matches your model.</p>
+<h3 id="hardware-assembly">Hardware Assembly:</h3>
+<p>Should be pretty self-explanatory:</p>
+<ol>
+<li>Connect the ESP32 to your computer using the USB cable.</li>
+<li>Place the ESP32 near your Switch. (within 3ft line-of-sight for maximum stability)</li>
+</ol>
+<p>And that's it!</p>
+<h2 id="software-setup">Software Setup</h2>
+<h3 id="step-0-getting-ready">Step 0: Getting Ready</h3>
+<p>Make sure you have everything else setup so that it looks like this:</p>
+<p><img src="../Images/GeneralSetup-CC.png"></p>
+<p>If not, you should go back to the <a href="../index.html">general setup guide</a> and start over.</p>
+<h3 id="step-1-install-uart-drivers">Step 1: Install UART drivers</h3>
+<p>Depending on exactly which ESP32 model you bought, it will have either an CH340 or a CP210x. (If you recognize these model #s from the wired controller setup, they are the same thing!)</p>
+<p>Install the appropriate driver for it:</p>
+<ul>
+<li>CP210x: <a href="https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip">https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip</a></li>
+<li>CH340: <a href="https://www.arduined.eu/ch340-windows-10-driver-download/">https://www.arduined.eu/ch340-windows-10-driver-download/</a></li>
+</ul>
+<p>If you don't know which one you have, install both.</p>
+<p>Open up Device Manager and look for it under "Serial Ports". If you don't see it, then maybe these above drivers are not correct. Or try a different USB port.</p>
+<h3 id="step-2-flash-the-firmware-to-the-esp32">Step 2: Flash the firmware to the ESP32.</h3>
+<p><strong>Flash the ESP32:</strong></p>
+<ol>
+<li>Download the Espressif flash utility: <a href="https://dl.espressif.com/public/flash_download_tool.zip">https://dl.espressif.com/public/flash_download_tool.zip</a></li>
+<li>Unzip, then run <code>flash_download_tool_3.9.7.exe</code> (version number may vary)</li>
+<li>
+<p>When you see the following menu, select "ESP32" and "Develop". Then hit OK.</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-0.png"></p>
+</li>
+<li>
+<p>You will then be prompted with this complicated window. Fill everything as follows:</p>
+<ul>
+<li>Check the box for the first entry, at the top left.</li>
+<li>For the first entry, click on the <code>...</code> and browse for <code>PABotBase-ESP32-2025032100.bin</code> in the serial programs download folder. (version number may vary)</li>
+<li>The right-most box should be a zero.</li>
+<li><strong>The top row should now be green</strong> (see image below). If not, ensure that the top left checkbox is checked.</li>
+<li>At the bottom right corner, select the COM port of your ESP32.</li>
+<li>Change "BAUD" to 460800.</li>
+</ul>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-1.png"></p>
+</li>
+<li>
+<p>Click Start and it should flash the PABotBase firmware to your ESP32.</p>
+<p>If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out <code>...</code> and never makes progress, see <a href="#unable-to-flash-the-esp32-stuck-on">troubleshooting</a>.</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Flash-2.png"></p>
+</li>
+<li>
+<p>Reboot your ESP32. You can do this either by:</p>
+<ul>
+<li>Unplugging and re-plugging your ESP32.</li>
+<li>Pressing either the <code>EN</code> or <code>RESET</code> button on the ESP32.</li>
+</ul>
+</li>
+</ol>
+<h3 id="step-3-navigate-to-the-grip-menu">Step 3: Navigate to the Grip Menu</h3>
+<p>The Grip menu is the only place where the ESP32 can connect to the Switch. </p>
+<p>To get there from the Switch Home screen: <code>Controllers</code> (button next to the Settings gear) -&gt; <code>Change Grip/Order</code></p>
+<p><img src="../Images/GripMenu3.png"></p>
+<h3 id="step-4-connect-the-esp32-to-the-computer-control-program">Step 4: Connect the ESP32 to the Computer Control program</h3>
+<ol>
+<li>At the top for the "Controller" option, click the dropdown and select <code>Serial: PABotBase</code> (should be on this since this is the default)</li>
+<li>In the next dropdown, select your serial device. On Windows it will be something like <code>COM3</code>.</li>
+</ol>
+<p>If you don't see the device in the dropdown, you probably need to refresh it (especially if you kept the program open since Step 0). You can refresh the list by clicking "Reset Ctrl".</p>
+<p>If everything worked correctly, it will look like this:</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Connected-Cropped.png"></p>
+<p>If you do not see this or you get an error, then see <a href="#troubleshooting">troubleshooting</a>.</p>
+<h3 id="step-5-connect-the-esp32-to-the-switch">Step 5: Connect the ESP32 to the Switch</h3>
+<p>In the 3rd dropdown, choose "Switch: Wireless Pro Controller".</p>
+<p>After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the <code>EN</code> or <code>RESET</code> button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32.</p>
+<p>The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the <code>Nintendo Switch -&gt; Framework Settings</code> menu.</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Ready-Annotated.png"></p>
+<h3 id="step-6-test-the-connection">Step 6: Test the connection</h3>
+<p>You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -&gt; controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.</p>
+<p>The default keyboard layout is the English QWERTY layout. If you have a different layout, you can change the mappings in <code>Nintendo Switch -&gt; Framework Settings</code> and scroll down to the controller mapping tables.</p>
+<p>We recommend familiarizing yourself with the keyboard controls as this is the preferred way to control your Switch while setting up to run a program. Each controller type has a different keyboard mapping. By default, the joystick (left joystick for Pro Controller) is mapped to the usual WASD setup that's used in FPS games. For joycons, there are two sets of mappings (using different keys) that will serve both vertical and sideways orientations.</p>
+<p>Overall, the idea here is that you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Controls.png"></p>
+<p><strong>Controller Types:</strong></p>
+<p>You will notice that there are 4 controller options:</p>
+<ul>
+<li>None</li>
+<li>Pro Controller</li>
+<li>Left Joycon</li>
+<li>Right Joycon</li>
+</ul>
+<p>"None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. So you will need to be in the Grip menu or it will stay disconnected. (important if you are accessing remotely!)</p>
+<p>Changing programs (or even closing the application entirely) will not disconnect the ESP32 from the Switch. When you load a program and connect to the ESP32, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.</p>
+<p>If you intend to do a lot of remote access, we recommend that you use a wired setup as a wired controller can connect to the Switch from anywhere and take control.</p>
+<p><strong>Connecting as a Joycon:</strong></p>
+<p>When you connect as a joycon, it will behave like a normal joycon. It doesn't immediately connect and wants you to either pair with a 2nd joycon or press SL+SR to put it into horizontal mode.</p>
+<p>For the right joycon, you can press the Home button to immediately leave the grip menu. This will let you easily start LGPE programs which use the right joycon. The left joycon doesn't have this option and will require you to either pair with a right joycon or to enter horizontal mode. There are currently no programs that use the left joycon.</p>
+<p>To enter horizontal mode, you can press SL+SR on the keyboard controls by pressing F1 and F3 at the same time. This will let you exit the grip menu and enter a game like LGPE that requires a joycon. But keep in mind that this will also rotate the controls by 90 degrees (IOW, confusing). Check the keyboard mapping for both vertical and horizontal joycon orientations.</p>
+<p>*You cannot easily pair two ESP32 joycons anyway since you need to press L+R on them simultaneously and the keyboard controls don't allow you simultaneously press buttons on different controllers. However, you can easily pair an ESP32 joycon with a real joycon.</p>
+<h3 id="step-7-you-are-done">Step 7: You are done!</h3>
+<p>If keyboard commands are working (along with video and audio), you are done!</p>
+<p>Try clicking on other programs on the sidebar. You will find that all of them are "virtual consoles" that will accept keyboard commands. At the top of every program is a link to the wiki that explains how to setup and use that program.</p>
+<p>Continue on to <a href="../index.html#step-4-finishing-up">Finishing Up</a>!</p>
+<h2 id="troubleshooting">Troubleshooting:</h2>
+<h3 id="unable-to-flash-the-esp32-stuck-on">Unable to flash the ESP32. (stuck on <code>...</code>)</h3>
+<p>If you see that it gets stuck printing out <code>...</code> and never makes progress, try one of these:</p>
+<p><strong>Solution 1:</strong></p>
+<ol>
+<li>Start the flash such that it is printing out <code>...</code></li>
+<li>Press and hold the <code>BOOT</code> button on the ESP32.</li>
+<li>Release the <code>BOOT</code> button when you see the green bar make progress.</li>
+</ol>
+<p><strong>Solution 2:</strong></p>
+<ol>
+<li>Start the flash such that it is printing out <code>...</code></li>
+<li>Press and hold the <code>RESET</code> (EN) button.</li>
+<li>Press and hold the <code>BOOT</code> button.</li>
+<li>Release the <code>RESET</code> (EN) button.</li>
+<li>Release the <code>BOOT</code> button.</li>
+</ol>
+<p>If your ESP32 doesn't have a <code>BOOT</code> button (such as the D1 mini ESP32), you can achieve the same thing by shorting the <code>IO0</code> and <code>GND</code> pins/holes.</p>
+<p>If neither solution works:</p>
+<ul>
+<li>Try a different USB port.</li>
+<li>Try putting a USB2 hub between the computer and the ESP32.</li>
+</ul>
+<p>If nothing works, you are not alone! This is a common problem with ESP32 boards.</p>
+<ul>
+<li>Further reading: <a href="https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/">https://www.reddit.com/r/esp32/comments/11awl5h/a_fatal_error_occurred_failed_to_connect_to_esp32/</a></li>
+<li>Come to <a href="https://discord.gg/cQ4gWxN">our Discord</a> for help.</li>
+</ul>
+<h3 id="unable-to-flash-the-esp32-no-log-file-output">Unable to flash the ESP32: <code>no log file output</code></h3>
+<ul>
+<li>Try switching the USB cable. Make sure it supports data transfer, not just power delivery.<ul>
+<li>When plugging in the ESP32, the device should show up in <code>Device Manger</code>, under Ports.</li>
+</ul>
+</li>
+</ul>
+<h3 id="problem-with-flashing-esp32-download-tool-shows-finish-but-no-green-progress-bar-appeared">Problem with flashing ESP32: Download tool shows <code>FINISH</code>, but no green progress bar appeared.`</h3>
+<p>Ensure the top left checkbox is checked. The top row should be green. Ensure the correct COM is selected, and BAUD is set to 460800. Then try flashing again.</p>
+<h3 id="unable-to-connect-to-the-esp32-eg-stuck-on-connecting">Unable to connect to the ESP32. e.g. stuck on <code>Connecting...</code></h3>
+<p>If you are unable to connect to the ESP32 in step 4, it means the ESP32 either isn't booting up properly, or it isn't properly flashed.</p>
+<p>Try the following:</p>
+<ul>
+<li>Ensure you have reset the device. Try disconnecting the cable to the ESP32-S3 device, then reconnect it.</li>
+<li>Try different USB cables and different USB ports. Sometimes it will not flash properly over certain USB ports.</li>
+<li>If this still fails, review <a href="#step-2-flash-the-firmware-to-the-esp32">step 2</a> above (Flash the firmware to the ESP32) and ensure that you flashed the firmware properly onto the device. When flashing, ensure that the top left checkbox is checked. The top row should be green.</li>
+</ul>
+<h3 id="esp32-fails-to-connect-to-switch">ESP32 fails to connect to Switch.</h3>
+<p>If in step 5, you are unable to connect to the Switch, (controller never shows up), here are some things to check:</p>
+<ul>
+<li>Is it close enough to the Switch? (these are wireless devices after all)</li>
+<li>Is the Switch in airplane mode?</li>
+<li>Is it already paired with a different Switch?</li>
+<li>There are reports of CFW ldm-mitm interfering with the ESP32. (This is a bug which we have yet to investigate.)</li>
+</ul>
+<h3 id="wireless-interference-with-multiple-esp32s">Wireless Interference with Multiple ESP32s.</h3>
+<p>If you have multiple ESP32s, spread them out to reduce wireless interference.</p>
+<p>As tempting as it may be, do not do this:</p>
+<p><img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-0.jpg" width="450"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-WirelessInterference-1.jpg" width="450"></p>
+<p>It is as cute as it is stupid, and it will give you problems. We tried it so you don't have to!</p>
+<hr>
+
+<p><strong>Credits:</strong></p>
+<ul>
+<li>Kuroneko/Mysticial</li>
+<li>jw</li>
+<li>kichithewolf</li>
+</ul>
+<p><strong>Discord Server:</strong> </p>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

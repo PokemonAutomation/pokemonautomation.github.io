@@ -1,0 +1,968 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pokemonautomation.github.io/Developer/ImageMatching.html">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Template Image Matching - Pokémon Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#template-image-matching" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Pokémon Automation" class="md-header__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pokémon Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Template Image Matching
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../SetupGuide/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Programs/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ControllerList.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Controllers
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../DiscordIntegration/index.html" class="md-tabs__link">
+          
+  
+  
+  Discord Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+  Developer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Pokémon Automation" class="md-nav__button md-logo" aria-label="Pokémon Automation" data-md-component="logo">
+      
+  <img src="../assets/original_logo_no_background.png" alt="logo">
+
+    </a>
+    Pokémon Automation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PokemonAutomation/About" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PokemonAutomation/About
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SetupGuide/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Programs/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ControllerList.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discord Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DiscordIntegration/DiscordWebhooks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Knowledge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Requirement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use Github
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TutorialMC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Button Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TutorialCC.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorial Home Sorter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="template-image-matching">Template Image Matching</h1>
+<p><a href="https://discord.gg/cQ4gWxN"><img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2"></a></p>
+<p>Image matching is usually done with the Watcher classes, which is usually used by the <code>run_until</code> and <code>wait_until</code> functions. Run/wait_until takes a list of callbacks. These callbacks are usually Watcher classes. Every frame, the program runs the Watcher’s <code>process_frame</code> function. When the template image is detected, <code>process_frame</code> will return true, triggering the callback for run/wait_until. See <a href="Parallel.html">Parallel Routines</a> for more details. </p>
+<p>The image matchers typically have a few classes that work together: the Watcher, the Detector, and the Matcher. </p>
+<ul>
+<li>Watcher is a callback that can be used by <code>run_until</code> or <code>wait_until</code>. It includes the <code>process_frame</code> function, which runs on every video frame. It typically calls the Detector's <code>detect</code> function.</li>
+<li>Detector contains the <code>detect</code> function, which looks at the single still image from the video feed. It typically returns true if the image contains an object that matches the image template.</li>
+<li>Matcher includes the image template that we are searching for on the screen.</li>
+</ul>
+<h2 id="waterfill-and-template-matching">Waterfill and template matching</h2>
+<p>The way that many detector/image matchers work is by using the Waterfill and template match method. </p>
+<p>Waterfill selects for objects on the screen that are a particular color. These Waterfilled objects are then compared with a template image. If the Waterfilled object is similar to the template image, the Detector returns true.</p>
+<p>There are several detector/image matchers that you can look at for examples, such as <code>MapPokeCenterIconDetector</code> or <code>FastTravelDetector</code>. You can also use <code>GameName_ObjectNameDetector</code> as a template to build off of.</p>
+<h3 id="visualizing-waterfill">Visualizing Waterfill</h3>
+<p>Suppose we have the following image and we want to detect the Pokecenter. </p>
+<p><img src="images//image-to-detect.png"></p>
+<p>Next, we use Waterfill to get the red portions of the image. The Waterfill algorithm first applies the red color filter, and you're left with something like the following binary image.</p>
+<p><img src="images//binary-image.png"></p>
+<p>Waterfill then extracts all connected red portions (that are above a certain area threshold). Note that the red arc and dot inside the icon aren't connected to the rest of the icon, so these won't be a part of the Waterfill object.</p>
+<p><img src="images//waterfill-obj1.png">
+<img src="images//waterfill-obj2.png">
+<img src="images//waterfill-obj3.png"></p>
+<p>These Waterfill objects are then compared with the waterfilled template. </p>
+<p><img src="images//template-image-waterfill.png"></p>
+<p>In particular, their area ratio and aspect ratio are compared with the template. Area ratio and aspect ratio are discussed later.</p>
+<blockquote>
+<p>Note: the binary image and waterfill images above are just for illustrative purposes. In reality, the binary image is actually a binary matrix. Similarly, Waterfill objects are not images, but are actually a class which contains the objects' coordinates on the image, its bounding box, and the number of bits in the object.</p>
+</blockquote>
+<p>If the Waterfill object meets the area ratio and aspect ratio requirements, each Waterfill object will produce a cropped image, where the original image will be cropped according to the bounding box of the Waterfill object. </p>
+<p><img src="images//waterfill-subimage1.png">
+<img src="images//waterfill-subimage2.png">
+<img src="images//waterfill-subimage3.png"></p>
+<p>Each cropped image will then be compared against the cropped template image.</p>
+<p><img src="images//template-image.png"></p>
+<p>In particular, RMSD will be computed for each cropped image. Any object that meets the RMSD threshold will be considered a match. </p>
+<p>Note that because we're no longer looking at the Waterfill object, but the cropped image, the red arc and dot inside the icon once again reappear. In other words, the red arc and dot aren't relevant for meeting the aspect ratio and area ratio requirements, but they are relevant for meeting the RMSD threshold.</p>
+<h3 id="waterfill">Waterfill</h3>
+<p>Waterfill is an algorithm that filters for all pixels that meet the given color filter(s). It then finds all the remaining pixel groups that are connected and are above a minimum area. Each of these connected pixel groups are considered Waterfill objects.</p>
+<p>You can give the Waterfill operation multiple filters in an array. Waterfill will extract all objects that meet any of the filters. This can be helpful to deal with capture card variations; you can try multiple brightness shades of the object you're searching for. This can also be useful when the thing you're waterfilling for has poor contrast difference from the background, (for example, the flag pin in PLA against the icelands snow during midday).</p>
+<p>One method to finding the correct color filters is to take a screenshot, crop to the object that you want to detect, then use the color picker in an image editor (e.g. MS Paint or Paint.net). Then find the range of RGB values for your object. Alternatively, you can use trial and error, while inspecting the dump folder to expand or narrow the filters as needed. The dump folder will be discussed further in a later section.</p>
+<p>Note that the Waterfill matcher works best on images with solid colors. The Waterfill matcher cannot handle occlusion (i.e. other object covering/partially covering your desired object). For example, if the image you're trying to match is blue, but it's partially covered by something that is yellow, the Waterfill object will only include the blue portions, and not the portions covered by the yellow.</p>
+<p>Also, note that if you know exactly where on the screen the desired object should be, you may not even need to use Waterfill, because you can just directly compare your image template with the object at that specific location. Waterfill is mainly useful when you don't know exactly where the desired object is, but it has a distinct and solid color that is different than its surroundings.</p>
+<h3 id="template-matching">Template matching</h3>
+<p>Each Waterfilled object is compared to the template image, where it must meet the requirements for aspect ratio, area ratio, and RMSD.</p>
+<p>The aspect ratio is equal to width/height. The area ratio is equal to area/(width * height). Area is not the same as width*height. Area is the number of non-zero bits in the Waterfill object. Conceptually, if the Waterfill object were to be represented as an image, it would be the number of pixels in the object that meet the color filter.</p>
+<p>The aspect ratio and area ratio of the Waterfill objects are compared with the template image. To be considered a match, the Waterfill object’s aspect ratio divided by the template image’s aspect ratio must be within the specified upper and lower bounds. Same for the area ratio.</p>
+<p>Area ratio requirements are to help reduce false positives between solid vs hollow objects that may have the same outer shape.</p>
+<p>RMSD (root mean square deviation) is a single number that summarizes how similar the given Waterfill object is, compared to the template image. The lower the RMSD, the more similar. A lower RMSD theshold means that we are more strict and that the Waterfill object must be more similar to the template.</p>
+<p>Note, with area ratio and aspect ratio, each Waterfill object is compared with the Waterfilled template. i.e. Area ratio and aspect ratio values are based on the Waterfill objects. However, RMSD is done on cropped images. Each Waterfill object will produce a cropped image, where the original image will be cropped according to the bounding box of the Waterfill object. The Waterfilled template similarly produces a cropped template image. For each cropped image from the Waterfilll objects, RMSD will be computed in comparison to the cropped template image.</p>
+<h3 id="creating-your-own-image-templates">Creating your own image templates</h3>
+<p>If you want to create a template image for a detector, I recommend ensuring screenshots are in 1080p (or 4K). One easy way to do this is to take screenshots from within the Computer Control program. Screenshots taken from the Switch are lower resolution (720p) and can cause issues with image matching. Then, use an image editor (like MS Paint or Paint.net) to crop down to the area of interest. Use the magic wand tool to remove most of the unwanted background. Then use the eraser tool to delete any remaining unwanted pixels.</p>
+<h3 id="why-do-we-use-waterfill-instead-of-object-detection">Why do we use Waterfill instead of object detection?</h3>
+<p>Waterfill is computationally cheap and works well with video games with lots of solid colors. General object detection will require machine learning, which is both much more computationally intensive and is currently out-of-scope for this project as we don't have the expertise for it yet.</p>
+<h2 id="mappokecentericonmatcher">MapPokeCenterIconMatcher</h2>
+<p>In this section, we look at the code for MapPokeCenterIconDetector as an example: </p>
+<pre><code>MapPokeCenterIconMatcher() : WaterfillTemplateMatcher(
+    &quot;PokemonSV/Map/PokeCenterIcon-Template.png&quot;, Color(150,0,0), Color(255, 100, 100), 50
+){
+    m_aspect_ratio_lower = 0.9;
+    m_aspect_ratio_upper = 1.1;
+    m_area_ratio_lower = 0.6;
+    m_area_ratio_upper = 1.2;
+}
+</code></pre>
+<p>PokeCenterIcon-Template.png is the template image. It’s located in the Resources folder. </p>
+<p><img src="images//template-image-original.png"></p>
+<p>Still looking within the WaterfillTemplateMatcher constructor, the next two color parameters are for applying color filters for Waterfilling the template. In other words, the template is not being used as is, but rather is a Waterfill object. In this case, the color filter keeps all pixels with Red: 150-255, Green: 0-100, Blue: 0-100. i.e. the filter keeps all the red portions of the Pokecenter icon. The largest group of connected red pixels is the Waterfill object that is selected. This resulting Waterfill object is the template that we will use for comparing against objects on the screen. Note, another reminder that the red arc and dot inside the icon aren't connected to the rest of the icon, so these won't be a part of the Waterfill template object. In other words, the red arc and dot aren't relevant for meeting the aspect ratio and area ratio requirements. However, they are relevant for meeting the RMSD threshold, which doesn't use Waterfill objects, but rather cropped images.</p>
+<p>The last parameter of the WaterfillTemplateMatcher constructor, 50, is the minimum area for the Waterfill template object.</p>
+<p>Within the body of the Matcher constructor, are some of the matching requirements. Here, you specify the upper and lower bounds for aspect ratio and area ratio. To be considered a match, the Waterfill object’s aspect ratio divided by the template image’s aspect ratio must be within the specified upper and lower bounds. Same for the area ratio.</p>
+<h2 id="mappokecentericondetectordetect_all">MapPokeCenterIconDetector::detect_all</h2>
+<pre><code>std::vector&lt;ImageFloatBox&gt; MapPokeCenterIconDetector::detect_all(const ImageViewRGB32&amp; screen) const{
+
+    const std::vector&lt;std::pair&lt;uint32_t, uint32_t&gt;&gt; filters = {
+        {combine_rgb(150, 0, 0), combine_rgb(255, 120, 120)}
+    };
+
+    const double min_object_size = 350.0;
+    const double rmsd_threshold = 100.0;
+
+    const double screen_rel_size = (screen.height() / 1080.0);
+    const size_t min_size = size_t(screen_rel_size * screen_rel_size * min_object_size);
+
+    std::vector&lt;ImageFloatBox&gt; found_locations;
+
+    ImagePixelBox pixel_search_area = floatbox_to_pixelbox(screen.width(), screen.height(), m_box);    
+
+    match_template_by_waterfill(...)
+
+    return found_locations;
+}
+</code></pre>
+<p>This function tries to detect all PokeCenter icons.</p>
+<p><code>filters</code> specifies the color filters for Waterfill. In this case, Waterfill selects for pixels with Red: 150-255, Green: 0-120, Blue: 0-120, in order to find the Waterfill objects. In this case, Waterfill is looking for red images.</p>
+<p><code>min_object_size</code> specifies the minimum area for Waterfill objects. Any objects below the minimum size are ignored. <code>min_size</code> scales the minimum area as per the detected screen size.</p>
+<p><code>rmsd_threshold</code> is the RMSD threshold that each Waterfill object must meet, when compared to the template. </p>
+<h3 id="match_template_by_waterfill">match_template_by_waterfill</h3>
+<pre><code>match_template_by_waterfill(
+    extract_box_reference(screen, m_box), 
+    MapPokeCenterIconMatcher::instance(),
+    filters,
+    {min_size, SIZE_MAX},
+    rmsd_threshold,
+    [&amp;](Kernels::Waterfill::WaterfillObject&amp; object) -&gt; bool {
+        ImagePixelBox found_box(
+            object.min_x + pixel_search_area.min_x, object.min_y + pixel_search_area.min_y,
+            object.max_x + pixel_search_area.min_x, object.max_y + pixel_search_area.min_y);
+        found_locations.emplace_back(pixelbox_to_floatbox(screen.width(), screen.height(), found_box));
+        return false;
+    }
+);
+</code></pre>
+<p><code>match_template_by_waterfill</code> is the function that does most of the work within the <code>detect_all</code> function. First, it finds objects on the current screen that match your color filters, using Waterfill operations. It then checks each Waterfill object to ensure it is within the upper and lower bounds for aspect ratio and area ratio (as defined in the Matcher class above), and that it is below the RMSD threshold. Any Waterfill object that meets these requirements is considered a match.</p>
+<p>See the comments in the <code>WaterfillUtilities.h</code> header file for more details on how <code>match_template_by_waterfill</code> works.</p>
+<ul>
+<li><code>extract_box_reference</code>: the portion of the screen that the detector is acting on, as per <code>m_box</code>. <code>m_box</code> is of the class <code>ImageFloatBox</code>, which specifies both the coordinates of the box on the screen, as well as its height and width.</li>
+<li><code>MapPokeCenterIconMatcher</code>: the template image that the Waterfill objects are compared against. See the section above for more details on this.</li>
+<li><code>filters</code>: the color filters for extracting the Waterfill objects.</li>
+<li><code>{min_size, SIZE_MAX}</code>: the range of acceptable area values for the Waterfill objects.</li>
+<li><code>rmsd_threshold</code>: the RMSD threshold that each Waterfill object must meet when compared to the template. A lower RMSD theshold means that we are more strict and that the Waterfill object must be more similar to the template.</li>
+<li><code>[&amp;](Kernels::Waterfill::WaterfillObject&amp; object) -&gt; bool {...}</code>: this is a lambda function that is run on every Waterfill object that successfully matches to the template (i.e. it meets the area ratio, aspect ratio, and RMSD thresholds). In this case, each successful Waterfill object's coordinates are saved as an <code>ImagePixelBox</code>, then converted to an <code>ImageFloatBox</code>, then saved to <code>found_locations</code>, which is a vector of <code>ImageFloatBox</code>. Returning false means that template matching operation continues looking for other matches.</li>
+</ul>
+<h1 id="debuggingtesting">Debugging/testing</h1>
+<p>See <a href="Tests.html">Command Line Tests</a> for more details on how to run the command line tests. </p>
+<p>In SerialProgram-Settings.json, you can also enable more print statements for debugging. Set <code>DEBUG.IMAGE_TEMPLATE_MATCHING</code> to true. If this is enabled, when the program runs, it will print out the area ratio, aspect ratio and RMSD for each Waterfill object. It will also dump image files into the folder <code>DebugDumps\CommonFramework\WaterfillTemplateMatcher</code>. If you’re building with Qt, it will be within the <code>build-SerialPrograms-Desktop_Qt_6_3_2_MSVC2019_64bit-Debug</code> folder (or something similar, depending on your Qt version). It dumps both the cropped template image as well as the cropped images from the Waterfill objects, so you can inspect them. It also dumps the binary image, which is the result of your color filters being applied to the area of interest on the screen; this can help you determine if your color filters are too broad or too narrow.</p>
+<p>Some tips with inspecting the dump folder:</p>
+<ul>
+<li>If your desired Waterfill object isn’t within the debug dump at all, try expanding the color range for your Waterfill filters, or adding additional filters. Also, double check your <code>min_object_size</code> thresholds. </li>
+<li>If your desired Waterfill object is there, but within a larger image/Waterfill object, try narrowing your color filters.</li>
+<li>If your desired Waterfill object is there, but only a portion of it is present, try expanding your filters. </li>
+<li>If your desired Waterfill object is there, and perfect, then your Waterfill filters might be fine. Try inspecting your RMSD, area ratio, and aspect ratio thresholds and adjusting those. That being said, it's still possible that you have a problem with your area ratio. For example, the image in the dump folder could look perfect while your area ratio could be lower than expected, if Waterfill is primarily matching pixels along the borders/edge of the image, but not in the middle.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
