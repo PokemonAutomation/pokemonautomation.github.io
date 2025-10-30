@@ -50,8 +50,9 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 With battle AI enabled, have 4 strong moves of different types that maximize type coverage. The order does not matter.
 
 Restaurant Le Yeah: To avoid being stalled by Talonflame/Altaria, choose Pokemon with these attributes:
+
 - Talonflame's Flame Wheel should not be the highest damaging option against your Pokemon. Talonflame's moves are Hurricane, Flame Wheel, U-Turn, and Steel Wing
-- The move in the top slot should be able to one-hit KO Talonflame. Talonflame is level 45 so the bar is fairly low.
+- The highest priority move needs to one-hit KO Talonflame. Talonflame is level 45 so the bar is fairly low.
 
 Sushi High Roller: The player is not immune to damage here so you can lose if the player takes too much damage from stray attacks. Choose Pokemon that have good AOE moves and ones that cant faint since the opponents target you if your Pokemon faint.
 
