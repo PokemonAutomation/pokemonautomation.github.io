@@ -53,7 +53,7 @@ You will also need 2 spare USB ports. (or 2 ports per Switch if you intend to ru
 
 **macOS:**
 
-CC is functional on macOS albeit missing a few features present on Windows. A distributable is available for Intel and M1 Macs on macOS Ventura (13) or later. For macOS Monterrey (12) and earlier, you will need to follow an extra set of instructions to build CC from source code.
+CC is functional on macOS albeit missing a few features present on Windows. A distributable is available for Intel and M1 Macs on macOS Sequoia (15) or later. For macOS Sonoma (14) and earlier, you will need to follow an extra set of instructions to build CC from source code.
 
 If you are an experienced developer with macOS, your help in making macOS feature-complete would be greatly appreciated!
 

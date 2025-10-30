@@ -6,7 +6,7 @@ This section will walk you through setting up everything leading up the the cont
 
 ### Stop and Check:
 
-If your macOS version is Monterrey (12) or lower, you will need to compile SerialPrograms from source code. Instructions to do so can be found [here](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md). Follow the tutorial to build SerialProgram and return back here to setup video/audio.
+If your macOS version is Sonoma (14) or lower, you will need to compile SerialPrograms from source code. Instructions to do so can be found [here](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md). Follow the tutorial to build SerialProgram and return back here to setup video/audio.
 
 > To check your OS version, click the Apple logo at the top left in the Toolbar and select **About This Mac**.
 
@@ -14,7 +14,7 @@ If your macOS version is Monterrey (12) or lower, you will need to compile Seria
 
 ### Download SerialPrograms-Installer.dmg
 
-For those with macOS Ventura (13) and later, download the latest version of our programs [here](https://github.com/PokemonAutomation/AutoBuildRelease/releases)
+For those with macOS Sequoia (15) and later, download the latest version of our programs [here](https://github.com/PokemonAutomation/AutoBuildRelease/releases)
 
 
 ## Step 2: Open up SerialPrograms.
