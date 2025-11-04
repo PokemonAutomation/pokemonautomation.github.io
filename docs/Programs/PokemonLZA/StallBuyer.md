@@ -1,4 +1,4 @@
-# Berry Buyer
+# Stall Buyer
 
 ## Program Description
 
