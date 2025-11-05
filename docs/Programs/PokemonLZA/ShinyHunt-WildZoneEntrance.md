@@ -26,7 +26,6 @@ Shiny sound detection will happen at most once since in this game the shiny is s
     - best one; you can hunt both Zone 5 and northeast part of Zone 16 (Alpha Ampharos and Froakie)
 - Zone 6
 - Zone 7
-- Zone 8
 - Zone 11
 - Zone 12
 - Zone 13
@@ -48,6 +47,8 @@ Shiny sound detection will happen at most once since in this game the shiny is s
 ### Inappropriate Zones
 - Zone 4
     - very likely get caught by Gastly or Honedge
+- Zone 8
+    - Numel around the entrance would target you if any becomes Alpha
 - Zone 9
     - seems nothing within the range
 - Zone 10
@@ -62,7 +63,7 @@ Shiny sound detection will happen at most once since in this game the shiny is s
 
 ## Options
 
-### WALK IN ZONE duration
+### Walk In Zone duration
 
 After passing through the entrance, you can increase the spawn radius by walking this long forward in the zone.
 
@@ -73,11 +74,9 @@ When a shiny sound is heard, perform one of the following actions:
 - Stop program and go Home. Send notification.
 - Keep running. Notify on first shiny sound only. (default)
 
-Do not choose *Keep running. Notify on all shiny sounds*.
-
 ### Take a Video
 
-Record a video of the encounter. This will happen each time a notification is sent. So be careful if you are notifying on all shiny sounds as this may lead a lot of recorded videos of the same shiny.
+Record a video of the encounter. This will happen each time a notification is sent.
 
 
 ## Credits
