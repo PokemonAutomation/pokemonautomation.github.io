@@ -23,10 +23,6 @@ Purchase berries or mints from stalls.
 
 Item Position to Purchase
 
-### Number of available items in the stall:
-
-Number of available items in the stall.
-
 ### Number to Purchase:
 
 The number of items you want to purchase.
