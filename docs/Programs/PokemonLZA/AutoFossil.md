@@ -53,6 +53,10 @@ Choose what the program stops on:
 - Stops on a shiny or an alpha fossil Pokémon
 - Stops on a shiny alpha fossil Pokémon
 
+### Continue after finding a match
+
+After finding a match, the program will go to the next box, save and continue hunting. Beware, it will use a lot of fossils so start the program with a lot of them and enough empty boxes.
+
 ### Take a Video When Found
 
 Press the video record button on Switch when found a match.
