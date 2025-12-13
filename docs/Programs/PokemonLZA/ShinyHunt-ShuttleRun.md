@@ -6,7 +6,7 @@ Shiny hunt by running back and forth in Lumiose City.
 
 ## Supported Hunting Route
 
-1. Wild Zone 19
+1. Alpha Pidgeot
 
 More routes and even customised routes are in planning.
 
@@ -23,11 +23,12 @@ More routes and even customised routes are in planning.
 
 ### Instructions/Hunt Routes
 
-### Wild Zone 19
+### Alpha Pidgeot
 
-Fast travel to Wild Zone 19, standing in front of the entrance. This route covers right half of the wild zone, including Furfrou, Audino, Eevee, Kangaskhan, Cleffa/Clefairy (night only), Drampa (daytime only), and a Patrat outside of the wild zone.
+Fast travel to Hibernal Pokemon Center, take the elevator nearby and get to the roof. Walk to the bench on the left side and stand right before the bench, facing where the building alpha Pidgeot would spawn. You may need to adjust a bit for the direction angel to make sure you won't either fall off or get blocked while running back and forth. You can also do a bench sit here, which will automatically calibrate and correct the position.
 
-[<img src="images/ShinyHunt-ShuttleRun-WildZone19.jpg" width="800">](images/ShinyHunt-ShuttleRun-WildZone19.jpg)
+[<img src="images/ShinyHuntLocations/ShuttleRun-AlphaPidgeot-Start.jpg" width="800">](images/ShinyHuntLocations/ShuttleRun-AlphaPidgeot-Start.jpg)
+[<img src="images/ShinyHuntLocations/ShuttleRun-AlphaPidgeot.jpg" width="800">](images/ShinyHuntLocations/ShuttleRun-AlphaPidgeot.jpg)
 
 
 ## Options
