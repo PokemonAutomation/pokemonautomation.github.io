@@ -334,6 +334,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Jacinthe Infinite Farmer](PokemonLZA/JacintheInfiniteFarmer.md) {.nowrap}      | Repeatedly battle Jacinthe for exp and money.          | Video         | All |
 | [Friendship Farmer](PokemonLZA/FriendshipFarmer.md) {.nowrap}                   | Farm friendship via cafes or benches.                  | Video         | All |
 | [In-Place Catcher](PokemonLZA/InPlaceCatcher.md) {.nowrap}                      | Catch everything in one place to fill your boxes.      | Video + Audio | All |
+| [Hyperspace Reward Reset](PokemonLZA/HyperspaceRewardReset.md) {.nowrap}        | Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. | Video | All |
 ||
 | **Shiny Hunting:** |
 | [Shiny Hunt - Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md) {.nowrap}            | Shiny hunt using the bench reset method.               | Video + Audio | All |
