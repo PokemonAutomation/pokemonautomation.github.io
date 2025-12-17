@@ -12,7 +12,7 @@ Shiny hunt by running back and forth repeatedly in two sewer subzones.
 4. Litwick + Skrelp + Haunter
 5. Skrelp
 6. Skrelp + Inkay
-7. Skrelp + Ariados
+7. Ariados
 
 ### Setup of Settings
 
@@ -70,12 +70,12 @@ Stand at the entrance of the sewers (at the west of the city). This route is sim
 [<img src="images/ShinyHunt-SewerHunter-Skrelp-2.jpg" width="800">](images/ShinyHunt-SewerHunter-Skrelp-2.jpg)
 
 
-### Skrelp + Ariados
+### Ariados
 
 Inside the sewers (at the west of the city), stand as shown in the screenshots below. KO alpla Skrelp or alpha Inkay if any are near the beginning of the route.
 
-[<img src="images/ShinyHunt-SewerHunter-SkrelpAriados-1.jpg" width="800">](images/ShinyHunt-SewerHunter-SkrelpAriados-1.jpg)
-[<img src="images/ShinyHunt-SewerHunter-SkrelpAriados-2.jpg" width="800">](images/ShinyHunt-SewerHunter-SkrelpAriados-2.jpg)
+[<img src="images/ShinyHunt-SewerHunter-Ariados-1.jpg" width="800">](images/ShinyHunt-SewerHunter-Ariados-1.jpg)
+[<img src="images/ShinyHunt-SewerHunter-Ariados-2.jpg" width="800">](images/ShinyHunt-SewerHunter-Ariados-2.jpg)
 
 
 ## Options
