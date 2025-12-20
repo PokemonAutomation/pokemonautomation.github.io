@@ -1,8 +1,8 @@
-# Weather Reset
+# Weather Finder
 
 ## Program Description
 
-Reset the day by seating on a bench until the desired weather is found.
+Reset the day by siting on a bench until the desired weather is found.
 
 ### Setup of Settings
 
@@ -24,8 +24,8 @@ Reset the day by seating on a bench until the desired weather is found.
 ### Instructions
 
 1. Face towards a bench until the A button is visible
-2. Make sure to select the correct time of the day in the Options
-3. Start the program in the game.
+2. Make sure to select the correct time of the day you currently are in the Options
+3. Start the program.
 
 ## Options
 
