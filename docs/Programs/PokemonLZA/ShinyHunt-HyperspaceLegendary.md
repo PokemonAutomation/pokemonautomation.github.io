@@ -8,7 +8,7 @@ Shiny huntable legendary Pokémon are Latias, Latios, Cobalion, Terrakion, and V
 
 Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Power donuts but the size and IVs are fixed.
 
-Currently only support Terrakion and Virizion.
+Currently, only Cobalion, Terrakion, and Virizion are supported.
 
 ### Setup of Settings
 
@@ -56,17 +56,9 @@ Not yet implemented
 
 | Pokémon | Image |
 | --- | --- |
-| **Cobalion**<br>- Go left from the entrance<br>- Go down the stairs<br>- At the bottom of the stairs, turn right and go through the corridor<br>- Turn left and go down the stairs towards the bridge<br>- Right before the bridge, go down the stairs on the left side<br>- At canal level, loop back around to go under the bridge beside the canal<br>- Turn left onto the ice<br>- Go under the bridge while on the ice <br>- Make sure your character is beneath the very center of the bridge and that your camera is directly facing the wall | <img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg" width="600"> |
-| **Terrakion**<br>- Go left from the entrance<br>- Go halfway down the stairs<br>- Turn right onto the grass<br>- Take the warp pad up to the roof<br>- Turn towards the right and go to the warp panel that points towards the scaffolding near the entrance<br>- Make sure the warp pad "A" button prompt is visible | <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionStart.jpg" width="600">
-| **Virizion**<br>- Go right from the entrance<br>- Approach the top of the staircase<br>- Go to the left-side terrace beside the stairs<br>- Walk to the end of the terrace and face towards the bottom of the stairs<br><br>Note: You may need to KO the Throh to avoid being attacked | <img src="" width="600"> |
-
-
-#### Virizion:
-
-Virizion hides in a courtyard next to the Justice Dojo that is only accessable via rooftop. Follow the map below to climb onto the rooftop and move to the top of a nearby building overlooking the dojo. Face towards the ladder on that building with button A visible. Save the game and start the program.
-
-[<img src="images/HyperspaceLegendary-VirizionMap.jpg" width="43%">](images/HyperspaceLegendary-VirizionMap.jpg) [<img src="images/HyperspaceLegendary-VirizionStart.jpg" width="53%">](images/HyperspaceLegendary-VirizionStart.jpg)
-
+| **Cobalion**<br>- From the entrance, run forwards and right and drop into the alley<br>- Go down the stairs<br>- At the bottom of the stairs, turn left towards the bridge, and take the ramps down to the canal level<br>- Move onto the ice <br>- Go under the bridge while on the ice <br>- Make sure your character is beneath the very center of the bridge and that your camera is directly facing the wall | <img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg" width="600"> |
+| **Terrakion**<br>- Go left from the entrance<br>- Go halfway down the stairs<br>- Turn right onto the grass<br>- Take the warp pad up to the roof<br>- Turn towards the right and go to the warp panel that points towards the scaffolding near the entrance<br>- Make sure the warp pad "A" button is visible | <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionStart.jpg" width="600">
+| **Virizion**<br>- From the entrance, run forward and right and drop into the alley<br>- Climb the ladder on the far right side<br>- Climb onto the roof, and move to the plank on the right<br>- Cross the plank and climb onto the roof<br>- Use the Rotom Glide to jump onto the building toward the right, the one with a warp pad<br>- Move to the ladder at the end, face the ladder with the "A" button visible | <img src="images/ShinyHunt-HyperspaceLegendary-VirizionStart.jpg" width="600"> |
 
 ## Options
 
@@ -96,11 +88,11 @@ Which Legendary you are hunting.
 
 Minimum amount of calories you need to catch the legendary after the program find it shiny. It burns 10 calories per second in those 5-star legendary Hyperspace Wild Zones.
 
-- Virizion: the program will drop the player character into the courtyard to draw Virizion's aggression. Prepare enough time to fight it in the courtyard. Kill any other Pokémon following you into the courtyard first. Once you defeat Virizion, save in front of it and use the [Post-Kill Catcher](PostKillCatcher.md) program to catch it. If you prefer to save before battling it, add more calories to have time leaving the courtyard, drop aggro, save and return to battle it.
+The program will likely aggro the legendary, prepare enough time to fight it. Kill any other Pokémon following you first. Once you defeat the legendary, save in front of it and use the [Post-Kill Catcher](PostKillCatcher.md) program to catch it. If you prefer to save before battling it, start with a higher calorie limit to have more time to leave the area and drop aggro, save, and return to battle it.
 
 ## Credits
 
-- **Author:** Gimikyu/Ericzklm, Cryson, Gin
+- **Author:** Gin, Gimikyu, Cryson, theAstrogoth
 
 
 <hr>
