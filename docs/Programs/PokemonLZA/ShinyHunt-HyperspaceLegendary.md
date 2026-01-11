@@ -1,4 +1,4 @@
-# Shiny Hunt - Hyperspace Legendary (In Development, Not Released Yet)
+# Shiny Hunt - Hyperspace Legendary (Beta Testing, Not Released Yet)
 
 ## Program Description
 
@@ -8,10 +8,7 @@ Shiny huntable legendary Pokémon are Latias, Latios, Cobalion, Terrakion, and V
 
 Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Power donuts but the size and IVs are fixed.
 
-Currently, only Latios, Latias, Cobalion, Terrakion, and Virizion are supported.
-
-<img src="images/ShinyHunt-HyperspaceLegendary-TerrakionShiny.jpg">
-
+Currently, only Latios, Cobalion, Terrakion, and Virizion are supported.
 
 ### Setup of Settings
 
@@ -50,10 +47,14 @@ Currently, only Latios, Latias, Cobalion, Terrakion, and Virizion are supported.
 
 Movement for each legendary:
 
-<!-- #### Eon Duo
-<img src="images/ShinyHunt-HyperspaceLegendary-EonMap.jpg"> -->
+#### Eon Duo
+<img src="images/ShinyHunt-HyperspaceLegendary-EonMap.jpg">
 
-<!-- Not yet implemented -->
+| Pokémon | Image |
+| --- | --- |
+| **Latias**<br>- To be implemented. | |
+| **Latios**<br>- Stand on the Holovator pad that leads to the roof top where Latios resides. <br>- Make sure you have enough Calories left to catch it. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg) |
+
 
 #### Swords of Justice
 <img src="images/ShinyHunt-HyperspaceLegendary-SwordsMap.jpg">
@@ -62,9 +63,7 @@ Movement for each legendary:
 | --- | --- |
 | **Cobalion**<br>- From the entrance, run forwards and right and drop into the alley<br>- Go down the stairs<br>- At the bottom of the stairs, turn left towards the bridge, and take the ramps down to the canal level<br>- Move onto the ice <br>- Go under the bridge while on the ice <br>- Make sure your character is beneath the very center of the bridge and that your camera is directly facing the wall | [<img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg" width="300">](images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg) [<img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart2.jpg" width="300">](images/ShinyHunt-HyperspaceLegendary-CobalionStart2.jpg) |
 | **Terrakion**<br>- Go left from the entrance<br>- Go halfway down the stairs<br>- Turn right onto the grass<br>- Take the warp pad up to the roof<br>- Turn towards the right and go to the warp panel that points towards the scaffolding near the entrance<br>- Make sure the warp pad "A" button is visible | <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionStart.jpg" width="600">
-| **Virizion**<br>- From the entrance, run forward and right and drop into the alley<br>- Climb the ladder on the far right side<br>- Climb onto the roof, and move to the plank on the right<br>- Cross the plank and climb onto the roof<br>- Use the Rotom Glide to jump onto the building toward the right, the one with a warp pad<br>- Move to the ladder at the end, face the ladder with the "A" button visible | <img src="images/ShinyHunt-HyperspaceLegendary-VirizionStart.jpg" width="600"> |
-| **Latios**<br>- Stand on the Holovator pad that leads to the roof top where Latios resides. <br>- Make sure you have enough Calories left to catch it. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg) |
-| **Latias**<br>- To be implemented. | |
+| **Virizion**<br>- From the entrance, run forward and right and drop into the alley<br>- Climb the ladder on the far right side<br>- Climb onto the roof, and move to the plank on the right<br>- Cross the plank and climb onto the roof<br>- Use the Rotom Glide to jump onto the building toward the right, the one with a warp pad<br>- Move to the ladder at the end, face the ladder with the "A" button visible | <img src="images/ShinyHunt-HyperspaceLegendary-VirizionStart.jpg" width="600"> 
 
 
 
