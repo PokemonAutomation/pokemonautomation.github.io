@@ -8,8 +8,6 @@ Shiny huntable legendary Pokémon are Latias, Latios, Cobalion, Terrakion, and V
 
 Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Power donuts but the size and IVs are fixed.
 
-Currently, only Latios, Cobalion, Terrakion, and Virizion are supported.
-
 ### Setup of Settings
 
 **Switch Settings:**
@@ -40,8 +38,8 @@ Currently, only Latios, Cobalion, Terrakion, and Virizion are supported.
 ### Instructions
 
 1. Enter a 5-star hyperspace legendary wild zone.
-2. Based on the legendary you want to hunt, move to the location shown below.
-3. If hunting Swords of Justice, set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
+2. Based on the legendary you want to hunt, move to the location shown on the maps below. Written instructions are also provided if needed.
+3. If hunting Latias or Swords of Justice, set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
 4. Save the game at the location described below.
 5. Start the program.
 
@@ -52,8 +50,8 @@ Movement for each legendary:
 
 | Pokémon | Image |
 | --- | --- |
-| **Latias**<br>- To be implemented. | |
-| **Latios**<br>- Stand on the Holovator pad that leads to the roof top where Latios resides. <br>- Make sure you have enough Calories left to catch it. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg) |
+| **Latias**<br>- From the entrance, make a hard right and follow the street<br>- The building on the left side of the street has a tunnel into a courtyard, enter the courtyard<br>- Immediately after the tunnel, turn right and climb the ladder to the top and climb onto the roof<br>- Go left, and climb onto the roof with the Noibat/Noivern<br>- Once you're on that roof, climb onto the higher roof on your right<br>- Go to up to the ladder that leads up to Latias, don't climb it<br>- Stand in front of the ladder with the "A" button prompt visible<br><br>Note: You may need to defeat or de-aggro Noibat/Noivern to save | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiasStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiasStart.jpg) |
+| **Latios**<br>- From the entrance, make a hard right and follow the street<br>- The building on the left side of the street has a tunnel into a courtyard, enter the courtyard<br>- Immediately after the tunnel, turn right and climb the ladder to the top and climb onto the roof<br>- Go left, and climb onto the roof with the Hawlucha<br>- Go towards the left, past the Hawlucha<br>- Drop onto the roof with the chimneys and use the Holovator pad on the far end to get across the canal<br>- Go towards and climb onto the roof that is higher<br>- Cross the bridge that is ahead, clearing the vines in the way<br>- Climb the ladder to the right<br>- Walk across the web<br>- After crossing the web, drop off the roof onto the terrace that's straight ahead<br> - Stand on the Holovator pad that leads to the roof top where Latios resides, with the "A" button prompt visible<br><br>Note: Make sure you have enough Calories left to catch it. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg) |
 
 
 #### Swords of Justice
@@ -62,8 +60,8 @@ Movement for each legendary:
 | Pokémon | Image |
 | --- | --- |
 | **Cobalion**<br>- From the entrance, run forwards and right and drop into the alley<br>- Go down the stairs<br>- At the bottom of the stairs, turn left towards the bridge, and take the ramps down to the canal level<br>- Move onto the ice <br>- Go under the bridge while on the ice <br>- Make sure your character is beneath the very center of the bridge and that your camera is directly facing the wall | [<img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg" width="300">](images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg) [<img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart2.jpg" width="300">](images/ShinyHunt-HyperspaceLegendary-CobalionStart2.jpg) |
-| **Terrakion**<br>- Go left from the entrance<br>- Go halfway down the stairs<br>- Turn right onto the grass<br>- Take the warp pad up to the roof<br>- Turn towards the right and go to the warp panel that points towards the scaffolding near the entrance<br>- Make sure the warp pad "A" button is visible | <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionStart.jpg" width="600">
-| **Virizion**<br>- From the entrance, run forward and right and drop into the alley<br>- Climb the ladder on the far right side<br>- Climb onto the roof, and move to the plank on the right<br>- Cross the plank and climb onto the roof<br>- Use the Rotom Glide to jump onto the building toward the right, the one with a warp pad<br>- Move to the ladder at the end, face the ladder with the "A" button visible | <img src="images/ShinyHunt-HyperspaceLegendary-VirizionStart.jpg" width="600"> 
+| **Terrakion**<br>- Go left from the entrance<br>- Go halfway down the stairs<br>- Turn right onto the grass<br>- Take the Holovator pad up to the roof<br>- Turn towards the right and go to the Holovator pad that points towards the scaffolding near the entrance<br>- Make sure the "A" button prompt is visible | <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionStart.jpg" width="600">
+| **Virizion**<br>- From the entrance, run forward and right and drop into the alley<br>- Climb the ladder on the far right side<br>- Climb onto the roof, and move to the plank on the right<br>- Cross the plank and climb onto the roof<br>- Use the Rotom Glide to jump onto the building toward the right, the one with a warp pad<br>- Move to the ladder at the end, face the ladder with the "A" button prompt visible | <img src="images/ShinyHunt-HyperspaceLegendary-VirizionStart.jpg" width="600"> 
 
 
 
@@ -91,7 +89,7 @@ When a shiny is detected, wait this long before you take a screenshot and record
 
 Which Legendary you are hunting.
 
-### Minimum Cal. Reserved to Catch Legendary (Only For Hunting Sword of Justice)
+### Minimum Cal. Reserved to Catch Legendary (Does not apply to Latios)
 
 Minimum amount of calories you need to catch the legendary after the program find it shiny. It burns 10 calories per second in those 5-star legendary Hyperspace Wild Zones.
 
