@@ -7,6 +7,7 @@ Reset gift Pokémon for desired stats.
 **Currently Supported Pokémon:**
 
 1. AZ's Floette
+2. Magearna
 
 **DISCLAIMER:** This program utilizes the backup saves to reset for Pokémon stats and often requires long setup, make sure you fully understand what you need to do before starting the program.
 
@@ -35,6 +36,13 @@ Reset gift Pokémon for desired stats.
 4. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
 5. Fly to any Pokémon Center and place a new backup save by healing.
 6. Start the program in game.
+
+**Preparation for Magearna:**
+
+1. Set the guide pin to Quasartico Inc. so that opening the map from the main menu (X press then Plus press) placecs the cursor right above the Quasartico Inc. fly spot. (Refer to the image in step 3 of the Floette setup if needed)
+2. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
+3. Fly to any Pokémon Center and place a new backup save by healing.
+4. Start the program in game.
 
 ### Program Settings
 
