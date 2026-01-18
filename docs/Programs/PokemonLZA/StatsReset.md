@@ -39,10 +39,11 @@ Reset gift Pokémon for desired stats.
 
 **Preparation for Magearna:**
 
-1. Set the guide pin to Quasartico Inc. so that opening the map from the main menu (X press then Plus press) placecs the cursor right above the Quasartico Inc. fly spot. (Refer to the image in step 3 of the Floette setup if needed)
-2. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
-3. Fly to any Pokémon Center and place a new backup save by healing.
-4. Start the program in game.
+1. Have the 999 Mega Shards to complete the Side Mission.
+2. Set the guide pin to Quasartico Inc. so that opening the map from the main menu (X press then Plus press) placecs the cursor right above the Quasartico Inc. fly spot. (Refer to the image in step 3 of the Floette setup if needed)
+3. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
+4. Fly to any Pokémon Center and place a new backup save by healing.
+5. Start the program in game.
 
 ### Program Settings
 
