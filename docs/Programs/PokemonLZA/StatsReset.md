@@ -7,7 +7,9 @@ Reset gift Pokémon for desired stats.
 **Currently Supported Pokémon:**
 
 1. AZ's Floette
+<img src="images/StatsReset-AzFloette-Match.png">
 2. Magearna
+<img src="images/StatsReset-Magearna-Match.png">
 
 **DISCLAIMER:** This program utilizes the backup saves to reset for Pokémon stats and often requires long setup, make sure you fully understand what you need to do before starting the program.
 
@@ -74,6 +76,7 @@ The desired IV spread for each stat.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
