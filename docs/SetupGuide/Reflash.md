@@ -19,9 +19,9 @@ The steps for flashing your microcontroller are outlined in one of the guides be
 | <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | [Guide](Controllers/Controller-PicoW-USB#step-1-flash-the-firmware-to-the-pico-w.md) {.nowrap} |
 | <img src="Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 {.nowrap} | [Windows](Controllers/Controller-ESP32-WROOM#step-2-flash-the-firmware-to-the-esp32.md)<br>[Mac](Controllers/Controller-ESP32-WROOM-MacOS#step-3-flash-the-firmware-to-the-esp32.md) {.nowrap} |
 | <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 {.nowrap} |[Windows](Controllers/Controller-ESP32-S3#step-2-flash-the-firmware-to-the-esp32.md) {.nowrap} |
-<!-- | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 3 {.nowrap} | [Guide](Controllers/Controller-sys-botbase.md) {.nowrap} | -->
 | <img src="Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | [Guide](Controllers/Controller-PicoW-UART#step-1-flash-the-firmware-to-the-pico-w.md) {.nowrap} |
 | <img src="Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | [Guide](Controllers/Controller-PicoW-Advanced#software-setup.md) {.nowrap} |
+<!-- | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 3 {.nowrap} | [Guide](Controllers/Controller-sys-botbase.md) {.nowrap} | -->
 
 ## Deprecated Setups:
 
