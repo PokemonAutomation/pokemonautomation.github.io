@@ -1,4 +1,4 @@
-# Gift Reset
+# Prize Corner Reset
 
 ## Program Description
 
