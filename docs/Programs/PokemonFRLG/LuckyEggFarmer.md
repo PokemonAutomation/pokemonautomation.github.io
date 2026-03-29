@@ -30,7 +30,6 @@ Repeatedly attempt to catch Chansey and farm Lucky Eggs.
 
 <img src="images/LuckyEggFarmer-Start.jpg">
 
-
 <img src="images/LuckyEggFarmer-Party.jpg">
 
 ## Credits
