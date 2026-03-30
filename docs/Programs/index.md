@@ -359,7 +359,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | **Farming:** |
-| [Lucky Egg Farmer](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}            |  Video           | All |
+| [Lucky Egg Farmer](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}            |  Video + Audio   | All |
 | [Nugget Bridge Farmer](PokemonFRLG/NuggetBridgeFarmer.md) {.nowrap}    |  Video           | All |
 | [Pickup Farmer](PokemonFRLG/PickupFarmer.md) {.nowrap}                 |  Video           | All |
 | **Shiny Hunting:** |
