@@ -116,6 +116,26 @@ Macros are usually uploaded to the discord server by our community. You can atte
 
 So for a more permanent location we have opted to store the macros in the forum on [RotomLabs](https://community.rotomlabs.net/t/frlg-macro-discussion/36) 
 
+If you've already used a few macros, you likely have enough experience to get started without a setup guide. Direct download links are provided below for your convenience. If you run into any questions, please check the forum for instructions before reaching out. Still stuck? Someone in the Discord server should be able to help.
+
+| Macro | Download | Forum |
+|-------|----------|-------|
+| Wild Encounters | [Download](https://community.rotomlabs.net/uploads/short-url/fzcB7FatesHq4ORivotwkh2r3ky.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/3?u=dolphincurry) |
+| Game Corner | [Download](https://community.rotomlabs.net/uploads/short-url/5jarLsS4ItsXbGxEaGySEUpwfjT.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/4?u=dolphincurry) |
+| Togepi | [Download](https://community.rotomlabs.net/uploads/short-url/dLkaCrOwJR6bk0w1PRqwBe0s7tQ.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/5?u=dolphincurry) |
+| Hatch | [Download](https://community.rotomlabs.net/uploads/short-url/iTYkqBiHPfn5SibUF9s6SkDmrWi.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/5?u=dolphincurry) |
+| Deoxys | [Download](https://community.rotomlabs.net/uploads/short-url/oAl8BoBmpmwE1JqnZRowiRT5RzX.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/5?u=dolphincurry) |
+| Snorlax | [Download](https://community.rotomlabs.net/uploads/short-url/euuVkLuvP3oPqEJXrlPzKEgg514.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/5?u=dolphincurry) |
+| Lugia | [Download](https://community.rotomlabs.net/uploads/short-url/b4pcgwLKfuMtslSsvXmIieUnHu3.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/5?u=dolphincurry) |
+| Articuno | [Download](https://community.rotomlabs.net/uploads/short-url/w10zbuXQpHhP517KWxzeeOVruNu.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/6?u=dolphincurry) |
+| Zapdos | [Download](https://community.rotomlabs.net/uploads/short-url/2449aSucO4A3QUtKZ169JJBI6dk.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/6?u=dolphincurry) |
+| Moltres | [Download](https://community.rotomlabs.net/uploads/short-url/xtbVFOcx5M2mEOmQSV7y1YBZciV.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/6?u=dolphincurry) |
+| Entei | [Download](https://community.rotomlabs.net/uploads/short-url/2JuakCOPqmuRJxIExjAO54pQLkO.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/7?u=dolphincurry) |
+| Eevee | [Download](https://community.rotomlabs.net/uploads/short-url/vUeI4Ljpde2uewLnZgNqBGEFhNo.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/8?u=dolphincurry) |
+| Fossil | [Download](https://community.rotomlabs.net/uploads/short-url/sAKh0OZAMfJ4xo7wWJDY3MXdA9R.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/8?u=dolphincurry) |
+| Hypno | [Download](https://community.rotomlabs.net/uploads/short-url/gGQuWXJ2iDwlSWcos70kLnl14lC.json) | [Forum](https://community.rotomlabs.net/t/frlg-macro-discussion/36/8?u=dolphincurry) |
+
+---
 
 ## Credits
 
