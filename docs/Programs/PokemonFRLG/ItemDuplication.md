@@ -30,7 +30,7 @@ Repeatedly swap Retro Mail with the item Farfetch'd is holding to duplicate it.
 ### Instructions
 
 1. Farfetch'd is in the first party slot and holding the item you wish to duplicate.
-2. The rest of your party is full and holding the correct Retro Mail for your glitch setup..
+2. The rest of your party is full and holding the correct Retro Mail for your glitch setup.
 3. Retro Mail is the top slot of the bag page. (You can scroll down to it or move it to the top.)
 4. Start the program with in the bag menu with the selection arrow on the Retro Mail.
 
