@@ -360,10 +360,11 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | **Farming:** |
-| [Lucky Egg Farmer (in development)](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}            |  Video + Audio   | All |
+| [EV Trainer (beta)](PokemonFRLG/EvTrainer.md) {.nowrap}                       |  Video           | All |
+| [Item Duplication (in development)](PokemonFRLG/ItemDuplication.md) {.nowrap}   |  Video + Audio   | All |
+| [Lucky Egg Farmer (in development)](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}    |  Video + Audio   | All |
 | [Nugget Bridge Farmer](PokemonFRLG/NuggetBridgeFarmer.md) {.nowrap}    |  Video           | All |
 | [Pickup Farmer (beta)](PokemonFRLG/PickupFarmer.md) {.nowrap}                 |  Video           | All |
-| [EV Trainer (beta)](PokemonFRLG/EvTrainer.md) {.nowrap}                       |  Video           | All |
 | **Shiny Hunting:** |
 | [Gift Reset](PokemonFRLG/GiftReset.md) {.nowrap}                       |  Video           | All |
 | [Legendary Reset](PokemonFRLG/LegendaryReset.md) {.nowrap}             |  Video + Audio   | All |
