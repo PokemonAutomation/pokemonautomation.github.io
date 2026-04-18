@@ -1,6 +1,6 @@
-# Teensy 2.0 and Teensy++ 2.0 (using solderless hammer headers)
+# Teensy 2.0 and Teensy++ 2.0 (using solderless hammer headers) (deprecated)
 
-**This setup is deprecated, though still supported. New users should pick something from the [recommended list](../../ControllerList.md).**
+**This setup is deprecated and will be removed in the future. New users should pick something from the [recommended list](../../ControllerList.md).**
 
 <hr>
 

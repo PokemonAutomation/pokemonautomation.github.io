@@ -1,4 +1,6 @@
-# Wired Controller (AVR8) Software Setup
+# Wired Controller (AVR8) Software Setup (deprecated)
+
+**This setup is deprecated and will be removed in the future. New users should pick something from the [recommended list](../../ControllerList.md).**
 
 This is the software setup guide for all the AVR8-based wired controller setups.
 
