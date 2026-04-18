@@ -3,6 +3,7 @@
 While we currently support a handful of microcontrollers, in reality, we have looked at many more boards.
 
 In order for a board to be usable, it must support at least one following:
+
 - Bluetooth Classic
 - USB OTG
 
