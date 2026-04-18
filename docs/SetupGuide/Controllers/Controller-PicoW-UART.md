@@ -1,6 +1,6 @@
 # Raspberry Pi: Pico W and Pico 2 W (UART Mode)
 
-**Note: While this guide covers only the wirless Pico models (Pico W and Pico 2 W), it will also work on the non-W models (Pico and Pico 2). Lacking the wireless chip simply means you won't get the wireless controllers. But you will still get all the wired controllers.**
+**Note: While this guide covers only the wireless Pico models (Pico W and Pico 2 W), it will also work on the non-W models (Pico and Pico 2). Lacking the wireless chip simply means you won't get the wireless controllers. But you will still get all the wired controllers.**
 
 The Raspberry Pi Pico W (and Pico 2 W) is the easiest setup to get up and running (even easier than the ESP32). Thus, it is ideal for new users who just want to try out this project without getting too deep.
 
