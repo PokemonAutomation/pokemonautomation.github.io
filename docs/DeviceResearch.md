@@ -2,6 +2,14 @@
 
 While we currently support a handful of microcontrollers, in reality, we have looked at many more boards.
 
+In order for a board to be usable, it must support at least one following:
+- Bluetooth Classic
+- USB OTG
+
+For wireless controllers, Bluetooth Classic (BTC) is the protocol for the Switch 1 controllers, yet it is also a dying protocol since the world has moved to Bluetooth Low Energy (BLE). While many boards support wireless and Bluetooth, very few of them support BTC. If they support Bluetooth, they only support BLE. The (original) ESP32 and the Raspberry Pi Pico W are the only boards that still retain built-in support for BTC. Later ESP32 models only support BLE.
+
+For wired controllers, you need USB OTG. While many boards support USB OTG, almost all of them lack an easy 2nd way to connect to the computer. Thus almost everything requires an external UART to do so. The ESP32-S3 remains the only board that has both USB OTG and a built-in USB-UART TTL. While there are board with multiple USB ports, all the ones we have found have power circuitry that is incompatible with the setup that we need.
+
 ## Currently Supported Boards
 
 |**Name** | **Specs** | **Capabilities** | **Target Controllers** | **Verdict** |
