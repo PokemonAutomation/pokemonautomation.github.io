@@ -64,8 +64,9 @@ nav:
       - PokemonHome: Programs/PokemonHome
       - ZeldaTotK: Programs/ZeldaTotK
   - Controllers:
-      - ControllerList.md
-      - DeviceResearch: DeviceResearch.md
+      - Controller List: ControllerList.md
+      - Power Glitching: PowerGlitching.md
+      - Device Research: DeviceResearch.md
   - Discord Integration:
       - Overview: DiscordIntegration/index.md
       - Discord Bot: DiscordIntegration/DiscordBot.md
