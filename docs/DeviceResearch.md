@@ -10,6 +10,8 @@ For wireless controllers, Bluetooth Classic (BTC) is the protocol for the Switch
 
 For wired controllers, you need USB OTG. While many boards support USB OTG, almost all of them lack an easy 2nd way to connect to the computer. Thus almost everything requires an external UART to do so. The ESP32-S3 remains the only board that has both USB OTG and a built-in USB-UART TTL. While there are board with multiple USB ports, all the ones we have found have power circuitry that is incompatible with the setup that we need.
 
+It may be possible to use WiFi or Ethernet to connect a wired controller to the computer. But we haven't explored these options much due to the complications of dealing with IP addresses, discovery, and security.
+
 ## Currently Supported Boards
 
 |**Name** | **Specs** | **Capabilities** | **Target Controllers** | **Verdict** |
