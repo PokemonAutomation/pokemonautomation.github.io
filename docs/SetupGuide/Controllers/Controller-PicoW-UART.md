@@ -1,5 +1,7 @@
 # Raspberry Pi: Pico W and Pico 2 W (UART Mode)
 
+**Note: While this guide covers only the wirless Pico models (Pico W and Pico 2 W), it will also work on the non-W models (Pico and Pico 2). Lacking the wireless chip simply means you won't get the wireless controllers. But you will still get all the wired controllers.**
+
 The Raspberry Pi Pico W (and Pico 2 W) is the easiest setup to get up and running (even easier than the ESP32). Thus, it is ideal for new users who just want to try out this project without getting too deep.
 
 There are two operating modes of the Pico W family:
@@ -141,18 +143,20 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 3. Plug the Pico W's USB back into your computer while holding the `Bootsel` button. You can now release the button.
 4. Go to "This PC" and look for a storage device:
 
-     - On the Pico W(H), it will be named `RPI-RP2`.
-     - On the Pico 2 W(H), it will be named `RP2350`.
+     - On the Pico and Pico W, it will be named `RPI-RP2`.
+     - On the Pico 2 and Pico 2 W, it will be named `RP2350`.
 
 5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico W(H): `PABotBase-Pico1W-2025092300.uf2` (version number may vary)
-     - Pico 2 W(H): `PABotBase-Pico2W-2025092300.uf2` (version number may vary)
+     - Pico and Pico W: `PABotBase-Pico1W-2025092300.uf2` (version number may vary)
+     - Pico 2 and Pico 2 W: `PABotBase-Pico2W-2025092300.uf2` (version number may vary)
 
     <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
 6. Unplug the Pico W's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.
+
+Note that the same firmware is used for both wireless and non-wireless Picos.
 
 ### Step 2: Install UART drivers
 
