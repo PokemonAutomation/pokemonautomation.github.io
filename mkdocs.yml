@@ -63,7 +63,9 @@ nav:
       - PokemonFRLG: Programs/PokemonFRLG
       - PokemonHome: Programs/PokemonHome
       - ZeldaTotK: Programs/ZeldaTotK
-  - Controllers: ControllerList.md
+  - Controllers:
+      - ControllerList.md
+      - DeviceResearch: DeviceResearch.md
   - Discord Integration:
       - Overview: DiscordIntegration/index.md
       - Discord Bot: DiscordIntegration/DiscordBot.md
