@@ -240,6 +240,10 @@ You will notice that there are 10 controller options:
 
 Click on the link for detailed documentation for the controller type. "None" simply idles the Pico and turns off its antenna so it isn't trying to connect to a Switch. The others tell the Pico to act as that controller respectively. Setting to "None" is a convenient way to disconnect the Pico so you can connect your physical controller.
 
+Note that the Wired Pro Controller and Joycon controllers require enabling an additional option in the Switch settings:
+
+<img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
+
 Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller is a wireless controller that has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
 Changing programs (or even closing the application entirely) will not disconnect the Pico W from the Switch. When you load a program and connect to the Pico W, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly).
