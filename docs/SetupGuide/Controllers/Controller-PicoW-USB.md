@@ -107,8 +107,8 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico W(H): `PABotBase-Pico1W-2025092300.uf2` (version number may vary)
-     - Pico 2 W(H): `PABotBase-Pico2W-2025092300.uf2` (version number may vary)
+     - Pico W(H): `PABotBase2-Pico1-2026041700.uf2` (version number may vary)
+     - Pico 2 W(H): `PABotBase2-Pico2-2026041700.uf2` (version number may vary)
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
@@ -122,7 +122,7 @@ To get there from the Switch Home screen: `Controllers` (button next to the Sett
 
 ### Step 3: Connect the Pico W to the Computer Control program
 
-1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase` (should be on this since this is the default)
+1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Windows it will be something like `COM3`.
 
 If you don't see the device in the dropdown, you probably need to refresh it (especially if you kept the program open since Step 0). You can refresh the list by clicking "Reset Ctrl".
@@ -135,9 +135,11 @@ If everything worked correctly, it will look like this:
 
 In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
-After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or be unplugging and replugging it.
+After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or be unplugging and replugging it. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
+
+The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Ready-Annotated.jpg">
 
