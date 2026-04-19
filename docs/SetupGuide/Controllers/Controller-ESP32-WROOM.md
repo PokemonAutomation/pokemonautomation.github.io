@@ -125,7 +125,7 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 4. You will then be prompted with this complicated window. Fill everything as follows:
 
     - Check the box for the first entry, at the top left.
-    - For the first entry, click on the `...` and browse for `PABotBase-ESP32-2025032100.bin` in the serial programs download folder. (version number may vary)
+    - For the first entry, click on the `...` and browse for `PABotBase2-ESP32-2026041700.bin` in the serial programs download folder. (version number may vary)
     - The right-most box should be a zero.
     - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
     - At the bottom right corner, select the COM port of your ESP32.
@@ -155,7 +155,7 @@ To get there from the Switch Home screen: `Controllers` (button next to the Sett
 
 ### Step 4: Connect the ESP32 to the Computer Control program
 
-1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase` (should be on this since this is the default)
+1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Windows it will be something like `COM3`.
 
 If you don't see the device in the dropdown, you probably need to refresh it (especially if you kept the program open since Step 0). You can refresh the list by clicking "Reset Ctrl".
@@ -170,9 +170,11 @@ If you do not see this or you get an error, then see [troubleshooting](#troubles
 
 In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
-After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32.
+After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32. Lastly, try rebooting the Switch since sometimes it can get into a state where it refused to accept controllers.
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
+
+The 4 vertical lines next to `Connected:` are the player lights that normally found on a real controller.
 
 <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Ready-Annotated.png">
 

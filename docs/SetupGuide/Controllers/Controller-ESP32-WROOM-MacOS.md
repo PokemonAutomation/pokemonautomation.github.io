@@ -132,7 +132,7 @@ Download the latest version of PABotBase-ESP32 from [here](https://github.com/Po
     <img src="../Images/Mac/esp32-flash-select.png" width=400 style="display: block; margin: 10px 40px">
 
 5. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
-6. Click `Choose File`: Select the firmware file (`PABotBase-ESP32-<version>.bin`), then click `Open` to choose the file.
+6. Click `Choose File`: Select the firmware file (`PABotBase2-ESP32-<version>.bin`), then click `Open` to choose the file.
 7. Click `Program`.
 
     <img src="../Images/Mac/esp32-flash-load.png" width="600" style="display: block; margin: 10px 40px">
@@ -161,7 +161,7 @@ To get there from the Switch Home screen: `Controllers` (button next to the Sett
 
 ### Step 5: Connect the ESP32 to the Computer Control program
 
-1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase` (should be on this since this is the default)
+1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Mac it will be something like `cu.usbserial-#`.
 
 If you don't see the device in the dropdown, you probably need to refresh it (especially if you kept the program open since Step 0). You can refresh the list by clicking "Reset Ctrl".
@@ -178,9 +178,11 @@ If you see neither, then see [troubleshooting](#troubleshooting).
 
 In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
-After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32.
+After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32. Lastly, try rebooting the Switch since sometimes it can get into a state where it refused to accept controllers.
 
 The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
+
+The 4 vertical lines next to `Connected:` are the player lights that normally found on a real controller.
 
 <img src="../Images/Mac/esp32-controller-connected.png">
 
