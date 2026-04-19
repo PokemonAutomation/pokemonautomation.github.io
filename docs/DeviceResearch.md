@@ -32,13 +32,19 @@ It may be possible to use WiFi or Ethernet to connect a wired controller to the 
 | Arduino Leonardo {.nowrap} | - CPU: ATMega32u4<br>- RAM: 2.5 KB<br>- Flash: 31.5 KB {.nowrap} | USB OTG {.nowrap} | NS1: Wired Controller<br>NS2: Wired Controller {.nowrap} | Same chip as the Teensy 2.0. Added as stronger alternative to Uno R3.<br><br>Setup Difficulty: 6<br>Vulnerable to [power glitching](PowerGlitching.md).<br><br>RAM/progmem separation is annoying. Toolchain C++ support is very poor. Can run PABotBase1, but not PABotBase2.<br><br>Currently supported by PA. Soon to be deprecated and removed with migration to PABotBase2. |
 | Pro Micro {.nowrap} | - CPU: ATMega32u4<br>- RAM: 2.5 KB<br>- Flash: 31.5 KB {.nowrap} | USB OTG {.nowrap} | NS1: Wired Controller<br>NS2: Wired Controller {.nowrap} | Same chip as the Teensy 2.0. Added as low-cost option for expert users.<br><br>Setup Difficulty: 8<br>Vulnerable to [power glitching](PowerGlitching.md).<br><br>RAM/progmem separation is annoying. Toolchain C++ support is very poor. Can run PABotBase1, but not PABotBase2.<br><br>Currently supported by PA. Soon to be deprecated and removed with migration to PABotBase2. |
 
+## Boards Under Investigation
+
+|**Name** | **Specs** | **Capabilities** | **Target Controllers** | **Verdict** |
+| --- | --- | --- | --- | --- |
+| STM32 Blue Pill {.nowrap} | - CPU: ARM Cortex-M3 <br>- RAM: 20 KB<br>- Flash: 64/128 KB {.nowrap} | USB OTG {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Presoldered debug pins can be reprogrammed as UART to allow for easy no-solder setup. Designed to be powered over the debug pins with USB attached. So immune to [power glitching](PowerGlitching.md).<br><br>However, flashing it is extremely user unfriendly and requires external hardware.<br><br>Currently not supported by PA. Still experimenting. |
+
 ## Boards that Didn't Make the Cut
 
 |**Name** | **Specs** | **Capabilities** | **Target Controllers** | **Verdict** |
 | --- | --- | --- | --- | --- |
 | [CH552G](https://www.amazon.com/USpB-CH552-Development-Microcontroller-Frequency-Performance/dp/B0GX8CP37F) {.nowrap} | - CPU: E8051<br>- RAM: 1.25 KB<br>- Flash: 16 KB {.nowrap} | USB OTG {.nowrap} | NS1: Wired Controller<br>NS2: Wired Controller {.nowrap} | Has 2 USB ports for the perfect wired controller. We thought we could use both of them, but it turns out they are shorted to each other (i.e. they are the same port). Therefore it's useless.<br><br>Setup Difficulty: 1 (if it worked the way we thought)<br><br>Not supported by PA. |
 | [waveshare RP2350 USB Mini](https://www.amazon.com/dp/B0DXF4WPRV) {.nowrap} | - CPU: RP2350 <br>- RAM: 520 KB<br>- Flash: 4 MB {.nowrap} | USB OTG x 2 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Has 2 USB ports for the perfect wired controller. But the VCC lines are shorted across them - which will fry either the Switch or the computer.<br><br>Setup Difficulty: 1 (if it worked the way we thought)<br><br>Not supported by PA. |
-| STM32 Blue Pill {.nowrap} | - CPU: ARM Cortex-M3 <br>- RAM: 20 KB<br>- Flash: 64/128 KB {.nowrap} | USB OTG {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Presoldered debug pins can be reprogrammed as UART to allow for easy no-solder setup. Designed to be powered over the debug pins with USB attached. So immune to [power glitching](PowerGlitching.md).<br><br>However, flashing it is extremely user unfriendly and requires external hardware.<br><br>Currently not supported by PA. Still experimenting. |
+
 
 <hr>
 
