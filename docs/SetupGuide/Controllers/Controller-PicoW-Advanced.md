@@ -1,4 +1,4 @@
-# Raspberry Pi: Pico W and Pico 2 W (Advanced Setup)
+# Raspberry Pi: All Pico Models (Advanced Setup)
 
 This is the advanced setup guide for the Pico and Pico 2 family. It is functionally the same as [UART mode](Controller-PicoW-UART.md), but it will not glitch or reset when docking/undocking the Nintendo Switch.
 
@@ -9,10 +9,10 @@ This is the most difficult to do serial setup that we've ever done and is reserv
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
 | --- | --- | --- | --- |
 | [USB Mode](Controller-PicoW-USB.md) | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Very Easy |
-| [UART Mode](Controller-PicoW-UART.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
+| [UART Mode](Controller-PicoW-UART.md) | 1. Pico's USB port -> Switch<br>2. Pico's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
 | **Advanced UART Mode<br>(this guide)** | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8/39 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Most Difficult |
 
-If you are here, we assume that you already have a working Pico W (UART mode) setup. So this wiki will only cover the differences from the basic UART setup. Furthermore, the parts list that we will choose will be geared toward making the following (boxed) easy-to-use product with no exposed circuitry. You are free to do whatever you want.
+If you are here, we assume that you already have a working Pico (UART mode) setup. So this wiki will only cover the differences from the basic UART setup. Furthermore, the parts list that we will choose will be geared toward making the following (boxed) easy-to-use product with no exposed circuitry. You are free to do whatever you want.
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="45%">
 
@@ -20,7 +20,7 @@ If you are here, we assume that you already have a working Pico W (UART mode) se
 
 **Required Hardware:**
 
-1. A Raspberry Pi Pico W, or Pico 2 W microcontroller. (without pins)
+1. A Raspberry Pi Pico microcontroller (any model without pins).
 2. [A micro-USB to USB-A cable or adapter.](https://www.amazon.com/gp/product/B09FXJD61Z)
 3. [USB to Serial TTL (UART).](https://www.amazon.com/dp/B07T1XR9FT)
 4. [1N5817 Schottky Diode.](https://www.amazon.com/dp/B07Q5H1SLY)
@@ -69,7 +69,7 @@ Here are some various pictures of a working setup:
 
 ## Software Setup
 
-Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#software-setup).
+Everything is the same as the [Pico UART mode guide](Controller-PicoW-UART.md#software-setup).
 
 
 
