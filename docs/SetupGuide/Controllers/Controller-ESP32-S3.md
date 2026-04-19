@@ -192,6 +192,10 @@ You will notice that there are 7 controller options:
 
 Click on the link for detailed documentation for the controller type. "None" simply idles the ESP32-S3 so it isn't trying to connect to a Switch. The others tell the ESP32-S3 to act as that controller respectively. Setting to "None" is a convenient way to disconnect the ESP32-S3 so you can connect your physical controller.
 
+Note that the Wired Pro Controller and Joycon controllers require enabling an additional option in the Switch settings:
+
+<img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
+
 
 ### Step 6: You are done!
 
