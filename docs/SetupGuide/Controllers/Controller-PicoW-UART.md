@@ -1,4 +1,4 @@
-# Raspberry Pi: Pico W and Pico 2 W (UART Mode)
+# Raspberry Pi: All Pico Models (UART Mode)
 
 **Note: This setup works on all the Pico models including the non-W ones. However, non-W Pico models will lack the wireless controllers.**
 
@@ -9,12 +9,12 @@ There are two operating modes of the Pico W family:
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
 | --- | --- | --- | --- |
 | [USB Mode](Controller-PicoW-USB.md) | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Very Easy |
-| **UART Mode (this guide)** | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
-| [Advanced UART Mode](Controller-PicoW-Advanced.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8/39 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Most Difficult |
+| **UART Mode (this guide)** | 1. Pico's USB port -> Switch<br>2. Pico's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
+| [Advanced UART Mode](Controller-PicoW-Advanced.md) | 1. Pico's USB port -> Switch<br>2. Pico's pins 6/7/8/39 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Most Difficult |
 
-This is the harder version of the Pico W setup. If you haven't already, we recommend following the guide for [USB mode](Controller-PicoW-USB.md) first.
+This is the harder version of the Pico setup. If you haven't already, we recommend following the guide for [USB mode](Controller-PicoW-USB.md) first (though USB mode requires a wireless Pico model).
 
-In UART mode, the line of communication between the Pico W and the computer is moved to an external UART instead of using the USB port. This frees up the USB port to be plugged into the Switch as a wired controller.
+In UART mode, the line of communication between the Pico and the computer is moved to an external UART instead of using the USB port. This frees up the USB port to be plugged into the Switch as a wired controller.
 
 This is the most versatile setup as it supports every single controller in this project - both wired and wireless. 
 
@@ -27,7 +27,7 @@ This is the most versatile setup as it supports every single controller in this 
 1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
 3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
-4. A Raspberry Pi Pico W, Pico WH, Pico 2 W, or Pico 2 WH microcontroller.
+4. A Raspberry Pi Pico microcontroller. (any model will work)
 5. A micro-USB to USB-A cable or adapter.
 6. USB to Serial TTL (UART)
 
@@ -37,12 +37,12 @@ This is the most versatile setup as it supports every single controller in this 
 
 - **Single Setup:** $29 - $40
     - Capture Card: $10 - $20
-    - Pico W (with pins): $7 - $8
+    - Pico (with pins): $7 - $8
     - USB Cable/Adapter: $2
     - UART: $10
 - **Bulk Purchase:** ~$20 per setup
     - Capture Card: $10
-    - Pico W (with pins): $7 each from Micro Center
+    - Pico (with pins): $7 each from Micro Center
     - USB Cable/Adapter: < $1 each from AliExpress
     - UART: $2 each from Amazon
 
@@ -75,7 +75,7 @@ This is the most versatile setup as it supports every single controller in this 
 
 Notes:
 
-- You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection!* The "H" doesn't matter, though most of the boards with pins are also "H".
+- All Pico models will work here including the non-W (no wireless) ones. The non-W Picos will simply lack the wireless controllers.
 - There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
 Here you will need the versions with pre-soldered pins in order to connect the UART. If you have other methods of connecting such as soldering or [press-fit/hammer headers](https://www.adafruit.com/product/5938), feel free to get the pinless ones and do your own thing.
@@ -111,7 +111,7 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 Make the following connections:
 
-| **UART pin** | **Adafruit UART Wire Color** | **Pico W pin** |
+| **UART pin** | **Adafruit UART Wire Color** | **Pico pin** |
 | --- | --- | --- |
 | RX | White | TX -> GP4 (pin 6) |
 | TX | Green | RX <- GP5 (pin 7) |
@@ -138,9 +138,9 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 ### Step 1: Flash the firmware to the Pico W.
 
-1. Unplug the Pico W from everything. (both computer and dock)
+1. Unplug the Pico from everything. (both computer and dock)
 2. Press and hold the white `Bootsel` button.
-3. Plug the Pico W's USB back into your computer while holding the `Bootsel` button. You can now release the button.
+3. Plug the Pico's USB back into your computer while holding the `Bootsel` button. You can now release the button.
 4. Go to "This PC" and look for a storage device:
 
      - On the Pico and Pico W, it will be named `RPI-RP2`.
@@ -153,7 +153,7 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
     <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
-6. Unplug the Pico W's USB from your computer. Then plug it into your Switch.
+6. Unplug the Pico's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.
 
 Note that the same firmware is used for both wireless and non-wireless Picos.
@@ -251,7 +251,7 @@ Note that the Wired Pro Controller and Joycon controllers require enabling an ad
 
 Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller is a wireless controller that has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
-Changing programs (or even closing the application entirely) will not disconnect the Pico W from the Switch. When you load a program and connect to the Pico W, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly).
+Changing programs (or even closing the application entirely) will not disconnect the Pico from the Switch. When you load a program and connect to the Pico, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly).
 
 **Connecting as a Joycon:**
 
@@ -261,7 +261,7 @@ For the right joycon, you can press the Home button to immediately leave the gri
 
 To enter horizontal mode, you can press SL+SR on the keyboard controls by pressing F1 and F3 at the same time. This will let you exit the grip menu and enter a game like LGPE that requires a joycon. But keep in mind that this will also rotate the controls by 90 degrees (IOW, confusing). Check the keyboard mapping for both vertical and horizontal joycon orientations.
 
-*You cannot easily pair two Pico W joycons anyway since you need to press L+R on them simultaneously and the keyboard controls don't allow you simultaneously press buttons on different controllers. However, you can easily pair a Pico W joycon with a real joycon.
+*You cannot easily pair two Pico joycons anyway since you need to press L+R on them simultaneously and the keyboard controls don't allow you simultaneously press buttons on different controllers. However, you can easily pair a Pico joycon with a real joycon.
 
 
 ### Step 7: You are done!
