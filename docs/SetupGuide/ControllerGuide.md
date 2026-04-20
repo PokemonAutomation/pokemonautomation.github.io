@@ -84,6 +84,8 @@ This is the standard 3rd party wired controller for the Switch 2 from the likes 
 
 As this is a Switch 2 controller, it supports the GL, GR, and C buttons on the Switch 2. These buttons do nothing on the Switch 1. As of this writing, this is the only controller that we support which has the GL, GR, and C buttons.
 
+This controller does not work on older Switch firmware versions. If you are running such an old Switch firmware, you need to either update to something newer, or switch controllers to the `NS1: Wired Controller`.
+
 ### How to Connect:
 
 As a wired controller, you do not need to be in the grip menu to connect. Just press any button and it will connect.
