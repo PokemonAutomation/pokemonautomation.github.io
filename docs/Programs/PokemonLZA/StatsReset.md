@@ -11,6 +11,7 @@ Catch/receive Pokémon for desired stats.
 3. Meltan <img src="images/StatsReset-Meltan-Match.jpg">
 4. Melmetal <img src="images/StatsReset-Melmetal-Match.jpg">
 5. Genesect <img src="images/StatsReset-Genesect-Match.jpg">
+6. Volcanion <img src="images/StatsReset-Volcanion-Match.jpg">
 
 **DISCLAIMER:** This program utilizes the backup saves to reset for Pokémon stats and often requires long setup, make sure you fully understand what you need to do before starting the program.
 
@@ -66,6 +67,15 @@ Catch/receive Pokémon for desired stats.
 1. Having a Catch Power 3 Steel/Bug/Any donut ready to be consumed. Set Donut Down Scrolls in settings so it scrolls to the donut.
 2. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
 3. Start the program in game. **DISCLAIMER:** With Catch Power 3 and Plushies active the catch rate is still around 30-40% depending on the ball you are using, be patient and expect failed catches when running the program.
+
+**Preparation for Volcanion:**
+
+Note: The Volcanion segment features a series of area loading screens and can spend more time than other hunts to recover from a day/night change. It's optional but it helps to switch to day time right before starting the hunt.
+
+1. Having started the quest to capture Volcanion to the point that you 
+2. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
+3. Have a lead Pokémon that knows Fissure such as Groudon and place it on the right slot (button A). Do note that when using Groudon ensure that you are not using Primal Reversion as the animation takes too long and the player can get targeted by range attacks and faint before having a chance to capture.
+4. Start the program in game. **DISCLAIMER:** If the Volcanion doesn't have near perfect IVs in HP and Defense, Fissure from a decent ground type attacker should OHKO it but even that is still around 30-40% depending on the ball you are using, be patient and expect failed catches when running the program.
 
 ### Program Settings
 
