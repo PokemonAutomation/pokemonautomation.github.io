@@ -1,6 +1,8 @@
 # Deprecated and Discontinued Controller List
 
-This is a list of controllers which have been deprecated or discontinued. If you are setting up for the first time, please see the [supported controller list](ControllerList.md).
+This is a list of controllers which have been deprecated or discontinued.
+
+If you are setting up for the first time, please see the [supported controller list](ControllerList.md).
 
 ## Controller Setups
 
