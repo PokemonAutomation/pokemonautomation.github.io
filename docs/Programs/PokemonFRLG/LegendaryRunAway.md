@@ -27,7 +27,7 @@ This program works for:
 
 1. Text Speed: Fast
 2. Battle Scene: Off
-3. Button Mode: Help
+3. Button Mode: **NOT L=A**
 4. Frame: Type 1
 
 **Other Setup:**

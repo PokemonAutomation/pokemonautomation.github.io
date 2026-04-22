@@ -22,7 +22,7 @@ Redeem and soft reset for a shiny Game Corner prize.
 **Game Settings:**
 
 1. Text Speed: Fast
-2. Button Mode: Help
+2. Button Mode: **NOT L=A**
 3. Frame: Type 1
 
 **Other Setup:**

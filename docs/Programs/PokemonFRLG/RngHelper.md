@@ -58,7 +58,7 @@ This program includes options for several RNG targets:
 **Game Settings:**
 
 1. Text Speed: Fast
-2. Button Mode: Help
+2. Button Mode: **NOT L=A**
 3. Frame: Type 1
 4. Mono / Stereo depending on your target Seed
 
