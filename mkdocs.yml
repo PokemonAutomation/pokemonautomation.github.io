@@ -62,6 +62,7 @@ nav:
       - PokemonLZA: Programs/PokemonLZA
       - PokemonFRLG: Programs/PokemonFRLG
       - PokemonHome: Programs/PokemonHome
+      - PokemonPokopia: Programs/PokemonPokopia
       - ZeldaTotK: Programs/ZeldaTotK
   - Controllers:
       - Controller List: ControllerList.md
