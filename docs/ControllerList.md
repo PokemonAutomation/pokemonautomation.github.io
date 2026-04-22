@@ -24,15 +24,15 @@ This table lists all the device and controller combinations that we support in t
 | <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-WROOM.md)<br>[Mac](SetupGuide/Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) {.nowrap} |
 | <img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) {.nowrap} |
 | <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 3 {.nowrap} | NS1: Wired Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
 
 ### Other Supported Setups:
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico<br>Raspberry Pi Pico 2 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico<br>Raspberry Pi Pico 2<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico<br>Raspberry Pi Pico 2<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
 
 ### Setup Comparison Table:
 
@@ -94,7 +94,7 @@ Wired controllers are by far the most stable with a button timing accuracy of < 
 
 | **Device** | **Controller** |
 | --- | --- |
-| ESP32-S3<br>Pico 1/2 W (UART mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} |
+| ESP32-S3<br>Pico 1/2 (UART mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} |
 | Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller {.nowrap} |
 | sys-botbase 3 (sbb3) {.nowrap} | NS1: Wired Controller {.nowrap} |
 
