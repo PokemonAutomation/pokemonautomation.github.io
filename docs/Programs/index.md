@@ -360,18 +360,20 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | **Farming:** |
+| [Nugget Bridge Farmer](PokemonFRLG/NuggetBridgeFarmer.md) {.nowrap}    |  Video           | All |
+| [Pickup Farmer (beta)](PokemonFRLG/PickupFarmer.md) {.nowrap}                 |  Video           | All |
 | [EV Trainer (beta)](PokemonFRLG/EvTrainer.md) {.nowrap}                       |  Video           | All |
 | [Item Duplication (in development)](PokemonFRLG/ItemDuplication.md) {.nowrap}   |  Video + Audio   | All |
 | [Lucky Egg Farmer (in development)](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}    |  Video + Audio   | All |
-| [Nugget Bridge Farmer](PokemonFRLG/NuggetBridgeFarmer.md) {.nowrap}    |  Video           | All |
-| [Pickup Farmer (beta)](PokemonFRLG/PickupFarmer.md) {.nowrap}                 |  Video           | All |
 | **Shiny Hunting:** |
 | [Gift Reset](PokemonFRLG/GiftReset.md) {.nowrap}                       |  Video           | All |
 | [Legendary Reset](PokemonFRLG/LegendaryReset.md) {.nowrap}             |  Video + Audio   | All |
+| [Legendary Run Away (beta)](PokemonFRLG/LegendaryRunAway.md) {.nowrap}        |  Video + Audio   | All |
 | [Shiny Hunt - Fishing (beta)](PokemonFRLG/ShinyHunt-Fishing.md) {.nowrap}     |  Video + Audio   | All |
 | [Shiny Hunt - Overworld](PokemonFRLG/ShinyHunt-Overworld.md) {.nowrap} |  Video + Audio   | All |
 | [Prize Corner Reset](PokemonFRLG/PrizeCornerReset.md) {.nowrap}        |  Video           | All |
-| [RNG Helper (in development)](PokemonFRLG/RngHelper.md) {.nowrap}      |  Video + Audio   | All | 
+| **RNG Manipulation:** |
+| [RNG Helper (in development)](PokemonFRLG/RngHelper.md) {.nowrap}      |  Video + Audio   | All |
 | **Misc. Guides:** |
 | [Macro RNG Manipulation](PokemonFRLG/MacroRngManipulation.md) {.nowrap} |                 | All |
 
