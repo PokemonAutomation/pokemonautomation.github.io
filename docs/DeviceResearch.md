@@ -36,7 +36,7 @@ It may be possible to use WiFi or Ethernet to connect a wired controller to the 
 
 |**Name** | **Specs** | **Capabilities** | **Target Controllers** | **Verdict** |
 | --- | --- | --- | --- | --- |
-| STM32 Blue Pill {.nowrap} | - CPU: ARM Cortex-M3 <br>- RAM: 20 KB<br>- Flash: 64/128 KB {.nowrap} | USB OTG {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Presoldered debug pins can be reprogrammed as UART to allow for easy no-solder setup. Designed to be powered over the debug pins with USB attached. So immune to [power glitching](PowerGlitching.md).<br><br>However, flashing it is extremely user unfriendly and requires external hardware.<br><br>Currently not supported by PA. Still experimenting. |
+| STM32 Blue Pill {.nowrap} | - CPU: ARM Cortex-M3 <br>- RAM: 20 KB<br>- Flash: 64/128 KB {.nowrap} | USB OTG {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Presoldered debug pins can be reprogrammed as UART to allow for easy no-solder setup. Designed to be powered over the debug pins with USB attached. So immune to [power glitching](PowerGlitching.md).<br><br>Development environment is absolutely terrible - nothing works. Marketplace is flooded with counterfeit boards which don't work. Flashing is extremely user unfriendly and requires external hardware.<br><br>It's not looking good for this board or any STM32 product. |
 
 ## Boards that Didn't Make the Cut
 
