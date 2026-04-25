@@ -66,6 +66,7 @@ nav:
       - ZeldaTotK: Programs/ZeldaTotK
   - Controllers:
       - Controller List: ControllerList.md
+      - Controller List (Old): ControllerListOld.md
       - Controller Guide: SetupGuide/ControllerGuide.md
       - Power Glitching: PowerGlitching.md
       - Device Research: DeviceResearch.md

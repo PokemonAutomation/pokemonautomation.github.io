@@ -126,7 +126,7 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 4. You will then be prompted with this complicated window. Fill everything as follows:
 
     - Check the box for the first entry, at the top left.
-    - For the first entry, click on the `...` and browse for `PABotBase-ESP32-S3-2025032100.bin` in the serial programs download folder. (version number may vary)
+    - For the first entry, click on the `...` and browse for `PABotBase2-ESP32-S3-2026041700.bin` in the serial programs download folder. (version number may vary)
     - The right-most box should be a zero.
     - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
     - At the bottom right corner, select the COM port of your ESP32-S3.
@@ -147,7 +147,7 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 
 ### Step 3: Connect the ESP32-S3 to the Computer Control program
 
-1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase` (should be on this since this is the default)
+1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Windows it will be something like `COM3`.
 
 If you don't see the device in the dropdown, you probably need to refresh it (especially if you kept the program open since Step 0). You can refresh the list by clicking "Reset Ctrl".
@@ -167,6 +167,10 @@ Places where the Switch will accept a new controller:
 3. In a game when no other controllers are connected.
 
 <img src="../Images/GripMenu.jpg">
+
+Press ENTER on your keyboard to connect the controller. By default ENTER is mapped to the A button on the controller. Pressing any button on a wired controller will connect it to the Switch.
+
+<img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Connected.jpg">
 
 ### Step 5: Test the connection
 
