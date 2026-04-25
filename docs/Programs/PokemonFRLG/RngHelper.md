@@ -49,6 +49,7 @@ This program includes options for several RNG targets:
 
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. Move the game data for FireRed/LeafGreen from an SD card to the Switch's system memory to reduce variability of reset times.
 
 **Program Settings:**
 
