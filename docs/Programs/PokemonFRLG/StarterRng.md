@@ -77,6 +77,10 @@ DECA
 
 The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
 
+### Extra Button:
+
+Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
+
 ### Seed Delay Time (ms):
 
 The delay time corresponding to your target seed. Set this with the help of an external RNG tool.

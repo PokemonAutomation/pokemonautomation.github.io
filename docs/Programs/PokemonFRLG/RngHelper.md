@@ -134,6 +134,14 @@ There can be a small amount of inconsistency in the program, particularly when i
 
 Set this to the maximum number of resets to attempt. Only use this after you've dialed in your calibrations.
 
+### Seed Button:
+
+The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
+
+### Extra Button:
+
+Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
+
 ### Seed Delay Time (ms):
 
 Sets the target amount of time to wait between starting the game and pressing A on the title screen. Set this with the help of an external RNG tool.
