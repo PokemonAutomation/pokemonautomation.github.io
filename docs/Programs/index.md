@@ -373,7 +373,9 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Shiny Hunt - Overworld](PokemonFRLG/ShinyHunt-Overworld.md) {.nowrap} |  Video + Audio   | All |
 | [Prize Corner Reset](PokemonFRLG/PrizeCornerReset.md) {.nowrap}        |  Video           | All |
 | **RNG Manipulation:** |
+| [SID Helper (in development)](PokemonFRLG/SidHelper.md) {.nowrap}      |  Video           | All |
 | [RNG Helper (in development)](PokemonFRLG/RngHelper.md) {.nowrap}      |  Video + Audio   | All |
+| [Starter RNG (in development)](PokemonFRLG/StarterRng.md) {.nowrap}    |  Video           | All |
 | **Misc. Guides:** |
 | [Macro RNG Manipulation](PokemonFRLG/MacroRngManipulation.md) {.nowrap} |                 | All |
 

@@ -49,7 +49,7 @@ This program includes options for several RNG targets:
 
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
-3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+3. If the game data for FireRed/LeafGreen is on an SD card, move it to the Switch's system memory to reduce variability of reset times.
 
 **Program Settings:**
 
@@ -64,7 +64,7 @@ This program includes options for several RNG targets:
 
 ### Before You Start
 
-- Know your Secret ID and use it to determine your target Seed and Advance.
+- Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
 - Be ready to manually adjust your timings. This program does not perform automatic calibration!
 
@@ -86,7 +86,7 @@ For all gifts/prizes, make sure you have a free spot in your party to allow the 
 
 | Target | Image |
 | --- | --- |
-| **Starters**<br>- Save facing the Pokéball with your desired starter | --- |
+| **Starters**<br>- Save facing the Pokéball with your desired starter | [<img src="images//RngHelper-starters.jpg" width="600">](images//RngHelper-starters.jpg) |
 | **Magikarp**<br>- Have at least 500 Pokédollars <br>- Save facing the Magikarp salesman | [<img src="images//RngHelper-magikarp.jpg" width="600">](images//RngHelper-magikarp.jpg) |
 | **Hitmonchan / Hitmonlee**<br>- Save facing the Pokéball with your desired choice | --- |
 | **Eevee**<br>- Save facing Eevee's Pokéball | [<img src="images//RngHelper-eevee.jpg" width="600">](images//RngHelper-eevee.jpg) |
@@ -135,41 +135,58 @@ There can be a small amount of inconsistency in the program, particularly when i
 
 Set this to the maximum number of resets to attempt. Only use this after you've dialed in your calibrations.
 
+### Seed Button:
+
+The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
+
+### Extra Button:
+
+Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
+
 ### Seed Delay Time (ms):
 
 Sets the target amount of time to wait between starting the game and pressing A on the title screen. Set this with the help of an external RNG tool.
 
 ### Seed Calibration (ms):
 
-This modifies the Seed Delay Time. Set this to offset the program by the amount you've missed your seed.
+Modifies the seed delay time. This should be changed in the opposite of the direction that you missed your seed.
+*Example: if you missed your target seed by +16ms (meaning the button press was too late), **decrease** your seed calibration by -16 (shortening the delay)*.
 
-### Load Screen Advances (frames):
+### Continue Screen Frames:
 
-Sets the number of frames to wait between the title screen and loading the game. Your target advance should be equal to this value plus the In-Game Advances. Set this with the help of an external RNG tool.
+The number of RNG advances before loading the game. Set this with the help of an external RNG tool.
+These pass at the "normal" rate compared to other consoles, with 1 RNG advance every frame.
+Note that the Advances of your target should be equal to the sum of your Continue Screen Frames and In-Game Advances.
 
-### Load Screen Calibration (frames):
+### Continue Screen Frames Calibration:
 
-This modifies the Load Screen Advances. Set this to offset the program by amount you missed your target advance.
-If you've missed your advance frame, you can calibrate your timing using either the Load Screen or In-Game advances. Note that In-Game advances can only result in 2 by 2 changes in hit advances.
+A "fine adjustment" that modifies the RNG advances passed on the Continue Screen. Set this to offset the program's timing by amount you missed your target advance.
+If you've missed your advance frame, you can calibrate your timing using either the Load Screen or In-Game advances.
+*Example: if your target advance was 10000 and you hit 10025, you can **decrease** your calibration value by 25.*
 
-### In-Game Advances (frames):
+### In-Game Advances:
 
-Sets the number of frames after loading the game before finalizing an encounter. Your target advance should be equal to this value plus te Load Screen Advances. Set this with the help of an external RNG tool.
-Note that frames are passed at double speed after loading the game.
+The number of in-game RNG advances before triggering the gift/encounter. Set this with the help of an external RNG tool.
+These pass at double the rate compared to other consoles, where every frame results in 2 RNG advances.
 If using the Teachy TV, which advances frames at x313 speed, most of your target advances should be passed in-game. 
+*Warning: this value needs to be long enough to accomodate all in-game button presses prior to the gift/encounter*
 
 ### In-Game Calibration (frames):
 
-This modifies the In-Game Advances. Set this to offset the program by amount you missed your target advance.
-If you've missed your advance frame, you can calibrate your timing using either the Load Screen or In-Game advances. Note that In-Game advances can only result in 2 by 2 changes in hit advances.
-
-### Detect Copyright Text:
-
-If checked, this starts the seed timer only after the program detects the appearance of the copyright text when the game is started. This can be helpful for improving seed consistency.
+A "coarse adjustment" that modifies the RNG advances passed after loading the game.
+If you've missed your advance frame, you can calibrate your timing using either the Load Screen or In-Game advances.
+Note that In-Game advances can only result in 2 by 2 changes in hit advances.
+*Example: if your target advance was 10000 and you hit 8500, you can **increase** your calibration value by 1500.*
 
 ### Use Teachy TV:
 If checked, the program will open the Teachy TV to quickly advance in-game frames at 313x speed.
 *Warning: can result in larger misses before calibration*
+
+### User Profile Position:
+
+The position, from left to right, of the Switch profile with the FRLG save you'd like to use.
+If this is set to 0, Switch 1 defaults to the last-used profile, while Switch 2 defaults to the first profile (position 1).
+Only useful if using a Switch 2 and playing on a profile other than the primary one.
 
 ### Take Video:
 
