@@ -18,7 +18,7 @@ Repeatedly defeat wild encounters to EV train your Pokémon.
 **Game Settings:**
 
 1. Text Speed: Fast
-2. Button Mode: Help
+2. Button Mode: **NOT L=A**
 3. Frame: Type 1
 
 **Other Setup:**

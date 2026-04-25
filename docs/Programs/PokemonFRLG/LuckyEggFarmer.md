@@ -18,6 +18,13 @@ Repeatedly attempt to catch Chansey and farm Lucky Eggs.
 
 1. Video Resolution: 1080p or higher
 
+**Game Settings:**
+
+1. Text Speed: Fast
+2. Battle Scene: Off
+3. Button Mode: **NOT L=A**
+4. Frame: Type 1
+
 **Other Setup:**
 
 1. Empty your party so that you only have 2 Pokemon:
