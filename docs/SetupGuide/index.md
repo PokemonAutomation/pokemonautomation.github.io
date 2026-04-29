@@ -50,7 +50,9 @@ If you are running Windows, your computer must:
 2. An x64 CPU. (An Intel or an AMD CPU. You cannot use a Qualcomm Snapdragon.)
 3. Be sufficiently powerful.*
 
-*We recommend a quad-core CPU of 3+ GHz, no older than 2015. If you intend to control more than 1 switch, you will need a more powerful CPU with more cores. If you want to run 4 Switches all with feedback, we recommend a modern 8-core computer.*
+**We recommend a quad-core CPU of 3+ GHz, no older than 5 years from the date you are reading this. If you intend to control more than 1 switch, you will need a more powerful CPU with more cores. If you want to run 4 Switches all with feedback, we recommend a modern 8-core computer.**
+
+**If you intend to buy a computer specifically for this, you will want to future proof yourself with a mid-high end computer no older than 2 years from the date you are reading this. Why is this a moving target? Video inference is constantly advancing especially as we begin to embrace AI and machine learning.**
 
 You will also need 2 spare USB ports. (or 2 ports per Switch if you intend to run multiple Switches)
 
