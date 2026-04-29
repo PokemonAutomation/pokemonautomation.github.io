@@ -55,7 +55,7 @@ This program includes options for several RNG targets:
 
 | Target | Image |
 | --- | --- |
-| **Most Static Encounters**<br>- Valid for anything not otherwise listed in this table <br>- (Optional) Pick up any overworld items and break any smashable rocks to prevent them from adding RNG advances <br>- Save facing the Pokémon <br>- For Deoxys, solve the puzzle on Birth Island and save in front of the red triangle | [<img src="images//StaticRng-electrode.jpg" width="600">](images//RngHelper-deoxys.jpg) |
+| **Most Static Encounters**<br>- Valid for anything not otherwise listed in this table <br>- (Optional) Pick up any overworld items and break any smashable rocks to prevent them from adding RNG advances <br>- Save facing the Pokémon | [<img src="images//StaticRng-electrode.jpg" width="600">](images//RngHelper-deoxys.jpg) |
 | **Snorlax**<br>- Obtain the Pokéflute <br>- Save facing Snorlax | [<img src="images//RngHelper-snorlax.jpg" width="600">](images//RngHelper-snorlax.jpg) |
 | **Berry Forest Hypno**<br>- Save facing Lostelle in Berry Forest | --- |
 | **Ho-oh**<br>- Save at the top of the steps at the very top of Navel Rock <br>- The encounter with Ho-oh is triggered after taking another step northward | [<img src="images//RngHelper-hooh.jpg" width="600">](images//RngHelper-hooh.jpg) |
