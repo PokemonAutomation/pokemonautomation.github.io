@@ -1,10 +1,27 @@
-# Starter RNG (in development)
+# Gift RNG (in development)
 
 ## Program Description
 
-Fully automated button presses and calibration for performing RNG manipulation for a starter in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
+Fully automated button presses and calibration for performing RNG manipulation for gift Pokémon and Game Corner prizes in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
 
-<img src="images//StarterRng-0.jpg" width="600">
+
+<img src="images//GiftRng-0.jpg" width="360"> <img src="images//GiftRng-1.jpg" width="360">
+<img src="images//GiftRng-2.jpg" width="360"> <img src="images//GiftRng-3.jpg" width="360">
+
+This program includes options for several RNG targets:
+
+- Magikarp (Route 4 Gift)
+- Hitmonchan / Hitmonlee (Saffron City Gift)
+- Eevee (Celadon City Gift)
+- Lapras (Silph Co. Gift)
+- Omanyte / Kabuto / Aerodactyl (Fossils)
+- Game Corner Prizes
+   - Abra
+   - Clefairy
+   - Scyther / Pinsir
+   - Dratini
+   - Porygon
+- Togepi (Water Labyrinth Gift Egg)
 
 ## Instructions
 
@@ -30,13 +47,25 @@ Fully automated button presses and calibration for performing RNG manipulation f
 - Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
 ### Instructions
-- From the south side of the table, save facing the Pokéball with your desired starter
 
-<img src="images//RngHelper-starters.jpg" width="600">
+- Make sure you have a free spot in your party to allow the program to check the Pokémon you obtain.
+- If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
+- If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
+- In the game, navigate to the following locations:
 
+| Target | Image |
+| --- | --- |
+| **Magikarp**<br>- Have at least 500 Pokédollars <br>- Save facing the Magikarp salesman | [<img src="images//RngHelper-magikarp.jpg" width="600">](images//RngHelper-magikarp.jpg) |
+| **Hitmonchan / Hitmonlee**<br>- Save facing the Pokéball with your desired choice | --- |
+| **Eevee**<br>- Save facing Eevee's Pokéball | [<img src="images//RngHelper-eevee.jpg" width="600">](images//RngHelper-eevee.jpg) |
+| **Lapras**<br>- Save facing the Silph Co. employee | [<img src="images//RngHelper-lapras.jpg" width="600">](images//RngHelper-lapras.jpg) |
+| **Fossils**<br>- Give a fossil to the scientist at the Cinnabar Lab <br>- Exit and reenter the building <br>- Save next to the scientist | [<img src="images//GiftReset-1.png" width="600">](images//GiftReset1.png) |
+| **Game Corner Prizes**<br>- Have enough coins to purchase your desired prize <br>- Save facing the prize counter | [<img src="images//RngHelper-gamecorner.jpg" width="600">](images//RngHelper-gamecorner.jpg) |
+| **Togepi**<br>- Set your lead Pokémon to something with maximum Friendship <br>- Use your bicycle <br>- Save facing the old man | [<img src="images//RngHelper-togepi.jpg" width="600">](images//RngHelper-togepi.jpg) |
+
+- Save the game
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
-
 
 ## Displays
 
@@ -54,7 +83,6 @@ While calibrations for RNG advances can change depending on what you're hunting,
 
 These values can be manually copied for use with the [RNG Helper](./RngHelper.md) if desired. 
 
-
 ## Options
 
 ### Game Language:
@@ -63,11 +91,17 @@ The language corresponding the version of the game you're playing.
 
 ### Target:
 
-The starter of your choice (Bulbasuar, Squirtle, or Charmander).
+The Pokémon to be received as a gift or prize. See the list of options at the top of this page.
 
 ### Max Resets:
 
 Set this to the maximum number of resets to attempt.
+
+### Max Rare Candies:
+
+The number of rare candies in your bag. Make sure these are at the top position of your ITEMS pocket.
+Rare candies used during calibration will be restored after resetting.
+If this value is set to 0 and your target gift has a low level, the program may take noticeably longer to perform calibration. Miscalibrations may rarely occur due to the program's inability to narrow down the many possible RNG hits on every attempt.
 
 ### Target Seed:
 
@@ -107,7 +141,7 @@ Because the program needs to wait for the entire title screen sequence to finish
 
 ### Advances:
 
-The number of RNG advances to pass before accepting the starter. Set this with the help of an external RNG tool.
+The number of RNG advances to pass before receiving the gift. Set this with the help of an external RNG tool.
 This should be the *total* number of advances, *not* just the continue screen frames or in-game advances.
 
 ### User Profile Position:
