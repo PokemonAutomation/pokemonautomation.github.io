@@ -361,20 +361,20 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | --- | --- | --- |
 | **Farming:** |
 | [Nugget Bridge Farmer](PokemonFRLG/NuggetBridgeFarmer.md) {.nowrap}    |  Video           | All |
-| [Pickup Farmer (beta)](PokemonFRLG/PickupFarmer.md) {.nowrap}                 |  Video           | All |
-| [EV Trainer (beta)](PokemonFRLG/EvTrainer.md) {.nowrap}                       |  Video           | All |
+| [Pickup Farmer](PokemonFRLG/PickupFarmer.md) {.nowrap}                 |  Video           | All |
+| [EV Trainer](PokemonFRLG/EvTrainer.md) {.nowrap}                       |  Video           | All |
 | [Item Duplication (in development)](PokemonFRLG/ItemDuplication.md) {.nowrap}   |  Video + Audio   | All |
 | [Lucky Egg Farmer (in development)](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}    |  Video + Audio   | All |
 | **Shiny Hunting:** |
 | [Gift Reset](PokemonFRLG/GiftReset.md) {.nowrap}                       |  Video           | All |
 | [Legendary Reset](PokemonFRLG/LegendaryReset.md) {.nowrap}             |  Video + Audio   | All |
-| [Legendary Run Away (beta)](PokemonFRLG/LegendaryRunAway.md) {.nowrap}        |  Video + Audio   | All |
-| [Shiny Hunt - Fishing (beta)](PokemonFRLG/ShinyHunt-Fishing.md) {.nowrap}     |  Video + Audio   | All |
+| [Legendary Run Away](PokemonFRLG/LegendaryRunAway.md) {.nowrap}        |  Video + Audio   | All |
+| [Shiny Hunt - Fishing](PokemonFRLG/ShinyHunt-Fishing.md) {.nowrap}     |  Video + Audio   | All |
 | [Shiny Hunt - Overworld](PokemonFRLG/ShinyHunt-Overworld.md) {.nowrap} |  Video + Audio   | All |
 | [Prize Corner Reset](PokemonFRLG/PrizeCornerReset.md) {.nowrap}        |  Video           | All |
 | **RNG Manipulation:** |
 | [SID Helper (in development)](PokemonFRLG/SidHelper.md) {.nowrap}      |  Video           | All |
-| [RNG Helper (in development)](PokemonFRLG/RngHelper.md) {.nowrap}      |  Video + Audio   | All |
+| [RNG Helper](PokemonFRLG/RngHelper.md) {.nowrap}      |  Video + Audio   | All |
 | [Starter RNG (in development)](PokemonFRLG/StarterRng.md) {.nowrap}    |  Video           | All |
 | [Gift RNG (in development)](PokemonFRLG/GiftRng.md) {.nowrap}          |  Video           | All |
 | [Static RNG (in development)](PokemonFRLG/StaticRng.md) {.nowrap}      |  Video + Audio   | All |

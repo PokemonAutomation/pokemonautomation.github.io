@@ -20,7 +20,7 @@ Repeatedly swap Retro Mail with the item Farfetch'd is holding to duplicate it.
 **Game Settings:**
 
 1. Text Speed: Fast
-2. Button Mode: Help
+2. Button Mode: **NOT L=A**
 3. Frame: Type 1
 
 **Other Setup:**
