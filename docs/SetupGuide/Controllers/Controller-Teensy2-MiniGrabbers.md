@@ -98,7 +98,7 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 <img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 1. Run the Teensy Loader program that you downloaded earlier.
-2. Click the purple file icon and browse for `NintendoSwitch-PABotBase-xxxxxxxxx-Teensy2.hex` or `NintendoSwitch-PABotBase-xxxxxxxxx-TeensyPP2.hex` depending on which one you have.
+2. Click the purple file icon and browse for `PABotBase-NS-Teensy2-<version>.hex` or `PABotBase-NS-TeensyPP2-<version>.hex` depending on which one you have.
 
     <img src="../Images/Teensy2/ControllerSetup-Teensy2-Loader-0.jpg">
 

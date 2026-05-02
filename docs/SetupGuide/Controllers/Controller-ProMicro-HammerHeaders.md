@@ -108,7 +108,7 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 <img src="../Images/GeneralSetup-CCFolder.png" width="88%">
 
 1. Run the QMK Toolbox program that you downloaded in PART 2.
-2. Open the .hex named `NintendoSwitch-PABotBase-xxxxxxxxx-ProMicro.hex`.
+2. Open the .hex named `PABotBase-NS-ProMicro-<version>.hex`.
 3. Change the MCU to `atmega32u4`.
 4. Check the "Auto-Flash" box.
 

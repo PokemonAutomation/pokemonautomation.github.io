@@ -109,7 +109,7 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 
 1. Run the FLIP program that you downloaded earlier.
 2. `Device` -> `Select`. Select `ATmega16U2` and click OK.
-3. `File` -> `Load HEX File...`. Open the .hex named `NintendoSwitch-PABotBase-xxxxxxxxx-ArduinoUnoR3.hex`.
+3. `File` -> `Load HEX File...`. Open the .hex named `PABotBase-NS-ArduinoUnoR3-<version>.hex`.
 
     <img src="../Images/ArduinoUnoR3/ControllerSetup-UnoR3-FLIP-0.png" width="50%">
 

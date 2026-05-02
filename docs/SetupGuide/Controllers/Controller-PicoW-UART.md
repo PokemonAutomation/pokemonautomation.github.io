@@ -148,8 +148,8 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico and Pico W: `PABotBase2-Pico1-2026041700.uf2` (version number may vary)
-     - Pico 2 and Pico 2 W: `PABotBase2-Pico2-2026041700.uf2` (version number may vary)
+     - Pico and Pico W: `PABotBase2-Pico1-<version>.uf2`
+     - Pico 2 and Pico 2 W: `PABotBase2-Pico2-<version>.uf2`
 
     <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 

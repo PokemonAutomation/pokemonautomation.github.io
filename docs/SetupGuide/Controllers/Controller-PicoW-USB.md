@@ -17,7 +17,7 @@ There are two operating modes of the Pico W family:
 
 1. A regular [Nintendo Switch](../index.md#the-nintendo-switch) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
 2. A [computer](../index.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
-3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).
+3. A [video capture card](../index.md#video-capture-card-the-computers-eyes).d
 4. A Raspberry Pi Pico W, Pico WH, Pico 2 W, or Pico 2 WH microcontroller.
 5. A micro-USB to USB-A cable or adapter.
 
@@ -107,8 +107,8 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico W(H): `PABotBase2-Pico1-2026041700.uf2` (version number may vary)
-     - Pico 2 W(H): `PABotBase2-Pico2-2026041700.uf2` (version number may vary)
+     - Pico W(H): `PABotBase2-Pico1-<version>.uf2` (version number may vary)
+     - Pico 2 W(H): `PABotBase2-Pico2-<version>.uf2` (version number may vary)
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 

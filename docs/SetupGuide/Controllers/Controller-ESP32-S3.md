@@ -126,7 +126,7 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
 4. You will then be prompted with this complicated window. Fill everything as follows:
 
     - Check the box for the first entry, at the top left.
-    - For the first entry, click on the `...` and browse for `PABotBase2-ESP32-S3-2026041700.bin` in the serial programs download folder. (version number may vary)
+    - For the first entry, click on the `...` and browse for `PABotBase2-ESP32-S3-<version>.bin` in the serial programs download folder.
     - The right-most box should be a zero.
     - **The top row should now be green** (see image below). If not, ensure that the top left checkbox is checked.
     - At the bottom right corner, select the COM port of your ESP32-S3.
