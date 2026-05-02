@@ -1,21 +1,13 @@
-# Static RNG (in development)
+# Wild RNG (in development)
 
 ## Program Description
 
-Fully automated button presses and calibration for performing RNG manipulation for static encounters in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
+Fully automated button presses and calibration for performing RNG manipulation for random wild encounters in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
 
-<img src="images//StaticRng-0.jpg" width="360"> <img src="images//StaticRng-1.jpg" width="360">
+<img src="images//WildRng-0.jpg" width="360"> <img src="images//WildRng-1.jpg" width="360">
+<img src="images//WildRng-2.jpg" width="360"> <img src="images//WildRng-3.jpg" width="360">
 
-This program includes options for several RNG targets:
-
-- Electrode (Power Plant)
-- Snorlax (Routes 12 and 16)
-- Articuno / Zapdos / Moltres
-- Mewtwo
-- Hypno (Berry Forest)
-- Ho-oh (Navel Rock)
-- Lugia (Navel Rock)
-- Deoxys (Birth Island)
+This program can be configured to obtain any Pokémon that can appear in random  (i.e. grass, surfing, fishing, or rock smash) encounters.
 
 ## Instructions
 
@@ -51,16 +43,24 @@ This program includes options for several RNG targets:
     - If hunting a non-shiny target, this is the ball your target will be caught in.
 - If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
 - If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
-- In the game, navigate to the following locations:
 
-| Target | Image |
-| --- | --- |
-| **Most Static Encounters**<br>- Valid for anything not otherwise listed in this table <br>- (Optional) Pick up any overworld items and break any smashable rocks to prevent them from adding RNG advances <br>- Save facing the Pokémon | [<img src="images//StaticRng-electrode.jpg" width="600">](images//RngHelper-deoxys.jpg) |
-| **Snorlax**<br>- Obtain the Pokéflute <br>- Save facing Snorlax | [<img src="images//RngHelper-snorlax.jpg" width="600">](images//RngHelper-snorlax.jpg) |
-| **Berry Forest Hypno**<br>- Save facing Lostelle in Berry Forest | --- |
-| **Ho-oh**<br>- Save at the top of the steps at the very top of Navel Rock <br>- The encounter with Ho-oh is triggered after taking another step northward | [<img src="images//RngHelper-hooh.jpg" width="600">](images//RngHelper-hooh.jpg) |
-| **Deoxys**<br>- Solve the puzzle on Birth Island <br>- Save in front of the red triangle | [<img src="images//RngHelper-deoxys.jpg" width="600">](images//RngHelper-deoxys.jpg) |
+**For Grass or Surfing encounters:**
+- Have a Pokémon that knows Sweet Scent in the last slot of your party
+- Move to a tile that can spawn the Pokémon you're trying to obtain
+- Save the game
+- Enter the necessary information about your target seed and RNG advance (see options below)
+- Start the program
 
+**For Fishing encounters**
+- Register the relevant fishing rod to the SELECT button.
+- Move adjacent to a water tile that can spawn the Pokémon you'd like, facing it
+- Save the game
+- Enter the necessary information about your target seed and RNG advance (see options below)
+- Start the program
+
+**For Rock Smash encounters**
+- Have a Pokémon that knows Rock Smash in your party
+- Move adjacent to a breakable rock, facing it
 - Save the game
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
@@ -87,9 +87,17 @@ These values can be manually copied for use with the [RNG Helper](./RngHelper.md
 
 The language corresponding the version of the game you're playing.
 
-### Target:
+### Game Version:
 
-The Pokémon to be encountered. See the list of options at the top of this page.
+Set this to the version of the game you're playing — FireRed or LeafGreen.
+
+### Encounter Type:
+
+The type of wild encounter. "Grass" refers to any land-based random encounter. The other options are self-explanatory.
+
+### Location:
+
+The in-game location of the wild encounter. Not all encounter types are compatible with all locations (since not every location has water, breakable rocks, etc.)
 
 ### Max Resets:
 

@@ -378,6 +378,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Starter RNG (in development)](PokemonFRLG/StarterRng.md) {.nowrap}    |  Video           | All |
 | [Gift RNG (in development)](PokemonFRLG/GiftRng.md) {.nowrap}          |  Video           | All |
 | [Static RNG (in development)](PokemonFRLG/StaticRng.md) {.nowrap}      |  Video + Audio   | All |
+| [Wild RNG (in development)](PokemonFRLG/WildRng.md) {.nowrap}          |  Video + Audio   | All |
 | **Misc. Guides:** |
 | [Macro RNG Manipulation](PokemonFRLG/MacroRngManipulation.md) {.nowrap} |                 | All |
 
