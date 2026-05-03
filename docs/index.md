@@ -76,7 +76,7 @@ We currently have automation for the following games/platforms:
 
 - [**Wired (ESP32-S3) Tutorial**](https://youtu.be/ezBuwk48z8w) (recommended for newcomers)
 - [**Wireless (ESP32) Tutorial**](https://youtu.be/YzGyQQOGjl8)
-- [**Legacy Wired (Arduino)**](https://youtu.be/DFXZzWkOEMs) (deprecated, difficult to setup)
+- ~~[**Legacy Wired (Arduino)**](https://youtu.be/DFXZzWkOEMs)~~ (deprecated, will be discontinued in the near future)
 
 
 
