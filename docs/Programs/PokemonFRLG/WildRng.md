@@ -1,10 +1,13 @@
-# Starter RNG (in development)
+# Wild RNG (in development)
 
 ## Program Description
 
-Fully automated button presses and calibration for performing RNG manipulation for a starter in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
+Fully automated button presses and calibration for performing RNG manipulation for random wild encounters in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
 
-<img src="images//StarterRng-0.jpg" width="600">
+<img src="images//WildRng-0.jpg" width="360"> <img src="images//WildRng-1.jpg" width="360">
+<img src="images//WildRng-2.jpg" width="360"> <img src="images//WildRng-3.jpg" width="360">
+
+This program can be configured to obtain any Pokémon that can appear in random  (i.e. grass, surfing, fishing, or rock smash) encounters.
 
 ## Instructions
 
@@ -29,20 +32,44 @@ Fully automated button presses and calibration for performing RNG manipulation f
 
 - Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
+- Make sure you have have any items/moves/abilities that you need to facilitate catching your target.
+
 ### Instructions
-- From the south side of the table, save facing the Pokéball with your desired starter
 
-<img src="images//RngHelper-starters.jpg" width="600">
+- Make sure you have a free spot in your party to allow the program to check the Pokémon you catch.
+- Place the balls you'd like to use during the RNG calibration at the top of the bag's POKé BALLS pocket
+    - Using a Master Ball is recommended.
+    - Any balls thrown during calibration will be restored when the game is reset. 
+    - If hunting a non-shiny target, this is the ball your target will be caught in.
+- If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
+- If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
 
+**For Grass or Surfing encounters:**
+- Have a Pokémon that knows Sweet Scent in the last slot of your party
+- Move to a tile that can spawn the Pokémon you're trying to obtain
+- Save the game
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
 
+**For Fishing encounters**
+- Register the relevant fishing rod to the SELECT button.
+- Move adjacent to a water tile that can spawn the Pokémon you'd like, facing it
+- Save the game
+- Enter the necessary information about your target seed and RNG advance (see options below)
+- Start the program
+
+**For Rock Smash encounters**
+- Have a Pokémon that knows Rock Smash in your party
+- Move adjacent to a breakable rock, facing it
+- Save the game
+- Enter the necessary information about your target seed and RNG advance (see options below)
+- Start the program
 
 ## Displays
 
 ### Observed Stats:
 
-This displays natures, genders, and calculated IV ranges observed from the most recently received Pokémon as the program runs. 
+This displays natures, genders, and calculated IV ranges observed from the most recently caught Pokémon as the program runs. 
 
 Possible hits for seeds and advances are shown as well. If the program continually displays "No matches found", there may be a problem with the values for your program options (see the Options section below).
 
@@ -54,20 +81,37 @@ While calibrations for RNG advances can change depending on what you're hunting,
 
 These values can be manually copied for use with the [RNG Helper](./RngHelper.md) if desired. 
 
-
 ## Options
 
 ### Game Language:
 
 The language corresponding the version of the game you're playing.
 
-### Target:
+### Game Version:
 
-The starter of your choice (Bulbasuar, Squirtle, or Charmander).
+Set this to the version of the game you're playing — FireRed or LeafGreen.
+
+### Encounter Type:
+
+The type of wild encounter. "Grass" refers to any land-based random encounter. The other options are self-explanatory.
+
+### Location:
+
+The in-game location of the wild encounter. Not all encounter types are compatible with all locations (since not every location has water, breakable rocks, etc.)
 
 ### Max Resets:
 
 Set this to the maximum number of resets to attempt.
+
+### Max Balls Thrown:
+The number of Pokéballs in your bag to attempt to throw. Make sure these are at the top position of the bag.
+Balls thrown during calibration will be restored after resetting.
+
+### Max Rare Candies:
+
+The number of rare candies in your bag. Make sure these are at the top position of your ITEMS pocket.
+Rare candies used during calibration will be restored after resetting.
+If this value is set to 0 and your target gift has a low level, the program may take noticeably longer to perform calibration. Miscalibrations may rarely occur due to the program's inability to narrow down the many possible RNG hits on every attempt.
 
 ### Target Seed:
 
@@ -107,7 +151,7 @@ Because the program needs to wait for the entire title screen sequence to finish
 
 ### Advances:
 
-The number of RNG advances to pass before accepting the starter. Set this with the help of an external RNG tool.
+The number of RNG advances to pass before triggering the encounter. Set this with the help of an external RNG tool.
 This should be the *total* number of advances, *not* just the continue screen frames or in-game advances.
 
 ### User Profile Position:
