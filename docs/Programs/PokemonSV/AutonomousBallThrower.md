@@ -6,7 +6,7 @@
 
 Keep throwing ball until you catch the Pokémon you're fighting. In case of failure to catch the Pokémon (in case your Pokémon or the opposing Pokémon faint, you run out of balls, etc) it will stop the program.
 
-<img src="images/AutonomousBallThrower-0.jpg">
+<img src="images/AutonomousBallThrower-0.png">
 
 ## Instructions
 
