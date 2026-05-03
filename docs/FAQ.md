@@ -80,6 +80,22 @@ If you are affected by the [Power Glitching](PowerGlitching.md) issue on the Swi
 ## Technical Questions
 
 
+### Why can't you connect directly to the Switch over USB? Why do you need a microcontroller?
+
+Game controllers are USB *devices*. USB ports on a computer are USB *hosts*.
+
+The USB ports on a computer cannot be reprogrammed from USB host to USB device.
+
+
+### Why can't you connect directly to the Switch using the computer's Bluetooth? NXBT and joycontrol can do this!
+
+NXBT and joycontrol are both Linux only. Windows and Mac require the use of a VM which is well above the difficulty threshold for our target audience.
+
+Linux is the only operating system that allows the low level access required to reprogram the bluetooth device to act as a wireless game controller. To do this on Windows, you would need a custom driver for the specific Bluetooth device. And we're not in the business of writing (signed) custom drivers for every Bluetooth controller on the market.
+
+Beyond this, there are concerns about timing stability. Unlike microcontrollers, computers have much more noise due to background programs.
+
+
 ### What happened to the Microcontroller-only (MC) setup?
 
 Unfortunately, Microcontroller (MC) automation has been discontinued.
@@ -96,20 +112,36 @@ However, it already breaks on the latest Switch firmware that added additional i
 If you are dead-set on MC automation without a computer, you will need to look elsewhere.
 
 
-### Why can't you connect directly to the Switch over USB? Why do you need a microcontroller?
+### Why are you discontinuing support for the Arduino Uno/Leonardo, Teensy 2, and Pro Micro?
 
-Game controllers are USB *devices*. USB ports on a computer are USB *hosts*.
+These are collectively the "AVR8 boards" which numerous other projects use. So it may be sad to seem them go. The decision to drop them was not taken lightly.
 
-The USB ports on a computer cannot be reprogrammed from USB host to USB device.
+**Background:**
 
+This project started in 2020 with these same AVR8 boards that everyone else was doing. The problem is that AVR8 is extremely old and have reached end-of-life for many vendors. They were also very difficult to setup and use. They were never intended for a end-users, yet that is what we tried to push them to be.
 
-### Why can't you connect directly to the Switch using the computer's Bluetooth? NXBT and joycontrol can do this!
+In 2025, we finally took the leap and began looking for alternatives. By the end of 2025, we had completely revamped our controller stack with 3 new controller stacks:
 
-NXBT and joycontrol are both Linux only. Windows and Mac require the use of a VM which is well above the difficulty threshold for our target audience.
+- ESP32 with support for wireless controllers
+- ESP32-S3 with support for wired controllers
+- Raspberry Pi Pico with support for both wired and wireless controllers
 
-Linux is the only operating system that allows the low level access required to reprogram the bluetooth device to act as a wireless game controller. To do this on Windows, you would need a custom driver for the specific Bluetooth device. And we're not in the business of writing (signed) custom drivers for every Bluetooth controller on the market.
+These boards became an instant hit among our users for their ease-of-use and their increased utility (full Joycon and Pro Controller functionality). Thus there was no longer a need for the AVR8 boards and we kept them only for backwards compatibility.
 
-Beyond this, there are concerns about timing stability. Unlike microcontrollers, computers have much more noise due to background programs.
+**PABotBase2:**
+
+PABotBase2 is the first major rewrite of our firmware stack since we added the new controllers. And unlike PABotBase1, PABotBase2 is written in C++ and is optimized for flexibility and maintainability rather than memory. Thus it is too large to fit on the Arduino Uno R3's 512 bytes of ram and possibly too large even for the others. The other problem is that the AVR8 development stack's support for C++ is very lacking.
+
+Thus given the combination of these reasons:
+
+- It will be difficult to port PABotBase2 to AVR8.
+- We don't want to maintain both PABotBase1 and PABotBase2.
+- We don't need AVR8 anymore.
+- No AVR8 means no further need to provide tech support for all those TX/RX wiring questions.
+- We would rather spend our development effort elsewhere.
+
+We decided it was time to drop the AVR8 boards and move on.
+
 
 
 ## Usage Questions
