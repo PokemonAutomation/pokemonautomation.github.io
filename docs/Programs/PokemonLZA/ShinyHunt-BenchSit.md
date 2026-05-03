@@ -46,6 +46,29 @@ When a shiny sound is heard, perform one of the following actions:
 
 The 3rd option is not advised as a shiny spawning next to you will lead to notification spam.
 
+### Desired Time of Day
+
+Select which time of day the program should attempt to reach when repeatedly sitting at the bench.
+
+Available options:
+
+Day
+Night
+
+The program automatically detects the current in-game lighting conditions and continues sitting until the selected time of day is reached. Detection is performed using overworld coloration rather than UI elements, allowing reliable operation across different resolutions and capture setups.
+
+⚠️ This setting cannot be changed while the program is running. Changing the desired time of day mid-run may interrupt dialog timing or player positioning, which can result in the player being attacked or knocked out by nearby wild Pokémon.
+
+### Desired Weather
+
+Select which weather condition the program should attempt to reach when repeatedly sitting at the bench.
+
+The program will continue sitting until the selected weather condition is detected in the overworld.
+
+This allows targeting Pokémon that only appear during specific weather conditions while shiny hunting.
+
+⚠️ This setting cannot be changed while the program is running. Changing the desired weather mid-run may interrupt movement or dialog timing and can result in unintended battles or the player being knocked out.
+
 ### Take a Video
 
 Record a video of the encounter. This will happen each time a notification is sent. So be careful if you are notifying on all shiny sounds as this may lead a lot of recorded videos of the same shiny.
