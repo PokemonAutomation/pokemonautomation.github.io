@@ -97,13 +97,13 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Box Reorder National Dex](PokemonSwSh/BoxReorderNationalDex.md) {.nowrap} | | Video            | All |
 ||
 | **Date-Spam Farmers:** |
-| [Date Spam: Watt Farmer](PokemonSwSh/DateSpam-WattFarmer.md) {.nowrap} | Farm watts. To farm money, use watts to buy Luxury balls, then sell them. || All (Degraded: Wireless) |
-| [Date Spam: Berry Farmer](PokemonSwSh/DateSpam-BerryFarmer.md) {.nowrap} | Farm berries.                                                           || All (Degraded: Wireless) |
-| [Date Spam: Berry Farmer 2](PokemonSwSh/DateSpam-BerryFarmer2.md) {.nowrap} | Farm berries using audio/video feedback                              | Video + Audio | All |
-| [Date Spam: Loto Farmer](PokemonSwSh/DateSpam-LotoFarmer.md) {.nowrap} |                          || All |
-| [Date Spam: Stow-On-Side Farmer](PokemonSwSh/DateSpam-StowOnSideFarmer.md) {.nowrap} |            || All |
-| [Date Spam: Daily Highlight Farmer](PokemonSwSh/DateSpam-DailyHighlightFarmer.md) {.nowrap} |     || All |
-| [Date Spam: Poké Jobs Farmer](PokemonSwSh/DateSpam-PokeJobsFarmer.md) {.nowrap} |                 || All |
+| [Watt Farmer](PokemonSwSh/DateSpam-WattFarmer.md) {.nowrap} | Farm watts. To farm money, use watts to buy Luxury balls, then sell them. || All (Degraded: Wireless) |
+| [Berry Farmer](PokemonSwSh/DateSpam-BerryFarmer.md) {.nowrap} | Farm berries.                                                           || All (Degraded: Wireless) |
+| [Berry Farmer 2](PokemonSwSh/DateSpam-BerryFarmer2.md) {.nowrap} | Farm berries using audio/video feedback                              | Video + Audio | All |
+| [Loto Farmer](PokemonSwSh/DateSpam-LotoFarmer.md) {.nowrap} |                          || All |
+| [Stow-On-Side Farmer](PokemonSwSh/DateSpam-StowOnSideFarmer.md) {.nowrap} |            || All |
+| [Daily Highlight Farmer](PokemonSwSh/DateSpam-DailyHighlightFarmer.md) {.nowrap} |     || All |
+| [Poké Jobs Farmer](PokemonSwSh/DateSpam-PokeJobsFarmer.md) {.nowrap} |                 || All |
 ||
 | **Den Hunting:** |
 | [Purple Beam Finder](PokemonSwSh/PurpleBeamFinder.md) {.nowrap} |         | Video            | All |
@@ -135,15 +135,15 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | **Shiny Hunting:** |
 | [Multi-Game Fossil Revive](PokemonSwSh/MultiGameFossil.md) {.nowrap} |                                      |                  | All |
 | [Curry Hunter](PokemonSwSh/CurryHunter.md) {.nowrap} |                                                      | Video (Optional) | All |
-| [Shiny Hunt Autonomous - Regi](PokemonSwSh/ShinyHuntAutonomous-Regi.md) {.nowrap} |                         | Video | All |
-| [Shiny Hunt Autonomous - Swords Of Justice](PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.md) {.nowrap} | | Video | All |
-| [Shiny Hunt Autonomous - Strong Spawn](PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md) {.nowrap} |          | Video | All |
-| [Shiny Hunt Autonomous - Regigigas2](PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md) {.nowrap} |             | Video | All |
-| [Shiny Hunt Autonomous - IoA Trade](PokemonSwSh/ShinyHuntAutonomous-IoATrade.md) {.nowrap} |                | Video | All |
-| [Shiny Hunt Autonomous - Berry Tree](PokemonSwSh/ShinyHuntAutonomous-BerryTree.md) {.nowrap} |              | Video | All |
-| [Shiny Hunt Autonomous - Whistling](PokemonSwSh/ShinyHuntAutonomous-Whistling.md) {.nowrap} |               | Video | All |
-| [Shiny Hunt Autonomous - Fishing](PokemonSwSh/ShinyHuntAutonomous-Fishing.md) {.nowrap} |                   | Video | All |
-| [Shiny Hunt Autonomous - Overworld](PokemonSwSh/ShinyHuntAutonomous-Overworld.md) {.nowrap} |               | Video | All |
+| [Shiny Hunt: Regi](PokemonSwSh/ShinyHuntAutonomous-Regi.md) {.nowrap} |                         | Video | All |
+| [Shiny Hunt: Swords Of Justice](PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.md) {.nowrap} | | Video | All |
+| [Shiny Hunt: Strong Spawn](PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md) {.nowrap} |          | Video | All |
+| [Shiny Hunt: Regigigas2](PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md) {.nowrap} |             | Video | All |
+| [Shiny Hunt: IoA Trade](PokemonSwSh/ShinyHuntAutonomous-IoATrade.md) {.nowrap} |                | Video | All |
+| [Shiny Hunt: Berry Tree](PokemonSwSh/ShinyHuntAutonomous-BerryTree.md) {.nowrap} |              | Video | All |
+| [Shiny Hunt: Whistling](PokemonSwSh/ShinyHuntAutonomous-Whistling.md) {.nowrap} |               | Video | All |
+| [Shiny Hunt: Fishing](PokemonSwSh/ShinyHuntAutonomous-Fishing.md) {.nowrap} |                   | Video | All |
+| [Shiny Hunt: Overworld](PokemonSwSh/ShinyHuntAutonomous-Overworld.md) {.nowrap} |               | Video | All |
 ||
 | **RNG:** |
 | [RNG Seed Finder](PokemonSwSh/SeedFinder.md) {.nowrap} | Finds the current state to be used for manual RNG manipulation      | Video | All |
