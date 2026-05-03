@@ -119,8 +119,10 @@ Main Page: [FAQ](FAQ.md)
 - [SakuraKim (sakurakim9422)](https://github.com/SakuraKimAce) - R&D, Program+Framework Development.
 - [Fye (fyelice)](https://github.com/fyex) - Program Development
 - [Nymphea (aozawa)](https://github.com/NympheaR) - Program Contributor
+- [Astro (theastrogoth)](https://github.com/theastrogoth) - Program Contributor
 - [Icaroto (icaroto)](https://github.com/PhobosLegacy) - Program Contributor
 - [Saber (_tehanu)](https://github.com/naussika) - Program Contributor
+- [dolphincurry (dolphincurry)](https://github.com/Dalton-V) - Program Contributor
 - [Ryder (_ryder)](https://github.com/Ensamma) - Documentation and wiki management.
 - [baboul (baboul29)](https://github.com/mb-baboul) - Program Contributor
 - [joyrida (joyrida)](https://github.com/RickyGrassmuck) - Build scripts and Mac support.
