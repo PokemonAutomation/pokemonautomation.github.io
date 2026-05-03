@@ -52,8 +52,8 @@ Select which time of day the program should attempt to reach when repeatedly sit
 
 Available options:
 
-Day
-Night
+- Day
+- Night
 
 The program automatically detects the current in-game lighting conditions and continues sitting until the selected time of day is reached. Detection is performed using overworld coloration rather than UI elements, allowing reliable operation across different resolutions and capture setups.
 
