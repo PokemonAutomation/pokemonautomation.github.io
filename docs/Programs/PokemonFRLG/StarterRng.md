@@ -4,7 +4,7 @@
 
 Fully automated button presses and calibration for performing RNG manipulation for a starter in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
 
-<img src="images//StarterRng-0.jpg" width="600">
+<img src="images//StarterRNG-0.jpg" width="600">
 
 ## Instructions
 
