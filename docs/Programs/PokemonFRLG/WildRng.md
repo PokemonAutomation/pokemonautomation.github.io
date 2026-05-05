@@ -45,6 +45,7 @@ This program can be configured to obtain any Pokémon that can appear in random 
 - If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
 
 **For Grass or Surfing encounters:**
+
 - Have a Pokémon that knows Sweet Scent in the last slot of your party
 - Move to a tile that can spawn the Pokémon you're trying to obtain
 - Save the game
@@ -52,6 +53,7 @@ This program can be configured to obtain any Pokémon that can appear in random 
 - Start the program
 
 **For Fishing encounters**
+
 - Register the relevant fishing rod to the SELECT button.
 - Move adjacent to a water tile that can spawn the Pokémon you'd like, facing it
 - Save the game
@@ -59,6 +61,7 @@ This program can be configured to obtain any Pokémon that can appear in random 
 - Start the program
 
 **For Rock Smash encounters**
+
 - Have a Pokémon that knows Rock Smash in your party
 - Move adjacent to a breakable rock, facing it
 - Save the game
@@ -75,7 +78,9 @@ Possible hits for seeds and advances are shown as well. If the program continual
 
 ### RNG Calibrations:
 
-These will update automatically as the program runs. Initial values for the **Seed Calibration**, **Continue Screen Frames Calibration**, and **In-Game Advances Calibration** before starting the program if you have previously performed performed calibrations.
+These will update automatically as the program runs. You can provide initial values for the **Seed Calibration**, **Continue Screen Frames Calibration**, and **In-Game Advances Calibration** before starting the program if you have previously performed calibrations, but it is not necessary to do so.
+
+*If you're not sure, just leave these set to 0. The program will automatically make adjustments to hit the specified target.*
 
 While calibrations for RNG advances can change depending on what you're hunting, seed calibrations should be consistent across hunts as long as your console and controller have not changed.
 
