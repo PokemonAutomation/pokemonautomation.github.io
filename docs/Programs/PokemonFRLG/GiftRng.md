@@ -44,6 +44,8 @@ This program includes options for several RNG targets:
 
 ### Before You Start
 
+- If you're not familiar with RNG manipulation in FireRed and LeafGreen, read the [RNG Manipulation Guide](RngManipulationGuide.md)
+
 - Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
 ### Instructions
@@ -77,7 +79,9 @@ Possible hits for seeds and advances are shown as well. If the program continual
 
 ### RNG Calibrations:
 
-These will update automatically as the program runs. Initial values for the **Seed Calibration**, **Continue Screen Frames Calibration**, and **In-Game Advances Calibration** before starting the program if you have previously performed performed calibrations.
+These will update automatically as the program runs. You can provide initial values for the **Seed Calibration**, **Continue Screen Frames Calibration**, and **In-Game Advances Calibration** before starting the program if you have previously performed calibrations, but it is not necessary to do so.
+
+*If you're not sure, just leave these set to 0. The program will automatically make adjustments to hit the specified target.*
 
 While calibrations for RNG advances can change depending on what you're hunting, seed calibrations should be consistent across hunts as long as your console and controller have not changed.
 
