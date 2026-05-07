@@ -44,6 +44,8 @@ This program includes options for several RNG targets:
 
 ### Before You Start
 
+- If you're not familiar with RNG manipulation in FireRed and LeafGreen, read the [RNG Manipulation Guide](RngManipulationGuide.md)
+
 - Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
 ### Instructions
