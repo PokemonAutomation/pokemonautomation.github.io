@@ -185,6 +185,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 - **Upgrading:** To upgrade to a new version of the CC programs, download and unzip the new version. Then copy and paste the folder `UserSettings/` into the same place of the new version. This will transfer over all of your settings and program stats.
 - **Suppress Screensaver:** If you are using the CC program to play your Switch manually using an external controller, the screensaver will likely kick on or your monitors will turn off due to inactivity on the computer. At the bottom left corner is an option called "Sleep Suppress". Check the box to force your computer to keep the monitors on so this doesn't happen. Just remember to turn it off when you are done or your monitors will stay on forever!
 - **Stereo Audio:** Most cheap capture cards output mono channel audio at 96 KHz. In reality, it is 48 KHz stereo. We split the channels out to give you the original high-quality stereo sound from your Switch!
+- **Change Keyboard to Controller Mappings:** Under program select, select `Nintendo Switch`. Then `Framework Settings`. Then scroll down to `Keyboard to Controller Mappings`.
 
 
 ### You have now unleashed the power of automation. May you play more than 24 hours per day!
