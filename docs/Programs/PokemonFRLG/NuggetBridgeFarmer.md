@@ -4,6 +4,8 @@
 
 Repeatedly lose the battle against the undercover Team Rocket Grunt at the end of Nugget Bridge to farm nuggets.
 
+**This program only works for English and Japanese versions of the game. Just like the original Game Boy Advance version.**
+
 <img src="images/NuggetBridgeFarmer.jpg">
 
 ## Instructions
