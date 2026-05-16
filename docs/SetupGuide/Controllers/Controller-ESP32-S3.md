@@ -97,7 +97,17 @@ Make sure you have everything else setup so that it looks like this:
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
-### Step 1: Install UART drivers (potentially)
+
+### Step 1: Enable "Pro Controller Wired Communication".
+
+Go into your Switch settings and enable the following option. This step is required for wired Pro Controllers and Joycons.
+
+<img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
+
+For those of you revisiting this page, you will notice that this step is new. This is because we have changed the default controller from the 3rd party wired controller to the official Pro Controller since it has more features.
+
+
+### Step 2: Install UART drivers (potentially)
 
 Depending on exactly which ESP32-S3 model you bought, you may need to install UART drivers.
 
@@ -113,7 +123,7 @@ Install the appropriate driver for it:
 Only do this step if you do not see ESP32-S3 show up in device manager as a serial (COM) device.
 
 
-### Step 2: Flash the firmware to the ESP32.
+### Step 3: Flash the firmware to the ESP32.
 
 **Flash the ESP32:**
 
@@ -145,7 +155,17 @@ Only do this step if you do not see ESP32-S3 show up in device manager as a seri
     - Pressing either the `EN` or `RESET` button on the ESP32-S3.
     - Unplugging both USB cables and plugging them back in.
 
-### Step 3: Connect the ESP32-S3 to the Computer Control program
+
+### Step 4: Navigate to the Grip Menu
+
+This step isn't strictly needed for wired controllers since they can connect from almost anywhere. But this tutorial will use the grip menu anyway since it's easiest to see the controllers on the Switch.
+
+To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
+
+<img src="../Images/GripMenu3.png">
+
+
+### Step 5: Connect the ESP32-S3 to the Computer Control program
 
 1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Windows it will be something like `COM3`.
@@ -156,23 +176,25 @@ If everything worked correctly, it will look like this:
 
 <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Connected-Cropped.png">
 
-### Step 4: Navigate your Switch to where it will accept a new controller.
 
-The ESP32-S3 behaves like a real wired controller. So it can only connect if your Switch is ready for it.
+### Step 6: Connect the ESP32-S3 to the Switch.
 
-Places where the Switch will accept a new controller:
+1. In the 3rd dropdown, choose "NS1: Wired Pro Controller".
+2. Click the video feed to activate the keyboard controls.
+3. Press ENTER on your keyboard.
 
-1. The grip menu.
-2. The Switch home or settings.
-3. In a game when no other controllers are connected.
-
-<img src="../Images/GripMenu.jpg">
-
-Press ENTER on your keyboard to connect the controller. By default ENTER is mapped to the A button on the controller. Pressing any button on a wired controller will connect it to the Switch.
+You should now see a controller show up on the Switch.
 
 <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Connected.jpg">
 
-### Step 5: Test the connection
+**Status Indicator:**
+
+- The 3 colored dots should match the colors of the controller as shown in the Switch. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
+- The four alpha-numeric characters after `Paired:` are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
+- The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
+
+
+### Step 7: Test the connection
 
 You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -> controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.
 
@@ -196,12 +218,8 @@ You will notice that there are 7 controller options:
 
 Click on the link for detailed documentation for the controller type. "None" simply idles the ESP32-S3 so it isn't trying to connect to a Switch. The others tell the ESP32-S3 to act as that controller respectively. Setting to "None" is a convenient way to disconnect the ESP32-S3 so you can connect your physical controller.
 
-Note that the Wired Pro Controller and Joycon controllers require enabling an additional option in the Switch settings:
 
-<img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
-
-
-### Step 6: You are done!
+### Step 8: You are done!
 
 If keyboard commands are working (along with video and audio), you are done!
 

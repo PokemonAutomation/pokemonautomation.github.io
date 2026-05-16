@@ -1,4 +1,4 @@
-# Espressif ESP32-WROOM
+# Espressif ESP32
 
 **Video tutorial:** Pokemon Automation Wireless setup with ESP32: [https://youtu.be/YzGyQQOGjl8](https://youtu.be/YzGyQQOGjl8)
 
@@ -172,11 +172,13 @@ In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
 After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
 
-The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
-
-The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
-
 <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Ready-Annotated.png">
+
+**Status Indicator:**
+
+- The 3 colored dots should match the colors of the controller as shown in the Switch. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
+- The four alpha-numeric characters after `Paired:` are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
+- The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
 
 
 ### Step 6: Test the connection
