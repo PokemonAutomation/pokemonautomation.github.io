@@ -104,7 +104,7 @@ Go into your Switch settings and enable the following option. This step is requi
 
 <img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
 
-For those of you revisiting this page, you will notice that this step is new. This is because we have changed the default controller from the 3rd party wired controller to the official Pro Controller since it has more features.
+For those of you revisiting this page, you will notice that this step is new. This is because we have begun pushing everyone to use the Pro Controller since it has more features.
 
 
 ### Step 2: Install UART drivers (potentially)
