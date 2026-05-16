@@ -11,7 +11,7 @@ Furthermore, it must have enough memory to run our firmware stack - which as of 
 
 For wired controllers, you need USB OTG. While many boards support USB OTG, almost all of them lack an easy 2nd way to connect to the computer. Thus almost everything requires an external UART to do so. The ESP32-S3 remains the only board that has both USB OTG and a built-in USB-UART TTL. While there are board with multiple USB ports, all the ones we have found have power circuitry that is incompatible with the setup that we need.
 
-For wireless controllers, Bluetooth Classic (BTC) is requires as that is what the Switch 1 uses. However, it is also a dying protocol since the world has moved to Bluetooth Low Energy (BLE). While many boards support wireless and Bluetooth, very few of them support BTC. If they support Bluetooth, they only support BLE. The (original) ESP32 and the Raspberry Pi Pico W are the only boards that still retain built-in support for BTC. Later ESP32 models only support BLE.
+For wireless controllers, Bluetooth Classic (BTC) is required since that is what the Switch 1 uses. However, it is also a dying protocol since the world has moved to Bluetooth Low Energy (BLE). While many boards support wireless and Bluetooth, very few of them support BTC. If they support Bluetooth, they only support BLE. The (original) ESP32 and the Raspberry Pi Pico W are the only boards that still retain built-in support for BTC. Later ESP32 models only support BLE.
 
 It may be possible to use WiFi or Ethernet to connect a wired controller to the computer. But we haven't explored these options much due to the complications of dealing with IP addresses, discovery, and security.
 
