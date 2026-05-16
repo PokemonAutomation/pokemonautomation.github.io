@@ -136,7 +136,17 @@ Make sure you have everything else setup so that it looks like this:
 
 If not, you should go back to the [general setup guide](../index.md) and start over.
 
-### Step 1: Flash the firmware to the Pico W.
+
+### Step 1: Enable "Pro Controller Wired Communication".
+
+Go into your Switch settings and enable the following option. This step is required for wired Pro Controllers and Joycons.
+
+<img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
+
+For those of you revisiting this page, you will notice that this step is new. This is because we have begun pushing everyone to use the Pro Controller since it has more features.
+
+
+### Step 2: Flash the firmware to the Pico W.
 
 1. Unplug the Pico from everything. (both computer and dock)
 2. Press and hold the white `Bootsel` button.
@@ -158,7 +168,8 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 Note that the same firmware is used for both wireless and non-wireless Picos.
 
-### Step 2: Install UART drivers
+
+### Step 3: Install UART drivers
 
 If your computer doesn't recognize the UART as a COM port (serial device), you may need to install the UART drivers. If you brought the Adafruit UART in this guide, the driver you will need is this:
 
@@ -166,7 +177,8 @@ If your computer doesn't recognize the UART as a COM port (serial device), you m
 
 Open up Device Manager and look for it under "Serial Ports". If you don't see it, then maybe these above drivers are not correct. Or try a different USB port.
 
-### Step 3: Navigate to the Grip Menu
+
+### Step 4: Navigate to the Grip Menu
 
 The grip menu is the only place where a wireless controller can pair with the Switch. Wired controllers have more flexibility. But for simplicity, we'll go to the grip menu regardless.
 
@@ -174,7 +186,8 @@ To get there from the Switch Home screen: `Controllers` (button next to the Sett
 
 <img src="../Images/GripMenu3.png">
 
-### Step 4: Connect the Pico W to the Computer Control program
+
+### Step 5: Connect the Pico W to the Computer Control program
 
 1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Windows it will be something like `COM3`.
@@ -187,7 +200,8 @@ If everything worked correctly, it will look like this:
 
 If you see it stuck on `Connecting...`, try swapping the TX and RX lines between the Pico W and the UART. These are very commonly wrong!
 
-### Step 5: Connect the Pico W to the Switch as a Wireless Controller
+
+### Step 6: Connect the Pico W to the Switch as a Wireless Controller
 
 **(If your Pico is a non-W model that lacks the wireless capability, skip this step.)**
 
@@ -195,30 +209,29 @@ In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
 After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or be unplugging and replugging it. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wireless-Ready-Annotated.jpg">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wireless-Ready.jpg">
 
 **Status Indicator:**
 
 - The 3 colored dots should match the colors of the controller as shown in the Switch. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
-- The four alpha-numeric characters after "Paired" are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
+- The four alpha-numeric characters after `Paired:` are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
 - The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
 
 
-### Step 6: Connect the Pico W to the Switch as a Wired Controller
+### Step 7: Connect the Pico W to the Switch as a Wired Controller
 
 Now lets try a wired connection:
 
-1. In the controller drop, choose "NS2: Wired Controller". Wait for it to show `Connected: Yes, Ready: Yes`.
-2. Click the video feed to activate the keyboard controls. Then press ENTER on your keyboard.
-
-You should now see a black controller show up.
+In the controller drop, choose "NS1: Wired Pro Controller". You will now see "USB" appear above the battery indicator. This means your controller has now switched to a wired connection!
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wired-Ready.jpg">
 
 Even though we used the grip menu here, wired controllers will connect from almost anywhere.
 
+While this wiki has you first connecting wirelessly then wired, in reality you can do it in either order. If you connect by wired first, it will automatically pair it for wireless as well just like a real controller! Thus you can actually avoid the grip menu altogether.
 
-### Step 6: Test the connection
+
+### Step 8: Test the connection
 
 You can control your Switch from the keyboard. Click on the video display to activate the keyboard controls. Then try pressing some buttons. You can view the keyboard -> controller mapping by clicking on the "keyboard layout" at the bottom left corner of the program.
 
@@ -247,10 +260,6 @@ You will notice that there are 10 controller options:
 
 Click on the link for detailed documentation for the controller type. "None" simply idles the Pico and turns off its antenna so it isn't trying to connect to a Switch. The others tell the Pico to act as that controller respectively. Setting to "None" is a convenient way to disconnect the Pico so you can connect your physical controller.
 
-Note that the Wired Pro Controller and Joycon controllers require enabling an additional option in the Switch settings:
-
-<img src="../../Images/Controllers/NS-ProControllerEnable.jpg">
-
 Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller is a wireless controller that has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
 Changing programs (or even closing the application entirely) will not disconnect the Pico from the Switch. When you load a program and connect to the Pico, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly).
@@ -277,16 +286,16 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 ## Pairing Behavior:
 
-When you connect a wireless controller to the Switch, it will remember its pairing state with that Switch. Each wireless controller has a separate pairing state. So pairing one will not automatically pair the others.
+When you connect a Pro Controller or a Joycon to the Switch, it will remember its pairing state with that Switch. Wired and wireless version of the same controller share the same pairing state. So pairing one will automatically pair the other. However each different controller type has a separate pairing state. So pairing the left joycon will not automatically pair the right joycon.
 
 Keep in mind the following behaviors:
 
-- When you switch from a different controller to a wireless controller that was previous paired, it will reconnect to the same console it is paired with.
+- When you switch from a different controller to a controller that was previous paired, it will reconnect to the same console it is paired with.
 - When you click "Reset Ctrl", it will disconnect and try to reconnect to the console that it was paired with.
 - When you SHIFT + click "Reset Ctrl", not only does it reset, it will clear the pairing state and try to pair with a new console.
 - The Pico will forget its pairing state when it loses power. So unlike a real controller, it is not stored in non-volatile memory.
 
-Once a Pico controller is paired with a console, it will be able to reconnect outside of the grip menu.
+Once a Pico controller is paired with a console, it will be able to reconnect wirelessly outside of the grip menu.
 
 
 ## Troubleshooting:
