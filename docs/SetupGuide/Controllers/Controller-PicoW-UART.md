@@ -187,7 +187,7 @@ To get there from the Switch Home screen: `Controllers` (button next to the Sett
 <img src="../Images/GripMenu3.png">
 
 
-### Step 5: Connect the Pico W to the Computer Control program
+### Step 5: Connect the Pico to the Computer Control program
 
 1. At the top for the "Controller" option, click the dropdown and select `Serial: PABotBase2` (Make sure you choose `Serial: PABotBase2` and not `Serial: PABotBase`!)
 2. In the next dropdown, select your serial device. On Windows it will be something like `COM3`.
@@ -218,17 +218,19 @@ After a few seconds, you should see a controller pop-up in the Grip menu on the 
 - The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
 
 
-### Step 7: Connect the Pico W to the Switch as a Wired Controller
+### Step 7: Connect the Pico to the Switch as a Wired Controller
 
 Now lets try a wired connection:
 
 In the controller drop, choose "NS1: Wired Pro Controller". You will now see "USB" appear above the battery indicator. This means your controller has now switched to a wired connection!
 
+If you skipped the previous step because your Pico does not support wireless, click on the video feed and press ENTER on your keyboard. This will connect your controller.
+
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wired-Ready.jpg">
 
 Even though we used the grip menu here, wired controllers will connect from almost anywhere.
 
-While this wiki has you first connecting wirelessly then wired, in reality you can do it in either order. If you connect by wired first, it will automatically pair it for wireless as well just like a real controller! Thus you can actually avoid the grip menu altogether.
+While this wiki has you first connecting wirelessly then wired, in reality you can do it in either order. If you connect by wired first, it will automatically pair it for wireless as well just like a real controller! Thus you can avoid the grip menu altogether.
 
 
 ### Step 8: Test the connection
