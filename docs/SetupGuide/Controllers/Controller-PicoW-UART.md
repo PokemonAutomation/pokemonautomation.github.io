@@ -222,7 +222,7 @@ After a few seconds, you should see a controller pop-up in the Grip menu on the 
 
 Now lets try a wired connection:
 
-In the controller drop, choose "NS1: Wired Pro Controller". You will now see "USB" appear above the battery indicator. This means your controller has now switched to a wired connection!
+In the controller drop, choose "NS1: Wired Pro Controller". After a few seconds, you should see "USB" appear above the battery indicator. This means your controller has now switched to a wired connection!
 
 If you skipped the previous step because your Pico does not support wireless, click on the video feed and press ENTER on your keyboard. This will connect your controller.
 
