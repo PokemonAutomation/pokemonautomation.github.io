@@ -59,6 +59,12 @@ mkdocs serve
 
 Then visit http://127.0.0.1:8000 in your browser to see the website.
 
+If you are making multiple changes to the md files, you can add --livereload to the command to automatically refresh the website in your browser when you save changes to md files.
+
+```
+mkdocs serve --livereload
+```
+
 
 ### Building Local Website
 
@@ -112,7 +118,21 @@ MkDocs parses markdown files (.md files) slightly differently than how Github re
 
 - MkDocs defaults all images' max-width to be 100% and height to be "auto" so we shouldn't use image tab attribute "height" in md files to control image sizes. Use width control like `width="500"` or `width="50%"` instead.
 
+### Contributing
 
+Have you written a program and want to share it with the community? Or do you want to improve an existing guide? Please follow the instructions below to add your program to the website!
 
+1. Fork the repository and create a new branch for your program.
+2. Create a new markdown file for your program in the appropriate folder under `docs/Programs/`. 
+    - You can use [docs/Templates/ProgramTemplate.md](docs/Templates/ProgramTemplate.md) as a template for your program's markdown file.
+    - If your program is complex you may want to refer to some of the other complex program guides. [docs/Programs/PokemonLZA/DonutMaker.md](docs/Programs/PokemonLZA/DonutMaker.md) [docs/Programs/PokemonFRLG/RngManipulationGuide.md](docs/Programs/PokemonFRLG/RngManipulationGuide.md)
+3. Most guides include images to illustrate the program. These can be added to the `images/` folder under the program's folder.
+    - In an attempt to improve load times, we recommend converting the images to jpg format and compressing them before uploading.
+    - If you want a detailed photo you can include a large version to be loaded separately `[<img src="images/SmallImage.jpg" width="300">](images/LargeImage.jpg)`
+4. If you are adding a new program guide, make sure to add the program to the correct table in [docs/Programs/index.md](docs/Programs/index.md).
+5. Once you have added your program's markdown file and any associated images, create a pull request to merge your changes into the main branch.
 
+## Some FAQs
+**Q: I added a new doc but it doesn't show up on the nav bar.**
 
+A: If you added a new folder with your doc (e.g. `docs/Programs/PokemonNewGame/MyProgram.md`), make sure to add the folder to `nav` in [mkdocs.yml](mkdocs.yml). mkdocs doesn't automatically add new folders to nav, but it will automatically add new md files within existing folders.
