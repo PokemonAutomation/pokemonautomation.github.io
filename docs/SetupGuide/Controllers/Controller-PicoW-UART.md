@@ -195,11 +195,13 @@ In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
 After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or be unplugging and replugging it. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
 
-The controller colors are randomized and should match the color icons in the status indicator. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
-
-The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
-
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wireless-Ready-Annotated.jpg">
+
+**Status Indicator:**
+
+- The 3 colored dots should match the colors of the controller as shown in the Switch. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
+- The four alpha-numeric characters after "Paired" are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
+- The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
 
 
 ### Step 6: Connect the Pico W to the Switch as a Wired Controller

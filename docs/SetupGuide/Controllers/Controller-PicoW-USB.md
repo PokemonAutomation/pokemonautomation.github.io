@@ -142,7 +142,7 @@ After a few seconds, you should see a controller pop-up in the Grip menu on the 
 **Status Indicator:**
 
 - The 3 colored dots should match the colors of the controller as shown in the Switch. This helps to distinguish controllers if you have multiple of them. You can change the colors in the `Nintendo Switch -> Framework Settings` menu.
-- The four alpha-numeric characters after `Paired:` are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
+- The four alpha-numeric characters after "Paired" are the last 2 bytes of the MAC address of the Switch that the controller is paired with.
 - The 4 vertical lines after `Connected:` are the player lights that are normally found on a real controller.
 
 
