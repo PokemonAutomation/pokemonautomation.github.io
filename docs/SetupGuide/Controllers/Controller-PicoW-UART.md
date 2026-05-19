@@ -230,6 +230,8 @@ If you skipped the previous step because your Pico does not support wireless, cl
 
 Even though we used the grip menu here, wired controllers will connect from almost anywhere.
 
+While this wiki has you first connecting wirelessly then wired, in reality you can do it in either order. If you connect by wired first, it will automatically pair it for wireless as well just like a real controller! Thus you can avoid the grip menu altogether.
+
 
 ### Step 8: Test the connection
 
