@@ -8,10 +8,21 @@ Farm daily item respawns (ex. fossils) by date-skipping.
 
 ## Settings
 
-1. As with all LGPE programs, Right Joycon is required. This program will not run otherwise.
+**Switch Settings:**
+
+1. Screen size: Must be 100% within the Switch settings
 2. System time: Un-synced
-3. Text speed: Fast
-4. If you have CFW and sys-botbase running, you must disable ld-mitm or the game will crash.
+3. If you have CFW and sys-botbase running, you must disable ld-mitm or the game will crash.
+4. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+5. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+
+**Program Settings:**
+
+1. Video Resolution: 1080p or higher
+
+**Game Settings:**
+
+1. Text Speed: Fast
 
 ## Instructions
 

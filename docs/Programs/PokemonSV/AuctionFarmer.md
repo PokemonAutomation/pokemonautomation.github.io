@@ -9,7 +9,7 @@ The program saves the game after each auction and will continue to bid on items 
 <img src="images/AuctionFarmer-0.png">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -29,7 +29,7 @@ The program saves the game after each auction and will continue to bid on items 
 2. Auto-Save: Off
 
 
-### Instructions
+## Instructions
 
 Stand in front of and face an auctioneer who offers items you specified in [Items](#items). 
 Some items are offered by multiple NPCs, e.g. Apricorn Balls, while other items are only offered by a single NPC, e.g. EV Berries.

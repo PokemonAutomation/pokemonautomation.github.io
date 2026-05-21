@@ -8,7 +8,7 @@ When combined with [Self Box Trade](SelfBoxTrade.md), this program is useful for
 
 <img src="images/MassAttachItems-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -24,7 +24,7 @@ When combined with [Self Box Trade](SelfBoxTrade.md), this program is useful for
 1. Place boxes of Pokémon to be given items consecutively.
 2. Boxes do not need to be full. This program will automatically skip empty slots.
 
-### Instructions
+## Instructions
 
 1. When entering your bag and scrolling to the correct pocket, the cursor must already be on the item you wish to mass attach.
 2. You must have enough of the item to attach to all the Pokémon in the selected boxes.

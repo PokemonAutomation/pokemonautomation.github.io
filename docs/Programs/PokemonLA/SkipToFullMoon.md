@@ -8,11 +8,12 @@ This program will automatically rest in the tent until a full moon night has arr
 This is useful for evolving Ursaring and finishing The Clefairy's Moonlit Dance Request.
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Program Settings:**
 
@@ -23,7 +24,7 @@ This is useful for evolving Ursaring and finishing The Clefairy's Moonlit Dance 
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. You have an Ursaring as the party lead.
 2. You have a Peat Block in your satchel.

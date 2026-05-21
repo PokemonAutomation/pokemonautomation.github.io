@@ -26,12 +26,13 @@ Note: we have now a more efficient program to earn money and exp: [Tenacity Cand
 <img src="images/NuggetFarmerHighlands-0.jpg">
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 
@@ -44,7 +45,7 @@ Note: we have now a more efficient program to earn money and exp: [Tenacity Cand
 2. Auto-Save: Off
 
 
-### Instructions
+## Instructions
 
 1. You are in the post-game with Braviary unlocked.
 2. The first Pokémon in your party must be able to reliably defeat Charm using only its first move.

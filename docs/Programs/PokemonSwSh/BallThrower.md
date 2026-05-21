@@ -38,7 +38,7 @@ This program blindly throws balls without context. Thus the only way it can work
    > 2. Reduce the damage that you take such that passive healing (from Leftovers) is sufficient to stay alive.
 
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -77,7 +77,7 @@ Example of Trevenant:
    > - Accuracy/Evasion: Sand Attack, Double Team
    > - Non-expiring healing moves: Aqua Ring, Ingrain
 
-### Instructions
+## Instructions
 
 1. Stock up on balls
     1. Make sure the last used ball is the one you are trying to catch with.

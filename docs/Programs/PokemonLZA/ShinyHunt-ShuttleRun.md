@@ -10,7 +10,7 @@ Shiny hunt by running back and forth in Lumiose City.
 
 More routes and even customised routes are in planning.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -21,7 +21,7 @@ More routes and even customised routes are in planning.
 
 1. Video Resolution: 1080p or higher
 
-### Instructions/Hunt Routes
+## Instructions/Hunt Routes
 
 ### Alpha Pidgeot
 

@@ -10,7 +10,7 @@ A smart version of [Beam Reset](BeamReset.md) that automatically stops on a purp
 
 [Demo Video.mov](https://cdn.discordapp.com/attachments/755635697737531544/817957563287076864/PurpleBeamFinder.mp4)
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -27,7 +27,7 @@ A smart version of [Beam Reset](BeamReset.md) that automatically stops on a purp
 1. Text Speed: ***SLOW*** (this is different from other programs!)
 2. Casual mode: Off
 
-### Instructions
+## Instructions
 
 1. Stand in front of an empty den with watts collected.
 2. Verify there are no purple beams visible in the background.

@@ -21,7 +21,7 @@ This is the original "7k Skipper".
 
 <img src="images/DaySkipperJPN-0.png">
 
-## Instructions
+## Settings
 
 1. Screen size: Must be 100% within the Switch settings
 2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
@@ -31,7 +31,7 @@ This is the original "7k Skipper".
 6. The VS (Y-COMM) glitch must be active.
 7. The console type must be correctly set to either the Switch 1 or one of the Switch 2 options.
 
-### Instructions
+## Instructions
 
 Most people use the following workflow:
 

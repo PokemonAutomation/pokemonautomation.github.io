@@ -13,7 +13,7 @@ Keep throwing ball until you catch the Pokémon you're fighting. In case of fail
 
 ---
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -31,7 +31,7 @@ Keep throwing ball until you catch the Pokémon you're fighting. In case of fail
 2. Auto-Save: Off
 
 
-### Instructions
+## Instructions
 
 1. Save before being attacked by the Pokémon.
 2. Run the program and let the Pokémon attack you (alternatively, you can manually trigger the fight yourself but it will wait forever if you need to reset).

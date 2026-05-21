@@ -11,7 +11,7 @@ Mass release boxes of Pokémon.
 
 <img src="images/MassRelease-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -27,7 +27,7 @@ Mass release boxes of Pokémon.
 1. Place boxes of Pokémon to be released consecutively.
 2. Boxes marked for deletion do not need to be full. This program will automatically skip empty slots.
 
-### Instructions
+## Instructions
 
 1. You must in the box system.
 2. The cursor must be over the 1st Pokémon in the box. (top-left corner)

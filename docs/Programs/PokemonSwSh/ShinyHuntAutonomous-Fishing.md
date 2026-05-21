@@ -10,7 +10,7 @@ This program will shiny hunt fishing encounters.
 
 Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require no calibration. This program needs a capture card to detect a shiny from its animation.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -39,7 +39,7 @@ Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require no 
    > - Zoom in. The bigger exclamation icon is easier for the inference to detect.
 
 
-### Instructions
+## Instructions
 
 1. Stand in front of a fishing spot.
 2. Save.

@@ -10,7 +10,7 @@ This program is also used to build a reservoir of eggs for running the faster [E
 
 <img src="images/EggFetcher2-0.jpg">
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -29,7 +29,7 @@ This program is also used to build a reservoir of eggs for running the faster [E
 
 1. Your party is full and none are eggs.
 
-### Instructions
+## Instructions
 
 1. Travel to Route 5.
 2. Get on your bike.

@@ -5,7 +5,7 @@
 Hunt shiny Helioptile in Wild Zone 14. Helioptile only appears in Zone 14 in Clear or Sunny days. This program will skip day and night until desired weather condition is met, then go into the zone to hunt it.
 Mega Dimension DLC gives a faster method for shiny hunting them via Hyperspace Wild Zones.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -22,7 +22,7 @@ Mega Dimension DLC gives a faster method for shiny hunting them via Hyperspace W
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Make sure is day time (no matter is late in the day or not)
 2. Wrap to Zone 14

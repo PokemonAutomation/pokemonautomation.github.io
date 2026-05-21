@@ -11,7 +11,7 @@ Delete and create the Cloud Island to collect Mew Stamps
 <img src="images/AllMewStamps.jpg">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -23,7 +23,7 @@ Delete and create the Cloud Island to collect Mew Stamps
 
 1. Video Resolution: 1080p or higher
 
-### Instructions
+## Instructions
 
 1. Make sure you have a Cloud Island already created
 2. Start the program in front of a PC that is not on your Cloud Island

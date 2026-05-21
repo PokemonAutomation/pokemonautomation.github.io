@@ -8,7 +8,7 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/1036457871
 
 <img src="images/CramomaticRNG-0.png">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -25,7 +25,7 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/1036457871
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. Your lead Pokémon must be a non-shiny Orbeetle.
 2. Stand in front of the Cram-o-matic.

@@ -10,7 +10,7 @@ Unlike the other egg fetcher, it will fetch a chosen number of eggs before switc
 
 <img src="images/EggFetcher2-0.jpg">
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -32,7 +32,7 @@ Unlike the other egg fetcher, it will fetch a chosen number of eggs before switc
 
 1. Your party is full and none are eggs.
 
-### Instructions
+## Instructions
 
 1. Travel to Route 5.
 2. Get on your bike.

@@ -6,7 +6,7 @@ Repeatedly catch moltres until you get the stats you want.
 
 This program will automatically hunt for Moltres and automatically stop based on the stop condition you've picked.
 
-## Preparation Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -25,7 +25,7 @@ This program will automatically hunt for Moltres and automatically stop based on
 3. Navigate to the Pokémon PC and press "+" until the IVs of the Pokémon in your boxes are shown
     1. You need to have unlocked the IV judge for this functionality
 
-## Instructions
+### Instructions
 
 1. Have exactly 5 Pokémon in your party.
 2. Have at least one masterball

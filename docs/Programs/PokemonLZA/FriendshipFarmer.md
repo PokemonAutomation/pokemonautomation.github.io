@@ -12,7 +12,7 @@ Visiting a café is faster than hanging out on a bench for a single Pokémon. Ho
 
 It takes ~13.5 minutes to evolve a full party using the café method. The bench method will only take ~7 minutes to evolve a full party as all party members gain standing simultaneously. If you only want to evolve a single Pokémon the café method only takes ~2.2 minutes.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 

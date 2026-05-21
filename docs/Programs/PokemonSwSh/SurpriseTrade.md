@@ -6,7 +6,7 @@ SurpriseTrade will surprise trade entire boxes of Pokémon. The main use case is
 
 This program is similar to brianuuuSonic's BoxSurpriseTrade, but is also tolerant to errors when changing boxes.
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -17,7 +17,7 @@ This program is similar to brianuuuSonic's BoxSurpriseTrade, but is also toleran
 
 > If you wish to trade online, be connected to the internet before you start the program. Thus you will need to be fast when starting the program or you will be disconnected.
 
-### Instructions
+## Instructions
 
 1. You must be in the overworld (not in the menu).
 2. Check there is nothing in front of you that can be interacted with.

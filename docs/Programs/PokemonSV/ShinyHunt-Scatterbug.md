@@ -37,7 +37,7 @@ To shiny hunt Scatterbug for Vivillon form collection:
 
 WARNING: if you interrupt the program or if the program stops due to a program bug, you may want to reset the game to preserve the precious Herba Mystica! If you start the program again before resetting the game, depending on what you set the program option, the program may first save the game, thus permanently consuming whatever sandwich ingredients you used in the last program run.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -60,7 +60,7 @@ WARNING: if you interrupt the program or if the program stops due to a program b
 6. Sound Effects: 10
 
 
-### Instructions
+## Instructions
 
 1. Make sure your party is full.
 2. Your lead Pokémon is not shiny. (Shiny will cause false positive detections.)

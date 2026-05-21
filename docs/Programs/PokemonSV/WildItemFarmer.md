@@ -38,7 +38,7 @@ However, this program has two major failure cases:
 
 In either case, the program will detect this error condition and stop. There is ongoing research on how to minimize these scenarios as well as how to recover from them.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -54,7 +54,7 @@ In either case, the program will detect this error condition and stop. There is 
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. The cloned Pokémon is already in the wild.
 2. The cloned Pokémon is holding an item.

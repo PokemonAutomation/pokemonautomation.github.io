@@ -5,7 +5,7 @@ This program farms Poké Jobs in order to make Pokémons gain experience without
 
 <img src="images/DateSpam-PokeJobsFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -27,7 +27,7 @@ This program farms Poké Jobs in order to make Pokémons gain experience without
 
    > **Warning:** If you have all eight badges, it is recommended to complete the ten-stars Poké Job at least once before using this program. This Poké Job is named _Top-secret project_. When this special job is completed the first time, the only jobs available are EV-training jobs. If this program is run in this state, Pokémons will receive EV-training which might not be intended.
 
-### Instructions
+## Instructions
 
 1. Place the Pokémons to be trained in the same box
 2. The box must either be box #1 or the box before it must all be full

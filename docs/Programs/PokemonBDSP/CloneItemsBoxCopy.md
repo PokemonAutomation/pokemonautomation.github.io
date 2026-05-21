@@ -18,11 +18,12 @@ Clone an entire box of items at a time using the method described here: [https:/
 
 <img src="images/CloneItemsBoxCopy-0.jpg">
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Game Settings:**
 
@@ -36,7 +37,7 @@ Clone an entire box of items at a time using the method described here: [https:/
 
 <img src="images/CloneItemsBoxCopy-1.jpg">
 
-### Instructions
+## Instructions
 
 1. Setup your party and box like the above image:
 2. You are indoors standing a place with no moving NPCs. (such as a Pokémon center)

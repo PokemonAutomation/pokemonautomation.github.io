@@ -19,7 +19,7 @@ This program will automatically hunt for Regigigas and automatically stop on a s
 <img src="images/ShinyHuntAutonomous-Regigigas2-0.jpg" width="800">
 <img src="images/ShinyHuntAutonomous-Regigigas2-1.jpg" width="800">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -61,7 +61,7 @@ Here is an example of a lead Pokémon that is properly setup to guarantee a OHKO
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
    > - The first move on your lead Pokémon (Reversal) is fully PP up'ed to 24 PP.
 
-### Instructions
+## Instructions
 
 1. Stand in front of the Regigigas den.
 2. The `REVERSAL_PP` parameter must be set to no more than the amount of PP of your second move.

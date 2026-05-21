@@ -17,12 +17,13 @@ Drop a wishing piece in, check if it's red or purple. Pause for you to check, th
 
 <img src="images/BeamReset-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 
@@ -34,7 +35,7 @@ Drop a wishing piece in, check if it's red or purple. Pause for you to check, th
 2. Auto-Save: Off
 3. Casual mode: Off
 
-### Instructions
+## Instructions
 
 1. You must stand in front of an empty den with watts collected.
 2. You must be facing the center of the den.

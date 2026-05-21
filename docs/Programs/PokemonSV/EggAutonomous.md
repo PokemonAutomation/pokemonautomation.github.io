@@ -28,7 +28,7 @@ Hatching 500 eggs without a shiny is quite common. This can happen approximately
 <img src="images/EggAuto-1.png">
 <img src="images/EggAuto-2.png">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -64,7 +64,7 @@ Hatching 500 eggs without a shiny is quite common. This can happen approximately
 4. If you want to selectively keep Pokémon with certain IV spreads,
 you need to unlock IV judge functionality and set the current box view to be judge view.
 
-### Instructions
+## Instructions
 
 1. You have picnic'ed at least once to clear in-game picnic guide.
 2. For best performance, use the default tablecloth on your picnic table. Other tablecloths may contain white patterns that will slow down the program detecting the white picnic hand cursor.

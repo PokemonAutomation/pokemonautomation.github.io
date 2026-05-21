@@ -12,7 +12,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 <img src="images/DenRoller-0.png">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -33,7 +33,7 @@ If video feedback is enabled, it will keep track of stats, automatically stop on
 > *If starting the game requires checking the internet (because it is digital on a non-primary Switch), you will need to enable ["**Start Game Requires Internet**"](../NintendoSwitch/FrameworkSettings.md#start-game-requires-internet).
 
 
-### Instructions
+## Instructions
 
 1. Stand in front of a wishing piece den with watts collected.
     1. Your location should be safe from getting attacked by wild Pokémon.

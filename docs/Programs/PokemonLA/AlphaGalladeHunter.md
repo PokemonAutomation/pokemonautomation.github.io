@@ -28,12 +28,13 @@ This list of Pokémon this program can shiny hunt are:
 Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/950125812273782844/2022-03-06_06-42-37.mp4
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 
@@ -46,7 +47,7 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9501258122
 2. Auto-Save: Off
 
 
-### Instructions
+## Instructions
 
 1. You have unlocked Braviary.
 2. Use the [Braviary Height Glitch](BraviaryHeightGlitch.md) program to reach the roof of the Snowpoint Temple on the outside.

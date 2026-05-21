@@ -58,7 +58,7 @@ For speed and convenience of [Fast Code Entry (FCE)](FastCodeEntry.md) users, th
 
 ---
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -77,7 +77,7 @@ For speed and convenience of [Fast Code Entry (FCE)](FastCodeEntry.md) users, th
 2. Auto-Save: Off
 
 
-### Instructions
+## Instructions
 
 1. You are standing in front of and facing a Tera crystal.
 2. You are saved in this position.

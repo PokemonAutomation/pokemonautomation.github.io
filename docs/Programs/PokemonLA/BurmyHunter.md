@@ -19,12 +19,13 @@ The program will stop when a shiny, alpha and/or alpha shiny is found. According
 Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/965545237164462170/ShinyTreeHunt.mp4
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 
@@ -37,7 +38,7 @@ Demo Video: https://cdn.discordapp.com/attachments/722200321916534876/9655452371
 2. Auto-Save: Off
 
 
-### Instructions
+## Instructions
 
 1. You have unlocked Braviary.
 2. You have unlocked the Fieldlands Heights waypoint.

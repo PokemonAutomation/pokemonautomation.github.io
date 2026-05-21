@@ -11,7 +11,7 @@ This program works by making a sandwich to boost spawns, then repeatedly sending
 
 **NOTE: This is not a shiny hunting program. This program will not detect shiny Pokemon.**
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -28,7 +28,7 @@ This program works by making a sandwich to boost spawns, then repeatedly sending
 1. Text Speed: Fast
 2. After game version 2.0.1 (the DLC 1 update): Camera Support: On
 
-### Instructions
+## Instructions
 
 1. You have completed the Indigo Disc DLC and have unlocked Flying (talk to Amarys in Classroom 3-2). You can use either Regular or Inverted controls.
 2. Make sure your party is full.

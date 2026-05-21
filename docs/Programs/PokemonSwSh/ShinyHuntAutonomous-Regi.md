@@ -22,7 +22,7 @@ This program will automatically hunt for a shiny Regi golem and automatically st
 <img src="images/ShinyHuntAutonomous-Regi-0.jpg" width="800">
 <img src="images/ShinyHuntAutonomous-Regi-Square-0.jpg" width="800">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -51,7 +51,7 @@ This program will automatically hunt for a shiny Regi golem and automatically st
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
    > Note: The Shiny Charm does not work on the Regis.
 
-### Instructions
+## Instructions
 
 1. Check there are no lights activated.
 2. Stand in front of the statue.

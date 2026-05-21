@@ -15,7 +15,7 @@ Catch/receive Pokémon for desired stats.
 
 **DISCLAIMER:** This program utilizes the backup saves to reset for Pokémon stats and often requires long setup, make sure you fully understand what you need to do before starting the program.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -77,7 +77,7 @@ Note: The Volcanion segment features a series of area loading screens and can sp
 3. Have a lead Pokémon that knows Fissure such as Groudon and place it on the right slot (button A). Do note that when using Groudon ensure that you are not using Primal Reversion as the animation takes too long and the player can get targeted by range attacks and faint before having a chance to capture.
 4. Start the program in game. **DISCLAIMER:** If the Volcanion doesn't have near perfect IVs in HP and Defense, Fissure from a decent ground type attacker should OHKO it but even that is still around 30-40% depending on the ball you are using, be patient and expect failed catches when running the program.
 
-### Program Settings
+## Program Settings
 
 ### Go Home when Done:
 

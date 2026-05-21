@@ -13,7 +13,7 @@ Because the shiny sound has a much smaller audible radius than the spawn radius,
 <img src="images/ShinyHunt-BenchSit.jpg">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -29,7 +29,7 @@ Because the shiny sound has a much smaller audible radius than the spawn radius,
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Face a bench such that the A button is visible.
 2. Start the program in the game.

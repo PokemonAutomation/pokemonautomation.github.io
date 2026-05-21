@@ -39,7 +39,7 @@ If you care about your den, get rid of all your wishing pieces. They are easy to
 
 ---
 
-## Setup of Settings
+## Settings
 
 **Switch Settings:**
 

@@ -20,7 +20,7 @@ The default settings for this program will produce 10 rare balls using only a si
 
 The item printer depletes Pokémon materials and saves after each iteration, be sure that if there are Pokémon materials you want to keep (to make TMs etc.) that you don't overrun this program.
 
-# Setup of Settings
+## Settings
 
 **Switch Settings:**
 

@@ -21,7 +21,7 @@ The stop conditions can be specified on a per-boss basis:
 
 Since this program does not know the boss for each adventure, win rates will be lower than the other modes.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -42,7 +42,7 @@ Since this program does not know the boss for each adventure, win rates will be 
 
 This must be done to all participating Switches.
 
-### Instructions
+## Instructions
 
 1. Stand in front of the professor.
 2. If the hosting mode is "Alone" or "Host Locally", all Switches need to be offline.

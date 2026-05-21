@@ -8,7 +8,7 @@ The program can sustain a trade every ~103 seconds. Thus it takes almost an hour
 
 This program is experimental and is more suited for high-demand and high-quantity giveaways. As with SurpriseTrade, this program will skip Pokémon if no trade happens. Thus there will be many untraded Pokémon. Likewise, you will need many Pokémon to sustain a giveaway that lasts for a long period of time unattended.
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -19,7 +19,7 @@ This program is experimental and is more suited for high-demand and high-quantit
 
 > If you wish to trade online, be connected to the internet before you start the program. Thus you will need to be fast when starting the program or you will be disconnected.
 
-### Instructions
+## Instructions
 
 1. Enter the menu and put the cursor over the "Pokémon" option.
 2. Exit the menu with "B" to return to the overworld.

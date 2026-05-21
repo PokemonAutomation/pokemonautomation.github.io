@@ -24,7 +24,7 @@ While the 7.8k skipper can recover from minor errors, major errors will cause it
 
 <img src="images/DaySkipperJPN-7.8k-0.png">
 
-## Instructions
+## Settings
 
 1. Screen size: Must be 100% within the Switch settings
 2. System time: Un-synced
@@ -33,7 +33,7 @@ While the 7.8k skipper can recover from minor errors, major errors will cause it
 5. Make sure the time of the day is not during the DST missing hour. (2 - 3AM)
 6. The VS (Y-COMM) glitch must be active.
 
-### Instructions
+## Instructions
 
 Most people use the following workflow:
 

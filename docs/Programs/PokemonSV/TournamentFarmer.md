@@ -55,7 +55,7 @@ Note: Max out the PP on Glacial Lance and delete all other moves. If it runs out
 ```
 Note that this sacrifices the Amulet Coin for Choice Specs as this is needed to reliably win. Happy Hour Zoroark can still be used (as does a Smeargle with the same moves), but this will hurt the win-rate due to giving the opponent free turns to setup Trick Room or Light Screen.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -70,7 +70,7 @@ Note that this sacrifices the Amulet Coin for Choice Specs as this is needed to 
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. Stand in front of the tournament entry NPC.
 2. Start the program in-game.

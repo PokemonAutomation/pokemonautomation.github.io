@@ -54,7 +54,7 @@ The main difference from the [original Tournament Farmer](TournamentFarmer.md) i
 
 Since Happy Hour cannot be transfered from other games and the DLC preordering has already expired, you either already have it somewhere or must trade for it. Regardless, Happy Hour is optional and the program can run without it. It will just be less efficient with rewards.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -69,7 +69,7 @@ Since Happy Hour cannot be transfered from other games and the DLC preordering h
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. Stand in front of the tournament entry NPC.
 2. Start the program in-game.

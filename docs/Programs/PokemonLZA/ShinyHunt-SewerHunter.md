@@ -14,7 +14,7 @@ Shiny hunt by running back and forth repeatedly in two sewer subzones.
 6. Skrelp + Inkay
 7. Ariados
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -25,7 +25,7 @@ Shiny hunt by running back and forth repeatedly in two sewer subzones.
 
 1. Video Resolution: 1080p or higher
 
-### Instructions/Hunt Routes
+## Instructions/Hunt Routes
 
 ### Klefki
 

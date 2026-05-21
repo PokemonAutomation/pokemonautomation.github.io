@@ -17,7 +17,7 @@ Farm the Stow-on-Side bargains dealer. It requires activating the Y-Comm glitch.
 
 <img src="images/DateSpam-StowOnSideFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -37,7 +37,7 @@ Farm the Stow-on-Side bargains dealer. It requires activating the Y-Comm glitch.
 3. Y-Comm glitch must be active
     1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
-### Instructions
+## Instructions
 
 1. You must be standing in front of the Stow-on-Side bargains dealer.
 2. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

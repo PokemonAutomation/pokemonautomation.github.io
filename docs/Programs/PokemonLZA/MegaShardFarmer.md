@@ -7,7 +7,7 @@ Farm Mega Shards in the alley behind Restaurant Le Yeah.
 <img src="images/MegaShardFarmer.jpg">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -19,7 +19,7 @@ Farm Mega Shards in the alley behind Restaurant Le Yeah.
 1. Video Resolution: 1080p or higher
 
 
-### Instructions
+## Instructions
 
 1. Your Camera controls should be set to default - Regular (not Inverted) with Camera Sensitivity 3.
 2. The bottom move of your selected Pokémon is a ranged attack capable to hitting shards high off the ground.

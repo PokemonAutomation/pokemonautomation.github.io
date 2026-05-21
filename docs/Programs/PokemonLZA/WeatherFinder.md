@@ -4,7 +4,7 @@
 
 Reset the day by siting on a bench until the desired weather is found.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -21,7 +21,7 @@ Reset the day by siting on a bench until the desired weather is found.
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Face towards a bench until the A button is visible
 2. Make sure to select the correct time of the day you currently are in the Options

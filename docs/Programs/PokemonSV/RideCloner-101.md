@@ -17,7 +17,7 @@ This program catches Pokémon the same way as the [Tera Farmer](TeraSelfFarmer.m
 
 ---
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -36,7 +36,7 @@ This program catches Pokémon the same way as the [Tera Farmer](TeraSelfFarmer.m
 2. Give Nicknames: Off
 3. Send to Boxes: Manual
 
-### Instructions
+## Instructions
 
 1. You are standing exactly* on the north side of a Tera crystal.
 2. You are facing directly south looking at the Tera crystal.

@@ -17,11 +17,12 @@ This program works on game version 1.0 and later.
 <img src="images/IngoMoveGrinder-0.png">
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Program Settings:**
 
@@ -32,7 +33,7 @@ This program works on game version 1.0 and later.
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. If your game version is the same or higher than 1.1.0, you have unlocked the battle mode dialogue from Ingo. In this dialogue you can choose between Regular Pokémon battles, Path of Tenacity, Path of Solitude and Select Pokémon.
 2. You have unlocked all Ingo's regular battles. If your game version is the same or higher than 1.1.0, check this Serebii [page](https://www.serebii.net/legendsarceus/ingobattles.shtml) for a complete list of all regular battles.

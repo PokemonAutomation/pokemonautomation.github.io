@@ -45,7 +45,7 @@ Most people can keep their ride legendary in their party all the time since it's
 
 ---
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -60,7 +60,7 @@ Most people can keep their ride legendary in their party all the time since it's
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Your ride legendary is in its ride form.
 2. You have a clone of your ride legendary in either the 2nd slot or the 6th slot of your party. (depends on your version, see below)

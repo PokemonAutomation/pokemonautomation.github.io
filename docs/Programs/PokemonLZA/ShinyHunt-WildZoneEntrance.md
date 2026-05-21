@@ -18,7 +18,18 @@ Shiny sound detection will happen at most once to avoid detecting the same shiny
 
 <img src="images/ShinyHunt-WildZoneEntrance.png">
 
-### Instructions
+## Settings
+
+**Switch Settings:**
+
+1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+
+**Program Settings:**
+
+1. Video Resolution: 1080p or higher
+
+## Instructions
 
 1. Fast travel to the entrance of a wild zone.
 2. Start the program in the game.

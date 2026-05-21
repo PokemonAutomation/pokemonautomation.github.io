@@ -25,12 +25,13 @@ Thus the purpose of this program is cover some of the things that cannot be hunt
 [A collection of paths can be found here.](CustomPaths/Zorua.json)
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 
@@ -45,7 +46,7 @@ Thus the purpose of this program is cover some of the things that cannot be hunt
 4. Camera sensititivy it at the default value of 3.
 
 
-### Instructions
+## Instructions
 
 1. You have unlocked Braviary.
 2. You have unlocked all warp spots in the map you are hunting in. (unlocked both camps, the arena, and settlements - if applicable)

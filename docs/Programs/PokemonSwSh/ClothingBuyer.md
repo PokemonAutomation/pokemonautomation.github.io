@@ -13,7 +13,7 @@ As its name implies, this program will automatically buy clothing.
 1. Text Speed: Fast
 2. Casual mode: Off
 
-### Instructions
+## Instructions
 
 1. You are in the menu for buying clothing. (Anywhere is fine.)
 2. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

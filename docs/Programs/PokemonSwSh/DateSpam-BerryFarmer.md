@@ -22,7 +22,7 @@ BerryFarmer will farm berries from a tree. It requires activating the Y-Comm gli
 
 <img src="images/DateSpam-BerryFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -42,7 +42,7 @@ BerryFarmer will farm berries from a tree. It requires activating the Y-Comm gli
 3. Y-Comm glitch must be active
     1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
-### Instructions
+## Instructions
 
 1. You must be standing in front of a berry tree.
 2. Your location should be safe from getting attacked by wild Pokémon.

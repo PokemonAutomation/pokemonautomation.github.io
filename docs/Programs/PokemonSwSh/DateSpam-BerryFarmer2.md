@@ -21,7 +21,7 @@ This program will detect shiny Pokémon, however, a better alternative for this 
 <img src="images/DateSpam-BerryFarmer2-0.png">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -51,7 +51,7 @@ This program will detect shiny Pokémon, however, a better alternative for this 
 3. Your lead Pokémon must not be shiny. (this will cause false positive detection)
 
 
-### Instructions
+## Instructions
 
 1. You must be standing in front of a berry tree.
 2. Your location should be safe from getting attacked by wild Pokémon.

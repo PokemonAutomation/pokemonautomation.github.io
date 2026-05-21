@@ -12,7 +12,7 @@ Make sandwiches and collect eggs.
 
 <img src="images/EggFetcher-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -33,7 +33,7 @@ Make sandwiches and collect eggs.
 
 1. Place consecutive empty boxes to host collected eggs. Set the current box as the first of those boxes.
 
-### Instructions
+## Instructions
 
 1. You have picniced at least once to clear in-game picnic guide.
 2. For best performance, use the default tablecloth on your picnic table. Other tablecloths may contain white patterns that will slow down the program detecting the white picnic hand cursor.

@@ -17,7 +17,7 @@ Farm the daily highlight watt trader in Crown Tundra. It requires activating the
 
 <img src="images/DateSpam-DailyHighlightFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -37,7 +37,7 @@ Farm the daily highlight watt trader in Crown Tundra. It requires activating the
 3. Y-Comm glitch must be active
     1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
-### Instructions
+## Instructions
 
 1. You must be standing in front of the daily highlights watt trader in Snowslide Slope.
 2. Start the program in game or the [Change Grip/Order Menu](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/Programs/NintendoSwitch/ChangeGripOrderMenu.md) depending on which option you choose.

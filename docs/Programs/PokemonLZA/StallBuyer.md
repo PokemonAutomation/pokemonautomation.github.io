@@ -5,13 +5,8 @@
 Purchase berries (before game version 2.0.1) or mints from stalls in bulk. After 2.0.1 the games allow bulk berry purchases.
 
 
-## Instructions
 
-**Game Settings:**
-
-1. Text Speed: Fast
-
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -27,7 +22,7 @@ Purchase berries (before game version 2.0.1) or mints from stalls in bulk. After
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Go to the stall that you wish to purchase something from
 <img src="images/StallBuyer-Location-1.png">

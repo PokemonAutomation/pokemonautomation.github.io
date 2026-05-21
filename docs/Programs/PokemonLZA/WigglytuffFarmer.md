@@ -12,7 +12,7 @@ NOTE:
 <img src="images/WigglytuffFarmer.jpg" width=500> <img src="images/WigglytuffFarmer-location.jpg" width=500>
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -28,7 +28,7 @@ NOTE:
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Make sure you have one Pokemon that knows *Bubble Beam* move in your party otherwise you'll not be able to start the battle.
 2. Use left Dpad to select the Pokemon you'd like to battle the Wigglytuff. Don't use the Pokemon with *Bubble Beam* move.

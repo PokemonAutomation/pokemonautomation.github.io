@@ -24,11 +24,12 @@ It takes roughly 3148 trades and 43 hours to touch-trade a complete Hisui living
 <img src="images/SelfTouchTrade-0.jpg">
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Program Settings:**
 
@@ -58,7 +59,7 @@ The receiving Switch is the one that will receive the touch-trades for dex-filli
 1. There is at least one tradable Pokémon in the current box.
 
 
-### Instructions
+## Instructions
 
 1. The two Switches are in a trade together.
 2. The hosting Switch is on the first (left-most) box of the N boxes that will be touch-traded.

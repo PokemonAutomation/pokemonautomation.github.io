@@ -19,7 +19,7 @@ EggSuperCombined2 is the most optimized of the egg programs in this package. Whe
 
 <img src="images/EggCombined2-0.jpg">
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -101,7 +101,7 @@ Starting with Box 3 as the current box, the program will:
 - Don't leave any Pokémon you care about in the game. It goes without saying that mass-release is inherently dangerous to run unattended.
 - Use a dedicated game with 32 empty boxes. If you're at the point where you're considering this program for optimized egg hatching, you might as well just speedrun a new game and shiny charm it with a living dex that you probably already have sitting in Pokémon Home.
 
-### Run Instructions
+## Instructions
 
 1. Travel to Route 5.
 2. Get on your bike.

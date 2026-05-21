@@ -16,7 +16,7 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
 
 <img src="images/ShinyHuntAutonomous-IoATrade-0.jpg" width="800">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -40,7 +40,7 @@ This program will automatically hunt for a shiny Regina trade and stop on a shin
 
 1. The Pokémon that you will be trading away must be in the first party slot.
 
-### Instructions
+## Instructions
 
 1. Stand in front of the lady who will do the trade.
 2. Enter the menu and place cursor over the "Pokédex" button.

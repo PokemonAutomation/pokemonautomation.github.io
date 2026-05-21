@@ -8,11 +8,11 @@ The method is described here: [https://youtu.be/tz0b62pkKTk?t=587](https://youtu
 
 <img src="images/BraviaryHeightGlitch-0.jpg">
 
-### Settings
+## Settings
 
 None needed.
 
-### Instructions
+## Instructions
 
 1. Be flying on Braviary and not near the ground.
 2. Start the program in the game.

@@ -34,7 +34,7 @@ Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports 
 
 <img src="images/ShinyHunt-AreaZeroPlatform-2.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -58,7 +58,7 @@ Like the encounter bots from Sword/Shield and BDSP, this encounter bot supports 
 7. Sound Effects: 10
 
 
-### Instructions
+## Instructions
 
 1. **(New to v0.43!)** The "Flying Unlocked" option is set correctly. If you have completed the DLC and have unlocked full flying capability, check this box. Otherwise leave it unchecked. It is important to set this correctly otherwise the program will not be able to navigate to the platform. Also, ensure "Controls while Flying" in the in-game settings is set to "Regular" (not "Inverted").
 2. Make sure your party is full.

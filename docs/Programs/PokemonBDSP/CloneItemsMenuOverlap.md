@@ -20,11 +20,12 @@ Clone 5 items at a time using the menu overlap menu method described here: [http
 
 <img src="images/CloneItemsMenuOverlap-0.jpg">
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Program Settings:**
 
@@ -47,7 +48,7 @@ Clone 5 items at a time using the menu overlap menu method described here: [http
 
 <img src="images/CloneItemsMenuOverlap-2.jpg">
 
-### Instructions
+## Instructions
 
 1. Setup your party and box like the above image:
 2. You are standing in this specific grassy area in Route 212.

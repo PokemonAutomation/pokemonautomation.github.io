@@ -13,7 +13,7 @@ This program will randomly seek out and encounter overworld Pokémon until it fi
 <img src="images/ShinyHuntAutonomous-Overworld-0.jpg" width="800">
 <img src="images/ShinyHuntAutonomous-Overworld-1.jpg" width="800">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -43,7 +43,7 @@ This program will randomly seek out and encounter overworld Pokémon until it fi
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
    > - Get rid of all the nearby strong spawns. They tend to pull you away from the grassy area.
 
-### Instructions
+## Instructions
 
 1. You are standing in a grassy area with overworld spawns.
    * You must be zoomed out to maximize the view. (Needed for accurate trajectory calculation)

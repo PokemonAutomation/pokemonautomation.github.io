@@ -11,14 +11,14 @@ This program is meant to support manual rng manipulation.
 2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 3. Video Resolution: 1280 x 720 or higher in program settings
 
-### Instructions
+## Settings
 
 **Game Settings:**
 
 1. Text Speed: Fast
 2. Casual mode: Off
 
-**Instructions:**
+## Instructions
 
 1. You need to have a non-shiny Orbeetle in your party.
 2. Open the party menu and move to Orbeetle.

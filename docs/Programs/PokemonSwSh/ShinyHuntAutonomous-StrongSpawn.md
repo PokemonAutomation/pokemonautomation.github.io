@@ -14,7 +14,7 @@ This program will automatically hunt for a shiny strong spawn and automatically 
 
 <img src="images/ShinyHuntAutonomous-StrongSpawn-0.jpg" width="800">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -42,7 +42,7 @@ This program will automatically hunt for a shiny strong spawn and automatically 
    > - Your lead Pokémon does not have high happiness.
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
 
-### Run Program Instructions
+## Instructions
 
 > There are many ways to do this. The below is just an example.
 

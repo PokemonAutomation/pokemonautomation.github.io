@@ -17,7 +17,7 @@ This program is not restricted to raids that can be OHKO'ed. By adjusting the ap
 
 <img src="images/CandyFarmer.jpg" width="90%">
 
-## Instructions
+## Settings
 
 Setup for All Switches:
 
@@ -49,7 +49,7 @@ Switch(s) Raiding:
    > Additional Recommendations:
    > - Avoid using any Pokémon that have activating abilities. This adds delay and may require adjusting the default timings.
 
-### Instructions
+## Instructions
 
 1. Setup settings, safeguards, and program per prior instruction
 2. Save all Switches per item #7, if hosting raid, and item #4, if raiding.

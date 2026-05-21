@@ -20,13 +20,13 @@ This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.
 
 <img src="images/ActivateMenuGlitch-113-1.jpg">
 
-### Settings
+## Settings
 
 **Game Settings:**
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. Your Pokémon is not following you.
 2. You have the Strength HM.

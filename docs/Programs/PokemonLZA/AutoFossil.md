@@ -9,7 +9,7 @@ Mega Dimension DLC gives a faster method for shiny hunting them via Hyperspace W
 <img src="images/AutoFossil.jpg">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -26,7 +26,7 @@ Mega Dimension DLC gives a faster method for shiny hunting them via Hyperspace W
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Face toward the fossil researcher Reg in the Pokémon lab and have the button A visible.
 2. Ensure your party is FULL to let all revived fossils go into box.

@@ -12,11 +12,12 @@ Trade boxes of Pokémon between two Switches locally.
 <img src="images/SelfBoxTrade-0.jpg">
 
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Program Settings:**
 
@@ -35,7 +36,7 @@ Trade boxes of Pokémon between two Switches locally.
 3. No Pokémon in these N boxes on both Switches will evolve on trade.
 
 
-### Instructions
+## Instructions
 
 1. The two Switches are in a trade together.
 2. Both Switches are on the first (left-most) box of the N boxes that they will exchange.

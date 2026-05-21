@@ -21,11 +21,11 @@ As with all FCE programs, the usual disclaimer applies:
 ***By using this program, you agree that you are an asshole. Furthermore, you will be required to embrace your asshole status by flaunting it in front of all the people you've blocked out of raids.***
 
 
-## Instructions
+## Settings
 
 None
 
-### Instructions
+## Instructions
 
 - The code entry pad must be up.
 - The cursor must be over the "1" digit.

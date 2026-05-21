@@ -6,7 +6,7 @@ Duplicate items using the God Egg/MissingNo.
 
 > **Keep in mind that the God Egg is considered a form of hacking since there is no known way to obtain it without someone having a hacked Switch.**
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -40,7 +40,7 @@ Duplicate items using the God Egg/MissingNo.
 - Don't leave any Pokémon you care about in the game. This program releases Pokémon and has been observed to fail in a way that saves the game.
 - If you do need to leave Pokémon you care about, keep them out of the 1st column of any box.
 
-### Instructions
+## Instructions
 
 1. Fly to Route 5.
 2. Get on your bike.

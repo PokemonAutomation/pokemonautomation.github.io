@@ -16,7 +16,7 @@ This program can also be used to (inefficiently) grind Mable's research for catc
 <img src="images/InPlaceCatcher.jpg">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -33,7 +33,7 @@ This program can also be used to (inefficiently) grind Mable's research for catc
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. Your active Pokémon has a enough move variety to easily kill everything in your area.
 2. Your active Pokémon should be able to tank everything in the area. Give it Leftovers.

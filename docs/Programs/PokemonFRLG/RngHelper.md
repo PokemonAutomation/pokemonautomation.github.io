@@ -78,7 +78,7 @@ This program includes options for several RNG targets:
 
 - If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
 
-<img src="images//RngHelper-3.jpg" width="600">
+<img src="images/RngHelper-3.jpg" width="600">
 
 ### Instructions
 

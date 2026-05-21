@@ -17,7 +17,7 @@ This is the same code entry routine that's used by the auto-hosts. But as a stan
 
 [Demo Video](https://cdn.discordapp.com/attachments/755635697737531544/809314697476046898/Serial_-_FCE.mov)
 
-### Instructions
+## Instructions
 
 - The code entry pad must be up.
 - The cursor must be over the "1" digit.

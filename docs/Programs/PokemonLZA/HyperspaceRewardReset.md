@@ -7,7 +7,7 @@ Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward.
 <img src="images/HyperspaceRewardReset.jpg">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -23,7 +23,7 @@ Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward.
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. In a Hyperspace Battle Zone, win against a trainer that gives a prize. Do not talk to the trainer afterwards.
    * Make sure the trainer can give the target item(s). For example, Couriers will not give you Pokéballs. [This Serebii page](https://www.serebii.net/legendsz-a/hyperspacelumiose.shtml) has all the Hyperspace battle zone trainer gift tables.

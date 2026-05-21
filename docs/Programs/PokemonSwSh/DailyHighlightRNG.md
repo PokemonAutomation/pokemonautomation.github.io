@@ -7,7 +7,7 @@
 This program will perform RNG manipulation to get rare items (especially Beast Ball and Dream Ball) from the Daily Highlight Watt Trader in the Snowslide Slope area of the Crown Tundra.
 The success rate for each manipulated highlight is around 80%.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -29,7 +29,7 @@ The success rate for each manipulated highlight is around 80%.
 3. Y-Comm glitch must be active
     1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
-### Instructions
+## Instructions
 
 1. The Snowslide Slope fly spot must be unlocked.
 2. You have talked to the Watt Trader before.

@@ -8,7 +8,7 @@ Farm Blueberry Quests in the Terarium for BP.
 
 <img src="images/BBQSoloFarmer.png">
 
-## Setup of Settings
+## Settings
 
 **Switch Settings:**
 

@@ -13,13 +13,25 @@ This program would detect the day/night change. When such change occurs, the pro
 Shiny sound detection will happen at most once to avoid detecting the same shiny Pokémon over and over.
 
 
-### Instructions
+## Settings
+
+**Switch Settings:**
+
+1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+
+**Program Settings:**
+
+1. Video Resolution: 1080p or higher
+
+
+## Instructions
 
 1. Fast travel to Café Bataille in Wild Zone 6 or Café Ultimo in Wild Zone 15.
 2. Start the program in the game.
 
 
-### Hunt Guide
+## Hunt Guide
 
 Check the maps from [Serebii](https://www.serebii.net/pokearth/lumiosecity/) and [game8](https://game8.co/games/Pokemon-Legends-Z-A/archives/557774) to know what Pokémon are near the Cafés.
 

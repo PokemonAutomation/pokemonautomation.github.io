@@ -20,13 +20,13 @@ This program can be used to setup the [item cloning program](CloneItemsBoxCopy2.
 
 <img src="images/ActivateMenuGlitch-Poketch-0.jpg">
 
-### Settings
+## Settings
 
 **Game Settings:**
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. Stand in front of the Floaroma Town Pokémon center*.
 2. Your Pokémon is not following you.

@@ -7,7 +7,7 @@ Purchase clothing from shops.
 <img src="images/ClothingBuyer.png">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -22,7 +22,7 @@ Purchase clothing from shops.
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. The selection arrow is on the first item in the menu for buying clothing. (See example picture.)
 2. Start the program in-game. The program will automatically stop when the number of categories is hit (see options).

@@ -7,7 +7,7 @@ Make, reset, and keep donuts with the desired flavor powers.
 <img src="images/DonutMaker.png">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -26,7 +26,7 @@ Make, reset, and keep donuts with the desired flavor powers.
 2. Your have more than 8 types of regular berries and 8 types of hyperspace berries. The program assumes each line of the berry menu always has a valid berry when making a donut.
 3. You have more berries than the quantities required to make the donut, as using up a berry makes the icon appear faded and interferes with proper berry reading.
 
-### Instructions
+## Instructions
 
 1. Start the program in the overworld.
 

@@ -14,11 +14,19 @@ This program will also detect any shiny Pokémon along the way, thus it can be u
 
 ## Instructions
 
-1. Screen size: Must be 100% within the Switch settings
-2. Video Resolution: 1080p or higher in program settings
-   > Shiny detection and text recognition is not reliable at low resolutions.
+**Switch Settings:**
 
-3. Text Speed: Fast
+1. Video Resolution: 1080p or higher in program settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+
+**Program Settings:**
+
+1. Video Resolution: 1080p or higher
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+
+**Game Settings:**
+
+1. Text Speed: Fast
 
 ### Setup of Party
 

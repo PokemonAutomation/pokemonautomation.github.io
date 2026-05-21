@@ -6,7 +6,7 @@ Order boxes of Pokémon, based on their national dex index.
 
 <img src="images/BoxReorderNationalDex.png">
 
-## Preparation Instructions
+## Settings
 
 **Switch Settings:**
 

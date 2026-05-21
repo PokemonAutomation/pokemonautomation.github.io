@@ -6,7 +6,7 @@ Drop wishing pieces between two dens until you find an event den.
 
 <img src="images/EventBeamFinder-0.jpg">
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -17,7 +17,7 @@ Drop wishing pieces between two dens until you find an event den.
    > 
    > Airplane mode is required to avoid getting stuck inside a den as well as slowdowns from network traffic/interference.
 
-### Instructions
+## Instructions
 
 1. Travel to Bridge Field daycare
 2. Check that the two dens closet to the Bridge Field daycare do not have a natural beam.

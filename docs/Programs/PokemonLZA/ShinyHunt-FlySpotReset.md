@@ -25,7 +25,7 @@ With the Shiny Charm you will get a shiny Pokémon quite fast if there are many 
 Shiny sound detection will happen at most once to avoid detecting the same shiny Pokémon over and over.
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -36,7 +36,7 @@ Shiny sound detection will happen at most once to avoid detecting the same shiny
 
 1. Video Resolution: 1080p or higher
 
-### Instructions
+## Instructions
 
 1. If you wish to hunt in Hyperspace, use a donut with AT LEAST ONE flavor power for the program to read Calorie number correctly.
 2. Fast travel to a fly spot in Hyperspace or in Lumiose City but outside any Wild Zones.

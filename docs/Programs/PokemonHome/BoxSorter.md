@@ -17,10 +17,16 @@ This program is able to read one box in 20 seconds and able to sort one box in l
 
 I successfuly sorted 18 boxes in 54 minutes with default settings.
 
-## Preparation Instructions
+## Settings
+
+**Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
-2. Video Resolution: 1280 x 720 or higher in program settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+
+**Program Settings:**
+
+1. Video Resolution: 720p or higher
 
 ## Instructions
 

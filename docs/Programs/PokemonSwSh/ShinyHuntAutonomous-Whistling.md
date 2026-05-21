@@ -16,7 +16,7 @@ For regular overworld Pokémon, use the [overworld bot](ShinyHuntAutonomous-Over
 <img src="images/ShinyHuntAutonomous-Whistling-0.jpg" width="800">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -44,7 +44,7 @@ For regular overworld Pokémon, use the [overworld bot](ShinyHuntAutonomous-Over
    > - Your lead Pokémon does not have high happiness.
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
 
-### Instructions
+## Instructions
 
 1. You must be standing in a place where you will constantly be attacked by whistling.
    * You must be zoomed out to maximize the view.

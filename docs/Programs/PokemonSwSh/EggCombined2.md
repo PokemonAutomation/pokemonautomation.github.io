@@ -25,9 +25,7 @@ Be aware that the complexity of this program makes it inherently less reliable t
 
 <img src="images/EggCombined2-0.jpg">
 
-## Instructions
-
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -86,7 +84,7 @@ Newly fetched eggs will be dropped one box ahead of the one that's being hatched
 
 - As a precaution, it is strongly recommended to be offline. In the event that the eggs do not finish hatching before the program enters the storage system, there is a high chance that it will go into YCOMM and start a trade.
 
-### Run Instructions
+## Instructions
 
 1. Travel to Route 5.
 2. Get on your bike.

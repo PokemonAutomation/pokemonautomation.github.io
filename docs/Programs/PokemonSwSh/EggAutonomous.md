@@ -10,7 +10,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
 
 <img src="images/EggAutonomous-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -59,7 +59,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
 
 - The value of **Max Keepers** must be no greater than the number of free spaces in the left box. If the box becomes full, the program will break!
 
-### Run Instructions
+## Instructions
 
 1. Travel to Route 5, in front of the Nursery.
 2. Get on your bike.

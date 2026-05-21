@@ -17,7 +17,7 @@ WattFarmer will farm watts from a wishing piece beam. It requires activating the
 
 <img src="images/DateSpam-WattFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -53,7 +53,7 @@ WattFarmer will farm watts from a wishing piece beam. It requires activating the
 8. Click the home button and return to the Home menu.
 9. Re-enter the game. If the screen "blinks", you know the glitch was done correctly.
 
-### Instructions
+## Instructions
 
 1. You must be standing in front of a wishing piece den with watts collected.
 2. Your location should be safe from getting attacked by wild Pokémon.

@@ -14,7 +14,7 @@ This program will automatically hunt for a shiny Sword of Justice and automatica
 
 <img src="images/ShinyHuntAutonomous-SwordsOfJustice-0.jpg" width="800">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -43,7 +43,7 @@ This program will automatically hunt for a shiny Sword of Justice and automatica
    > - Your lead Pokémon does not have high happiness.
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
 
-### Instructions
+## Instructions
 
 1. You must have previously defeated or ran away from the Sword of Justice so that it is no longer present.
 2. Stand exactly on the spawn point of the Sword of Justice.

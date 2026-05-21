@@ -11,7 +11,7 @@ Automatically buy items.
 
 <img src="images/MassPurchase.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -23,7 +23,7 @@ Automatically buy items.
 1. Text Speed: Fast
 2. Make sure you have sufficient funds (In LP or Cash)
 
-### Instructions
+## Instructions
 
 1. You must in the shop screen.
 2. Place the cursor over the first item that is to be purchased

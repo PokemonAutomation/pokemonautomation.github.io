@@ -30,7 +30,7 @@ However, this approach is harder to automate because the sequence breaks when yo
 
 <img src="images/CloneItemsBoxCopy2-0.jpg">
 
-### Settings
+## Settings
 
 **Switch Settings:**
 

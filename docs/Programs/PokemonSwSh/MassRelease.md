@@ -6,7 +6,7 @@ MassRelease will release entire boxes of Pokémon. The main use case is getting 
 
 <img src="images/MassRelease-0.jpg">
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -19,7 +19,7 @@ MassRelease will release entire boxes of Pokémon. The main use case is getting 
 2. All boxes marked for deletion must be full.
     1. This program does not tolerate partial boxes.
 
-### Instructions
+## Instructions
 
 1. You must in the box system.
 2. The cursor must be over the 1st Pokémon in the box. (top-left corner)

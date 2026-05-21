@@ -6,7 +6,7 @@ Replay the ESP training gym challenge in knockout mode to farm EV berries.
 
 <img src="images/ESPTraining.png">
 
-## Setup
+## Settings
 
 **Switch Settings:**
 

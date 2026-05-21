@@ -20,11 +20,13 @@ Alternatively, the program also can stop if:
 - A shiny is heard during the route to the tree/ore
 - The Pokémon leaping from tree is Shiny, Alpha or Shiny Alpha
 
-### Settings
+## Settings
 
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
 
 **Program Settings:**
 
@@ -35,7 +37,7 @@ Alternatively, the program also can stop if:
 1. Text Speed: Fast
 
 
-### Instructions
+## Instructions
 
 1. You have unlocked Braviary.
 2. You have unlocked all map and waypoints.

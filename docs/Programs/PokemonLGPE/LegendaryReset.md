@@ -8,13 +8,24 @@ Shiny hunt Legendary Pokemon by resetting the game.
 
 ## Settings
 
-1. As with all LGPE programs, Right Joycon (ESP32 setup) is required. This program will not run otherwise.
-2. Text speed: Fast
-3. Movie Skipping: On
-4. Battle Effects: Off
-5. Background Music/Sound Effects/Pokemon Cries: Don't mute. Default value is 5.
+**Switch Settings:**
 
-## Setup
+1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
+3. [Switch 2: The profile you are using must be the 1st (left-most) profile.](../NintendoSwitch/Switch2Notes.md#resetting-a-game-moves-the-cursor-to-the-1st-user-profile)
+
+**Program Settings:**
+
+1. Video Resolution: 1080p or higher
+
+**Game Settings:**
+
+1. Text Speed: Fast
+2. Movie Skipping: On
+3. Battle Effects: Off
+4. Background Music/Sound Effects/Pokemon Cries: Don't mute. Default value is 5.
+
+### Setup
 
 1. Your lead must not be shiny.
 2. Your lead must be able to reliably defeat the target in 5 minutes by spamming their first move. Lead must not faint.

@@ -13,7 +13,7 @@ This program will repeatly operate the Item Printer for a chance at rare items (
 
 The item printer depletes Pokémon materials and saves after each iteration, be sure that if there are Pokémon materials you want to keep (to make TMs etc.) that you don't overrun this program.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -34,7 +34,7 @@ The item printer depletes Pokémon materials and saves after each iteration, be 
 1. You have unlocked the Item Printer in the League Room. (Recommended to have its level maxed out for better item odds)
 2. Have enough BP (can be farmed with [Flying Trial Farmer](FlyingTrialFarmer.md)) and Pokémon materials (can be farmed with [Material Farmer](MaterialFarmer.md), or [Shiny Hunt - Area Zero Platform](ShinyHunt-AreaZeroPlatform.md) running Dragon Encounter Power) to run the program.
 
-### Instructions
+## Instructions
 
 1. Stand in front of the NPC that operates the Item Printer.
 2. Start the program.

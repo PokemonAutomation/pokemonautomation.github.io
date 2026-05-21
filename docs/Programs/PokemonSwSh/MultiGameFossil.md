@@ -8,7 +8,7 @@ MultiGameFossil is a more advanced fossil reviving program that can revive fossi
 
 <img src="images/MultiGameFossil-0.jpg">
 
-## Instructions
+## Settings
 
 > **These must be setup on *each* participating save.**
 
@@ -37,7 +37,7 @@ MultiGameFossil is a more advanced fossil reviving program that can revive fossi
 
 - Because this program involves entering games, there is a chance that an error can cause it to enter the wrong game. If any of the games are holding dens, it is recommended to save them facing away from the den. The button presses for reviving fossils can easily destroy a den.
 
-### Instructions
+## Instructions
 
 > **These must be setup on *each* participating save.**
 

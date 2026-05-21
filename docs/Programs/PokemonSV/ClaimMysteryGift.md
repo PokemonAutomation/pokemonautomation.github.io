@@ -8,7 +8,7 @@ This program will claim the Mystery Gift. This can even start from a new save, s
 
 NOTE: If you already have a playthrough, this program will only get you Mystery Gifts via Code. Getting Mystery Gifts via Internet only works with new save files.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 

@@ -25,7 +25,7 @@ On the Switch 1, the exact speed will depend on the real life year. For the year
 
 <img src="images/DaySkipperUS-0.png">
 
-## Instructions
+## Settings
 
 This setup here depends on whether you are on a Switch 1 or a Switch 2.
 
@@ -48,7 +48,7 @@ This setup here depends on whether you are on a Switch 1 or a Switch 2.
 6. The VS (Y-COMM) glitch must be active.
 7. The console type is set to any of the Switch 2 options.
 
-### Instructions
+## Instructions
 
 Most people use the following workflow:
 

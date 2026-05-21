@@ -16,7 +16,7 @@ After encountering a Pokémon, no matter how the battle ends (running away, fain
 
 For more information on the history and research regarding this mechanism please refer to this [Summary by ジュナリ](https://note.com/junari000/n/nc04cc0d3e6cb) (external site, written in Japanese).
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -34,7 +34,7 @@ For more information on the history and research regarding this mechanism please
 1. Text Speed: Fast
 2. Auto-Save: Off
 
-### Instructions
+## Instructions
 
 1. You have done a Tera Raid at least once to clear the in-game tutorial.
 2. Check in the Pokédex (long press minus in the overworld) that the 5 Recently Battled (not Recently Caught) Pokémon are not shiny. If there is a shiny, battle random wild Pokémon until all 5 Recently Battled Pokémon are not shiny. It's also okay if you have unregistered Pokémon, just make sure to have cleared the Pokédex tutorial.

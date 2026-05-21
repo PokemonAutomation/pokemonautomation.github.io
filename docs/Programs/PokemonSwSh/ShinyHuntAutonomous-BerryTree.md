@@ -10,7 +10,7 @@ This program will shiny hunt the berry tree encounters.
 
 Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require *no* calibration. This program needs a capture card to detect a shiny from its animation.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -38,7 +38,7 @@ Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require *no
    > - Your lead Pokémon does not have high happiness.
    > - Your lead Pokémon does not have an ability that activates upon entry to battle.
 
-### Instructions
+## Instructions
 
 1. Stand in front of a berry tree.
 2. Save.

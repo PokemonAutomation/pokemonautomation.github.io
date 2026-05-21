@@ -8,7 +8,7 @@ This program can also be used to hunt for shiny raids or raids with high item re
 
 <img src="images/TeraSelfFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -29,7 +29,7 @@ This program can also be used to hunt for shiny raids or raids with high item re
 4. Send to Boxes: Manual
 5. Your party must be full.
 
-### Instructions
+## Instructions
 
 1. You have done a raid at least once to clear in-game raid guide.
 2. You must be facing an active Tera raid crystal facing south, or standing directly on a crystal spawn spot.*

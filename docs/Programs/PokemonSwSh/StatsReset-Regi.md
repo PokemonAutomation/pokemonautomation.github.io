@@ -6,7 +6,7 @@ Repeatedly catch regis until you get the stats you want.
 
 This program will automatically hunt for Regis and automatically stop based on the stop condition you've picked.
 
-## Preparation Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -25,7 +25,7 @@ This program will automatically hunt for Regis and automatically stop based on t
 3. Navigate to the Pokémon PC and press "+" until the IVs of the Pokémon in your boxes are shown
     1. You need to have unlocked the IV judge for this functionality
 
-## Party Setup
+### Party Setup
 
 1. Your lead Pokémon must be able to "wall Regis"
     1. This means Regis are unable to damage your Pokémon

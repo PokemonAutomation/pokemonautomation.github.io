@@ -24,7 +24,7 @@ If video feedback is enabled, it will keep track of stats and will waste a lot l
 > 
 > If you care about your den, get rid of all your wishing pieces. They are easy to get back later with watt farming.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -44,7 +44,7 @@ If video feedback is enabled, it will keep track of stats and will waste a lot l
 4. System time: Un-synced
 5. Make sure you have a strong internet connection. (if hosting online)
 
-### Instructions
+## Instructions
 
 1. All participating saves must be saved in front of a wishing piece den with watts collected.
 2. All participating saves should be in a location that is safe from getting attacked by wild Pokémon.

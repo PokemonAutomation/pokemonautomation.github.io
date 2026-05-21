@@ -13,7 +13,7 @@ This program does not use bike boosts, but is nevertheless roughly the same spee
 
 <img src="images/EggHatcher-0.jpg">
 
-## Instructions
+## Settings
 
 **Game Settings:**
 
@@ -53,7 +53,7 @@ As a precaution, it is strongly recommended to be offline. In the event that the
 
 This program is not as reliable when the eggs hatch before the character can travel to the safe location on the bridge. Therefore, it is not recommended to run this program unattended when cleaning up eggs of unknown origin and unknown remaining step-count.
 
-### Run Instructions
+## Instructions
 
 1. Travel to Route 5.
 2. Get on your bike.

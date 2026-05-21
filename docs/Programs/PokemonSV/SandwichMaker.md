@@ -6,7 +6,7 @@ Make a sandwich of your choice.
 
 <img src="images/SandwichMaker.png">
 
-## Setup
+## Settings
 
 **Switch Settings:**
 

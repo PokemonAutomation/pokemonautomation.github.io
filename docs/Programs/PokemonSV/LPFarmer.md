@@ -11,7 +11,7 @@ For versions prior to v0.29, LP Farming used to be part of the Tera Self Farmer.
 
 <img src="images/LPFarmer-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -28,7 +28,7 @@ For versions prior to v0.29, LP Farming used to be part of the Tera Self Farmer.
 
 1. Text Speed: Fast
 
-### Instructions
+## Instructions
 
 1. You have done a raid at least once to clear in-game raid guide.
 2. You must be facing an active Tera raid crystal facing south, or standing directly on a crystal spawn spot.

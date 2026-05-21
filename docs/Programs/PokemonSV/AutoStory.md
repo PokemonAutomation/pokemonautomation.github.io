@@ -15,7 +15,7 @@ Main Story (Part 2 of 3): https://youtu.be/DxftCbFn1k4
 
 Area Zero (Part 3 of 3): https://youtu.be/n3G1z2--5Ao
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 

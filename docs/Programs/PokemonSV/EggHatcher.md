@@ -12,7 +12,7 @@ Hatch boxes of Pokémon.
 
 <img src="images/EggHatcher-0.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -34,7 +34,7 @@ Hatch boxes of Pokémon.
 2. Boxes don't need to be full and don't need to have only eggs. This program will automatically skip empty slots and non-egg Pokémon.
 3. Boxes need to use the default wallpaper, Wallpaper 1.
 
-### Instructions
+## Instructions
 
 1. You have only one Pokémon in the party. Preferrably one with Flame Body ability.
 2. Go to a place with no wild Pokémon or NPCs. You can choose Zero Gate flying spot if you have unlocked the flying spot on map (see image below). Otherwise you can still use the Zero Gate area if you can climb over the mountain to reach there.

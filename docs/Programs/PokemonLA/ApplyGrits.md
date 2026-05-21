@@ -6,14 +6,14 @@
 This program will apply Grit items on your party Pokémon to level up their Grit level to 10 on all six stats.
 
 
-### Settings
+## Settings
 
 **Game Settings:**
 
 1. Text speed is fast.
 
 
-### Instructions
+## Instructions
 
 1. Place the party Pokémon you wish to apply Grit items on before the other Pokémon in the party.
 The program applies on Pokémon in the party order.

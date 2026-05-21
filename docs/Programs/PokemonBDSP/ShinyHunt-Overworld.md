@@ -15,6 +15,7 @@ Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/9114822822
 **Switch Settings:**
 
 1. Screen size: Must be 100% within the Switch settings
+2. [Switch 2: All HDR options must be disabled.](../NintendoSwitch/Switch2Notes.md#switch-2-hdr-may-be-problematic)
 
 **Program Settings:**
 

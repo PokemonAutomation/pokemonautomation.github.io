@@ -8,7 +8,7 @@ You can't shiny-hunt these, so you might as well go for stats...
 
 <img src="images/StatsReset-0.png">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -34,7 +34,7 @@ You can't shiny-hunt these, so you might as well go for stats...
 1. Party Setup: Your party is full.
 2. Box Setup: The first slot (upper-left) in your current box is empty.
 
-### Instructions
+## Instructions
 
 1. Stand in front of the person who gives you the gift Pokémon. (or in front of Poipole)
 2. Save.

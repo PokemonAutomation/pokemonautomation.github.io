@@ -10,7 +10,7 @@ While this program is intended for catching a knocked out Pokémon, it can be us
 <img src="images/PostKillCatcher.png">
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -23,7 +23,7 @@ While this program is intended for catching a knocked out Pokémon, it can be us
 1. Video Resolution: 1080p or higher
 
 
-### Instructions
+## Instructions
 
 1. Save in front of a Pokémon that you would like to catch.
 2. Start the program in the game.

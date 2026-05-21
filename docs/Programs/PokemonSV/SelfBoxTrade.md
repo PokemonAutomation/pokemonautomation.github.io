@@ -5,7 +5,7 @@
 Trade boxes of Pokémon between two Switches locally.
 
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -28,7 +28,7 @@ Trade boxes of Pokémon between two Switches locally.
 3. No Pokémon in these N boxes on both Switches will evolve on trade.
 
 
-### Instructions
+## Instructions
 
 1. The two Switches are in a trade together.
 2. Both Switches are on the first (left-most) box of the N boxes that they will exchange.

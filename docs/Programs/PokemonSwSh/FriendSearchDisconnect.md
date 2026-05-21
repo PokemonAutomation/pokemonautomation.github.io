@@ -13,7 +13,7 @@ Therefore, friend-search is the only remaining option.
 
 <img src="images/FriendSearchDisconnect-0.jpg">
 
-### Instructions
+## Instructions
 
 1. You are inside the game. (not the Switch Home or settings)
 2. The device is the primary controller.

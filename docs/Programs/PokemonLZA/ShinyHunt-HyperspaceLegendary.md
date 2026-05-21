@@ -11,7 +11,7 @@ Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Pow
 <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionShiny.jpg">
 <img src="images/ShinyHunt-HyperspaceLegendary-LatiasShiny.jpg">
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -38,7 +38,7 @@ Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Pow
 
 - Come prepared. Have a good team of Pokémon that can catch the legendary quickly. Have enough Pokéballs you want to catch it with.
 
-### Instructions
+## Instructions
 
 1. Enter a 5-star hyperspace legendary wild zone.
 2. Based on the legendary you want to hunt, move to the location shown on the maps below. Written instructions are also provided if needed.

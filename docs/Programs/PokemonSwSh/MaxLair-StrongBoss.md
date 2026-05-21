@@ -13,7 +13,7 @@
 
 This program hunts for a shiny boss. It will strategically reset the host to keep winning paths. Thus this program can be used for hunt strong bosses or finding winning paths to be used with MaxLair-Standard with path keeping.
 
-## Instructions
+## Settings
 
 **Switch Settings:**
 
@@ -34,7 +34,7 @@ This program hunts for a shiny boss. It will strategically reset the host to kee
 
 This must be done to all participating Switches.
 
-### Instructions
+## Instructions
 
 1. Stand in front of the professor.
 2. Make sure the host has at least one boss saved.
