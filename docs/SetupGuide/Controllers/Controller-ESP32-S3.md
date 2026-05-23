@@ -278,7 +278,8 @@ Try the following:
 
  - Ensure you have reset the device. Try disconnecting all cables to the ESP32-S3 device, then reconnect them.
  - Ensure the USB cables are connected to the correct ports on the ESP32-S3. The two ports are NOT interchangeable. See [Hardware Assembly](#hardware-assembly) above.
- - Try different USB cables and different USB ports. Sometimes it will not flash properly over certain USB ports.
+ - Try different USB cables and different USB ports. Sometimes it will not flash properly over certain USB ports. Ensure the USB cable supports data transfer.
+ - Ensure that the flash tool is in the correct mode (for ESP32-S3). Ensure you selected the correct .bin (for ESP32-S3).
  - If this still fails, review [step 2](#step-2-flash-the-firmware-to-the-esp32) above (Flash the firmware to the ESP32) and ensure that you flashed the firmware properly onto the device.
     - When flashing, ensure that the top left checkbox is checked. The top row should be green.
     - Make sure the correct USB port on the ESP32-S3 is connected to the computer. Connect the "COM"/"UART" side to your computer. The ports may be labeled on the board's underside. The port labeled as "OTG" should not be connected to your computer.
