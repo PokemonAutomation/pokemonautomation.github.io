@@ -108,6 +108,11 @@ Before we begin the Starter RNG program, we need to pick out a shiny target with
 > **IMPORTANT: Select Nintendo Switch 1 as your console in Ten Lines even if you're using a Switch 2**
 > Otherwise, your seed timings will be off by 750ms and the Auto-RNG programs *will NOT work properly!*.
 
+> **Avoid low seed delays when possible**
+> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early, throwing off all subsequent parts of the button press sequence. 
+>
+> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
+
 <img src="images//RngManipulationGuide//TenLines-gameinfo.jpg">
 
 For checking the SID, we can prioritize a target with a low number of advances so that resets take less time. The following search settings are recommended for SID checking:

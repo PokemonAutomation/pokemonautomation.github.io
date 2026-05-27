@@ -66,7 +66,6 @@ This program includes options for several RNG targets:
 | **Ho-oh**<br>- Save at the top of the steps at the very top of Navel Rock <br>- The encounter with Ho-oh is triggered after taking another step northward | [<img src="images//RngHelper-hooh.jpg" width="600">](images//RngHelper-hooh.jpg) |
 | **Deoxys**<br>- Solve the puzzle on Birth Island <br>- Save in front of the red triangle | [<img src="images//RngHelper-deoxys.jpg" width="600">](images//RngHelper-deoxys.jpg) |
 
-- Save the game
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
 
@@ -147,6 +146,11 @@ Additional button presses during reset necessary to hit the target seed. Set thi
 
 The delay time corresponding to your target seed. Set this with the help of an external RNG tool. 
 Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
+
+> **Avoid low seed delays when possible**
+> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
+>
+> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
 
 ### Advances:
 
