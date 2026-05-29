@@ -11,7 +11,7 @@ There are 2 main setups of this family of boards:
 | **UART Mode (this guide)** | 1. USB port -> Switch<br>2. GPIO 4/5 or GPIO 0/1 -> External UART<br>3. External UART -> Computer | - HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon | Difficult |
 | [Advanced UART Mode](Controller-PicoW-Advanced.md) | 1. USB port -> Switch<br>2. GPIO 4/5 + VSYS -> External UART<br>3. External UART -> Computer | - HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon | Most Difficult |
 
-These are the harder setups that are the most similar to the older AVR8 setups (Arduino, Teensy, Pro Micro) where you must attach an external UART board.
+These are the harder setups that are the most similar to the older AVR8 setups (Arduino, Teensy, Pro Micro) where you must attach an external UART.
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" width="45%">
 
