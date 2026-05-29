@@ -73,6 +73,19 @@ This program can be configured to obtain any Pokémon that can appear in random 
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
 
+**Safari Zone**
+- If you haven't ever entered the Safari Zone in your current save, enter and exit the Safari Zone
+- If fishing, register the rod you'd like to use to the SELECT button 
+- Have at least 500 Pokédollars 
+- Stand atop the Pokéball logo on the floor of the Safari Zone entrance 
+- If not fishing, use a Max Repel 
+- Save the game 
+- Enter the necessary information about your target seed and RNG advance (see options below)
+- Start the program
+
+<img src="images//RngHelper-safarizone.jpg" width="600">
+
+
 ## Displays
 
 ### Observed Stats:
@@ -158,6 +171,11 @@ Additional button presses during reset necessary to hit the target seed. Set thi
 
 The delay time corresponding to your target seed. Set this with the help of an external RNG tool. 
 Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
+
+> **Avoid low seed delays when possible**
+> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
+>
+> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
 
 ### Advances:
 

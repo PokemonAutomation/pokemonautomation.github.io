@@ -97,7 +97,7 @@ For all gifts/prizes, make sure you have a free spot in your party to allow the 
 | **Lapras**<br>- Save facing the Silph Co. employee | [<img src="images//RngHelper-lapras.jpg" width="600">](images//RngHelper-lapras.jpg) |
 | **Fossils**<br>- Give a fossil to the scientist at the Cinnabar Lab <br>- Exit and reenter the building <br>- Save next to the scientist | [<img src="images//GiftReset-1.png" width="600">](images//GiftReset1.png) |
 | **Game Corner Prizes**<br>- Have enough coins to purchase your desired prize <br>- Save facing the prize counter | [<img src="images//RngHelper-gamecorner.jpg" width="600">](images//RngHelper-gamecorner.jpg) |
-| **Togepi**<br>- Set your lead Pokémon to something with maximum Friendship <br>- Use your bicycle <br>- Save facing the old man | [<img src="images//RngHelper-togepi.jpg" width="600">](images//RngHelper-togepi.jpg) |
+| **Togepi**<br>- Make sure that you don't have a Repel active <br>- Set your lead Pokémon to something with maximum Friendship <br>- Use your bicycle <br>- Save facing the old man | [<img src="images//RngHelper-togepi.jpg" width="600">](images//RngHelper-togepi.jpg) |
 
 
 #### Static Encounters
@@ -121,7 +121,7 @@ For all random encounters, make sure you have all Pokémon and items you need to
 | --- | --- |
 | **Sweet Scent**<br>- Travel to a location where your target spawns (in tall grass, a cave, etc.) <br>- Move a Pokémon with Sweet Scent to the last occupied slot in your party <br>- Save the game | --- |
 | **Fishing**<br>- Register the fishing rod you'd like to use to the SELECT button <br>- Travel to the water's edge where your target spawns <br>- Save the game | --- |
-| **Safari Zone**<br>- If fishing, register the rod you'd like to use to the SELECT button <br>- Have at least 500 Pokédollars <br>- Stand atop the Pokéball logo on the floor of the Safari Zone entrance <br>- Use a Max Repel <br>- Save the game | [<img src="images//RngHelper-safarizone.jpg" width="600">](images//RngHelper-safarizone.jpg) |
+| **Safari Zone**<br>- If you haven't ever entered the Safari Zone in your current save, enter and exit the Safari Zone <br>- If fishing, register the rod you'd like to use to the SELECT button <br>- Have at least 500 Pokédollars <br>- Stand atop the Pokéball logo on the floor of the Safari Zone entrance <br>- If not fishing, use a Max Repel <br>- Save the game | [<img src="images//RngHelper-safarizone.jpg" width="600">](images//RngHelper-safarizone.jpg) |
 
 
 **For all targets, start the program after saving.**
@@ -151,6 +151,11 @@ Additional button presses during reset necessary to hit the target seed. Set thi
 
 Sets the target amount of time to wait between starting the game and pressing A on the title screen. Set this with the help of an external RNG tool. 
 Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
+
+> **Avoid low seed delays when possible**
+> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
+>
+> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
 
 ### Seed Calibration (ms):
 
