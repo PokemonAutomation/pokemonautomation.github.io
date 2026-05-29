@@ -1,6 +1,4 @@
-# Raspberry Pi: All Pico Models (UART Mode)
-
-**Note: This setup works on all the Pico models including the non-W ones. However, non-W Pico models will lack the wireless controllers.**
+# Raspberry Pi: Pico W and Pico 2 W (UART Mode)
 
 The Raspberry Pi Pico W (and Pico 2 W) is the easiest setup to get up and running (even easier than the ESP32). Thus, it is ideal for new users who just want to try out this project without getting too deep.
 
@@ -80,9 +78,7 @@ Notes:
 
 Here you will need the versions with pre-soldered pins in order to connect the UART. If you have other methods of connecting such as soldering or [press-fit/hammer headers](https://www.adafruit.com/product/5938), feel free to get the pinless ones and do your own thing.
 
-<sup>*While the wired controllers have been reported to work on a regular (non-W) Pico, it is not officially supported nor do we recommend it.</sup>
-
-**A micro-USB  cable:**
+**A micro-USB cable:**
 
 - Micro-USB -> USB-A Adapter: [https://www.amazon.com/gp/product/B09FXJD61Z](https://www.amazon.com/gp/product/B09FXJD61Z)
 - Micro-USB -> USB-A Cable: [https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ](https://www.amazon.com/Android-Compatible-Smartphones-Charging-Stations/dp/B095JZSHXQ)
@@ -153,20 +149,18 @@ For those of you revisiting this page, you will notice that this step is new. Th
 3. Plug the Pico's USB back into your computer while holding the `Bootsel` button. You can now release the button.
 4. Go to "This PC" and look for a storage device:
 
-     - On the Pico and Pico W, it will be named `RPI-RP2`.
-     - On the Pico 2 and Pico 2 W, it will be named `RP2350`.
+     - On the Pico W, it will be named `RPI-RP2`.
+     - On the Pico 2 W, it will be named `RP2350`.
 
 5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico and Pico W: `PABotBase2-Pico1-<version>.uf2`
-     - Pico 2 and Pico 2 W: `PABotBase2-Pico2-<version>.uf2`
+     - Pico W: `PABotBase2-Pico1W-<version>.uf2`
+     - Pico 2 W: `PABotBase2-Pico2W-<version>.uf2`
 
     <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
 6. Unplug the Pico's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.
-
-Note that the same firmware is used for both wireless and non-wireless Picos.
 
 
 ### Step 3: Install UART drivers
@@ -203,8 +197,6 @@ If you see it stuck on `Connecting...`, try swapping the TX and RX lines between
 
 ### Step 6: Connect the Pico W to the Switch as a Wireless Controller
 
-**(If your Pico is a non-W model that lacks the wireless capability, skip this step.)**
-
 In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
 After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or be unplugging and replugging it. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
@@ -224,7 +216,7 @@ Now lets try a wired connection:
 
 In the controller drop, choose "NS1: Wired Pro Controller". After a few seconds, you should see "USB" appear above the battery indicator. This means your controller has now switched to a wired connection!
 
-If you skipped the previous step because your Pico does not support wireless, click on the video feed and press ENTER on your keyboard. This will connect your controller.
+If the controller disappears and doesn't come back, click on the video feed and press ENTER on your keyboard. This will connect your controller. Unlike wireless controllers which connect automatically, wired controllers require a button press to connect. Note that a Switch firmware update (probably 21.0) changed the behavior such that joystick movements are no longer enough to connect a wired controller. It has to be a button press.
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wired-Ready.jpg">
 
