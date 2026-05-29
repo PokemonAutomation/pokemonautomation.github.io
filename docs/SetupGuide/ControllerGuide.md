@@ -22,8 +22,8 @@ This is a guide for all the differnet controller types that we support.
 - ESP32-S3
 - Pico W (UART mode)
 - Pico 2 W (UART mode)
-- RP2040
-- RP2350
+- RP2040 Family
+- RP2350 Family
 
 The HID keyboard is just a standard USB keyboard. Since it is not a controller, it cannot be used to play the Nintendo Switch. But it can be used to enter text fields as well as code entry.
 
@@ -78,8 +78,8 @@ Note that if you are in a 1-player game and you already have a controller connec
 - ESP32-S3
 - Pico W (UART mode)
 - Pico 2 W (UART mode)
-- RP2040
-- RP2350
+- RP2040 Family
+- RP2350 Family
 - Arduino Uno R3
 - Arduino Leonardo
 - Pro Micro
@@ -221,8 +221,8 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 - ESP32-S3
 - Pico W (UART mode)
 - Pico 2 W (UART mode)
-- RP2040
-- RP2350
+- RP2040 Family
+- RP2350 Family
 
 This is the same as the wireless official OEM Pro Controller for the Nintendo Switch. But rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (14 buttons, 2 joysticks, rumble, gyro, etc...)
 
@@ -259,8 +259,8 @@ There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutoma
 - ESP32-S3
 - Pico W (UART mode)
 - Pico 2 W (UART mode)
-- RP2040
-- RP2350
+- RP2040 Family
+- RP2350 Family
 
 Despite the fact that Nintendo never released any wired joycons, the protocol for it exists. So like the Pro Controller, there are wired versions of the joycons! It is possible that this is related to the original joycon charging grips which could connect a joycon to the Switch over USB. But we're not sure and it doesn't really matter...
 
