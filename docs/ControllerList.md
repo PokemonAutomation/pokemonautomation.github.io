@@ -29,9 +29,9 @@ This table lists all the device and controller combinations that we support in t
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico<br>Raspberry Pi Pico 2<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | RP2040 Family<br>RP2350 Family {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico<br>Raspberry Pi Pico 2<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | RP2040 Family<br>RP2350 Family<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
 
 ### Setup Comparison Table:
@@ -41,9 +41,9 @@ This table lists all the device and controller combinations that we support in t
 | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $8<br>Volume: $7 {.nowrap} | 1 | Upgradable to UART mode. {.nowrap} |
 | ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $10<br>Volume: $4 {.nowrap} | 3 | Unresolved Bugs:<br>- [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) {.nowrap} |
 | ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $15<br>Volume: $8 {.nowrap} | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. {.nowrap} |
-| Raspberry Pi Pico<br>Raspberry Pi Pico 2<br> {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $17<br>Volume: $18 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
+| RP2040 Family<br>RP2350 Family {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $17<br>Volume: $18 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
 | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $19<br>Volume: $10 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
-| Raspberry Pi Pico<br>Raspberry Pi Pico 2<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $28+<br>Volume: $10 {.nowrap} | 10 | <br>Hardest to build. {.nowrap} |
+| RP2040 Family<br>RP2350 Family<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $28+<br>Volume: $10 {.nowrap} | 10 | <br>Hardest to build. {.nowrap} |
 | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $30+<br>Volume: $12 {.nowrap} | 10 | Best final product.<br>Hardest to build. {.nowrap} |
 
 
@@ -94,7 +94,7 @@ Wired controllers are by far the most stable with a button timing accuracy of < 
 
 | **Device** | **Controller** |
 | --- | --- |
-| ESP32-S3<br>Pico 1/2 (UART mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} |
+| ESP32-S3<br>Pico 1 W (UART mode)<br>Pico 2 W (UART mode)<br>RP2040 Family<br>RP2350 Family {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} |
 | Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller {.nowrap} |
 | sys-botbase 3 (sbb3) {.nowrap} | NS1: Wired Controller {.nowrap} |
 
@@ -107,7 +107,7 @@ The main issue with wireless is that it can only reliably connect to the Switch 
 
 | **Device** | **Controller** |
 | --- | --- |
-| ESP32<br>Pico 1/2 W (both modes) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} |
+| ESP32<br>Pico 1 W (both modes)<br>Pico 2 W (both modes) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} |
 
 <hr>
 
