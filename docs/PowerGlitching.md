@@ -4,7 +4,7 @@
 
 Power glitching a problem that affects all controllers that rely entirely on the dock to receive power. Thus it affects:
 
-- Pico W (UART mode)
+- All RP2040 and RP2350 family boards using external UART.
 - Arduino Uno R3
 - Arduino Leonardo
 - Teensy 2.0 / Teensy++ 2.0
@@ -14,7 +14,7 @@ Each time the Nintendo Switch is docked or undocked, the dock will momentarily c
 
 **Good Case: Clean Reboot**
 
-In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W, it will lose its pairing with the Switch. If you are using the Pico's wireless controllers, you will need to re-pair them.
+In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the RP2040/RP2350 family boards, it will lose its pairing with the Switch. If you are using a Pico W's wireless controllers, you will need to re-pair them.
 
 **Bad Case: Glitch + Hang**
 
@@ -43,7 +43,7 @@ If you are still using the old controller setup (Uno, Leonardo, Teensy, Pro Micr
 
 All 3 of these setups are immune to power glitching. The Pico and the ESP32 receive their power from the computer instead of the dock. Meanwhile, the ESP32-S3 receives power from both the computer and the dock and will stay powered if either side is powering it.
 
-Unfortunately, the Pico (UART mode) is powered by the dock and is affected. But it tends to reset more often than it glitches. Nevertheless the situation is not ideal since a reset will disconnect and unpair the wireless as well.
+Unfortunately, the RP2040/RP2350 family boards (via external UART) is powered by the dock and is affected. But it tends to reset more often than it glitches. Nevertheless the situation is not ideal since a reset will disconnect and unpair the wireless as well.
 
 ## I am a circuits expert. How do I fix this for real?
 
@@ -57,13 +57,15 @@ We currently recommend the [1N5817 Schottky Diode](https://www.amazon.com/dp/B07
 
 <img src="SetupGuide/Images/1N5817-Schottky-Diode.jpg">
 
-### Pico W:
+### RP2040/RP2350 family boards:
 
 Main Article: [Pico W (Advanced UART mode)](SetupGuide/Controllers/Controller-PicoW-Advanced.md)
 
-For the Pico, you should connect the UART's +5V to the VSYS (pin 39) via a diode. The diode must be in the direction that allows power to flow UART -> VSYS.
+For the RP2040/RP2350 boards, you should connect the UART's +5V to the VSYS (pin 39) via a diode. The diode must be in the direction that allows power to flow UART -> VSYS.
 
-On the other side, the Pico already has a diode between VSYS and its own USB +5V. So you don't need to add one there. Furthermore, the Pico includes a 47uF capacitor between VSYS and GND to keep the board powered long enough to survive the transition from one power source to the other. (Keeping in mind that the diode's switching latency is much longer than the clock period of the RP2040 or RP2350 chip.)
+On the other side, most of these boards already has a diode between VSYS and its own USB +5V. So you don't need to add one there. Furthermore, there is usually a capacitor (47uF for the Pico) between VSYS and GND to keep the board powered long enough to survive the transition from one power source to the other. (Keeping in mind that the diode's switching latency is much longer than the clock period of the RP2040 or RP2350 chip.)
+
+Note that the SeeedStudio Xiao boards do not expose VSYS. So this method will not work.
 
 [Pinout and Circuit Diagrams](https://deepbluembedded.com/raspberry-pi-pico-w-pinout-diagram-gpio-guide/)
 
