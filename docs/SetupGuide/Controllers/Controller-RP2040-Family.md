@@ -48,7 +48,7 @@ These are the harder setups that are the most similar to the older AVR8 setups (
 
 **Microcontroller:**
 
-None. We don't actually recommend any of the RP2040/RP2350 boards without wirless since they are difficult to setup. Therefore, this guide is for people who already have an RP2040/RP2350 board lying around and wish to use it for this project.
+None. We don't actually recommend any of the RP2040/RP2350 boards other than the Pico W and Pico 2 W since they are difficult to setup. Therefore, this guide is for people who already have an RP2040/RP2350 board lying around and wish to use it for this project.
 
 Example boards:
 
@@ -59,7 +59,7 @@ Example boards:
 - Waveshare RP2040-Zero (untested)
 - Waveshare RP2350-Zero (untested)
 
-Note that Pico W and Pico 2 W will also work. But we have a [dedicated setup](Controller-PicoW-UART.md) for them that can utilize their wireless capability.
+Note that Pico W and Pico 2 W will also work. But they have a [dedicated setup](Controller-PicoW-UART.md) for them that can utilize their wireless capability.
 
 
 **A micro-USB or USB-C cable:**
@@ -95,11 +95,13 @@ Or you can search for "CP2102" and you'll get tons of hits from various brands/s
 
 Make the following connections:
 
-There are two options here which allow you to choose which pins to use for the UART. The choice is determined by placing a jumper (shorting) across GPIO 26 and 27.
+There are two options here which allow you to choose which pins to use for the UART. The choice is determined by whether GPIO 26 and 27 are shorted out.
 
 **Option 1:**
 
-| **UART pin** | **Adafruit UART Wire Color** | **Pico pin** |
+This is the default option.
+
+| **UART pin** | **Adafruit UART Wire Color** | **RP2040/RP2350 Pin** |
 | --- | --- | --- |
 | RX | White | TX -> GPIO 4 |
 | TX | Green | RX <- GPIO 5 |
@@ -108,10 +110,11 @@ There are two options here which allow you to choose which pins to use for the U
 
 **Option 2:**
 
-Place a jumper across GPIO 26 and GPIO 27 to switch to this option.
+Short out GPIO 26 and GPIO 27 to switch to this option. If your board has pins, this can be done with a jumper.
 
-| **UART pin** | **Adafruit UART Wire Color** | **Pico pin** |
+| **UART pin** | **Adafruit UART Wire Color** | **RP2040/RP2350 Pin** |
 | --- | --- | --- |
+| - | - | Connect GPIO 26 to GPIO 27. |
 | RX | White | TX -> GPIO 0 |
 | TX | Green | RX <- GPIO 1 |
 | GND | Black | GND |
@@ -162,7 +165,7 @@ For those of you revisiting this page, you will notice that this step is new. Th
      - RP2040 boards: `PABotBase2-RP2040-<version>.uf2`
      - RP2350 boards: `PABotBase2-RP2350-<version>.uf2`
 
-    <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
+<img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
 6. Unplug the board's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.
@@ -197,7 +200,7 @@ If everything worked correctly, it will look like this:
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Connected-Cropped.png">
 
-If you see it stuck on `Connecting...`, try swapping the TX and RX lines between the Pico W and the UART. These are very commonly wrong!
+If you see it stuck on `Connecting...`, try swapping the TX and RX lines between the board and the UART. These are very commonly wrong!
 
 
 ### Step 6: Connect the board Switch.
