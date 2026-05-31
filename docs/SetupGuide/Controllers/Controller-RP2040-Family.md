@@ -160,10 +160,13 @@ For those of you revisiting this page, you will notice that this step is new. Th
      - On the RP2040 boards, it will be named `RPI-RP2`.
      - On the RP2350 boards, it will be named `RP2350`.
 
-5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
+5. Open the `Firmware` folder and drag/drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
      - RP2040 boards: `PABotBase2-RP2040-<version>.uf2`
      - RP2350 boards: `PABotBase2-RP2350-<version>.uf2`
+
+It's worth noting that the Pico1W and Pico2W firmware will also work here. However, those include the wireless connectivity and are much larger.
+Unless your RP2040/RP2350 device has same CYW43439 wireless chip connected to the same GPIO pins as the Picos, the Pico firmware will not work for the wireless controllers.
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
