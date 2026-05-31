@@ -132,7 +132,7 @@ Download the latest version of PABotBase-ESP32 from [here](https://github.com/Po
     <img src="../Images/Mac/esp32-flash-select.png" width=400 style="display: block; margin: 10px 40px">
 
 5. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
-6. Click `Choose File`: Select the firmware file (`PABotBase2-ESP32-<version>.bin`), then click `Open` to choose the file.
+6. Click `Choose File`: Select the firmware file (`Firmware/PABotBase2-ESP32-<version>.bin`), then click `Open` to choose the file.
 7. Click `Program`.
 
     <img src="../Images/Mac/esp32-flash-load.png" width="600" style="display: block; margin: 10px 40px">

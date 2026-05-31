@@ -156,12 +156,12 @@ For those of you revisiting this page, you will notice that this step is new. Th
      - On the Pico and Pico W, it will be named `RPI-RP2`.
      - On the Pico 2 and Pico 2 W, it will be named `RP2350`.
 
-5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
+5. Open the `Firmware` folder and drag/drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico and Pico W: `PABotBase2-Pico1-<version>.uf2`
-     - Pico 2 and Pico 2 W: `PABotBase2-Pico2-<version>.uf2`
+     - Pico and Pico W: `PABotBase2-Pico1W-<version>.uf2`
+     - Pico 2 and Pico 2 W: `PABotBase2-Pico2W-<version>.uf2`
 
-    <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
+<img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
 6. Unplug the Pico's USB from your computer. Then plug it into your Switch.
 7. Plug the UART into your computer.

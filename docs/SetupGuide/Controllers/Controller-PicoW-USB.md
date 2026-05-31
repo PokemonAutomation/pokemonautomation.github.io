@@ -105,10 +105,10 @@ If not, you should go back to the [general setup guide](../index.md) and start o
      - On the Pico W(H), it will be named `RPI-RP2`.
      - On the Pico 2 W(H), it will be named `RP2350`.
 
-5. Drag and drop one of the following files into that storage device. Once the copy is done, the device will disappear.
+5. Open the `Firmware` folder and drag/drop one of the following files into that storage device. Once the copy is done, the device will disappear.
 
-     - Pico W(H): `PABotBase2-Pico1-<version>.uf2` (version number may vary)
-     - Pico 2 W(H): `PABotBase2-Pico2-<version>.uf2` (version number may vary)
+     - Pico W(H): `PABotBase2-Pico1W-<version>.uf2` (version number may vary)
+     - Pico 2 W(H): `PABotBase2-Pico2W-<version>.uf2` (version number may vary)
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Flash1.jpg">
 
