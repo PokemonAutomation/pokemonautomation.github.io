@@ -1,11 +1,17 @@
-# Starter RNG (in development)
+# Roaming Legendary RNG (in development)
 
 ---
 ## Program Description
 
-Fully automated button presses and calibration for performing RNG manipulation for a starter in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
+Fully automated button presses and calibration for performing RNG manipulation for Roaming Legendary Pokémon in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
 
-<img src="images//StarterRNG-0.jpg" width="600">
+<img src="images//RoamingLegendaryRng-0.jpg" width="360"> <img src="images//RoamingLegendaryRng-1.jpg" width="360">
+
+This program includes options for the three Legendary Beasts:
+
+- **Raikou** (if you chose *Squirtle* as your starter)
+- **Entei** (if you chose *Bulbasaur* as your starter)
+- **Suicune** (if you chose *Charmander* as your starter)
 
 ---
 ## Instructions
@@ -36,10 +42,30 @@ Fully automated button presses and calibration for performing RNG manipulation f
 
 - Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
-### In-Game Instructions
-- From the south side of the table, save facing the Pokéball with your desired starter
+- Make sure you have have any items/moves/abilities that you need to facilitate catching your target.
 
-<img src="images//RngHelper-starters.jpg" width="600">
+### In-Game Instructions
+
+- Acquire the Sapphire from the Rocket Warehouse.
+- Have a Pokémon between Lv5 and Lv49 as your lead.
+   - Pokémon Lv4 or under will not prevent other wild Pokémon from being encountered
+   - Pokémon over Lv50 will prevent the Roaming Legendary Pokémon from spawning!
+- Have a Pokémon that knows Fly in the last occupied position of your party.
+    - Fly needs to be the first move selectable from POKéMON screen. If this is not the case, use a different Pokémon, move Fly to its first move slot, or forget any other learned HMs via the Move Deleter in Fuchsia City.
+- Make sure you have a free spot in your party to allow the program to check the Pokémon you catch.
+<img src="images//RoamingLegendaryRng-2.jpg" width="600"> 
+
+- If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
+- Have at least 3 Max Repel in the 2nd-from-top spot of the bag.
+<img src="images//RoamingLegendaryRng-3.jpg" width="600"> 
+
+- If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
+- Place the balls you'd like to use during the RNG calibration at the top of the bag's POKé BALLS pocket
+    - Using a Master Ball is *strongly* recommended.
+    - Any balls thrown during calibration will be restored when the game is reset. 
+    - If hunting a non-shiny target, this is the ball your target will be caught in.
+- Save on the left side of Celio, facing him.
+<img src="images//RngHelper-roaming.jpg" width="600"> 
 
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
@@ -53,7 +79,7 @@ This shows the gender, nature, and IVs of your target based on the Target Settin
 
 #### Observed Stats:
 
-This displays natures, genders, and calculated IV ranges observed from the most recently received Pokémon as the program runs. 
+This displays natures, genders, and calculated IV ranges observed from the most recently caught Pokémon as the program runs. 
 
 Possible hits for seeds and advances are shown as well. If the program continually displays "No matches found", there may be a problem with the values for your program options (see the Options section below).
 
@@ -80,11 +106,7 @@ The language corresponding the version of the game you're playing.
 
 #### Target:
 
-The starter of your choice (Bulbasuar, Squirtle, or Charmander).
-
-#### Max Resets:
-
-Set this to the maximum number of resets to attempt.
+The Pokémon to be encountered. See the list of options at the top of this page.
 
 #### Target Seed:
 
@@ -129,10 +151,24 @@ Because the program needs to wait for the entire title screen sequence to finish
 
 #### Advances:
 
-The number of RNG advances to pass before accepting the starter. Set this with the help of an external RNG tool.
+The number of RNG advances to pass before triggering the encounter. Set this with the help of an external RNG tool.
 This should be the *total* number of advances, *not* just the continue screen frames or in-game advances.
 
 ### Program Settings
+
+#### Max Resets:
+
+Set this to the maximum number of resets to attempt.
+
+#### Max Balls Thrown:
+The number of Pokéballs in your bag to attempt to throw. Make sure these are at the top position of the bag.
+Balls thrown during calibration will be restored after resetting.
+
+#### Max Rare Candies:
+
+The number of rare candies in your bag. Make sure these are at the top position of your ITEMS pocket.
+Rare candies used during calibration will be restored after resetting.
+If this value is set to 0 and your target gift has a low level, the program may take noticeably longer to perform calibration. Miscalibrations may rarely occur due to the program's inability to narrow down the many possible RNG hits on every attempt.
 
 #### User Profile Position:
 
