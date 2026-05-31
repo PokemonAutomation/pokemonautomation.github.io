@@ -267,7 +267,8 @@ Here are some alternate setups:
 
 | **Picture** | **Description** |
 | --- | --- |
-| <img src="../Images/RP2040-Family/SeeedStudioXiao2040_small.jpg"> | 2 x SeeedStudio Xiao RP2040<br><br>The top board acts as a USB/UART running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The bottom board is the controller firmware running PABotBase.<br><br>Note the tiny jumper on the bottom right corner. This shorts of GPIO 26+27 to force PABotBase to use GPIO 0+1 as the UART pins. |
+| <img src="../Images/RP2040-Family/SeeedStudioXiao2040_small.jpg"> | 2 x SeeedStudio Xiao RP2040<br><br>The top board acts as a USB/UART running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The bottom board is the controller firmware running PABotBase.<br><br>Note the tiny jumper on the bottom right corner. This shorts out GPIO 26+27 to force PABotBase to use GPIO 0+1 as the UART pins. |
+| <img src="../Images/RP2040-Family/Xiao2040+Pico.jpg"> | SeeedStudio Xiao RP2040 + Pico 1<br><br>The top board acts as a USB/UART running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The bottom board is a regular non-wireless Raspberry Pi Pico.<br><br>This is actually a developer debugging setup where the Xiao is a fully functional [Debug Probe](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html) where the UART is used for CC <-> PABotBase connectivity. |
 
 
 
