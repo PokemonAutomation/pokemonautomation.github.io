@@ -265,7 +265,10 @@ This guide was written for the simplest possible setup. But if you're here, you 
 
 Here are some alternate setups:
 
-(TODO)
+| **Setup** | **Picture** | **Notes** | **Setup Difficulty** |
+| --- | --- | --- |
+| 2 x SeeedS tudio Xiao 2040 | <img src="../Images/PicoW/RP2040-Family/SeeedStudioXiao2040_small.jpg"> | Uses 2 identical SeeedStudio Xiao RP2040 boards.<br>The top board acts as a USB/UART running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The bottom board is the controller firmware running PABotBase.<br><br>Note the tiny jumper on the bottom right corner. This shorts of GPIO 26+27 to force PABotBase to use GPIO 0+1 as the UART pins. |
+
 
 
 
