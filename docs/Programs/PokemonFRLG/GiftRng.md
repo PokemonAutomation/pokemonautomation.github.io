@@ -23,6 +23,7 @@ This program includes options for several RNG targets:
    - Porygon
 - Togepi (Water Labyrinth Gift Egg)
 
+---
 ## Instructions
 
 **Switch Settings:**
@@ -51,7 +52,7 @@ This program includes options for several RNG targets:
 
 - Know your Secret ID and use it to determine your target Seed and Advance. See the [SID Helper](SidHelper.md) program for a way to obtain your Secret ID.
 
-### Instructions
+### In-Game Instructions
 
 - Make sure you have a free spot in your party to allow the program to check the Pokémon you obtain.
 - If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
@@ -71,15 +72,20 @@ This program includes options for several RNG targets:
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
 
+---
 ## Displays
 
-### Observed Stats:
+#### Target Details:
+
+This shows the gender, nature, and IVs of your target based on the Target Settings entered below. Use this to check whether or not you've entered the correct target seed and advances.
+
+#### Observed Stats:
 
 This displays natures, genders, and calculated IV ranges observed from the most recently received Pokémon as the program runs. 
 
 Possible hits for seeds and advances are shown as well. If the program continually displays "No matches found", there may be a problem with the values for your program options (see the Options section below).
 
-### RNG Calibrations:
+#### RNG Calibrations:
 
 These will update automatically as the program runs. You can provide initial values for the **Seed Calibration**, **Continue Screen Frames Calibration**, and **In-Game Advances Calibration** before starting the program if you have previously performed calibrations, but it is not necessary to do so.
 
@@ -89,31 +95,26 @@ While calibrations for RNG advances can change depending on what you're hunting,
 
 These values can be manually copied for use with the [RNG Helper](./RngHelper.md) if desired. 
 
+---
 ## Options
 
-### Game Language:
+### Game Information
+
+#### Game Language:
 
 The language corresponding the version of the game you're playing.
 
-### Target:
+### Target Settings
+
+#### Target:
 
 The Pokémon to be received as a gift or prize. See the list of options at the top of this page.
 
-### Max Resets:
-
-Set this to the maximum number of resets to attempt.
-
-### Max Rare Candies:
-
-The number of rare candies in your bag. Make sure these are at the top position of your ITEMS pocket.
-Rare candies used during calibration will be restored after resetting.
-If this value is set to 0 and your target gift has a low level, the program may take noticeably longer to perform calibration. Miscalibrations may rarely occur due to the program's inability to narrow down the many possible RNG hits on every attempt.
-
-### Target Seed:
+#### Target Seed:
 
 The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool
 
-### Nearby Seeds:
+#### Nearby Seeds:
 
 A list of seeds, in order, containing the target seed, with one seed on each line. This list is used to calibrate the seed delay. Using at least ±5 seeds from your target is recommended.
 
@@ -132,15 +133,15 @@ DECA
 7499
 ```
 
-### Seed Button:
+#### Seed Button:
 
 The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
 
-### Extra Button:
+#### Extra Button:
 
 Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
 
-### Seed Delay Time (ms):
+#### Seed Delay Time (ms):
 
 The delay time corresponding to your target seed. Set this with the help of an external RNG tool. 
 Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
@@ -150,25 +151,38 @@ Because the program needs to wait for the entire title screen sequence to finish
 >
 > If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
 
-### Advances:
+#### Advances:
 
 The number of RNG advances to pass before receiving the gift. Set this with the help of an external RNG tool.
 This should be the *total* number of advances, *not* just the continue screen frames or in-game advances.
 
-### User Profile Position:
+### Program Settings
+
+#### Max Resets:
+
+Set this to the maximum number of resets to attempt.
+
+#### Max Rare Candies:
+
+The number of rare candies in your bag. Make sure these are at the top position of your ITEMS pocket.
+Rare candies used during calibration will be restored after resetting.
+If this value is set to 0 and your target gift has a low level, the program may take noticeably longer to perform calibration. Miscalibrations may rarely occur due to the program's inability to narrow down the many possible RNG hits on every attempt.
+
+#### User Profile Position:
 
 The position, from left to right, of the Switch profile with the FRLG save you'd like to use.
 If this is set to 0, Switch 1 defaults to the last-used profile, while Switch 2 defaults to the first profile (position 1).
 Only useful if using a Switch 2 and playing on a profile other than the primary one.
 
-### Take Video:
+#### Take Video:
 
 Record a video when a shiny is found.
 
-### Go Home when Done:
+#### Go Home when Done:
 
 Go to the Switch Home to idle when finished.
 
+---
 ## Credits
 
 - **Author:** Astro (Tom)

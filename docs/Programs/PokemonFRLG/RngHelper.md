@@ -1,5 +1,6 @@
 # RNG Helper (in development)
 
+---
 ## Program Description
 
 Semi-automate button presses for performing RNG manipulation in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
@@ -42,7 +43,7 @@ This program includes options for several RNG targets:
 
 <img src="images//RngHelper-2.jpg" width="600">
 
-
+---
 ## Instructions
 
 **Switch Settings:**
@@ -80,7 +81,7 @@ This program includes options for several RNG targets:
 
 <img src="images/RngHelper-3.jpg" width="600">
 
-### Instructions
+### In-Game Instructions
 
 Refer to the following tables for setup instructions for each target:
 
@@ -123,6 +124,24 @@ For all random encounters, make sure you have all Pokémon and items you need to
 | **Fishing**<br>- Register the fishing rod you'd like to use to the SELECT button <br>- Travel to the water's edge where your target spawns <br>- Save the game | --- |
 | **Safari Zone**<br>- If you haven't ever entered the Safari Zone in your current save, enter and exit the Safari Zone <br>- If fishing, register the rod you'd like to use to the SELECT button <br>- Have at least 500 Pokédollars <br>- Stand atop the Pokéball logo on the floor of the Safari Zone entrance <br>- If not fishing, use a Max Repel <br>- Save the game | [<img src="images//RngHelper-safarizone.jpg" width="600">](images//RngHelper-safarizone.jpg) |
 
+#### Roaming Legendaries
+
+- Acquire the Sapphire from the Rocket Warehouse.
+- Have a Pokémon between Lv5 and Lv49 as your lead.
+- Have a Pokémon that knows Fly in the last occupied position of your party.
+    - Fly needs to be the first move selectable from POKéMON screen. If this is not the case, use a different Pokémon, move Fly to its first move slot, or forget any other learned HMs via the Move Deleter in Fuchsia City.
+- Make sure you have a free spot in your party to allow the program to check the Pokémon you catch.
+- If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
+- Have at least 3 Max Repel in the 2nd-from-top spot of the bag.
+- Place the balls you'd like to use during the RNG calibration at the top of the bag's POKé BALLS pocket
+    - Using a Master Ball is *strongly* recommended.
+    - Any balls thrown during calibration will be restored when the game is reset. 
+    - If hunting a non-shiny target, this is the ball your target will be caught in.
+- Save on the left side of Celio, facing him.
+<img src="images//RngHelper-roaming.jpg" width="600"> 
+
+- Enter the necessary information about your target seed and RNG advance (see options below)
+- Start the program
 
 **For all targets, start the program after saving.**
 
@@ -133,21 +152,26 @@ Repeat until you hit your target.
 
 There can be a small amount of inconsistency in the program, particularly when it comes to hitting seeds. If you are consistently within ±1 of your seed and advance, it might be a good idea to set Max Resets higher than 1 and let the program loop through several attempts until it hits a shiny.
 
+---
 ## Options
 
-### Max Resets:
+### Game Information
 
-Set this to the maximum number of resets to attempt. Only use this after you've dialed in your calibrations.
+#### Game Language:
 
-### Seed Button:
+The language corresponding the version of the game you're playing.
+
+### Target Options
+
+#### Seed Button:
 
 The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
 
-### Extra Button:
+#### Extra Button:
 
 Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
 
-### Seed Delay Time (ms):
+#### Seed Delay Time (ms):
 
 Sets the target amount of time to wait between starting the game and pressing A on the title screen. Set this with the help of an external RNG tool. 
 Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
@@ -157,55 +181,62 @@ Because the program needs to wait for the entire title screen sequence to finish
 >
 > If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
 
-### Seed Calibration (ms):
+#### Seed Calibration (ms):
 
 Modifies the seed delay time. This should be changed in the opposite of the direction that you missed your seed.
 *Example: if you missed your target seed by +16ms (meaning the button press was too late), **decrease** your seed calibration by -16 (shortening the delay)*.
 
-### Continue Screen Frames:
+#### Continue Screen Frames:
 
 The number of RNG advances before loading the game. Set this with the help of an external RNG tool.
 These pass at the "normal" rate compared to other consoles, with 1 RNG advance every frame.
 Note that the Advances of your target should be equal to the sum of your Continue Screen Frames and In-Game Advances.
 
-### Continue Screen Frames Calibration:
+#### Continue Screen Frames Calibration:
 
 A "fine adjustment" that modifies the RNG advances passed on the Continue Screen. Set this to offset the program's timing by amount you missed your target advance.
 If you've missed your advance frame, you can calibrate your timing using either the Load Screen or In-Game advances.
 *Example: if your target advance was 10000 and you hit 10025, you can **decrease** your calibration value by 25.*
 
-### In-Game Advances:
+#### In-Game Advances:
 
 The number of in-game RNG advances before triggering the gift/encounter. Set this with the help of an external RNG tool.
 These pass at double the rate compared to other consoles, where every frame results in 2 RNG advances.
 If using the Teachy TV, which advances frames at x313 speed, most of your target advances should be passed in-game. 
 *Warning: this value needs to be long enough to accomodate all in-game button presses prior to the gift/encounter*
 
-### In-Game Calibration (frames):
+#### In-Game Calibration (frames):
 
 A "coarse adjustment" that modifies the RNG advances passed after loading the game.
 If you've missed your advance frame, you can calibrate your timing using either the Load Screen or In-Game advances.
 Note that In-Game advances can only result in 2 by 2 changes in hit advances.
 *Example: if your target advance was 10000 and you hit 8500, you can **increase** your calibration value by 1500.*
 
-### Use Teachy TV:
+### Program Options
+
+#### Max Resets:
+
+Set this to the maximum number of resets to attempt. Only use this after you've dialed in your calibrations.
+
+#### Use Teachy TV:
 If checked, the program will open the Teachy TV to quickly advance in-game frames at 313x speed.
 *Warning: can result in larger misses before calibration*
 
-### User Profile Position:
+#### User Profile Position:
 
 The position, from left to right, of the Switch profile with the FRLG save you'd like to use.
 If this is set to 0, Switch 1 defaults to the last-used profile, while Switch 2 defaults to the first profile (position 1).
 Only useful if using a Switch 2 and playing on a profile other than the primary one.
 
-### Take Video:
+#### Take Video:
 
 Record a video when a shiny is found.
 
-### Go Home when Done:
+#### Go Home when Done:
 
 Go to the Switch Home to idle when finished.
 
+---
 ## Credits
 
 - **Author:** Astro (Tom)
