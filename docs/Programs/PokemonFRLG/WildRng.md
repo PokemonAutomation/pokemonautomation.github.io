@@ -1,4 +1,4 @@
-# Wild RNG (in development)
+# Wild RNG
 
 ---
 ## Program Description

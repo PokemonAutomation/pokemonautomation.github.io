@@ -1,4 +1,4 @@
-# Pickup Farmer (beta)
+# Pickup Farmer
 
 ## Program Description
 

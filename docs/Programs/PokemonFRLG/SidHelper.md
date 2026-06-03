@@ -1,4 +1,4 @@
-# SID Helper (in development)
+# SID Helper
 
 ## Program Description
 

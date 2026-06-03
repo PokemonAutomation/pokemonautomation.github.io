@@ -1,4 +1,4 @@
-# Gift RNG (in development)
+# Gift RNG
 
 ## Program Description
 

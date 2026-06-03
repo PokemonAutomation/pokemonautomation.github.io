@@ -1,4 +1,4 @@
-# Item Duplication (in development)
+# Item Duplication
 
 ## Program Description
 

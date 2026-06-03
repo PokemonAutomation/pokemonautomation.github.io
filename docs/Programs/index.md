@@ -373,12 +373,12 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Shiny Hunt - Overworld](PokemonFRLG/ShinyHunt-Overworld.md) {.nowrap}            |  Video + Audio   | All |
 | [Prize Corner Reset](PokemonFRLG/PrizeCornerReset.md) {.nowrap}                   |  Video           | All |
 | **RNG Manipulation:** |
-| [SID Helper (in development)](PokemonFRLG/SidHelper.md) {.nowrap}                         |  Video           | All |
-| [RNG Helper](PokemonFRLG/RngHelper.md) {.nowrap}                                          |  Video + Audio   | All |
-| [Starter RNG (in development)](PokemonFRLG/StarterRng.md) {.nowrap}                       |  Video + Audio   | All |
-| [Gift RNG (in development)](PokemonFRLG/GiftRng.md) {.nowrap}                             |  Video           | All |
-| [Static RNG (in development)](PokemonFRLG/StaticRng.md) {.nowrap}                         |  Video + Audio   | All |
-| [Wild RNG (in development)](PokemonFRLG/WildRng.md) {.nowrap}                             |  Video + Audio   | All |
+| [SID Helper](PokemonFRLG/SidHelper.md) {.nowrap}                                  |  Video           | All |
+| [RNG Helper](PokemonFRLG/RngHelper.md) {.nowrap}                                  |  Video + Audio   | All |
+| [Starter RNG](PokemonFRLG/StarterRng.md) {.nowrap}                                |  Video + Audio   | All |
+| [Gift RNG](PokemonFRLG/GiftRng.md) {.nowrap}                                      |  Video           | All |
+| [Static RNG](PokemonFRLG/StaticRng.md) {.nowrap}                                  |  Video + Audio   | All |
+| [Wild RNG](PokemonFRLG/WildRng.md) {.nowrap}                                      |  Video + Audio   | All |
 | [Roaming Legendary RNG (in development)](PokemonFRLG/RoamingLegendaryRng.md) {.nowrap}    |  Video + Audio   | All |
 | **Misc. Guides:** |
 | [Macro RNG Manipulation](PokemonFRLG/MacroRngManipulation.md) {.nowrap}                   |                  | All |

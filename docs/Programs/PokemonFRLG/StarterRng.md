@@ -1,4 +1,4 @@
-# Starter RNG (in development)
+# Starter RNG
 
 ---
 ## Program Description

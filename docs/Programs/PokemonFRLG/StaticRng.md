@@ -1,4 +1,4 @@
-# Static RNG (in development)
+# Static RNG
 
 ---
 ## Program Description

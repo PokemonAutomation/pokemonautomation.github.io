@@ -1,4 +1,4 @@
-# Shiny Hunt - Fishing (beta)
+# Shiny Hunt - Fishing
 
 ## Program Description
 

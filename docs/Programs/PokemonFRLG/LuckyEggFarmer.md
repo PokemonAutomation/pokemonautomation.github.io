@@ -1,4 +1,4 @@
-# Lucky Egg Farmer (in development)
+# Lucky Egg Farmer
 
 ## Program Description
 
