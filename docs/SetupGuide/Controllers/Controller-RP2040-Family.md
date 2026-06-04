@@ -120,7 +120,7 @@ Short out GPIO 26 and GPIO 27 to switch to this option. If your board has pins, 
 | GND | Black | GND |
 | VCC | Red | Leave unconnected |
 
-This option is required for the SeeedStudio Xiao RP2040 and RP2350 boards since they do not expose GPIO 5.
+This option is required for the SeeedStudio Xiao RP2040 board since it does not expose GPIO 5.
 
 **Notes:**
 
@@ -267,8 +267,8 @@ Here are some alternate setups:
 
 | **Picture** | **Description** |
 | --- | --- |
-| <img src="../Images/RP2040-Family/SeeedStudioXiao2040_small.jpg"> | 2 x SeeedStudio Xiao RP2040<br><br>The top board acts as a USB/UART bridge running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The bottom board is the controller firmware running PABotBase.<br><br>Note the tiny jumper on the bottom right corner. This shorts out GPIO 26+27 to force PABotBase to use GPIO 0+1 as the UART pins. |
-| <img src="../Images/RP2040-Family/Xiao2040+Pico.jpg"> | SeeedStudio Xiao RP2040 + Pico 1<br><br>The Xiao RP2040 acts as a USB/UART bridge running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The regular Pico on the bottom is running PABotBase.<br><br>This is actually a developer debugging setup where the Xiao is a fully functional [Debug Probe](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html) where the UART is used for CC <-> PABotBase connectivity. |
+| [<img src="../Images/RP2040-Family/SeeedStudioXiao2040_small.jpg" width="300">](../Images/RP2040-Family/SeeedStudioXiao2040_small.jpg) | 2 x SeeedStudio Xiao RP2040<br><br>The top board acts as a USB/UART bridge running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The bottom board is the controller firmware running PABotBase.<br><br>Note the tiny jumper on the bottom right corner. This shorts out GPIO 26+27 to force PABotBase to use GPIO 0+1 as the UART pins. |
+| [<img src="../Images/RP2040-Family/Xiao2040+Pico_small.jpg" width="300">](../Images/RP2040-Family/Xiao2040+Pico.jpg) | SeeedStudio Xiao RP2040 + Pico 1<br><br>The Xiao RP2040 acts as a USB/UART bridge running [this firmware](https://github.com/PokemonAutomation/debugprobe).<br>The regular Pico on the bottom is running PABotBase.<br><br>This is actually a developer debugging setup where the Xiao is a fully functional [Debug Probe](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html) where the UART is used for CC <-> PABotBase connectivity. |
 
 
 

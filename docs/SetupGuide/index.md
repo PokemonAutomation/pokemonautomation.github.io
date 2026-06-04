@@ -109,7 +109,7 @@ While we support quite a few different setups, these are the 3 that we recommend
 
 | **Wireless** | **Wired** | **Custom Firmware** |
 | --- | --- | --- |
-| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="280"> | <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="280"> | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="280"> |
+| [<img src="Images/PicoW/ControllerSetup-PicoW-USB_small.jpg" width="280">](Images/PicoW/ControllerSetup-PicoW-USB.jpg) | [<img src="Images/ESP32-S3/ControllerSetup-ESP32-S3_small.jpg" width="280">](Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg) | [<img src="Images/sys-botbase/ControllerSetup-sbb_small.jpg" width="280">](Images/sys-botbase/ControllerSetup-sbb.jpg) |
 | **Supported Controller Types:**<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon<br><br><br><br> | **Supported Controller Types:**<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon | **Supported Controller Types:**<br>- NS1: Wired Controller<br><br><br><br><br><br> |
 | **Recommended Microcontrollers:**<br>- Raspberry Pi Pico W<br>- Raspberry Pi Pico 2 W<br>- ESP32 | **Recommended Microcontrollers:**<br>- ESP32-S3<br><br><br> | **Recommended Microcontrollers:**<br>- None required.<br><br><br> |
 | Cheapest. Easiest to setup.<br>Harder to use after setup. | More Expensive. Harder to setup.<br>Easiest to use after setup. | Requires a hacked Switch running custom firmware (CFW). |
