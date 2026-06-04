@@ -50,6 +50,8 @@ Other useful numbers:
 
 This is a checklist of which buttons should be pressed for this row. You can select any combination you want.
 
+Note that the GL, GR, and C buttons only exist on Switch 2 controllers. If your select controller does not ahve these buttons, these buttons will be ignored.
+
 ### Joysticks
 
 X axis:
