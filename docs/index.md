@@ -36,7 +36,7 @@ These custom controllers behave just like regular controllers. But rather than h
 
 Since the computer can both see and control the Switch, it can take the place of a human player. But unlike a human, a computer never gets tired or bored. So you can run it 24/7 for months on end hunting shinies for you!
 
-<img src="Images/ControllerSetup-PicoW-USB-Setup.jpg" width="500"> <img src="Images/ControllerSetup-PicoW-USB-SetupCloseup-Annotated-Small.jpg" width="500">
+[<img src="Images/ControllerSetup-PicoW-USB-Setup_small.jpg" width="500">](Images/ControllerSetup-PicoW-USB-Setup.jpg) [<img src="Images/ControllerSetup-PicoW-USB-SetupCloseup-Annotated-Small.jpg" width="500">](Images/ControllerSetup-PicoW-USB-SetupCloseup-Annotated.jpg)
 
 ### Examples:
 

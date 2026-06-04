@@ -120,7 +120,7 @@ Short out GPIO 26 and GPIO 27 to switch to this option. If your board has pins, 
 | GND | Black | GND |
 | VCC | Red | Leave unconnected |
 
-This option is required for the SeeedStudio Xiao RP2040 and RP2350 boards since they do not expose GPIO 5.
+This option is required for the SeeedStudio Xiao RP2040 board since it does not expose GPIO 5.
 
 **Notes:**
 
