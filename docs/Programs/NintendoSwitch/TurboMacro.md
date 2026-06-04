@@ -2,7 +2,7 @@
 
 ## Program Description
 
-Turbo Macro lets you loop any combination of button presses and joystick movements. Thus it is primary for blind macro automation. If you create a macro and think it would be useful for others, feel free to share it on discord and other people will be able to load your macro (or we can even create a new program from it).
+Turbo Macro lets you loop any combination of button presses and joystick movements. Thus it is main program for blind macro automation. If you create a macro and think it would be useful for others, feel free to share it on discord and other people will be able to load your macro (or we can even create a new program from it).
 
 Macros can be saved/loaded to a JSON file. It is compatible with the [Record Keyboard Controller](RecordKeyboardController.md) program. So you can record macros using Record Keyboard Controller], load them with Turbo Macro, edit, and run.
 
