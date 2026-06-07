@@ -363,8 +363,8 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Nugget Bridge Farmer](PokemonFRLG/NuggetBridgeFarmer.md) {.nowrap}               |  Video           | All |
 | [Pickup Farmer](PokemonFRLG/PickupFarmer.md) {.nowrap}                            |  Video           | All |
 | [EV Trainer](PokemonFRLG/EvTrainer.md) {.nowrap}                                  |  Video           | All |
-| [Item Duplication (in development)](PokemonFRLG/ItemDuplication.md) {.nowrap}     |  Video + Audio   | All |
-| [Lucky Egg Farmer (in development)](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}      |  Video + Audio   | All |
+| [Item Duplication](PokemonFRLG/ItemDuplication.md) {.nowrap}     |  Video + Audio   | All |
+| [Lucky Egg Farmer](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}      |  Video + Audio   | All |
 | **Shiny Hunting:** |
 | [Gift Reset](PokemonFRLG/GiftReset.md) {.nowrap}                                  |  Video           | All |
 | [Legendary Reset](PokemonFRLG/LegendaryReset.md) {.nowrap}                        |  Video + Audio   | All |
