@@ -1,6 +1,6 @@
 # Controller Guide
 
-This is a guide for all the differnet controller types that we support.
+This is a guide for all the different controller types that we support.
 
 **Jump To:**
 
