@@ -246,8 +246,6 @@ The Pico W and Pico 2 W (UART mode) is unique in that they support both the wire
 
 Therefore, once you connect to the Switch using the wired Pro Controller, it automatically pairs it for wireless. So you can connect to it via the wireless Pro Controller outside of the grip menu.
 
-There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wireless version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
-
 
 
 ## NS1: Wired Left/Right Joycon
@@ -285,10 +283,6 @@ Note that if you are in a 1-player game and you already have a controller connec
 The Pico W and Pico 2 W (UART mode) is unique in that they support both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
 
 Therefore, once you connect to the Switch using a wired joycon, it automatically pairs it for wireless. So you can connect to it via the wireless version of the same joycon outside of the grip menu.
-
-There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wireless version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
-
-
 
 
 
