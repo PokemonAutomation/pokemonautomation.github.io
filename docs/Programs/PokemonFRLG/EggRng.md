@@ -60,6 +60,7 @@ Fully automated button presses and calibration for performing RNG manipulation f
 - Have a Pokémon that knows Sweet scent in the last occupied slot of your party.
 <img src="images//EggRng-1.jpg" width="600"> 
 
+- Register the BICYCLE to the SELECT button.
 - If you have any Rare Candy, move it to the top of the bag's ITEMS pocket.
    - Using at least 10 Rare Candy is *strongly* recommended.
 - Have at least 1 Max Repel in the 2nd-from-top spot of the bag.
