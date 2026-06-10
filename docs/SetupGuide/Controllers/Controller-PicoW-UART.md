@@ -16,7 +16,7 @@ In UART mode, the line of communication between the Pico and the computer is mov
 
 This is the most versatile setup as it supports every single controller in this project - both wired and wireless. 
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" width="45%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup_small.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -44,7 +44,7 @@ This is the most versatile setup as it supports every single controller in this 
     - USB Cable/Adapter: < $1 each from AliExpress
     - UART: $2 each from Amazon
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated-Small.jpg" width="45%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated_small.jpg" width="45%">
 
 
 ### Recommended Purchase Links:

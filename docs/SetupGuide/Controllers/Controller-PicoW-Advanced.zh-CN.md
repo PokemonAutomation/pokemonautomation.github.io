@@ -66,11 +66,11 @@ social:
 
 **面包板样机：**
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard0-Small.jpg" width="39%"> <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard1-Small.jpg" width="51%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard0_small.jpg" width="39%"> <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard1_small.jpg" width="51%">
 
 **“成品”配置：**
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Raw0-Small.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Raw1-Small.jpg" width="45%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Raw0_small.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Raw1_small.jpg" width="45%">
 
 
 ## 软件设置

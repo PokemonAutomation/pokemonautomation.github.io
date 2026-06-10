@@ -9,7 +9,7 @@ There are two operating modes of the Pico W family:
 | **USB Mode (this guide)** | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Very Easy |
 | [UART Mode](Controller-PicoW-UART.md) | 1. Pico's USB port -> Switch<br>2. Pico's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Setup-Small.jpg" width="45%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Setup_small.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -34,7 +34,7 @@ There are two operating modes of the Pico W family:
     - Pico W: $6 each from Micro Center
     - USB Cable/Adapter: < $1 each from AliExpress
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-USB-SetupCloseup-Annotated-Small.jpg" width="800">
+<img src="../Images/PicoW/ControllerSetup-PicoW-USB-SetupCloseup-Annotated_small.jpg" width="800">
 
 
 ### Recommended Purchase Links:

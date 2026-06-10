@@ -67,11 +67,11 @@ Pico在VSYS和其自己的USB +5V之间已经有一个二极管。所以你不�
 
 **面包板样机：**
 
-<img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard0-Small.jpg" width="39%"> <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard1-Small.jpg" width="51%">
+<img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard0_small.jpg" width="39%"> <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard1_small.jpg" width="51%">
 
 **"成品"配置：**
 
-<img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Raw0-Small.jpg" width="45%"> <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Raw1-Small.jpg" width="45%">
+<img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Raw0_small.jpg" width="45%"> <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Raw1_small.jpg" width="45%">
 
 ### Pro Micro：
 

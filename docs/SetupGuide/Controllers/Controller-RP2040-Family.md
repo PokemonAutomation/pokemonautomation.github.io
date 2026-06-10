@@ -13,7 +13,7 @@ There are 2 main setups of this family of boards:
 
 These are the harder setups that are the most similar to the older AVR8 setups (Arduino, Teensy, Pro Micro) where you must attach an external UART.
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup-Small.jpg" width="45%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Setup_small.jpg" width="45%">
 
 ## Hardware Setup:
 
@@ -39,7 +39,7 @@ These are the harder setups that are the most similar to the older AVR8 setups (
     - USB Cable/Adapter: < $1 each from AliExpress
     - UART: $2 each from Amazon
 
-<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated-Small.jpg" width="45%">
+<img src="../Images/PicoW/ControllerSetup-PicoW-UART-SetupCloseup-Annotated_small.jpg" width="45%">
 
 
 ### Recommended Purchase Links:
