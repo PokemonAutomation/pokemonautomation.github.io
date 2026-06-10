@@ -33,7 +33,7 @@ The computer is the player. The capture card is its eyes. The controller is its 
 
 Here is an example of a full setup using a Raspberry Pi Pico W microcontroller:
 
-<img src="Images/FullSetup-WirelessController2.jpg">
+[<img src="Images/FullSetup-WirelessController2_small.jpg">](Images/FullSetup-WirelessController2.jpg)
 
 
 ## Step 1: The Hardware
@@ -148,7 +148,7 @@ See: [General Setup for macOS](GeneralSetupMac.md)
 
 When you are done, you should have the CC window running and looking like this:
 
-[<img src="Images/GeneralSetup-FullSystem.jpg" width="48.5%">](Images/GeneralSetup-FullSystem.jpg) [<img src="Images/GeneralSetup-AudioSelected.jpg" width="45.3%">](Images/GeneralSetup-AudioSelected.jpg)
+[<img src="Images/GeneralSetup-FullSystem_small.jpg" width="48.5%">](Images/GeneralSetup-FullSystem.jpg) [<img src="Images/GeneralSetup-AudioSelected.jpg" width="45.3%">](Images/GeneralSetup-AudioSelected.jpg)
 
 
 ## Step 3: Controller Setup:
@@ -190,7 +190,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 
 ### You have now unleashed the power of automation. May you play more than 24 hours per day!
 
-<img src="Images/MultipleSwitches.jpg">
+[<img src="Images/MultipleSwitches_small.jpg">](Images/MultipleSwitches.jpg)
 
 ## Other notes
 
