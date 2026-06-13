@@ -66,8 +66,6 @@ Fully automated button presses and calibration for performing RNG manipulation f
 - Have at least 1 Max Repel in the 2nd-from-top spot of the bag.
 <img src="images//RoamingLegendaryRng-3.jpg" width="600"> 
 
-- If using the Teachy TV, place it at the top of your KEY ITEMS pocket.
-> **Warning:** Due to the added calibration difficulty introduced by the high chance of an egg not being held, using TeachyTV is not recommended.
 - Place the balls you'd like to use during the RNG calibration at the top of the bag's POKé BALLS pocket
     - Using Master Balls is recommended if you have duplicated them via the Mail Glitch. See the [Item Duplication program](./ItemDuplication.md).
     - Any balls thrown during calibration will be *NOT* restored when the game is reset. 
