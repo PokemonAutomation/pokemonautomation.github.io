@@ -47,6 +47,10 @@ CommandLineTests/                          <- root test folder. This name needs 
       - FetchEggDayTime_True.png           <- test file for DialogDetector. Expected result is True.
 ```
 
+### Run tests via command line
+
+Instead of modifying the json config file, you can add the command lines `--command-line-test-mode --command-line-test-folder FOLDER` to execute the tests. It can be more convenient for places likes CI where modifying a config file is not easy.
+
 ### Find Test Code for Test File
 
 When running in the test mode, it will go to find each file in the folder recursively.
