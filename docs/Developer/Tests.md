@@ -23,16 +23,12 @@ to true.
 
 If you are testing or building with Qt creator, you can find SerialPrograms-Settings.json in the folder `Arduino-Source\build-SerialPrograms-Desktop_Qt_6_3_2_MSVC2019_64bit-Debug\UserSettings`, or something similar, depending on your version of Qt.
 
-> Alternatively, you can add the command line `--command-line-test-mode` to achieve the same
-
 In this mode, when starting **SerialPrograms**, it does not launch the GUI. Instead it looks for a local folder the path of which is specified by the json field:
 ```
 "20-GlobalSettings": "COMMAND_LINE_TESTS": "FOLDER"
 ```
 and run tests inside it.
 One example path is "./CommandLineTests".
-
-> Alternatively, you can add the command line `--command-line-test-folder FOLDER` to achieve the same
 
 Tests are not included in the Arduino-Source repository. To see some examples of test files and their folder structure, see the [CommandLineTests](https://github.com/PokemonAutomation/CommandLineTests) repository. 
 
@@ -50,6 +46,10 @@ CommandLineTests/                          <- root test folder. This name needs 
     - Win_Mirabox/                         <- can have more folders under test object to organize test files, e.g by OS and capture card
       - FetchEggDayTime_True.png           <- test file for DialogDetector. Expected result is True.
 ```
+
+### Run tests via command line
+
+Instead of modifying the json config file, you can add the command lines `--command-line-test-mode --command-line-test-folder FOLDER` to execute the tests. It can be more convenient for places likes CI where modifying a config file is not easy.
 
 ### Find Test Code for Test File
 
