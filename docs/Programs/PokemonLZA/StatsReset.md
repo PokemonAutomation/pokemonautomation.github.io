@@ -84,9 +84,9 @@ Note: The Marshadow hunt is time sensitive, it is one of the few programs that i
 
 1. Having started the quest to capture Marshadow to the point that you can walk and interact with the shadow to start the battle sequence.
 2. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
-3. Have a lead Pokémon that knows a strong Flying type move and place it in the right slot (button A). Mega Rayquaza with Dragon Ascent is a good choice that does OHKO on most IV spreads that the Marshadow can have.
+3. Have a lead Pokémon that knows a strong Flying type move and place it in the right slot (button A). Mega Rayquaza with Dragon Ascent is a good choice that does OHKO on most IV spreads that the Marshadow can have, ensure that your Pokémon is capable of mega evolving as part of the setup if you are using one that can.
 4. Fly to the Centrico Pokemon Plaza, wait until it is about the right time frame (dawn) and fly again to place a backup save. Tips on success: you can check the shadow on the court and as it approaches the center perform the fly sequencec to place the backup save, watch the program for a few rounds to ensure you got the right timing.
-5. Start the program in game. **DISCLAIMER:** If the Volcanion doesn't have near perfect IVs in HP and Defense, Fissure from a decent ground type attacker should OHKO it but even that is still around 30-40% depending on the ball you are using, be patient and expect failed catches when running the program.
+5. Start the program in game. **DISCLAIMER:** The catch rate isn't great even with a KO, but the reset sequence should be short enough that overall the runtime is within reason but be patient.
 
 ## Program Settings
 
