@@ -26,7 +26,7 @@ This is a list of all the computer-control programs. To run these programs, you 
 
 | **Wired Controller** | **Wireless Controller** |
 | --- | --- |
-| - ESP32-S3<br>- Pico W (wired controller)<br>- Pico 2 W (wired controller)<br>- sys-botbase 3 (sbb3)<br>- RP2040 Family<br>- RP2350 Family {.nowrap} | - ESP32<br>- Pico W (wireless controller)<br>- Pico 2 W (wireless controller)<br><br><br><br><br><br><br><br> {.nowrap}
+| - ESP32-S3<br>- Pico W (wired controller)<br>- Pico 2 W (wired controller)<br>- sys-botbase 3 (sbb3)<br>- RP2040 Family<br>- RP2350 Family {.nowrap} | - ESP32<br>- Pico W (wireless controller)<br>- Pico 2 W (wireless controller)<br><br><br> {.nowrap}
 
 Read more about [Controller Performance Categories](../ControllerList.md#controller-performance-classes).
 
