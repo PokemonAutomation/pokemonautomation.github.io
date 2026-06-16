@@ -95,7 +95,6 @@ Wired controllers are by far the most stable with a button timing accuracy of < 
 | **Device** | **Controller** |
 | --- | --- |
 | ESP32-S3<br>Pico 1 W (UART mode)<br>Pico 2 W (UART mode)<br>RP2040 Family<br>RP2350 Family {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} |
-| Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller {.nowrap} |
 | sys-botbase 3 (sbb3) {.nowrap} | NS1: Wired Controller {.nowrap} |
 
 

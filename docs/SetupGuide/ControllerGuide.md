@@ -80,11 +80,6 @@ Note that if you are in a 1-player game and you already have a controller connec
 - Pico 2 W (UART mode)
 - RP2040 Family
 - RP2350 Family
-- Arduino Uno R3
-- Arduino Leonardo
-- Pro Micro
-- Teensy 2.0
-- Teensy++ 2.0
 
 This is the standard 3rd party wired controller for the Switch 2 from the likes of Horipad and Power A. It supports 17 buttons and 2 joysticks and is backwards compatible with the Switch 1. It does not support rumble or gyro. Furthermore, it always shows up as a black controller in the Switch menus.
 

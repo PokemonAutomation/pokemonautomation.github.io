@@ -22,16 +22,16 @@ The steps for flashing your microcontroller are outlined in one of the guides be
 | [<img src="Images/PicoW/ControllerSetup-PicoW-UART_small.jpg" width="200">](Images/PicoW/ControllerSetup-PicoW-UART.jpg) | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | [Guide](Controllers/Controller-PicoW-UART#step-1-flash-the-firmware-to-the-pico-w) {.nowrap} |
 | [<img src="Images/PicoW/ControllerSetup-PicoW-Advanced_small.jpg" width="200">](Images/PicoW/ControllerSetup-PicoW-Advanced.jpg) | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | [Guide](Controllers/Controller-PicoW-Advanced#software-setup) {.nowrap} |
 
-## Deprecated Setups:
+## Discontinued Setups:
 
-These are older setups that are still supported, but no longer recommended for new users.
+These are former setups that are no longer supported. Please upgrade to one of the newer setups above.
 
-| | **Device Type** | **Guides** |
-| --- | --- | --- |
-| <img src="Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 {.nowrap} |  [Guide](Controllers/Controller-ArduinoUnoR3#hardware-assembly) {.nowrap} |
-| <img src="Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} | [Guide](Controllers/Controller-ArduinoLeonardo#hardware-assembly) {.nowrap} |
-| <img src="Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} | [Mini-Grabbers](Controllers/Controller-ProMicro-MiniGrabbers#hardware-assembly)<br>[Hammer Headers](Controllers/Controller-ProMicro-HammerHeaders#hardware-assembly) {.nowrap} |
-| <img src="Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | [Mini-Grabbers](Controllers/Controller-Teensy2-MiniGrabbers#hardware-assembly)<br>[Hammer Headers](Controllers/Controller-Teensy2-HammerHeaders#hardware-assembly) {.nowrap} |
+| | **Device Type** |
+| --- | --- |
+| <img src="Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 {.nowrap} |
+| <img src="Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} |
+| <img src="Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} |
+| <img src="Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} |
 
 
 
