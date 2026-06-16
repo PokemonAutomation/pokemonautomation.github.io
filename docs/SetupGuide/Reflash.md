@@ -27,7 +27,7 @@ The steps for flashing your microcontroller are outlined in one of the guides be
 These are former setups that are no longer supported. Please upgrade to one of the newer setups above.
 
 | | **Device Type** |
-| --- | --- | --- |
+| --- | --- |
 | <img src="Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 {.nowrap} |
 | <img src="Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} |
 | <img src="Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} |
