@@ -119,7 +119,7 @@ While we support quite a few different setups, these are the 3 that we recommend
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access.<br>Very good for high density setups. | Not recommended for remote access. |
 | Recommended for first time users due to ease of setup.| Recommended for heavy users who want to automate multiple Switches with maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
 
-For a complete list of setups - including older ones we no longer recommend, see our [Controller List](../ControllerList.md).
+For a complete list of setups - see our [Controller List](../ControllerList.md).
 
 *Please consult the [program list](../Programs/index.md) for the full compatibility table.
 
@@ -132,8 +132,8 @@ These recommendations are not mutually exclusive. Feel free to get multiple setu
 | You are completely new to automation. | Pico W {.nowrap} | Cheapest. Easiest to setup. |
 | You are a heavy user of automation with multiple Switches running 24/7. | ESP32-S3 {.nowrap} | Most stable and reliable. No hassle after setup. |
 | You are a frequent traveler. | Pico W or ESP32 {.nowrap} | Fewer cables = less hassle |
-| You are an existing Computer Control user who already has the Arduino/Teensy setup. | ESP32-S3 {.nowrap} | Support for AVR8 controllers (Arduino/Teensy) will be discontinued in the near future. |
-| You are coming from another automation project that uses ATmega MCUs. (Arduino, Teensy 2.0, Pro Micro) | ESP32-S3 {.nowrap} | Support for AVR8 controllers (Arduino/Teensy) will be discontinued in the near future. |
+| You are an existing Computer Control user who already has the Arduino/Teensy setup. | ESP32-S3 {.nowrap} | Support for AVR8 controllers (Arduino/Teensy) has been discontinued. |
+| You are coming from another automation project that uses ATmega MCUs. (Arduino, Teensy 2.0, Pro Micro) | ESP32-S3 {.nowrap} | Support for AVR8 controllers (Arduino/Teensy) has been discontinued. |
 | You are an experienced CFW user. | sys-botbase 3 {.nowrap} | This setup is designed specifically for you at no additional cost (beyond a capture card)! |
 
 A full comparison of prices and difficulty of setup can be found on the [Controller List](../ControllerList.md#setup-comparison-table).
@@ -197,7 +197,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 ### Updating
 To update the Computer Control program, simply download the latest program, as per the [General Setup](GeneralSetup.md) instructions. If you wish, you may copy over your old `UserSettings` folder and copy it into the new program folder. This will copy over your old stats and settings.
 
-Firmware updates on the microcontroller are less frequent, but they do happen occasionally. You will need to re-flash your microcontroller as before. You only need to update the firmware if the program specifically tells you to. You will see red text: "Incompatible protocol. Device: ... Please flash your microcontroller (e.g. ESP32, Pico W, Arduino) with the .bin/.uf2/.hex that came with this version of the program.". See [here](Reflash.md) for links to the flashing section for each microcontroller setup.
+Firmware updates on the microcontroller are less frequent, but they do happen occasionally. You will need to re-flash your microcontroller as before. You only need to update the firmware if the program specifically tells you to. You will see red text: "Incompatible protocol. Device: ... Please flash your microcontroller (e.g. ESP32, Pico W) with the .bin/.uf2 that came with this version of the program.". See [here](Reflash.md) for links to the flashing section for each microcontroller setup.
 
 <hr>
 

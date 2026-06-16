@@ -12,17 +12,18 @@ These are older setups that are still supported, but will be removed in the futu
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoUnoR3.md) {.nowrap} |
-| <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) {.nowrap} |
-| <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) {.nowrap} |
-| <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) {.nowrap} |
+|| None at this time. |||
 
 
 ### Discontinued Setups:
 
-| | **Device Type** | **Supported Controllers** | **Recommended Replacement** |
-| --- | --- | --- | --- |
-| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2 {.nowrap} | NS1: Wired Controller {.nowrap} | CFW: sys-botbase 3 {.nowrap} |
+| | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Recommended Replacement** |
+| --- | --- | --- | --- | --- |
+| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2 {.nowrap} | NS1: Wired Controller {.nowrap} | 2 | CFW: sys-botbase 3 {.nowrap} |
+| <img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | ESP32-S3 {.nowrap} |
+| <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | ESP32-S3 {.nowrap} |
+| <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | ESP32-S3 {.nowrap} |
+| <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | ESP32-S3 {.nowrap} |
 
 
 ### Setup Comparison Table:
