@@ -8,7 +8,7 @@ This setup uses an ESP32 microcontroller to emulate a wireless controller. It ca
 
 The USB port plugs into the computer which is how the program will control it. At the other end is an antenna that supports Bluetooth which is how it will fake itself as a joycon or a wireless pro controller to the Switch.
 
-<img src="../Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="45%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Setup.jpg" width="45%">
+<img src="../Images/ESP32/ControllerSetup-ESP32.jpg" width="45%"> <img src="../Images/ESP32/ControllerSetup-ESP32-WROOM-Setup.jpg" width="45%">
 
 ## Hardware Setup:
 
