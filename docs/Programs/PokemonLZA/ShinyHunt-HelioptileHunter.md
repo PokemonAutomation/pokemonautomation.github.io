@@ -25,7 +25,7 @@ Mega Dimension DLC gives a faster method for shiny hunting them via Hyperspace W
 ## Instructions
 
 1. Make sure is day time (no matter is late in the day or not)
-2. Wrap to Zone 14
+2. Fly to Zone 14
 3. Start the program
 
 Program will begin by restarting the day, while looking for the perfect conditions (Clear or Sunny day)
