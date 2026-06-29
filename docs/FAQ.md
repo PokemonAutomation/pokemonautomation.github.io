@@ -161,7 +161,6 @@ Set the controller type to `None`. This disconnects it from your Switch allowing
 
 Disconnect your real controller, then change the controller type back to the desired controller. For wired controllers, you will need to press a button (via keyboard) to connect to the Switch. Wireless controllers will connect automatically* if they were previously already paired.
 
-*Due to [issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800), this does not work reliably for the ESP32 on the Switch 1. So you will likely need to go back to the grip menu to re-pair.
 
 
 <hr>
