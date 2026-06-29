@@ -292,12 +292,6 @@ If in step 5, you are unable to connect to the Switch, (controller never shows u
 - Is the Switch in airplane mode?
 - Is it already paired with a different Switch?)
 
-### ESP32 immediately gets "Disconnected by Console"
-
-This happens normally when the Switch goes to sleep. But if it is happening immediately upon connecting or clicking "Reset Ctrl.", it means it has been banned by the Switch as a result of [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800).
-
-The only way to clear this ban is to re-pair the ESP32. So return to the grip menu (by other means of course), then SHIFT-click the "Reset Ctrl." button. This will clear the pairing and force the ESP32 to re-pair with the Switch.
-
 ### Wireless Interference with Multiple ESP32s.
 
 If you have multiple ESP32s, spread them out to reduce wireless interference.
