@@ -47,7 +47,9 @@ theme:
 
 # Defines the navigation tab bar on PC / dropdown menu on mobile
 nav:
-  - Home: index.md
+  - Home:
+      - index.md
+      - FAQ: FAQ.md
   - Getting Started: 
       - SetupGuide/index.md
       - Controllers: SetupGuide/Controllers
