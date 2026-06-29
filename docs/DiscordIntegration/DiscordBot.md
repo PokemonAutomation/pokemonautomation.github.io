@@ -31,11 +31,13 @@ Discord bot integration can be useful for various things. For example:
 
     <img src="images/discord-bot-private.jpg">
 
-5. Under Privileged Gateway Intents enable `Presence Intent`, `Server Members Intent`, and `Message Content Intent`. Save your changes.
+**If you want to use message commands instead of slash commands:**
+- Under Privileged Gateway Intents enable `Message Content Intent`. Save your changes.
+- Your bot cannot exceed 10,000 users across all servers to use this feature.
 
     <img src="images/discord-bot-intents-0.jpg">
 
-6. Go to the OAuth2 tab in the left sidebar. We will now generate an invite URL with the correct permissions. 
+5. Go to the OAuth2 tab in the left sidebar. We will now generate an invite URL with the correct permissions. 
 
 Under SCOPES, select `bot`.
 
@@ -62,7 +64,7 @@ Copy the generated URL shown above and paste it into your browser of choice. Cli
 
 ## Step 2: Open up the Discord settings.
 
-Open up the Pokemon Automation Computer control program and click on the Settings button in the bottom-left section. This opens up the settings panel. Scroll down to the Discord settings. Enable `Discord Integration Settings`.
+Open up the Pokémon Automation Computer control program and click on the Settings button in the bottom-left section. This opens up the settings panel. Scroll down to the Discord settings. Enable `Discord Integration Settings`.
 
 <img src="images/discord-bot-program-settings-0.png">
 
@@ -73,7 +75,7 @@ Open up the Pokemon Automation Computer control program and click on the Setting
 
     <img src="images/discord-bot-token.png">
 
-2. Your Discord ID is not "Username#1234". It's actually just a number. To get your Discord User ID, [follow this guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). You will first need to enable Developer mode on your account. Paste your User ID into the `Discord User ID` box.
+2. To get your Discord User ID, [follow this guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). You will first need to enable Developer mode on your account. Paste your User ID into the `Discord User ID` box.
 
     <img src="images/discord-bot-userid.png">
 
@@ -108,10 +110,11 @@ Click on any of the "Send Test Message" buttons. If everything worked properly, 
 
 <img src="images/discord-notifications-bot-0.jpg">
 
-***When using slash commands for the very first time you will have to register them. To do this, type `_cmd register` in a Discord channel you have commands enabled in.
-You can also use this command to re-register commands if new ones are added in the future.***
+If it doesn't, there can literally be a million things wrong. A good place to start is to open up the `Output Window` and look for any errors, and to retrace your steps to make sure you set permissions correctly in your server.
 
-If it doesn't, there can literally be a million things wrong. A good place to start is to open up the `Output Window` and look for any errors.
+***When using Slash commands for the very first time you will have to register them. To do this, just click the "Register Slash Commands" button in the Discord Integration Settings panel.
+Do not spam this button, clicking once is enough.
+After registering Slash commands, restart your Discord client for changes to take effect.***
 
 ***
 
@@ -119,16 +122,13 @@ If it doesn't, there can literally be a million things wrong. A good place to st
 # Settings overview
 
 * **`Run Discord Integration On Launch`**: If enabled, Discord bot integration will automatically start as soon as you open the program.
-* **`Discord Integration Library`**: Dropdown menu that allows you to choose which library you want to use: D++ (slash and message commands) or Sleepy Discord (deprecated, only message commands).
+* **`Register Slash Commands`**: If using Slash commands, clicking this button will register the commands with Discord. You only need to do this once on a new bot, or if new commands are added in the future.
 * **`Discord Integration Command Type`**: Dropdown menu that allows you to choose between the modern slash commands or the older style message commands. **Only available when using the D++ library**.
 * **`Discord Token`**: This is where you'll paste your bot's token. It will be blanked so you don't accidentally reveal it.
-* **`Discord Command Prefix`**: Symbol or text your bot will recognize as the start of a command.
-* **`Use Suffix`**: If enabled the prefix will be matched at the end of a command. 
-**Only available when using the Sleepy Discord library**.
+* **`Discord Command Prefix`**: Symbol or text your bot will recognize as the start of a command. **Does not apply if using Slash commands**.
 * **`Discord Game Status`**: Flavor text that will appear under your bot's name in the sidebar.
 * **`Discord Hello Message`**: Bot's response to the `$hi` command.
-* **`Discord Sudo`**: Enter comma-separated user IDs you wish to grant remote button click command access to. **Only available when using the Sleepy Discord library**.
-* **`Discord Owner`**: Enter your own user ID. This will also enable sudo commands. **Only available when using the Sleepy Discord library**.
+* **`Allow Buttons from Users`**: If enabled, allows users to use button commands (normally restricted to the bot owner). Only use it if you trust the users who have access to your bot.
 
 ## `Discord Channels` table - Settings overview
 
@@ -146,7 +146,7 @@ In order to be pinged by a notification, all of these conditions must be met:
 2. "Allow Pings" is checked.
 3. "Should Ping" is checked for the respective event in the program's discord notification settings.
 
-### Column: "Event Tags"
+### Column: "Tags"
 
 This lets you filter what events are sent. A notification is only sent if a tag is shared with the event itself.
 
@@ -175,7 +175,7 @@ This lets you specify and fine-tune channels for notifications and commands.
 
 A general command cheat sheet.
 
-## Miscellaneous Commands (D++)
+## Miscellaneous Commands
 
 * **`help`**: Will post all commands that are available to the invoking user with their parameters and descriptions.
 * **`status`**: Will post information about currently running programs and consoles. Good way to find out your console ID (required as a parameter for some commands).
@@ -186,7 +186,7 @@ A general command cheat sheet.
 ## Owner Commands
 
 * **`click <console id> <button>`**: Will send a button input command to the specified console.
-* **`joystick <console id> <LStick/RStick> <x position (0-255)> <y position (0-255)> <hold ticks>`**: Will hold the left joystick for the specified console for a time.
+* **`joystick <console id> <LStick/RStick> <x magnitude (0-255)> <y magnitude (0-255)> <hold ticks>`**: Will hold the specified joystick for the specified console for a time.
 ***Note: if a program is running, remote button commands will be denied. Remotely stop a running program first.***
 
 * **`start <console id>`**: Will start a stopped program for the specified console.
@@ -194,35 +194,6 @@ A general command cheat sheet.
 * **`resetserial <console id>`**: Will reset the serial connection for the specified console.
 * **`resetcamera <console id>`**: Will reset the camera view for the specified console.
 * **`screenshot <console id> <format (png or jpg)>`**: Will take a screenshot from the specified console and upload it to the channel this command was invoked in.
-* **`register`**: Required for first-time slash command use and for adding new commands in the future. Type `_cmd register` to register slash commands. Afterwards will become usable as a regular slash command.
-
-***
-###
-
-## Miscellaneous Commands (Sleepy Discord)
-
-* **`help`**: Will post all commands that are available to the invoking user with their parameters and descriptions.
-* **`botinfo`**: Will post information about currently running programs and consoles. Good way to find out your console ID (required as a parameter for some commands).
-* **`about`** Will provide some general information about the bot.
-* **`hi`**: Will post a cute reply to the command invoker.
-* **`ping`**: Will post a latency estimate (bot will post a message and edit it with the delay between server responses).
-
-## Sudo Commands
-
-* **`click <console id> <button> <hold ticks>`**: Will send a button input command to the specified console.
-* **`leftstick <console id> <x position (0-255)> <y position (0-255)> <hold ticks>`**: Will hold the left joystick for the specified console for a time.
-* **`rightstick <console id> <x position (0-255)> <y position (0-255)> <hold ticks>`**: Will hold the right joystick for the specified console for a time.
-***Note: if a program is running, remote button commands will be denied. Remotely stop a running program first.***
-
-## Owner Commands
-
-* **`start <console id>`**: Will start a stopped program for the specified console.
-* **`stop <console id>`**: Will stop a running program for the specified console.
-* **`resetserial <console id>`**: Will reset the serial connection for the specified console.
-* **`resetcamera <console id>`**: Will reset the camera view for the specified console.
-* **`screenshot <console id> <format (png or jpg)>`**: Will take a screenshot from the specified console and upload it to the channel this command was invoked in.
-* **`reloadsettings`**: Will reload Discord settings.
-* **`shutdown`**: Will (ungracefully) terminate the entire program. Best to avoid using it, settings and stats will not be saved.
 
 ***
 ### Troubleshooting
@@ -235,15 +206,20 @@ Double-check permissions specifically related to reading messages and viewing ch
 * **My bot is getting rate limited!**
 
 Add a delay for sending messages. If you're sending messages to tons of channels or are running several program instances using the same token you may want to consider making additional bots.
+Also make sure you are not registering Slash command too frequently - Discord doesn't like that.
 
-* **My bot's slash commands are showing up in every channel!**
+* **My bot's Slash commands are showing up in every channel!**
 
-Restrict slash commands in your server settings.
+Restrict Slash commands in your server settings.
 <img src="images/discord-slash-restriction.jpg">
 
-* **I've registered slash commands but I don't see them!**
+* **I've registered Slash commands but I don't see them!**
 
-Assuming the user/role/channel is not restricted you may just have to wait for a few minutes or restart your Discord app for the changes to take effect. Discord is slow at caching them.
+Assuming the user/role/channel is not restricted you may just have to wait for a few minutes or restart your Discord client app for the changes to take effect. Discord is slow at caching them.
+
+* **Slash commands don't recognize me as the owner!**
+
+If you have "Privileged Gateway Intents" enabled, and your bot has 10,000 or more users across all servers it's in, and you've applied for review to keep the "Message Content" intent (or others), the owner ID will not be read correctly as the bot will return a "team ID" instead.
 
 * **The console ID parameter that worked before no longer works!**
 
