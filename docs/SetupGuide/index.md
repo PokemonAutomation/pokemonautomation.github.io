@@ -74,13 +74,13 @@ We don't officially support Linux. Though if you are a developer, you can build 
 
 If you're going to automate a Nintendo Switch game, then you need to have a Nintendo Switch.
 
-However, it needs to be a *regular* Nintendo Switch that can be docked with HDMI video output. You cannot use a Switch Lite. We need the video output for the computer to see your Switch. Unfortunately you cannot just point a camera at the Switch Lite's screen since that comes with too much loss of quality. (Even if this worked, it's bad idea anyway since 24/7 gameplay will burn out the screen.)
+| **Console** | **Supported?** |
+| --- | --- |
+| Nintendo Switch 1 | Yes |
+| Nintendo Switch 2 | Yes |
+| Nintendo Switch Lite | No |
 
-**Switch 2:**
-
-Yes, we support the Switch 2!
-
-Partial support for Switch 2 began with version 0.54 for wired controllers only. Full support (including ESP32 wireless) began with version 0.56.
+We support both Switch 1 and Switch 2, but not the Switch Lite. The Switch Lite does not have HDMI video output for the computer to see your Switch. Unfortunately you cannot just point a camera at the Switch Lite's screen since that comes with too much loss of quality. (Even if this worked, it's bad idea anyway since 24/7 gameplay will burn out the screen.)
 
 
 ### Video Capture Card (the computer's eyes)
