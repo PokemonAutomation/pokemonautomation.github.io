@@ -136,8 +136,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 ### Troubleshooting:
 
 - If the device to fails connect after multiple attempts, try rebooting the Switch.
-- If it stuck on `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
-- If you see `Disconnected by console.` when trying to reconnect, you are hitting [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800). SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
+- If it stuck on `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
 
 
 
@@ -202,8 +201,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 ### Troubleshooting:
 
 - If the device to fails connect after multiple attempts, try rebooting the Switch.
-- If it gets stuck on `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you are using the Pico W (UART) mode and previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
-- If you see `Disconnected by console.` when trying to reconnect, you are hitting [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800). SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
+- If it gets stuck on `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
 
 
 
