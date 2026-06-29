@@ -380,6 +380,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Static RNG](PokemonFRLG/StaticRng.md) {.nowrap}                                  |  Video + Audio   | All |
 | [Wild RNG](PokemonFRLG/WildRng.md) {.nowrap}                                      |  Video + Audio   | All |
 | [Roaming Legendary RNG (in development)](PokemonFRLG/RoamingLegendaryRng.md) {.nowrap}    |  Video + Audio   | All |
+| [Egg RNG (in development)](PokemonFRLG/EggRng.md) {.nowrap}                       |  Video + Audio   | All |
 | **Misc. Guides:** |
 | [Macro RNG Manipulation](PokemonFRLG/MacroRngManipulation.md) {.nowrap}                   |                  | All |
 | [Automated RNG Manipulation](PokemonFRLG/RngManipulationGuide.md) {.nowrap}               |                  | All |
