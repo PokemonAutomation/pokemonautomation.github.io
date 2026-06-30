@@ -199,7 +199,7 @@ If you see it stuck on `Connecting...`, try swapping the TX and RX lines between
 
 In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
-After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or be unplugging and replugging it. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
+After a few seconds, you should see a controller pop-up in the Grip menu on the Switch. If not, try rebooting the Pico W by pressing the `Bootsel` button or by unplugging and replugging it. Lastly, try rebooting the Switch since sometimes it can get into a state where it refuses to accept controllers.
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wireless-Ready.jpg">
 
