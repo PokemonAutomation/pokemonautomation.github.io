@@ -265,7 +265,9 @@ If nothing works, you are not alone! This is a common problem with ESP32 boards.
 ### Unable to flash the ESP32-S3: `no log file output`
 
 - Try switching the USB cable. Make sure it supports data transfer, not just power delivery.
-    - When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
+- If you're using a USB hub, try plugging the USB cable directly into your computer.
+- Ensure the USB cable is connected to the correct port on the ESP32-S3. The two ports are NOT interchangeable. See [Hardware Assembly](#hardware-assembly) above.
+- When plugging in the ESP32, the device should show up in `Device Manger`, under Ports.
 
 ### Problem with flashing ESP32-S3: Download tool shows `FINISH`, but no green progress bar appeared.`
 Ensure the top left checkbox is checked. The top row should be green. Ensure the correct COM is selected, and BAUD is set to 460800. Then try flashing again.
