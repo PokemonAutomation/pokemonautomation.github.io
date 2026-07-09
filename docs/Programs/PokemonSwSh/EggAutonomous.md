@@ -124,7 +124,7 @@ But you can add more actions to keep babies of certain gender and IV spreads. Th
 
 ***If you are using any IV filters, the right panel in the box system must be set to the IV Judge. Similar if you are using any gender filter.***
 
-<img src="images/EggAutonomous-3.png">
+<img src="images/EggAutonomous-3.jpg">
 
 
 ## Credits
