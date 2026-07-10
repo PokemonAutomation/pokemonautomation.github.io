@@ -37,3 +37,18 @@ Number of trials to automate before stopping.
 ### Invert controls while flying
 
 If you inverted controls while flying in game, turn this feature on as well.
+
+
+
+
+## Credits
+
+- **Author:** Nymphea
+
+<hr>
+
+**Discord Server:** 
+
+[<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
+
