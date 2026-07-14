@@ -7,10 +7,12 @@ In Pokemon Sword/Shield, the Y-Comm glitch allows the user to efficiently date s
 Video tutorial: [https://www.youtube.com/watch?v=cZTB1ZGZu18](https://www.youtube.com/watch?v=cZTB1ZGZu18)
 
 There are two variations to activating this glitch:
+
 - Online: You must have Nintendo Switch Online and an internet connection.
 - Local-only: You must have Pokemon Sword/Shield running on two separate Switches. But no internet required.
 
 **Steps:**
+
 1. Go to a secure indoor location in game like a Pokécenter and save your game. This isn't strictly necessary, but it's safer so you don't get attacked by wild Pokemon, while you try to activate this glitch.
 2. Undock the Switch so that it's in hand-held mode. This allows you to toggle Airplane Mode.
 3. Click the 'Y' button to open Y-Comm. 
@@ -47,6 +49,7 @@ The end result is the same as the Y-Comm glitch
 This is another method that allows you to date skip.
 
 To activate this:
+
 - enter a Raid den and select the option to Invite others.
 - Perform the date skip. 
 - Re-enter the game. 
