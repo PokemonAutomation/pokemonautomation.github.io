@@ -34,7 +34,8 @@ So Airplane mode can be optionally turned on for Dayskipper programs. But Airpla
 As mentioned above, Airplane mode cannot be toggled when the Switch is docked. Try the following methods to disconnect from the other player, while in docked mode:
 
 Option 1: When the opponent is found, select your user icon at the top of the Home menu. Click 'Add Friend', then 'Search for Local Users'. When you get the pop-up warning that "you will be disconnected from the current internet connection", click "OK". You should now be disconnected, and the Y-Comm glitch should be active.
-    - To automate this disconnect routine, try the [Friend Search Disconnect](FriendSearchDisconnect.md) program.
+
+- To automate this disconnect routine, try the [Friend Search Disconnect](FriendSearchDisconnect.md) program.
 
 Option 2: When the opponent is found, enter the "Album" from the Switch Home menu. Select one of your photos. Click the 'A' button for "Sharing and Editing". Click "Send to Smartphone". When you get the pop-up warning that "you will be disconnected from the current internet connection", click "OK". Click "Only This One". You should now be disconnected, and the Y-Comm glitch should be active.
 
@@ -60,7 +61,7 @@ This method can be activated locally, without an internet connection, and doesn'
 ## Credits
 
 - Guide author: jw
-- Thanks to the following users for advice on activating this glitch: ghostassassinno1, Kuroneko/Mysticial, Patrick (vxrmillion)
+- Thanks to the following people for advice regarding this glitch: ghostassassinno1, Kuroneko/Mysticial, Patrick (vxrmillion)
 
 <hr>
 
