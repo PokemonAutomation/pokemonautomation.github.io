@@ -26,7 +26,7 @@ The success rate for each manipulated highlight is around 80%.
 2. The Rotom Phone apps on the menu are in their default locations.
     1. The Town Map app must be in the 2nd row on the far left.
     2. The Pokémon app must be in the 1st row, 2nd from the left.
-3. Y-Comm glitch must be active
+3. [Y-Comm glitch](DateSpam-YCommGlitch.md) must be active
     1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
 ## Instructions
