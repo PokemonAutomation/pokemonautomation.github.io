@@ -1,6 +1,6 @@
 # Y-Comm Glitch, VS glitch, Den Invite glitch
 
-In Pokemon Sword/Shield, the Y-Comm glitch allows the user to efficiently date skip. Date skipping allows you to perform force daily events in game to refresh, such as watt farming, den re-rolling etc. Without the glitch active, nothing happens when you move the day forward in Pokemon Sword/Shield.
+In Pokemon Sword/Shield, the Y-Comm glitch allows the user to efficiently date skip. Date skipping allows you to force daily events in game to refresh, which enables actions such as watt farming, den re-rolling etc. Without the glitch active, nothing happens when you move the day forward in Pokemon Sword/Shield.
 
 ## Activating the Y-Comm glitch
 
