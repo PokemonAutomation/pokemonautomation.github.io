@@ -35,7 +35,7 @@ This setup here depends on whether you are on a Switch 1 or a Switch 2.
 2. System time: Un-synced
 3. The language/region for the Switch must have a date layout of dd/mm/year/hour/min.
     1. Unlike the JPN date skipper, you do not need to set the starting the date. However you do need to set the current year correctly.
-4. The VS (Y-COMM) glitch must be active.
+4. The [Y-Comm glitch](DateSpam-YCommGlitch.md) must be active.
 5. The console type is set to "Switch 1".
 
 **Switch 2:**
@@ -45,7 +45,7 @@ This setup here depends on whether you are on a Switch 1 or a Switch 2.
 3. System time: Un-synced
 4. The language/region for the Switch must have a date layout of dd/mm/year/hour/min.
 5. Set the date to the 1st of a month with 31 days that is not March.
-6. The VS (Y-COMM) glitch must be active.
+6. The [Y-Comm glitch](DateSpam-YCommGlitch.md) must be active.
 7. The console type is set to any of the Switch 2 options.
 
 ## Instructions
@@ -59,7 +59,7 @@ Most people use the following workflow:
 4. Connect to the internet and start a link battle.
 5. When someone is found, turn on airplane mode and keep it on.
 6. Mash B to clear all the messages.
-7. Confirm that the VS glitch is active by leaving and re-entering the game. The screen should flash when you re-enter the game.
+7. Confirm that the [Y-Comm glitch](DateSpam-YCommGlitch.md) is active by leaving and re-entering the game. The screen should flash when you re-enter the game.
 8. Go into settings, then Date and Time menu.
 9. Dock the Switch if desired.
 10. Start the program.

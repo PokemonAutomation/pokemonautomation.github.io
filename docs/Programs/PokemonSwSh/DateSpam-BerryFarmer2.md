@@ -40,7 +40,7 @@ This program will detect shiny Pokémon, however, a better alternative for this 
 1. Text Speed: Fast
 2. Auto-Save: Off
 3. Background Music: 0 (needs to be unlocked in Motostoke)
-4. Y-Comm glitch must be active
+4. [Y-Comm glitch](DateSpam-YCommGlitch.md) must be active
     1. Verify glitch is active by checking for a "flash" when re-entering the game from the Home menu.
 
 

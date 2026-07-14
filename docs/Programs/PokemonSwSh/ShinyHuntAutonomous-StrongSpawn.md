@@ -48,7 +48,7 @@ This program will automatically hunt for a shiny strong spawn and automatically 
 
 1. Despawn the Pokémon by fighting it and running, defeating, or catching it.
 2. Stand directly on the spawn spot for your desired Pokémon.
-3. Activate the VS (Y-COMM) glitch.
+3. Activate the [Y-Comm glitch](DateSpam-YCommGlitch.md).
 4. Navigate to the Date and Time menu.
 4. Change the date forward and backwards one day. (This forces a day skip while resetting the date.)
 5. Save the game.

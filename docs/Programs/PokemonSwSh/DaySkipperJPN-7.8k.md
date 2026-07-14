@@ -31,7 +31,7 @@ While the 7.8k skipper can recover from minor errors, major errors will cause it
 3. The language for your Switch must be set to Japanese (日本語).
 4. Set the date to January 1st 2000.
 5. Make sure the time of the day is not during the DST missing hour. (2 - 3AM)
-6. The VS (Y-COMM) glitch must be active.
+6. The [Y-Comm glitch](DateSpam-YCommGlitch.md) must be active.
 
 ## Instructions
 
@@ -45,7 +45,7 @@ Most people use the following workflow:
 5. Connect to the internet and start a link battle.
 6. When someone is found, turn on airplane mode and keep it on.
 7. Mash B to clear all the messages.
-8. Confirm that the VS glitch is active by leaving and re-entering the game. The screen should flash when you re-enter the game.
+8. Confirm that the [Y-Comm glitch](DateSpam-YCommGlitch.md) is active by leaving and re-entering the game. The screen should flash when you re-enter the game.
 9. Go into settings and date time.
 10. Dock the Switch if desired.
 11. Start the program.

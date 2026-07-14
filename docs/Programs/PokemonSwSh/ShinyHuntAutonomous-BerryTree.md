@@ -26,7 +26,7 @@ Unlike the Shiny Hunt (Unattended) programs, the Autonomous programs require *no
 
 1. Text Speed: Fast
 2. Casual mode: Off
-3. VS (Y-Comm) glitch must be active
+3. [Y-Comm glitch](DateSpam-YCommGlitch.md) must be active
 
 ### Setup of Party
 
