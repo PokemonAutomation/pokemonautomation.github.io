@@ -34,6 +34,7 @@ Furthermore, this program doesn't care about step counts, egg-warming, or early 
     1. The Town Map app must be in the 2nd row on the far left.
     2. The Pokémon app must be in the 1st row, 2nd from the left.
 7. You already have the Pokédex entry for the Pokémon you are hatching.
+8. You have already beaten the trainer just outside (South) of the Nursery building.
 
 **Strongly Recommended:**
 
