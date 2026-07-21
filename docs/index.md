@@ -100,7 +100,7 @@ Main Page: [FAQ](FAQ.md)
 - [Why can't you connect directly to the Switch over USB? Why do you need a microcontroller?](FAQ.md#why-cant-you-connect-directly-to-the-switch-over-usb-why-do-you-need-a-microcontroller)
 - [Why can't you connect directly to the Switch using the computer's Bluetooth? NXBT and joycontrol can do this!](FAQ.md#why-cant-you-connect-directly-to-the-switch-using-the-computers-bluetooth-nxbt-and-joycontrol-can-do-this)
 - [What happened to the Microcontroller-only (MC) setup?](FAQ.md#what-happened-to-the-microcontroller-only-mc-setup)
-- [Why are you discontinuing support for the Arduino Uno/Leonardo, Teensy 2, and Pro Micro?](FAQ.md#why-are-you-discontinuing-support-for-the-arduino-unoleonardo-teensy-2-and-pro-micro)
+- [Why did you discontinue support for the Arduino Uno/Leonardo, Teensy 2, and Pro Micro?](FAQ.md#why-did-you-discontinue-support-for-the-arduino-unoleonardo-teensy-2-and-pro-micro)
 
 
 ## Credits
