@@ -65,16 +65,7 @@ No. Same reason as above.
 
 ### I'm an old user returning after a long absence. Is my Arduino/Teensy still good?
 
-Yes and no.
-
-We still support the old setups (Arduino/Teensy/Pro Micro), but they are deprecated in favor of the newer controllers (ESP32, ESP32-S3, Raspberry Pi Pico W).
-
-- If you are coming from the old "microcontroller-only" programs, you will need to purchase and setup a UART. But in this case, it's much easier and cheaper to just to abandon your old hardware and get one of the newer controller setups which do not require a UART.
-- If you are coming from the older computer-control setups and already have a UART, you can continue using it. But if you have any difficulty setting it up, we are going to tell you to just abandon it and get the newer controllers.
-
-The newer controllers are cheaper, much easier to setup, and more reliable than the old ones with manual UART wiring.
-
-If you are affected by the [Power Glitching](PowerGlitching.md) issue on the Switch 2, you will almost certainly want to upgrade to the new controllers.
+Not anymore. Please upgrade to the new controllers. They are cheaper, much easier to setup, and more reliable than the old ones with manual UART wiring.
 
 
 ## Technical Questions
@@ -112,7 +103,7 @@ However, it already breaks on the latest Switch firmware that added additional i
 If you are dead-set on MC automation without a computer, you will need to look elsewhere.
 
 
-### Why are you discontinuing support for the Arduino Uno/Leonardo, Teensy 2, and Pro Micro?
+### Why did you discontinue support for the Arduino Uno/Leonardo, Teensy 2, and Pro Micro?
 
 These are collectively the "AVR8 boards" which numerous other projects use. So it may be sad to seem them go. The decision to drop them was not taken lightly.
 
