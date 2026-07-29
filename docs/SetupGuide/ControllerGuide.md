@@ -56,8 +56,7 @@ As of this writing, we only support QWERTY and the French AZERTY. We are open to
 - Pico 2 W (UART mode)
 - RP2040
 - RP2350
-- CFW: sys-botbase 2
-- CFW: sys-botbase 3
+- sys-botbase 3
 
 This is the standard 3rd party wired controller from the likes of Horipad and Power A. It supports 14 buttons and 2 joysticks. It does not support rumble or gyro. Furthermore, it always shows up as a black controller in the Switch menus.
 
