@@ -109,7 +109,7 @@ These are collectively the "AVR8 boards" which numerous other projects use. So i
 
 **Background:**
 
-This project started in 2020 with these same AVR8 boards that everyone else was doing. The problem is that AVR8 is extremely old and have reached end-of-life for many vendors. They were also very difficult to setup and use. They were never intended for a end-users, yet that is what we tried to push them to be.
+This project started in 2020 with these same AVR8 boards that everyone else was doing. The problem is that AVR8 is extremely old and have reached end-of-life for many vendors. They were also very difficult to setup and use. They were never intended for end-users, yet that is what we tried to push them to be.
 
 In 2025, we finally took the leap and began looking for alternatives. By the end of 2025, we had completely revamped our controller stack with 3 new controller stacks:
 
