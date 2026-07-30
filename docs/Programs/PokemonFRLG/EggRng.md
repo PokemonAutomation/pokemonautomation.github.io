@@ -115,9 +115,17 @@ These values can be manually copied for use with the [RNG Helper](./RngHelper.md
 
 ### Game Information
 
+#### Game Version:
+
+FireRed or LeafGreen.
+
 #### Game Language:
 
-The language corresponding the version of the game you're playing.
+The language corresponding the version of the game you're playing. The Japanese version has different seeds than other languages.
+
+#### Sound:
+
+The in-game sound setting, either Mono or Stereo. This affects RNG seeds.
 
 ### Target Settings
 
@@ -146,43 +154,6 @@ The following settings are required for both the Held and Pickup frames.
 
 The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool
 
-#### Nearby Seeds:
-
-A list of seeds, in order, containing the target seed, with one seed on each line. This list is used to calibrate the seed delay. Using at least ±5 seeds from your target is recommended.
-
-Example, where ED7D is the target seed:
-```
-A3BD
-E496
-2C18
-74BF
-A58A
-ED7D
-3633
-B454
-DECA
-2B6F
-7499
-```
-
-#### Seed Button:
-
-The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
-
-#### Extra Button:
-
-Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
-
-#### Seed Delay Time (ms):
-
-The delay time corresponding to your target seed. Set this with the help of an external RNG tool. 
-Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
-
-> **Avoid low seed delays when possible**
-> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
->
-> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
-
 #### Advances:
 
 The number of RNG advances to pass before triggering the encounter. Set this with the help of an external RNG tool.
@@ -198,6 +169,10 @@ The point in the egg RNG manipulation process to start the program.
 - Pickup Frame Calibration: after saving in front of the Day Care Man.
 
 This option will be automatically update as the program runs, but can be manually changed as needed (e.g. if you forgot to save after hatching your shiny egg).
+
+#### Nearby Seed Radius:
+
+The number of seeds on each side of the target to consider when searching for hit frames. Larger values can lead to slower calibration.
 
 #### Max Resets:
 

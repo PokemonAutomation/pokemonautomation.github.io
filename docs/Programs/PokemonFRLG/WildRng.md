@@ -29,7 +29,7 @@ This program can be configured to obtain any Pokémon that can appear in random 
 **Game Settings:**
 
 1. Text Speed: Fast
-2. Button Mode: **NOT L=A**
+2. Button Mode: **HELP**
 3. Frame: Type 1
 4. Mono / Stereo depending on your target Seed
 
@@ -75,7 +75,10 @@ This program can be configured to obtain any Pokémon that can appear in random 
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
 
+> Only certain frames will generate encounters for Rock Smash, so any other encounter method is usually a better idea.
+
 **Safari Zone**
+
 - If you haven't ever entered the Safari Zone in your current save, enter and exit the Safari Zone
 - If fishing, register the rod you'd like to use to the SELECT button 
 - Have at least 500 Pokédollars 
@@ -115,13 +118,17 @@ These values can be manually copied for use with the [RNG Helper](./RngHelper.md
 
 ### Game Information
 
-#### Game Language:
-
-The language corresponding the version of the game you're playing.
-
 #### Game Version:
 
-Set this to the version of the game you're playing — FireRed or LeafGreen.
+FireRed or LeafGreen.
+
+#### Game Language:
+
+The language corresponding the version of the game you're playing. The Japanese version has different seeds than other languages.
+
+#### Sound:
+
+The in-game sound setting, either Mono or Stereo. This affects RNG seeds.
 
 ### Target Settings
 
@@ -133,46 +140,13 @@ The type of wild encounter. "Grass" refers to any land-based random encounter. T
 
 The in-game location of the wild encounter. Not all encounter types are compatible with all locations (since not every location has water, breakable rocks, etc.)
 
+#### RNG Method:
+
+The method that defines how IVs are generated. This is only used for generating IVs for the "Target Details" display box. During calibration, all possible methods are searched.
+
 #### Target Seed:
 
 The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool
-
-#### Nearby Seeds:
-
-A list of seeds, in order, containing the target seed, with one seed on each line. This list is used to calibrate the seed delay. Using at least ±5 seeds from your target is recommended.
-
-Example, where ED7D is the target seed:
-```
-A3BD
-E496
-2C18
-74BF
-A58A
-ED7D
-3633
-B454
-DECA
-2B6F
-7499
-```
-
-#### Seed Button:
-
-The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
-
-#### Extra Button:
-
-Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
-
-#### Seed Delay Time (ms):
-
-The delay time corresponding to your target seed. Set this with the help of an external RNG tool. 
-Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
-
-> **Avoid low seed delays when possible**
-> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
->
-> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
 
 #### Advances:
 
@@ -180,6 +154,16 @@ The number of RNG advances to pass before triggering the encounter. Set this wit
 This should be the *total* number of advances, *not* just the continue screen frames or in-game advances.
 
 ### Program Settings
+
+#### Use Teachy TV:
+
+Opens the Teachy TV to quickly advance the RNG at 313x speed. Make sure that the Teachy TV is at the top position of the bag.
+
+> *Warning: can result in larger misses.*
+
+#### Nearby Seed Radius:
+
+The number of seeds on each side of the target to consider when searching for hit frames. Larger values can lead to slower calibration.
 
 #### Max Resets:
 
