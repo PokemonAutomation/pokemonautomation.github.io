@@ -142,15 +142,6 @@ High response time used to be a huge problem with sys-botbase 2.4. But starting 
 This means the Switch has stopped responding to the computer's commands. The most common (unobvious) cause of this is that the Switch entered local connection mode because you didn't have ldn-mitm enabled. Because sys-botbase relies on the network connection to communicate with the Switch, going into local connection mode will kill this connection. So while sys-botbase is still running on the Switch, no commands are getting through.
 
 
-### "Cannot start program. The controller is missing the feature: TickPrecise"
-
-<img src="../Images/sys-botbase/ControllerSetup-sbb-TickPrecise.jpg">
-
-If you are seeing this message, it means you are running sys-botbase 2.x. This version of sys-botbase lacks the timing precision needed to run many of our programs.
-
-Please upgrade to sys-botbase 3.0 or later.
-
-
 ### Multi-Switch programs don't work.
 
 Multi-Switch programs generally involve the two Switches using local communication to talk to each other. ldn-mitm will block local connections which means the two Switches cannot connect unless both are running ldn-mitm. Turning off ldn-mitm to allow the local communication mode will kill the network connection to the computer.
