@@ -95,10 +95,10 @@ A video capture card will allow a computer to capture the HDMI video output from
 
 Example Shopping Links:
 
-| **Resolution / Frame Rate** | **Price** | **Link** | **Notes** |
+| **Resolution / Frame Rate** | **Price (USD)** | **Link** | **Notes** |
 | --- | --- | --- | --- |
-| 1080p @ 60 Hz {.nowrap} | $10 - $20 USD {.nowrap} | https://www.amazon.com/dp/B09FLN63B3 | |
-| 4k @ 60 Hz {.nowrap} | $40 - $70 USD {.nowrap} | https://www.amazon.com/gp/product/B0FY4V4KL3 | This is a true 4k60 card despite being an knock-off of the Elgato Cam Link 4K. The genuine Elgato Cam Link 4K is (ironically) only 4k30. |
+| 1080p @ 60 Hz {.nowrap} | $10 - $20 {.nowrap} | [Amazon](https://www.amazon.com/dp/B09FLN63B3) | |
+| 4k @ 60 Hz {.nowrap} | $40 - $70 {.nowrap} | [Amazon](https://www.amazon.com/gp/product/B0FY4V4KL3) | This is a true 4k60 card despite being an knock-off of the Elgato Cam Link 4K. The genuine Elgato Cam Link 4K is (ironically) only 4k30. |
 
 Most cheap capture cards work. Higher end-capture cards may cause issues with color detection.
 Ensure the capture card is capable of a video output resolution of 1080p at 30 frames per second (FPS). Though we recommend at least 1080p/60 FPS to minimize video tearing.
