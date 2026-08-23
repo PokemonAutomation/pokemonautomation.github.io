@@ -34,6 +34,10 @@ Here is an example of a full setup using a Raspberry Pi Pico W microcontroller:
 
 [<img src="Images/FullSetup-WirelessController2_small.jpg">](Images/FullSetup-WirelessController2.jpg)
 
+If this setup looks simpler than other automation projects, it is not a coincidence. We have gone to great lengths to simplify the setup and make it as accessible to as many people as possible - including the non-tech-savvy.
+
+- No programming or coding required.
+- No complicated hardware setup required. (no soldering or breadboard wiring)
 
 ## Step 1: The Hardware
 
@@ -91,13 +95,18 @@ A video capture card will allow a computer to capture the HDMI video output from
 
 Example Shopping Links:
 
-- [https://www.amazon.com/dp/B088HBRM7T](https://www.amazon.com/dp/B088HBRM7T)
-- [https://www.amazon.com/dp/B09FLN63B3](https://www.amazon.com/dp/B09FLN63B3)
+| **Resolution / Frame Rate** | **Price** | **Link** | **Notes** |
+| --- | --- | --- | --- |
+| 1080p @ 60 Hz {.nowrap} | $10 - $20 USD {.nowrap} | https://www.amazon.com/dp/B09FLN63B3 | |
+| 4k @ 60 Hz {.nowrap} | $40 - $70 USD {.nowrap} | https://www.amazon.com/gp/product/B0FY4V4KL3 | This is a true 4k60 card despite being an knock-off of the Elgato Cam Link 4K. The genuine Elgato Cam Link 4K is (ironically) only 4k30. |
 
 Most cheap capture cards work. Higher end-capture cards may cause issues with color detection.
 Ensure the capture card is capable of a video output resolution of 1080p at 30 frames per second (FPS). Though we recommend at least 1080p/60 FPS to minimize video tearing.
 
-For Switch 2 owners, you do not need an (expensive) 4k capture card to run automation on the Switch 2. These cheap 1080p capture cards will work fine on the Switch 2. But if you don't mind the price, feel free to get a 4k capture card anyway for the better graphics quality. Automation will work on both 1080p and 4k.
+For Switch 2 owners, you do not need an (expensive) 4k capture card to run automation on the Switch 2. These cheap 1080p capture cards will work fine on the Switch 2.
+If you intend to play your Switch on your computer through the CC program, feel free to get a 4k capture card for the improved graphics quality. Automation will work on both 1080p and 4k.
+
+We recommend avoiding very cheap 4k60 capture cards since they usually false advertise and have quality issues.
 
 
 ### The Controller: (the computer's hands)
