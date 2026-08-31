@@ -1,8 +1,8 @@
-# Lucky Egg Farmer (Will be replaced by Held Item Farmer - Safari Zone)
+# Held Item Farmer - Safari Zone (Beta)
 
 ## Program Description
 
-Repeatedly attempt to catch Chansey and farm Lucky Eggs.
+Repeatedly attempt to catch Chansey or Dragonair to farm Lucky Eggs or Dragon Fangs.
 
 <img src="images/LuckyEggFarmer-Chansey.jpg">
 
@@ -25,7 +25,7 @@ Repeatedly attempt to catch Chansey and farm Lucky Eggs.
 3. Button Mode: **NOT L=A**
 4. Frame: Type 1
 
-**Other Setup:**
+**Other Setup Chansey:**
 
 1. Empty your party so that you only have 2 Pokemon:
     - Slot 1: A Pokemon level 34 or higher.
@@ -35,6 +35,12 @@ Repeatedly attempt to catch Chansey and farm Lucky Eggs.
 2. Stand on the Pokeball icon in the Safari Zone building.
 3. Use a Max Repel.
 4. Save the game in this state so it can be quickly reset automatically.
+
+**Other Setup Dragonair:**
+
+1. Empty your party so that you only have a single Pokemon.
+2. Stand on the Pokeball icon in the Safari Zone building.
+3. Save the game in this state so it can be quickly reset automatically.
 
 <img src="images/LuckyEggFarmer-Start.jpg">
 
