@@ -27,15 +27,20 @@ Some of these will be referenced throughout this guide:
 | [Gift RNG](./GiftRng.md) | Automatic RNG manipulation of gifts and other Pokémon that do not require being caught. |
 | [Starter RNG](./StaticRng.md) | Automatic RNG manipulation of stationary encounters, such as Snorlax or Mewtwo. |
 | [Wild RNG](./WildRng.md) | Automatic RNG manipulation of random wild Pokémon. |
+| [Roaming Legendary RNG](./RoamingLegendaryRng.md) | Automatic RNG manipulation of Entei, Raikou, or Suicune. |
+| [Egg RNG](./EggRng.md) | Automatic RNG manipulation of eggs at the Four Island day care. |
 | [RNG Helper](./RngHelper.md) | Semi-automated RNG manipulation of all types. <br>Requires manual calibration. |
 
 #### Other Resources
 | Name | Description |
 | --- | --- |
-| [Ten Lines](https://lincoln-lm.github.io/ten-lines/?page=1&game=fr_nx&targetInitialSeed=70FE&buttonMode=h&advancesMin=1000&advancesMax=5000) | An incredibly useful tool geared toward performing manual RNG manipulation. <br>We recommended it for picking out your RNG targets. |
+| [Ten Lines](https://lincoln-lm.github.io/ten-lines/?page=1&game=fr_nx&targetInitialSeed=70FE&buttonMode=h&advancesMin=1000&advancesMax=5000) | An incredibly useful web tool geared toward performing manual RNG manipulation. <br>We recommended it for picking out your RNG targets. |
+| [PokéFinder](https://github.com/Admiral-Fish/PokeFinder/releases) | A fantastic downloadable RNG manipulation search program. Its `PokeFinderCore` powers Ten Lines web tool. |
 | [RNG Manip Guide for Starters](https://www.youtube.com/watch?v=DfO2Zb9i3Bs) | A video guide by im a blisy that covers the basics of RNG manipulation in FRLG. |
 | [Retail Pokémon RNG](https://retailrng.com/frlg/) | A website with guides geared toward performing RNG manipulation on retail game cartridges. <br>While most of the guides were written for Game Boy Advance rather than Switch, the general approach and most of the details remain the same. |
 | [Smogon RNG Mechanics Guide](https://www.smogon.com/ingame/rng/pid_iv_creation) | A detailed explanation of how values from the RNG are used to generate Pokémon |
+| [PID Reroll Calculator](https://mucksw.github.io/PID-Reroll-Calculator/) | A web tool for calculating the number of rerolls that occur when a random wild encounter is generated. Useful for determining the most like "method" for generating IVs.
+| [Generation 3 Wild RNG Research](https://docs.google.com/spreadsheets/d/1hCZznFa4cez3l2qx1DmYPbuB_dNGTqqCoaksZf-Q44s/edit?resourcekey=&gid=1588241733#gid=1588241733) | Useful information for determining a likely IV generation method when used with the PID Reroll Calculator.
 
 ---
 
@@ -78,6 +83,8 @@ A player's Secret ID is not normally visible without using Arbitrary Code Execut
 
 In this guide, we'll use a new game, the SID Helper program, and the Starter RNG program to determine the Secret ID of the new save file. 
 
+If you'd rather not start a new game, SIDs can be deduced from the stats of any shiny Pokémon that hasn't yet earned any EVs by using the "IVs to PID" tool in PokeFinder. Use one of the FRLG Shiny Hunting programs if you don't yet have a shiny.
+
 ### Using the SID Helper program
 
 Follow the instructions on the [SID Helper wiki page](./SidHelper.md). There is usually no reason to change the default value for the Target Advances, and 5 candidate SIDs is generally a good amount.
@@ -86,7 +93,7 @@ Follow the instructions on the [SID Helper wiki page](./SidHelper.md). There is 
 
 Once the program finishes, copy the results and save them somewhere (in a text file, on a piece of paper, etc.). While your SID is most likely the one associated with your target advances, it is possible that an adjacent SID was hit instead. 
 
-In this example, after running the SID Helper, the Trainer ID was set to 48221, and the most-likely SID (at 3001 advances) was calculated to be 18705.
+In this example, after running the SID Helper, the Trainer ID was set to 35951, and the most-likely SID (at 3001 advances) was calculated to be 24593.
 
 <img src="images//RngManipulationGuide//ExampleTrainerCard.jpg">
 
@@ -101,17 +108,12 @@ Before we begin the Starter RNG program, we need to pick out a shiny target with
 - <b>Game:</b> either Switch FireRed or Switch LeafGreen. Each game will have different seeds
 - <b>Sound:</b> either Mono or Stereo, whichever matches your in-game settings (Mono by default)
 - <b>Button Mode:</b> Help. Make sure this is your in-game setting as well.
-- <b>Seed Button:</b> A
-- <b>Extra Button:</b> None
-- <b>Console:</b> *Nintendo Switch 1*
 
-> **IMPORTANT: Select Nintendo Switch 1 as your console in Ten Lines even if you're using a Switch 2**
-> Otherwise, your seed timings will be off by 750ms and the Auto-RNG programs *will NOT work properly!*.
+The following options can affect your Ten Lines search and have multiple valid values. They will be automatically detected by the RNG programs.
 
-> **Avoid low seed delays when possible**
-> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early, throwing off all subsequent parts of the button press sequence. 
->
-> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
+- <b>Seed Button:</b> A or Start. Each option provides different possible RNG seeds.
+- <b>Extra Button:</b> None, Blackout L, or Blackout R. Blackout L/R modifies all seeds by a constant offset.
+- <b>Console:</b> This setting can be ignored, since it only affects seed delays (NS2 is 750ms faster than NS1).
 
 <img src="images//RngManipulationGuide//TenLines-gameinfo.jpg">
 
@@ -145,9 +147,11 @@ Here is the target chosen for confirming the SID for our example:
 
 <img src="images//RngManipulationGuide//TenLines-results.jpg">
 
-We need one more piece of information from Ten Lines before we move on: a list of seeds nearby our target. This can be obtained by setting the <b>Target Seed</b> to the one from our chosen search result, <b>Seed +/-</b> to a relatively small value (5 is recommended), and pressing the SHOW SEEDS button. Copy the seeds in the popup box to be pasted into the Starter RNG program's inputs.
+> **Avoid targets with low seed delays when possible**
+> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms on NS1 or 27,750ms on NS2. This happens when the button press on the title screen comes too early, throwing off all subsequent parts of the button press sequence. 
+>
+> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
 
-<img src="images//RngManipulationGuide//TenLines-showseeds.jpg">
 
 ### Checking your SID with the Starter RNG program
 
@@ -161,13 +165,13 @@ Once these have been entered, start the program. You can monitor its progress vi
 
 <img src="images//RngManipulationGuide//StarterRng-progress.jpg">
 
-Note that the program hit FF52/1290 on its previous reset, which is already the correct number of RNG advances and only 1 seed away from the target.
+Note that the program hit 489B/1205 on its first reset, which is 8 advances too late and 1 seed away from the target.
 
-On the next reset, it hit the target—a shiny—confirming that the SID is 18705. Record your confirmed SID somewhere safe, since you'll need it for any future RNG manipulation attempts with this save file.
+On the next reset, the program adjusted its calibration based on the previous attempt and hit the target—a shiny—confirming that the SID for this save file is 24593. Record your confirmed SID somewhere safe, since you'll need it for any future RNG manipulation attempts with this save file.
 
 <img src="images//RngManipulationGuide//StarterRng-success.jpg" width=600>
 
-If the program instead ended on a non-shiny hit, another SID candidate from the list should be chosen (in our example, the SID from 2999 advances, 46295, would be the best choice). Then, enter this new SID into Ten Lines, repeat the search, choose a new target, and restart the Starter RNG program with the new target.
+If the program instead ended on a non-shiny hit, another SID candidate from the list should be chosen (in our example, the SID from 2999 advances, 5699, would be the best choice). Then, enter this new SID into Ten Lines, repeat the search, choose a new target, and restart the Starter RNG program with the new target.
 
 If the program has not finished after a large number of resets (30), check to make sure that it is making progress in its calibrations. If it frequently displays "No matches found" or fails to get closer to the target, double check the both your in-game settings and the settings you've entered for the program.
 
@@ -187,18 +191,19 @@ Since the more specific your filters are, the fewer hits the search will return,
 
 <img src="images//RngManipulationGuide//TenLines-biggerrange.jpg">
 
-Once you've made these changes, resubmit the search and choose a target from the results. If you don't get any good results, you can change some of the options that affect possible seeds (Sound, Seed Button, and Extra Button) and try again.
+Once you've made these changes, resubmit the search and choose a target from the results. If you don't get any good results, you can change some of the options that affect possible seeds (Sound, Seed Button, and Extra Button) and try again. With the above filters, only three results are available for this particular TID/SID combination:
 
 <img src="images//RngManipulationGuide//TenLines-specificresults.jpg">
 
-For this example, we'll go with the `61B4 | 54456ms, 6024` target. Enter the settings from your new target into the Starter RNG program...
+For this example, we'll go with the `2C5A | 49209` target, which has really nice IVs. Enter the settings from your new target into the Starter RNG program...
 
 <img src="images//RngManipulationGuide//RngProgram-settings2.jpg">
 
-... and start it. Within a few resets, you should have your shiny starter! 
+... and start it. The program will reuse the calibration information from the previous run, so it will likely be very close to the target on its first attempt. Within a few resets, you should have your shiny starter. 
 
 <img src="images//RngManipulationGuide//StarterRng-success2.jpg" width=600>
 
+In this case, the program hit the shiny on its first attempt!
 
 ---
 

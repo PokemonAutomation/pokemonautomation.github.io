@@ -38,7 +38,7 @@ Fully automated button presses and calibration for performing RNG manipulation f
 **Game Settings:**
 
 1. Text Speed: Fast
-2. Button Mode: **NOT L=A**
+2. Button Mode: **HELP**
 3. Frame: Type 1
 4. Mono / Stereo depending on your target Seed
 
@@ -57,6 +57,8 @@ Fully automated button presses and calibration for performing RNG manipulation f
    - These are used for the egg and two wild Pokémon that are caught to confirm that you've hit the correct initial seed for the Held and Pickup frames.
 - Have a Pokémon that knows Surf in your party.
     - Surf is used to encounter wild Pokémon in the nearby pond.
+- *Optional, but recommended*: Have a Pokémon that knows Rock Smash in your party.
+    - Krabby and Gyarados are easily-obtainable Pokémon that can learn both Surf and Rock Smash
 - Have a Pokémon that knows Sweet scent in the last occupied slot of your party.
 <img src="images//EggRng-1.jpg" width="600"> 
 
@@ -115,9 +117,17 @@ These values can be manually copied for use with the [RNG Helper](./RngHelper.md
 
 ### Game Information
 
+#### Game Version:
+
+FireRed or LeafGreen.
+
 #### Game Language:
 
-The language corresponding the version of the game you're playing.
+The language corresponding the version of the game you're playing. The Japanese version has different seeds than other languages.
+
+#### Sound:
+
+The in-game sound setting, either Mono or Stereo. This affects RNG seeds.
 
 ### Target Settings
 
@@ -144,39 +154,8 @@ The following settings are required for both the Held and Pickup frames.
 
 #### Target Seed:
 
-The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool
-
-#### Nearby Seeds:
-
-A list of seeds, in order, containing the target seed, with one seed on each line. This list is used to calibrate the seed delay. Using at least ±5 seeds from your target is recommended.
-
-Example, where ED7D is the target seed:
-```
-A3BD
-E496
-2C18
-74BF
-A58A
-ED7D
-3633
-B454
-DECA
-2B6F
-7499
-```
-
-#### Seed Button:
-
-The button to be pressed when setting the seed. Set this with the help of an external RNG tool.
-
-#### Extra Button:
-
-Additional button presses during reset necessary to hit the target seed. Set this with the help of an external RNG tool.
-
-#### Seed Delay Time (ms):
-
-The delay time corresponding to your target seed. Set this with the help of an external RNG tool. 
-Because the program needs to wait for the entire title screen sequence to finish, 30473ms is the lowest supported seed delay.
+The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool. 
+The program automatically searches seed lists to determine the appropriate delay and buttons to press.
 
 > **Avoid low seed delays when possible**
 > Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
@@ -190,6 +169,10 @@ This should be the *total* number of advances, *not* just the continue screen fr
 
 ### Program Settings
 
+#### Nearby Seed Radius:
+
+The number of nearby seeds on each side of the target to search when identifying which seed was hit. It's usually a good idea to leave this at the default of 5, but it can be lowered once your seed calibration has settled. Larger values can lead to slower calibration.
+
 #### Starting Point:
 
 The point in the egg RNG manipulation process to start the program.
@@ -198,6 +181,10 @@ The point in the egg RNG manipulation process to start the program.
 - Pickup Frame Calibration: after saving in front of the Day Care Man.
 
 This option will be automatically update as the program runs, but can be manually changed as needed (e.g. if you forgot to save after hatching your shiny egg).
+
+#### Use Rock Smash:
+
+When checked, the boulder on the beach will be smashed to prevent RNG noise. This can prevent swings of several RNG advances during calibration and help the program hit the target pickup frame more quickly, but requires a Pokémon with Rock Smash in your party. 
 
 #### Max Resets:
 

@@ -93,12 +93,12 @@ For all gifts/prizes, make sure you have a free spot in your party to allow the 
 | --- | --- |
 | **Starters**<br>- Save facing the Pokéball with your desired starter | [<img src="images//RngHelper-starters.jpg" width="600">](images//RngHelper-starters.jpg) |
 | **Magikarp**<br>- Have at least 500 Pokédollars <br>- Save facing the Magikarp salesman | [<img src="images//RngHelper-magikarp.jpg" width="600">](images//RngHelper-magikarp.jpg) |
-| **Hitmonchan / Hitmonlee**<br>- Save facing the Pokéball with your desired choice | --- |
+| **Hitmonchan / Hitmonlee**<br>- Save facing the Pokéball with your desired choice | [<img src="images//RngHelper-hitmon.jpg" width="600">](images//RngHelper-hitmon.jpg) |
 | **Eevee**<br>- Save facing Eevee's Pokéball | [<img src="images//RngHelper-eevee.jpg" width="600">](images//RngHelper-eevee.jpg) |
 | **Lapras**<br>- Save facing the Silph Co. employee | [<img src="images//RngHelper-lapras.jpg" width="600">](images//RngHelper-lapras.jpg) |
 | **Fossils**<br>- Give a fossil to the scientist at the Cinnabar Lab <br>- Exit and reenter the building <br>- Save next to the scientist | [<img src="images//GiftReset-1.png" width="600">](images//GiftReset1.png) |
 | **Game Corner Prizes**<br>- Have enough coins to purchase your desired prize <br>- Save facing the prize counter | [<img src="images//RngHelper-gamecorner.jpg" width="600">](images//RngHelper-gamecorner.jpg) |
-| **Togepi**<br>- Make sure that you don't have a Repel active <br>- Set your lead Pokémon to something with maximum Friendship <br>- Use your bicycle <br>- Save facing the old man | [<img src="images//RngHelper-togepi.jpg" width="600">](images//RngHelper-togepi.jpg) |
+| **Togepi**<br>- Make sure that you don't have a Repel active <br>- Set your lead Pokémon to something with maximum Friendship <br>- Use your bicycle <br>- Save facing the old man <br>- If you've already shown him a max-friendship Pokémon, but your party was full, use the "Togepi (pre-approved)" option | [<img src="images//RngHelper-togepi.jpg" width="600">](images//RngHelper-togepi.jpg) |
 
 
 #### Static Encounters
