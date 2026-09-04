@@ -10,6 +10,8 @@ Fully automated button presses and calibration for performing RNG manipulation f
 
 This program can be configured to obtain any Pokémon that can appear in random  (i.e. grass, surfing, fishing, or rock smash) encounters.
 
+> **Warning**: Due to how Unown are generated, it can take a substantially higher number of attempts for the program to calibrate its timings to hit a target frame in the Tanoby Ruins.
+
 ---
 ## Instructions
 
