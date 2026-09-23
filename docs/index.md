@@ -72,12 +72,6 @@ We currently have automation for the following games/platforms:
 
 [Computer Control Setup Guide](SetupGuide/index.md)
 
-**Video Tutorials:**
-
-- [**Wired (ESP32-S3) Tutorial**](https://youtu.be/ezBuwk48z8w)
-- [**Wireless (ESP32) Tutorial**](https://youtu.be/YzGyQQOGjl8)
-
-
 
 
 ## Frequently Asked Questions:
