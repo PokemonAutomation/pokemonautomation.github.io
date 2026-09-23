@@ -48,14 +48,15 @@ Note: we have now a more efficient program to earn money and exp: [Tenacity Cand
 ## Instructions
 
 1. You are in the post-game with Braviary unlocked.
-2. The first Pokémon in your party must be able to reliably defeat Charm using only its first move.
+2. You have unlocked all fly spots in the Coronet Highlands.
+3. The first Pokémon in your party must be able to reliably defeat Charm using only its first move.
 
     - Charm's Pokémon are Rhydon and Gengar. Gengar knows Hypnosis.
 
-3. The Pokémon selection in the bottom right corner is on your first Pokémon.
-4. Stand in the following location. In front of the Jubilife gate with your back towards both the gate and the camera.
-5. Save the game in this location and position.
-6. Start the program in the game.
+4. The Pokémon selection in the bottom right corner is on your first Pokémon.
+5. Stand in the following location. In front of the Jubilife gate with your back towards both the gate and the camera.
+6. Save the game in this location and position.
+7. Start the program in the game.
 
 <img src="images/NuggetFarmerHighlands-1.jpg">
 
