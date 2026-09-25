@@ -1,6 +1,6 @@
 ---
 title: Pokémon Automation
-description: "Free software to automate Pokémon games on retail Switch and Switch 2. Check our Legends: Z-A Donut Maker program to make perfect shiny hunting donuts!"
+description: "Free software to automate Pokémon games on retail Switch 1 & 2. Try our FireRed/LeafGreen programs for shiny hunting, item farming and RNG!"
 ---
 
 #  Pokémon Automation

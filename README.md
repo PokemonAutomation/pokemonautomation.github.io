@@ -136,3 +136,7 @@ Have you written a program and want to share it with the community? Or do you wa
 **Q: I added a new doc but it doesn't show up on the nav bar.**
 
 A: If you added a new folder with your doc (e.g. `docs/Programs/PokemonNewGame/MyProgram.md`), make sure to add the folder to `nav` in [mkdocs.yml](mkdocs.yml). mkdocs doesn't automatically add new folders to nav, but it will automatically add new md files within existing folders.
+
+# Others
+
+The files in this repo use CRLF line endings.
