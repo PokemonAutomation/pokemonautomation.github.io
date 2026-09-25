@@ -113,7 +113,11 @@ plugins:
             Controllers: 单片机支持
             Discord Integration: Discord整合
             Developer: 开发者
-  - include_dir_to_nav
+  # Exclude translated (.zh-CN.md) files from the auto-generated nav. Without this,
+  # they show up in the English build as "None" items with broken links (the i18n
+  # plugin already maps translated pages into the nav on its own).
+  - include_dir_to_nav:
+      file_pattern: '^(?!.*\.zh-CN\.md$).*\.md$'
 
 # Hook to fix relative paths in translated pages
 hooks:

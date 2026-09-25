@@ -269,7 +269,7 @@ To enter horizontal mode, you can press SL+SR on the keyboard controls by pressi
 *You cannot easily pair two Pico joycons anyway since you need to press L+R on them simultaneously and the keyboard controls don't allow you simultaneously press buttons on different controllers. However, you can easily pair a Pico joycon with a real joycon.
 
 
-### Step 7: You are done!
+### Step 9: You are done!
 
 If keyboard commands are working (along with video and audio), you are done!
 
@@ -300,8 +300,6 @@ Main Article: [Power Glitching](../../PowerGlitching.md)
 
 If you are experienced with circuits and would like to attempt a hardware fix, see [Pico W (Advanced)](Controller-PicoW-Advanced.md).
 
-
-
 <hr>
 
 **Credits:**
@@ -311,27 +309,3 @@ If you are experienced with circuits and would like to attempt a hardware fix, s
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
