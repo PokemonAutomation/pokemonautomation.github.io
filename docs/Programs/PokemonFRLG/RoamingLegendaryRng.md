@@ -46,6 +46,8 @@ This program includes options for the three Legendary Beasts:
 
 ### In-Game Instructions
 
+> **Warning**: *DO NOT* give the Sapphire to Celio before starting this program. The roaming legendary is generated after Celio finishes his Network Link Machine. If you have already saved after delivering the Sapphire, this program will not work.
+
 - Acquire the Sapphire from the Rocket Warehouse.
 - Have a Pokémon between Lv5 and Lv49 as your lead.
    - Pokémon Lv4 or under will not prevent other wild Pokémon from being encountered
@@ -65,6 +67,7 @@ This program includes options for the three Legendary Beasts:
     - Any balls thrown during calibration will be restored when the game is reset. 
     - If hunting a non-shiny target, this is the ball your target will be caught in.
 - Save on the left side of Celio, facing him.
+    - Note how the Network Link Machine looks in the screenshot below. The light on the left side of its screen should be red, but the one on the right should be dark. 
 <img src="images//RngHelper-roaming.jpg" width="600"> 
 
 - Enter the necessary information about your target seed and RNG advance (see options below)
