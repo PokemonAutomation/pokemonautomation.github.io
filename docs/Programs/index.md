@@ -360,8 +360,8 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | **Farming:** |
-  | [Elite Four Farmer (Beta)](PokemonFRLG/EliteFourFarmer.md) {.nowrap}              |  Video           | All |
-  | [EV Trainer](PokemonFRLG/EvTrainer.md) {.nowrap}                                  |  Video           | All |
+| [Elite Four Farmer (Beta)](PokemonFRLG/EliteFourFarmer.md) {.nowrap}              |  Video           | All |
+| [EV Trainer](PokemonFRLG/EvTrainer.md) {.nowrap}                                  |  Video           | All |
 | [Held Item Farmer - Safari Zone (Beta)](PokemonFRLG/HeldItemFarmer-SafariZone.md) {.nowrap}  |  Video           | All |
 | [Item Duplication](PokemonFRLG/ItemDuplication.md) {.nowrap}     |  Video + Audio   | All |
 | [Lucky Egg Farmer](PokemonFRLG/LuckyEggFarmer.md) {.nowrap}      |  Video + Audio   | All |
