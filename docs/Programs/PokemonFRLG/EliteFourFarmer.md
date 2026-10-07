@@ -48,14 +48,16 @@ Each loop flies to Indigo Plateau, walks through all five rooms, and soft resets
 3. **Last party slot:** a Pokémon that knows Fly.
     - Fly needs to be the first move selectable from the POKéMON screen.
     - Indigo Plateau must be unlocked as a Fly destination.
+  <img src="images/EliteFourFarmer-Party.jpeg">
 4. (Optional) Other party members can hold an Exp. Share, **but only if they will not learn a new move or evolve** from the levels they gain. A move-learning prompt or an evolution will cause that run to fail and reset. A fully evolved Pokémon that has already learned all of its level-up moves is safe.
 5. Save the game outdoors in Kanto, somewhere Fly can be used (for example, in Pallet Town). When the program recovers from an error, it soft resets and continues from this save.
 
 ### Instructions
 
 1. Stand outdoors where you saved, with no menus open.
-2. In the program, select your attacker and the starter you chose at the start of the game (this decides your rival's team).
-3. Start the program.
+<img src="images/EliteFourFarmer-Start.jpeg">
+3. In the program, select your attacker and the starter you chose at the start of the game (this decides your rival's team).
+4. Start the program.
 
 ## Options
 
