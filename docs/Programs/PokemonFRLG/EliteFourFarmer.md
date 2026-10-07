@@ -49,6 +49,7 @@ Each loop flies to Indigo Plateau, walks through all five rooms, and soft resets
     - Indigo Plateau must be unlocked as a Fly destination.
 4. (Optional) Other party members can hold an Exp. Share, **but only if they will not learn a new move or evolve** from the levels they gain. A move-learning prompt or an evolution will cause that run to fail and reset. A fully evolved Pokémon that has already learned all of its level-up moves is safe.
 5. Save the game outdoors in Kanto, somewhere Fly can be used (for example, in Pallet Town). When the program recovers from an error, it soft resets and continues from this save.
+
 <img src="images/EliteFourFarmer-Party.jpeg">
 
 ### Instructions
