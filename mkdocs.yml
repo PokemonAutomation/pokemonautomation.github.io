@@ -141,6 +141,11 @@ markdown_extensions:
       permalink: true
   - attr_list
 
+# Standalone pages that are built but intentionally not linked from the navigation.
+# https://www.mkdocs.org/user-guide/configuration/#not_in_nav
+not_in_nav: |
+  /DeveloperHelperBotPrivacy.md
+
 # Exclude unused docs from being generated into webpages
 # https://www.mkdocs.org/user-guide/configuration/#exclude_docs
 exclude_docs: |
