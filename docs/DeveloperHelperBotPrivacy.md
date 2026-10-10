@@ -25,9 +25,8 @@ The bot helps the project's maintainers:
 
 ## What data it collects
 
-Only from these channels of the Pokémon Automation server: #program-development, #internal-dev-chat,
-#infra-development, #dev-test-data, #automation-chat and the #automation-help forum (including their
-threads).
+Only from these channels of the Pokémon Automation server: #program-development, #infra-development, #automation-chat,
+the #automation-help forum (including their threads) and other related channels.
 
 - **Message data:** message text, the author's Discord user ID and display name, the time it was sent
   (and edited), the message it replied to, the names and types of attached files, embeds, and a link
@@ -52,6 +51,8 @@ advertising, profiling, or anything unrelated to developing Pokémon Automation.
 
 - The data is stored on a project maintainer's personal computer. It is not published, and not
   shared with, sold to or rented to anyone, apart from the AI processing described above.
+- The data is encrypted at rest: the message archive and the downloaded images are stored encrypted,
+  and are decrypted only while the bot or a maintainer is using them.
 - The bot only posts in Discord to reply when a maintainer @mentions it. It does not post archived
   messages or images elsewhere.
 - Which capture setup a test image came from may be recorded in our public test data repository on
@@ -68,8 +69,7 @@ no longer needed. Downloaded images that don't match a test image are deleted on
 - **Removal:** ask us to delete your messages and images from the archive, and we will.
 - **Edits and deletions on Discord:** if you delete or edit a message on Discord, the archived copy
   is not updated automatically. Ask us and we will remove it.
-- **Contact:** message **Gin** in the Pokémon Automation Discord server, or open an issue at
-  <https://github.com/PokemonAutomation/ComputerControl/issues>.
+- **Contact:** message **Gin** in the Pokémon Automation Discord server.
 
 ## Changes
 
