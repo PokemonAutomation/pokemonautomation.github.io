@@ -23,6 +23,13 @@ The bot helps the project's maintainers:
   problems. Capture cards change colors in different ways, so we need to know which capture setup
   each screenshot came from.
 
+### Example
+
+A maintainer asks the bot what was discussed the day before in a developer channel. The bot answers
+from the archive, with links to the original messages:
+
+![The bot summarizing the previous day's discussion in #infra-development, with links to the original messages](assets/DeveloperHelperBotDemo.webp)
+
 ## What data it collects
 
 Only from these channels of the Pokémon Automation server: #program-development, #infra-development, #automation-chat,
