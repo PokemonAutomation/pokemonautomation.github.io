@@ -66,6 +66,13 @@ The slot number of the boss.
 When running multiple Switches, this selects which one will be the hosting Switch. The host will be able to pick the boss. Everyone else will join the host.
 
 
+### Rollover Prevention
+
+Prevent any Wild Area raid dens from rolling over by touching the date every this many hours. Set to zero to disable date touching.
+
+This feature does not affect Dynamax Adventure itself.
+
+
 ## Per-Switch Options
 
 ### Game Language
