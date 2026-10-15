@@ -1,4 +1,6 @@
-# Trade Bot
+# Trade Bot (deprecated)
+
+**This program is deprecated because it is not reliable and is no longer maintained.**
 
 ## Program Description
 
