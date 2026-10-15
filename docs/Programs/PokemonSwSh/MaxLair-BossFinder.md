@@ -63,6 +63,13 @@ This program uses [**Tolerate System Update Menu (fast)**](../NintendoSwitch/Fra
 When running multiple Switches, this selects which one will be the hosting Switch.
 
 
+### Rollover Prevention
+
+Prevent any Wild Area raid dens from rolling over by touching the date every this many hours. Set to zero to disable date touching.
+
+This feature does not affect Dynamax Adventure itself.
+
+
 ## Per-Switch Options
 
 ### Game Language
