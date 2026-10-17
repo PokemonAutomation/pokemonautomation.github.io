@@ -13,6 +13,7 @@ Catch/receive Pokémon for desired stats.
 5. Genesect <img src="images/StatsReset-Genesect-Match.jpg">
 6. Volcanion <img src="images/StatsReset-Volcanion-Match.jpg">
 7. Marshadow <img src="images/StatsReset-Marshadow-Match.jpg">
+8. Hoopa <img src="images/StatsReset-Hoopa-Match.jpg">
 
 **DISCLAIMER:** This program utilizes the backup saves to reset for Pokémon stats and often requires long setup, make sure you fully understand what you need to do before starting the program.
 
@@ -87,6 +88,15 @@ Note: The Marshadow hunt is time sensitive, it is one of the few programs that i
 3. Have a lead Pokémon that knows a strong Flying type move and place it in the right slot (button A). Mega Rayquaza with Dragon Ascent is a good choice that does OHKO on most IV spreads that the Marshadow can have, ensure that your Pokémon is capable of mega evolving as part of the setup if you are using one that can.
 4. Fly to the Centrico Pokemon Plaza, wait until it is about the right time frame (dawn) and fly again to place a backup save. Tips on success: you can check the shadow on the court and as it approaches the center perform the fly sequencec to place the backup save, watch the program for a few rounds to ensure you got the right timing.
 5. Start the program in game. **DISCLAIMER:** The catch rate isn't great even with a KO, but the reset sequence should be short enough that overall the runtime is within reason but be patient.
+
+**Preparation for Hoopa:**
+
+1. Start Side Mission 196 until the portal appears.
+2. Have a Level Boost (100+) donut ready (alternatively, Attack Power or Bug-type Move Power). Configure Donut Down Scrolls in settings so it scrolls to the correct donut.
+3. Make room on the top left slot in the box system, make sure that this is where the cursor is when opening the box system from the main menu.
+4. Select Use Plus Moves in Battle AI. Make sure you have at least one gauge of Mega Power.
+5. Lead with a Level 100 Heracross (252+ Atk, Life Orb) with Megahorn on top slot (button X). Hoopa Unbound is 4× weak to Bug type and has low Def, so with right donut and plus move, a one-hit KO is guaranteed. The program can still execute multiple moves if needed.
+6. Make a backup save at the Bleu Pokémon Center by healing your Pokémon. Then start the program in game. (make sure you have enough time to run to the portal before day/night switch)
 
 ## Program Settings
 
