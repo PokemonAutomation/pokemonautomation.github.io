@@ -82,7 +82,8 @@ This program can be configured to obtain any Pokémon that can appear in random 
 **Safari Zone**
 
 - If you haven't ever entered the Safari Zone in your current save, enter and exit the Safari Zone
-- If fishing, register the rod you'd like to use to the SELECT button 
+- If fishing, register the rod you'd like to use to the SELECT button
+- If surfing or traveling to the North or West areas, have a Pokémon that knows Surf in your party. 
 - Have at least 500 Pokédollars 
 - Stand atop the Pokéball logo on the floor of the Safari Zone entrance 
 - If not fishing, use a Max Repel 
