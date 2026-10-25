@@ -21,12 +21,13 @@ The program sends raw HID key presses, so it has to know how the Switch interpre
 4. Put the cursor in the text field on the Switch you want to type into.
 5. Start the program. It types the whole text and then stops.
 
-The timing of each key press comes from the global "Keyboard Controller" settings in the Nintendo Switch settings panel.
-
 ## Options
 
 - **Text to Type**: The plain ASCII text to type. Tab presses Tab, newlines press Enter, and CRLF line endings are accepted.
 - **Keyboard Layout**: The layout the Switch's physical keyboard is configured for (i.e. the Switch's language).
+- **Delay**: The delay between key presses. Default: 24 ms.
+- **Hold**: The duration each key press is held down. Default: 40 ms.
+- **Cooldown**: How long after release a key cannot be reused. Default: 24 ms.
 
 ## Credits
 
