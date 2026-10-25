@@ -4,7 +4,7 @@
 
 Typewriter types the text you enter into the option box, using the HID keyboard controller. It is useful for entering arbitrary text on the Switch (save file names, friend requests, messages, etc.) without having to mash each character by hand.
 
-Only plain ASCII text is supported. Newline characters press Enter.
+Only plain ASCII text is supported. Tab presses Tab and newlines press Enter. Windows (CRLF) line endings are accepted; a standalone carriage return is an error.
 
 ### Keyboard Layout
 
@@ -25,7 +25,7 @@ The timing of each key press comes from the global "Keyboard Controller" setting
 
 ## Options
 
-- **Text to Type**: The plain ASCII text to type. Newlines press Enter.
+- **Text to Type**: The plain ASCII text to type. Tab presses Tab, newlines press Enter, and CRLF line endings are accepted.
 - **Keyboard Layout**: The layout the Switch's physical keyboard is configured for (i.e. the Switch's language).
 
 ## Credits
