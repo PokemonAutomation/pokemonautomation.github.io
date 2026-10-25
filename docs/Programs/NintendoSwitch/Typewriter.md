@@ -11,7 +11,7 @@ Only plain ASCII text is supported. Tab presses Tab and newlines press Enter. Wi
 The program sends raw HID key presses, so it has to know how the Switch interprets the physical keyboard. The "Keyboard Layout" option should match the language/keyboard layout the Switch is configured for:
 
 - **QWERTY**: English (and other QWERTY-based) languages. Every printable ASCII character can be typed with a single key press plus at most Shift.
-- **AZERTY**: French. Note that a few characters (`# < > @ [ ] ^ ` { }`) can only be typed with the AltGr key on a French keyboard and are **not supported** by this program yet.
+- **AZERTY**: French. Every printable ASCII character can be typed. The characters that require the AltGr key on a French keyboard (`# < > @ [ ] ^ \` { }`) are typed with the right Alt key, and `<` and `>` use the ISO key to the left of Space.
 
 ## Instructions
 
