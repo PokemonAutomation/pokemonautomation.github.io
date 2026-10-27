@@ -140,6 +140,9 @@ markdown_extensions:
   - toc:
       permalink: true
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 # Standalone pages that are built but intentionally not linked from the navigation.
 # https://www.mkdocs.org/user-guide/configuration/#not_in_nav

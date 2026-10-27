@@ -1,6 +1,10 @@
 # Egg RNG (in development)
 
 ---
+!!! warning "If calibration repeatedly falls around your target frame without hitting it for several attempts."
+    NPCs and other background sources can advance the RNG unpredictably, which can make certain target frames impossible to hit. If calibration repeatedly fails on a target, the frame may be un-hittable in your current game state. Try changing something in the area (for example, smashing or not smashing the rock on the beach), or choose a different target frame.
+
+
 ## Program Description
 
 Fully automated button presses and calibration for performing RNG manipulation for day care eggs Pokémon in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
