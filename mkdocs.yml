@@ -140,6 +140,9 @@ markdown_extensions:
   - toc:
       permalink: true
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 # Exclude unused docs from being generated into webpages
 # https://www.mkdocs.org/user-guide/configuration/#exclude_docs
