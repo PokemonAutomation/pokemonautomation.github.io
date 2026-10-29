@@ -138,6 +138,7 @@ For all random encounters, make sure you have all Pokémon and items you need to
     - Any balls thrown during calibration will be restored when the game is reset. 
     - If hunting a non-shiny target, this is the ball your target will be caught in.
 - Save on the left side of Celio, facing him.
+
 <img src="images//RngHelper-roaming.jpg" width="600"> 
 
 - Enter the necessary information about your target seed and RNG advance (see options below)

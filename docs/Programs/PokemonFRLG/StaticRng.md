@@ -122,10 +122,10 @@ The Pokémon to be encountered. See the list of options at the top of this page.
 The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool. 
 The program automatically searches seed lists to determine the appropriate delay and buttons to press.
 
-> **Avoid low seed delays when possible**
-> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
->
-> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
+!!! warning "Avoid low seed delays when possible"
+    Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
+
+    If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
 
 #### Advances:
 
@@ -138,7 +138,9 @@ This should be the *total* number of advances, *not* just the continue screen fr
 
 If checked, the program will open the Teachy TV to quickly advance the RNG at 313x speed. Make sure that the Teachy TV is at the top position of the bag.
 
-> *Warning: can result in larger misses.*
+!!! info "Calibration may take longer when using the Teachy TV"
+
+    Due to small timing differences leading to very large jumps in RNG advances, using the Teachy TV may take a greater number of resets before settling on a good calibration. Due to the substantial reduction in how long each reset takes, using it is helpful for targets with a large number of advances
 
 #### Nearby Seed Radius:
 
