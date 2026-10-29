@@ -147,10 +147,11 @@ Here is the target chosen for confirming the SID for our example:
 
 <img src="images//RngManipulationGuide//TenLines-results.jpg">
 
-> **Avoid targets with low seed delays when possible**
-> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms on NS1 or 27,750ms on NS2. This happens when the button press on the title screen comes too early, throwing off all subsequent parts of the button press sequence. 
->
-> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
+!!! warning "Avoid targets with low seed delays when possible"
+
+   Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms on NS1 or 27,750ms on NS2. This happens when the button press on the title screen comes too early, throwing off all subsequent parts of the button press sequence. 
+
+   If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your seed calibration.
 
 
 ### Checking your SID with the Starter RNG program
@@ -181,13 +182,13 @@ If the program has not finished after a large number of resets (30), check to ma
 
 Now that we know our SID for certain, we can safely dedicate time to hitting the shiny starter we'd like to keep. In the Ten Lines Calibration tab, add filters to specify what IVs, nature, and gender you'd like:
 
-> **Note: The Searcher Tab on Ten Lines can also be used to search for a target with particular characteristics**
+!!! info "The Searcher Tab on Ten Lines can also be used to search for a target with particular characteristics"
 
 <img src="images//RngManipulationGuide//TenLines-filters.jpg">
 
 Since the more specific your filters are, the fewer hits the search will return, it may be helpful to expand the search range in Ten Lines by quite a bit. Note that each RNG advance takes roughly 8.33 milliseconds, so 50,000 advances corresponds to roughly 7 minutes of in-game time spent waiting.
 
-> **Note: for any Pokémon other than the starters, the Teachy TV can be used to reach very large numbers of RNG advances quickly.**
+!!! info "For any Pokémon other than the starters, the Teachy TV can be used to reach very large numbers of RNG advances quickly"
 
 <img src="images//RngManipulationGuide//TenLines-biggerrange.jpg">
 

@@ -1,27 +1,28 @@
 # Egg RNG (in development)
 
 ---
-!!! warning "If calibration repeatedly falls around your target frame without hitting it for several attempts."
-    NPCs and other background sources can advance the RNG unpredictably, which can make certain target frames impossible to hit. If calibration repeatedly fails on a target, the frame may be un-hittable in your current game state. Try changing something in the area (for example, smashing or not smashing the rock on the beach), or choose a different target frame.
-
 
 ## Program Description
 
 Fully automated button presses and calibration for performing RNG manipulation for day care eggs Pokémon in FireRed and LeafGreen. This program requires some knowledge of how RNG manipulation is performed as well as external tools to select your target frame and advance.
 
-> **Disclaimer:** Egg RNG manipulation has historically not been recommended in FRLG due to the need to hit *two* frames correctly in order to obtain your intended Pokémon, which is easier in Emerald due to differences in how initial seeds work. For this reason, there are fewer tools available for assisting with finding desirable targets and performing manual calibration, and it requires more effort to select target frames.
->
-> The following guides for egg RNG manipulation in FRLG cover the process of picking a target and performing manual calibrations:
-> - [Percora's FRLG Shiny Egg Guide](https://docs.google.com/document/d/1ITVW3JuHAA7JCgG7mrCq-vZRtQj_Na8zm-98Z5voK3s)
-> - [Refia's Egg RNG Abuse Guide](https://docs.google.com/document/d/1oqpZw0JsQGMDT6SjIEUOw7zcI9gpzfXd73UQNL4QrVQ)
->
-> This program automates roughly the same steps outlined in Percora's guide.
->
-> Because the Ten Lines tool does not support Egg RNG, [Pokefinder](https://github.com/Admiral-Fish/PokeFinder/releases) or the [FRLG Egg Search Tool](https://theastrogoth.github.io/frlg-egg-search/) can be used to select shiny egg frames.
->
-> Due to the trickier calibration process and the time it takes to hatch eggs, this program will likely take significantly longer to run than other FRLG RNG programs.
-
 <img src="images//EggRng-0.jpg" width="600">
+
+!!! info "Choosing targets for Egg RNG manipulation works differently than for wild encounters or gifts"
+    Egg RNG manipulation has historically been more popular in Emerald than in FireRed or LeafGreen, so there are fewer tools available for assisting with finding desirable targets and performing manual calibration.
+    The following guides for egg RNG manipulation in FRLG cover the process of picking a target and performing manual calibrations:
+    - [Percora's FRLG Shiny Egg Guide](https://docs.google.com/document/d/1ITVW3JuHAA7JCgG7mrCq-vZRtQj_Na8zm-98Z5voK3s)
+    - [Refia's Egg RNG Abuse Guide](https://docs.google.com/document/d/1oqpZw0JsQGMDT6SjIEUOw7zcI9gpzfXd73UQNL4QrVQ)
+    This program automates roughly the same steps outlined in Percora's guide.
+    Because the Ten Lines tool does not support Egg RNG, [Pokefinder](https://github.com/Admiral-Fish/PokeFinder/releases) or the [FRLG Egg Search Tool](https://theastrogoth.github.io/frlg-egg-search/) can be used to select shiny egg frames.
+
+
+!!! warning "Egg RNG is much slower than the other FRLG RNG programs"
+    Due to the trickier calibration process and the time it takes to hatch eggs, this program will likely take significantly longer to run than other FRLG RNG programs.
+
+!!! warning "Certain pickup frames may not be hittable."
+    NPCs and other background sources can make some pickup frames impossible to hit. If calibration repeatedly fails on a target but is consistently within a frame or two, the frame may be un-hittable in your current game state.
+    One source of RNG advances is the rock on the beach to the west. If the program fails to hit your target after getting close to it, try smashing the rock before saving in front of the Day Care man and restarting the program. If you've already smashed the rock, reset it by entering and exiting a building before saving.
 
 ---
 ## Instructions
@@ -76,22 +77,26 @@ Fully automated button presses and calibration for performing RNG manipulation f
     - Using Master Balls is recommended if you have duplicated them via the Mail Glitch. See the [Item Duplication program](./ItemDuplication.md).
     - Any balls thrown during calibration will be *NOT* restored when the game is reset. 
 - Drop off both parents at the Four Island Day Care. *Do not take any steps*.
-> **Warning:** The order of the parents matters!
+!!! warning "The order of the parents matters!"
 
 <img src="images//EggRng-2.jpg" width="600"> 
 
 - Enter the necessary information about your target seed and RNG advance (see options below)
 - Start the program
 
-> **Warning:** This program will save the game in two places:
-> 1) after taking 254 steps to prepare for held frame calibration
-> <img src="images//EggRng-3.jpg" width="600"> 
-> 2) after obtaining the correct held frame
-> <img src="images//EggRng-4.jpg" width="600"> 
-> 
-> If the program is interrupted while running, you can continue the program from one of these save points. See the **Starting Point** option below. 
->
-> There is a small chance that the program misses the held frame and saves the game in front of the Day Care Man. If this happens, it will fail to calibrate the pickup frame, and it will be necessary to manually complete the in-game setup from the beginning (Parent A can be left in the Day Care, but Parent B must be removed and re-deposited to reset the step counter).
+!!! info "This program will save the game in two places"
+
+    1) after taking 254 steps to prepare for held frame calibration
+
+    <img src="images//EggRng-3.jpg" width="600"> 
+
+    2) after obtaining the correct held frame
+
+    <img src="images//EggRng-4.jpg" width="600"> 
+
+    If the program is interrupted while running, you can continue the program from one of these save points. See the **Starting Point** option below. 
+    
+    There is a small chance that the program misses the held frame and saves the game in front of the Day Care Man. If this happens, it will fail to calibrate the pickup frame, and it will be necessary to manually complete the in-game setup from the beginning (Parent A can be left in the Day Care, but Parent B must be removed and re-deposited to reset the step counter).
 
 ---
 ## Displays
@@ -150,7 +155,8 @@ The compatibility of the parents as reported by the Day Care Man, which affects 
 
 The IVs of the parents. Parent A is the Pokémon dropped off first, and Parent B is the Pokémon dropped off second. The order matters, since it affects IV inheritance.
 
-> **Warning:** This program requires knowing the exact values of the IVs of each parent. It will fail if incorrect IVs are provided.
+!!! warning "This program requires knowing the exact values of the IVs of each parent"
+    It will fail if incorrect IVs are provided. If you don't know the IVs of your Pokémon, you can either use the other RNG programs to catch ones with known IVs, or you can catch or breed any Pokémon and determine its IVs by leveling it up with Rare Candy.
 
 ### Held and Pickup Frame Settings
 
@@ -161,10 +167,10 @@ The following settings are required for both the Held and Pickup frames.
 The seed corresponding to your target. This should be a 4-character hex string (e.g. 70FE). Set this with the help of an external RNG tool. 
 The program automatically searches seed lists to determine the appropriate delay and buttons to press.
 
-> **Avoid low seed delays when possible**
-> Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
->
-> If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
+!!! warning "Avoid low seed delays when possible"
+    Depending on your hardware, the FRLG RNG programs have a chance to fail when using seed delays close to 30,500ms. This happens when the button press on the title screen comes too early and fails to advance the game to the next screen, throwing off all subsequent parts of the button press sequence. 
+
+    If using a short seed delay, pay attention as the program opens the game and advances through the title screen. If you notice a problem or the program is unable to navigate to the encounter, either choose a new target with a higher seed delay or manually increase your initial seed calibration.
 
 #### Advances:
 
