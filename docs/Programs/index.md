@@ -46,6 +46,7 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 | [Friend Code Adder](NintendoSwitch/FriendCodeAdder.md) {.nowrap}          |     | All |
 | [Friend Delete](NintendoSwitch/FriendDelete.md) {.nowrap}                 |     | All |
 | [Record Keyboard Controller](NintendoSwitch/RecordKeyboardController.md) {.nowrap} |     | All |
+| [Typewriter (Beta)](NintendoSwitch/Typewriter.md) {.nowrap}                  |     | Keyboard Only |
 
 
 
@@ -55,6 +56,7 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 | --- | --- | --- |
 | [Page Swap](PokemonHome/PageSwap.md) {.nowrap}             |       | All |
 | [Box Sorter](PokemonHome/BoxSorter.md) {.nowrap}           | Video | All |
+| [Box Sorter Living Dex (In Development)](PokemonHome/BoxSorterLivingDex.md) {.nowrap} | Video | All |
 
 
 
@@ -104,6 +106,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Stow-On-Side Farmer](PokemonSwSh/DateSpam-StowOnSideFarmer.md) {.nowrap} |            || All |
 | [Daily Highlight Farmer](PokemonSwSh/DateSpam-DailyHighlightFarmer.md) {.nowrap} |     || All |
 | [Poké Jobs Farmer](PokemonSwSh/DateSpam-PokeJobsFarmer.md) {.nowrap} |                 || All |
+| [Daily Highlight RNG](PokemonSwSh/DailyHighlightRNG.md) {.nowrap} | Use RNG manipulation to get rare items from the daily highlight trader | Video | All (Degraded: Wireless) |
 ||
 | **Den Hunting:** |
 | [Purple Beam Finder](PokemonSwSh/PurpleBeamFinder.md) {.nowrap} |         | Video            | All |
@@ -217,6 +220,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Skip To Full Moon](PokemonLA/SkipToFullMoon.md) {.nowrap}                     | Video         | All |
 | [Apply Grits](PokemonLA/ApplyGrits.md) {.nowrap}                               |               | All |
 | [Pokédex Task Reader](PokemonLA/PokedexTasksReader.md) {.nowrap}               | Video         | All |
+| [Ramanas Combee Finder](PokemonLA/RamanasCombeeFinder.md) {.nowrap}            | Video         | All |
 ||
 | **Trading:** |
 | [Self Box Trade](PokemonLA/SelfBoxTrade.md) {.nowrap}                          | Video         | All |
@@ -349,6 +353,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Sewer Hunter](PokemonLZA/ShinyHunt-SewerHunter.md) {.nowrap}                | Shiny hunt the sewers.                                  | Video + Audio | All |
 | [Helioptile Hunter](PokemonLZA/ShinyHunt-HelioptileHunter.md) {.nowrap}      | Shiny hunt Helioptile in Wild Zone 14.                  | Video + Audio | All |
 | [Hyperspace Legendary](PokemonLZA/ShinyHunt-HyperspaceLegendary.md) {.nowrap}| Shiny hunt five legendary Pokémon in their Hyperspace Wild Zones. | Video + Audio | All |
+| [Shuttle Run](PokemonLZA/ShinyHunt-ShuttleRun.md) {.nowrap}                   | Shiny hunt by repeatedly running back and forth between two points. | Video | All |
 ||
 | **Non-Shiny Hunting:** |
 | [Stats Reset](PokemonLZA/StatsReset.md) {.nowrap}                            | Reset for stats on gift Pokémon like Eternal Flower Floette. | Video         | All |
@@ -406,6 +411,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Paraglide Item Duper](ZeldaTotK/ParaglideItemDuper.md) {.nowrap} |                  | All |
 | [Shield Surf Item Duper](ZeldaTotK/SurfItemDuper.md) {.nowrap}    |                  | All |
 | [Mineru Item Duper](ZeldaTotK/MineruItemDuper.md) {.nowrap}       |                  | All |
+| [Weapon Duper](ZeldaTotK/WeaponDuper.md) {.nowrap}                 |                  | All |
 
 <hr>
 
