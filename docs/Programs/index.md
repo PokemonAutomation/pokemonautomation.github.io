@@ -56,7 +56,7 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 | --- | --- | --- |
 | [Page Swap](PokemonHome/PageSwap.md) {.nowrap}             |       | All |
 | [Box Sorter](PokemonHome/BoxSorter.md) {.nowrap}           | Video | All |
-| [Box Sorter Living Dex (In Development)](PokemonHome/BoxSorterLivingDex.md) {.nowrap} | Video | All |
+| [Box Sorter Living Dex](PokemonHome/BoxSorterLivingDex.md) {.nowrap} | Video | All |
 
 
 
@@ -388,6 +388,9 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Wild RNG](PokemonFRLG/WildRng.md) {.nowrap}                                      |  Video + Audio   | All |
 | [Roaming Legendary RNG (in development)](PokemonFRLG/RoamingLegendaryRng.md) {.nowrap}    |  Video + Audio   | All |
 | [Egg RNG (in development)](PokemonFRLG/EggRng.md) {.nowrap}                       |  Video + Audio   | All |
+| **Box Organization:** |
+| [Box Sorter (Beta)](PokemonFRLG/BoxSorter.md) {.nowrap}                         |  Video           | All |
+| [Box Sorter Living Dex (Beta)](PokemonFRLG/BoxSorterLivingDex.md) {.nowrap}      |  Video           | All |
 | **Misc. Guides:** |
 | [Macro RNG Manipulation](PokemonFRLG/MacroRngManipulation.md) {.nowrap}                   |                  | All |
 | [Automated RNG Manipulation](PokemonFRLG/RngManipulationGuide.md) {.nowrap}               |                  | All |
