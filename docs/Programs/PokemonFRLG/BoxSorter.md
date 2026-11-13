@@ -1,17 +1,19 @@
 # Box Sorter (Beta)
 
 ---
+
 ## Program Description
 
 Sort consecutive PC boxes in Pokémon FireRed and LeafGreen on Nintendo Switch. The program reads the Pokémon in the selected boxes, sorts them using your rules, and collects empty slots at the end.
 
 !!! note "Beta program"
-    Look for **Box Sorter** under **Untested/Beta/WIP** in the FireRed and LeafGreen program list in a beta build.
+Look for **Box Sorter** under **Untested/Beta/WIP** in the FireRed and LeafGreen program list in a beta build.
 
 <!-- Replace this blank image with a screenshot of the Move Pokémon screen. -->
 <img src="images/BoxSorter.png" width="600" alt="Move Pokémon screen">
 
 ---
+
 ## Instructions
 
 **Switch Settings**
@@ -32,9 +34,10 @@ Sort consecutive PC boxes in Pokémon FireRed and LeafGreen on Nintendo Switch. 
 4. Use **Dry Run** to check the planned order. Return to the first box before starting the run that moves your Pokémon.
 
 !!! tip "Sorting a living dex"
-    Use [Box Sorter Living Dex](BoxSorterLivingDex.md) to reserve a slot for each species in a living dex template.
+Use [Box Sorter Living Dex](BoxSorterLivingDex.md) to reserve a slot for each species in a living dex template.
 
 ---
+
 ## Options
 
 ### Sorting
@@ -51,15 +54,16 @@ Choose 1 to 14 boxes, starting with the current box and continuing to the right.
 
 Add at least one rule. Rules apply from top to bottom, and later rows break ties. For example, with **Dex Number** above **Level**, the program orders Pokémon by species and puts lower-level Pokémon first within each species. Check **Reverse** on a row to reverse that rule's order. Any ties left after the last rule are sorted by National Dex number.
 
-| Rule | Default order |
-| --- | --- |
-| Dex Number | Lowest National Dex number first. |
-| Level | Lowest level first. |
+| Rule                              | Default order                       |
+| --------------------------------- | ----------------------------------- |
+| Dex Number                        | Lowest National Dex number first.   |
+| Level                             | Lowest level first.                 |
 | Gender (Male, Female, Genderless) | Male, then female, then genderless. |
-| Shiny | Shiny Pokémon first. |
+| Shiny                             | Shiny Pokémon first.                |
+| Ball Type                         | Alphabetical by Poké Ball name.     |
 
-!!! info "The Shiny rule adds summary checks"
-    When **Shiny** is in the rule table, the program opens each Pokémon's summary to check shininess. This adds time to the scan.
+!!! info "Shiny and Ball Type add summary checks"
+Either rule makes the program read both shininess and ball type from each Pokémon's summary. This adds a considerable amount of time to the program.
 
 ### Output and Notifications
 
@@ -72,6 +76,7 @@ Scan the boxes and write the current layout to `frlg-box_order.json` and the pla
 Configure notifications for program completion and fatal errors.
 
 ---
+
 ## Credits
 
 - **Author** dolphincurry/Dalton-V
